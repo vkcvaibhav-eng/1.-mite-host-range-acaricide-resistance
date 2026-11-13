@@ -27,3 +27,4 @@ Each entry: date, stage, decision, reason. Name decisions are also listed in `da
 15. **Go.** The user approved moving to stage 2 with 34 resistant species (24 with COI), using the plan's fallback: susceptible species kept as zeros and research effort modelled.
 16. **Protocol approved** and fixed as of this date.
 17. **Database use.** The user considers citation and acknowledgement of the Arthropod Pesticide Resistance Database sufficient because the data are openly viewable. Open point: the database states that permission must be granted when a significant portion of a paper is based on its data. To be settled before submission.
+18. **Permission requested.** On 13 November 2026 the user emailed Dr David Mota-Sanchez (Cc Dr John C. Wise) asking consent to use the database's Acari records and offering to share the manuscript before submission. Awaiting reply.
