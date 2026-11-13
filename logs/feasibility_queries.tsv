@@ -1,0 +1,240 @@
+species	label	db	term	count
+Aculops lycopersici	taxonomy Scientific Name	taxonomy	"""Aculops lycopersici""[Scientific Name]"	1
+Aculops lycopersici	all nucleotide	nuccore	txid1227671[Organism:exp]	234
+Aculops lycopersici	COI	nuccore	"txid1227671[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	103
+Aculops lycopersici	18S	nuccore	"txid1227671[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	14
+Aculops lycopersici	28S	nuccore	"txid1227671[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	48
+Aculops lycopersici	ITS2	nuccore	"txid1227671[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	70
+Aculops lycopersici	mitogenome	nuccore	"txid1227671[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Aculops pelekassi	taxonomy Scientific Name	taxonomy	"""Aculops pelekassi""[Scientific Name]"	1
+Aculops pelekassi	all nucleotide	nuccore	txid1535316[Organism:exp]	1
+Aculops pelekassi	COI	nuccore	"txid1535316[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Aculops pelekassi	18S	nuccore	"txid1535316[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Aculops pelekassi	28S	nuccore	"txid1535316[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculops pelekassi	ITS2	nuccore	"txid1535316[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Aculops pelekassi	mitogenome	nuccore	"txid1535316[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Aculus cornutus	taxonomy Scientific Name	taxonomy	"""Aculus cornutus""[Scientific Name]"	0
+Aculus cornutus	taxonomy All Names	taxonomy	"""Aculus cornutus""[All Names]"	0
+Aculus cornutus	all nucleotide	nuccore	"""Aculus cornutus""[Organism]"	0
+Aculus cornutus	COI	nuccore	"""Aculus cornutus""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Aculus cornutus	18S	nuccore	"""Aculus cornutus""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus cornutus	28S	nuccore	"""Aculus cornutus""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus cornutus	ITS2	nuccore	"""Aculus cornutus""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Aculus cornutus	mitogenome	nuccore	"""Aculus cornutus""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Aculus fockeui	taxonomy Scientific Name	taxonomy	"""Aculus fockeui""[Scientific Name]"	1
+Aculus fockeui	all nucleotide	nuccore	txid3439900[Organism:exp]	30
+Aculus fockeui	COI	nuccore	"txid3439900[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	15
+Aculus fockeui	18S	nuccore	"txid3439900[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus fockeui	28S	nuccore	"txid3439900[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	15
+Aculus fockeui	ITS2	nuccore	"txid3439900[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Aculus fockeui	mitogenome	nuccore	"txid3439900[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Aculus malivagrans	taxonomy Scientific Name	taxonomy	"""Aculus malivagrans""[Scientific Name]"	0
+Aculus malivagrans	taxonomy All Names	taxonomy	"""Aculus malivagrans""[All Names]"	0
+Aculus malivagrans	all nucleotide	nuccore	"""Aculus malivagrans""[Organism]"	0
+Aculus malivagrans	COI	nuccore	"""Aculus malivagrans""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Aculus malivagrans	18S	nuccore	"""Aculus malivagrans""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus malivagrans	28S	nuccore	"""Aculus malivagrans""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus malivagrans	ITS2	nuccore	"""Aculus malivagrans""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Aculus malivagrans	mitogenome	nuccore	"""Aculus malivagrans""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Aculus schlechtendali	taxonomy Scientific Name	taxonomy	"""Aculus schlechtendali""[Scientific Name]"	1
+Aculus schlechtendali	all nucleotide	nuccore	txid2813516[Organism:exp]	6
+Aculus schlechtendali	COI	nuccore	"txid2813516[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	4
+Aculus schlechtendali	18S	nuccore	"txid2813516[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Aculus schlechtendali	28S	nuccore	"txid2813516[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Aculus schlechtendali	ITS2	nuccore	"txid2813516[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Aculus schlechtendali	mitogenome	nuccore	"txid2813516[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Phyllocoptruta oleivora	taxonomy Scientific Name	taxonomy	"""Phyllocoptruta oleivora""[Scientific Name]"	1
+Phyllocoptruta oleivora	all nucleotide	nuccore	txid1452691[Organism:exp]	9
+Phyllocoptruta oleivora	COI	nuccore	"txid1452691[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	3
+Phyllocoptruta oleivora	18S	nuccore	"txid1452691[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	2
+Phyllocoptruta oleivora	28S	nuccore	"txid1452691[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	2
+Phyllocoptruta oleivora	ITS2	nuccore	"txid1452691[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	1
+Phyllocoptruta oleivora	mitogenome	nuccore	"txid1452691[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Brevipalpus chilensis	taxonomy Scientific Name	taxonomy	"""Brevipalpus chilensis""[Scientific Name]"	1
+Brevipalpus chilensis	all nucleotide	nuccore	txid1336422[Organism:exp]	57
+Brevipalpus chilensis	COI	nuccore	"txid1336422[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	42
+Brevipalpus chilensis	18S	nuccore	"txid1336422[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Brevipalpus chilensis	28S	nuccore	"txid1336422[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	15
+Brevipalpus chilensis	ITS2	nuccore	"txid1336422[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	7
+Brevipalpus chilensis	mitogenome	nuccore	"txid1336422[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Brevipalpus phoenicis	taxonomy Scientific Name	taxonomy	"""Brevipalpus phoenicis""[Scientific Name]"	1
+Brevipalpus phoenicis	all nucleotide	nuccore	txid152387[Organism:exp]	106
+Brevipalpus phoenicis	COI	nuccore	"txid152387[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	92
+Brevipalpus phoenicis	18S	nuccore	"txid152387[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Brevipalpus phoenicis	28S	nuccore	"txid152387[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	2
+Brevipalpus phoenicis	ITS2	nuccore	"txid152387[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	2
+Brevipalpus phoenicis	mitogenome	nuccore	"txid152387[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Brevipalpus yothersi	taxonomy Scientific Name	taxonomy	"""Brevipalpus yothersi""[Scientific Name]"	1
+Brevipalpus yothersi	all nucleotide	nuccore	txid1754060[Organism:exp]	433
+Brevipalpus yothersi	COI	nuccore	"txid1754060[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	339
+Brevipalpus yothersi	18S	nuccore	"txid1754060[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Brevipalpus yothersi	28S	nuccore	"txid1754060[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	91
+Brevipalpus yothersi	ITS2	nuccore	"txid1754060[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	47
+Brevipalpus yothersi	mitogenome	nuccore	"txid1754060[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Amphitetranychus viennensis	taxonomy Scientific Name	taxonomy	"""Amphitetranychus viennensis""[Scientific Name]"	1
+Amphitetranychus viennensis	all nucleotide	nuccore	txid381746[Organism:exp]	140
+Amphitetranychus viennensis	COI	nuccore	"txid381746[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	57
+Amphitetranychus viennensis	18S	nuccore	"txid381746[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	5
+Amphitetranychus viennensis	28S	nuccore	"txid381746[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	8
+Amphitetranychus viennensis	ITS2	nuccore	"txid381746[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	38
+Amphitetranychus viennensis	mitogenome	nuccore	"txid381746[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	2
+Bryobia praetiosa	taxonomy Scientific Name	taxonomy	"""Bryobia praetiosa""[Scientific Name]"	1
+Bryobia praetiosa	all nucleotide	nuccore	txid166497[Organism:exp]	14
+Bryobia praetiosa	COI	nuccore	"txid166497[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	6
+Bryobia praetiosa	18S	nuccore	"txid166497[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Bryobia praetiosa	28S	nuccore	"txid166497[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	3
+Bryobia praetiosa	ITS2	nuccore	"txid166497[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	1
+Bryobia praetiosa	mitogenome	nuccore	"txid166497[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Oligonychus coffeae	taxonomy Scientific Name	taxonomy	"""Oligonychus coffeae""[Scientific Name]"	1
+Oligonychus coffeae	all nucleotide	nuccore	txid311847[Organism:exp]	21
+Oligonychus coffeae	COI	nuccore	"txid311847[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	4
+Oligonychus coffeae	18S	nuccore	"txid311847[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	2
+Oligonychus coffeae	28S	nuccore	"txid311847[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	6
+Oligonychus coffeae	ITS2	nuccore	"txid311847[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	7
+Oligonychus coffeae	mitogenome	nuccore	"txid311847[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Oligonychus pratensis	taxonomy Scientific Name	taxonomy	"""Oligonychus pratensis""[Scientific Name]"	1
+Oligonychus pratensis	all nucleotide	nuccore	txid3018568[Organism:exp]	2
+Oligonychus pratensis	COI	nuccore	"txid3018568[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	1
+Oligonychus pratensis	18S	nuccore	"txid3018568[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Oligonychus pratensis	28S	nuccore	"txid3018568[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Oligonychus pratensis	ITS2	nuccore	"txid3018568[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Oligonychus pratensis	mitogenome	nuccore	"txid3018568[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Panonychus citri	taxonomy Scientific Name	taxonomy	"""Panonychus citri""[Scientific Name]"	1
+Panonychus citri	all nucleotide	nuccore	txid50023[Organism:exp]	18136
+Panonychus citri	COI	nuccore	"txid50023[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	104
+Panonychus citri	18S	nuccore	"txid50023[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	264
+Panonychus citri	28S	nuccore	"txid50023[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	23
+Panonychus citri	ITS2	nuccore	"txid50023[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	31
+Panonychus citri	mitogenome	nuccore	"txid50023[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	3
+Panonychus ulmi	taxonomy Scientific Name	taxonomy	"""Panonychus ulmi""[Scientific Name]"	1
+Panonychus ulmi	all nucleotide	nuccore	txid50024[Organism:exp]	26323
+Panonychus ulmi	COI	nuccore	"txid50024[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	217
+Panonychus ulmi	18S	nuccore	"txid50024[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	2
+Panonychus ulmi	28S	nuccore	"txid50024[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	4
+Panonychus ulmi	ITS2	nuccore	"txid50024[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	102
+Panonychus ulmi	mitogenome	nuccore	"txid50024[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	2
+Tetranychus arabicus	taxonomy Scientific Name	taxonomy	"""Tetranychus arabicus""[Scientific Name]"	0
+Tetranychus arabicus	taxonomy All Names	taxonomy	"""Tetranychus arabicus""[All Names]"	0
+Tetranychus arabicus	all nucleotide	nuccore	"""Tetranychus arabicus""[Organism]"	0
+Tetranychus arabicus	COI	nuccore	"""Tetranychus arabicus""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus arabicus	18S	nuccore	"""Tetranychus arabicus""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus arabicus	28S	nuccore	"""Tetranychus arabicus""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus arabicus	ITS2	nuccore	"""Tetranychus arabicus""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus arabicus	mitogenome	nuccore	"""Tetranychus arabicus""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus canadensis	taxonomy Scientific Name	taxonomy	"""Tetranychus canadensis""[Scientific Name]"	0
+Tetranychus canadensis	taxonomy All Names	taxonomy	"""Tetranychus canadensis""[All Names]"	0
+Tetranychus canadensis	all nucleotide	nuccore	"""Tetranychus canadensis""[Organism]"	0
+Tetranychus canadensis	COI	nuccore	"""Tetranychus canadensis""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus canadensis	18S	nuccore	"""Tetranychus canadensis""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus canadensis	28S	nuccore	"""Tetranychus canadensis""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus canadensis	ITS2	nuccore	"""Tetranychus canadensis""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus canadensis	mitogenome	nuccore	"""Tetranychus canadensis""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus cinnabarinus	taxonomy Scientific Name	taxonomy	"""Tetranychus cinnabarinus""[Scientific Name]"	1
+Tetranychus cinnabarinus	all nucleotide	nuccore	txid93129[Organism:exp]	660
+Tetranychus cinnabarinus	COI	nuccore	"txid93129[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	57
+Tetranychus cinnabarinus	18S	nuccore	"txid93129[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	6
+Tetranychus cinnabarinus	28S	nuccore	"txid93129[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	6
+Tetranychus cinnabarinus	ITS2	nuccore	"txid93129[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	33
+Tetranychus cinnabarinus	mitogenome	nuccore	"txid93129[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	2
+Tetranychus crataegi	taxonomy Scientific Name	taxonomy	"""Tetranychus crataegi""[Scientific Name]"	0
+Tetranychus crataegi	taxonomy All Names	taxonomy	"""Tetranychus crataegi""[All Names]"	0
+Tetranychus crataegi	all nucleotide	nuccore	"""Tetranychus crataegi""[Organism]"	0
+Tetranychus crataegi	COI	nuccore	"""Tetranychus crataegi""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus crataegi	18S	nuccore	"""Tetranychus crataegi""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus crataegi	28S	nuccore	"""Tetranychus crataegi""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus crataegi	ITS2	nuccore	"""Tetranychus crataegi""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus crataegi	mitogenome	nuccore	"""Tetranychus crataegi""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus cucurbitacearum	taxonomy Scientific Name	taxonomy	"""Tetranychus cucurbitacearum""[Scientific Name]"	0
+Tetranychus cucurbitacearum	taxonomy All Names	taxonomy	"""Tetranychus cucurbitacearum""[All Names]"	0
+Tetranychus cucurbitacearum	all nucleotide	nuccore	"""Tetranychus cucurbitacearum""[Organism]"	0
+Tetranychus cucurbitacearum	COI	nuccore	"""Tetranychus cucurbitacearum""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus cucurbitacearum	18S	nuccore	"""Tetranychus cucurbitacearum""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus cucurbitacearum	28S	nuccore	"""Tetranychus cucurbitacearum""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus cucurbitacearum	ITS2	nuccore	"""Tetranychus cucurbitacearum""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus cucurbitacearum	mitogenome	nuccore	"""Tetranychus cucurbitacearum""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus desertorum	taxonomy Scientific Name	taxonomy	"""Tetranychus desertorum""[Scientific Name]"	1
+Tetranychus desertorum	all nucleotide	nuccore	txid2794279[Organism:exp]	11
+Tetranychus desertorum	COI	nuccore	"txid2794279[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	6
+Tetranychus desertorum	18S	nuccore	"txid2794279[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	3
+Tetranychus desertorum	28S	nuccore	"txid2794279[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus desertorum	ITS2	nuccore	"txid2794279[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	5
+Tetranychus desertorum	mitogenome	nuccore	"txid2794279[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus evansi	taxonomy Scientific Name	taxonomy	"""Tetranychus evansi""[Scientific Name]"	1
+Tetranychus evansi	all nucleotide	nuccore	txid178897[Organism:exp]	382
+Tetranychus evansi	COI	nuccore	"txid178897[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	168
+Tetranychus evansi	18S	nuccore	"txid178897[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	13
+Tetranychus evansi	28S	nuccore	"txid178897[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	14
+Tetranychus evansi	ITS2	nuccore	"txid178897[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	23
+Tetranychus evansi	mitogenome	nuccore	"txid178897[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	1
+Tetranychus hydrangeae	taxonomy Scientific Name	taxonomy	"""Tetranychus hydrangeae""[Scientific Name]"	1
+Tetranychus hydrangeae	all nucleotide	nuccore	txid311846[Organism:exp]	2
+Tetranychus hydrangeae	COI	nuccore	"txid311846[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus hydrangeae	18S	nuccore	"txid311846[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus hydrangeae	28S	nuccore	"txid311846[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Tetranychus hydrangeae	ITS2	nuccore	"txid311846[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	1
+Tetranychus hydrangeae	mitogenome	nuccore	"txid311846[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus kanzawai	taxonomy Scientific Name	taxonomy	"""Tetranychus kanzawai""[Scientific Name]"	1
+Tetranychus kanzawai	all nucleotide	nuccore	txid50028[Organism:exp]	131
+Tetranychus kanzawai	COI	nuccore	"txid50028[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	80
+Tetranychus kanzawai	18S	nuccore	"txid50028[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	11
+Tetranychus kanzawai	28S	nuccore	"txid50028[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	12
+Tetranychus kanzawai	ITS2	nuccore	"txid50028[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	22
+Tetranychus kanzawai	mitogenome	nuccore	"txid50028[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	2
+Tetranychus ludeni	taxonomy Scientific Name	taxonomy	"""Tetranychus ludeni""[Scientific Name]"	1
+Tetranychus ludeni	all nucleotide	nuccore	txid182134[Organism:exp]	74
+Tetranychus ludeni	COI	nuccore	"txid182134[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	21
+Tetranychus ludeni	18S	nuccore	"txid182134[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	6
+Tetranychus ludeni	28S	nuccore	"txid182134[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	17
+Tetranychus ludeni	ITS2	nuccore	"txid182134[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	43
+Tetranychus ludeni	mitogenome	nuccore	"txid182134[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	2
+Tetranychus mcdanieli	taxonomy Scientific Name	taxonomy	"""Tetranychus mcdanieli""[Scientific Name]"	1
+Tetranychus mcdanieli	all nucleotide	nuccore	txid50029[Organism:exp]	2
+Tetranychus mcdanieli	COI	nuccore	"txid50029[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	1
+Tetranychus mcdanieli	18S	nuccore	"txid50029[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus mcdanieli	28S	nuccore	"txid50029[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus mcdanieli	ITS2	nuccore	"txid50029[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	1
+Tetranychus mcdanieli	mitogenome	nuccore	"txid50029[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus pacificus	taxonomy Scientific Name	taxonomy	"""Tetranychus pacificus""[Scientific Name]"	1
+Tetranychus pacificus	all nucleotide	nuccore	txid50031[Organism:exp]	7
+Tetranychus pacificus	COI	nuccore	"txid50031[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	4
+Tetranychus pacificus	18S	nuccore	"txid50031[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Tetranychus pacificus	28S	nuccore	"txid50031[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	1
+Tetranychus pacificus	ITS2	nuccore	"txid50031[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	3
+Tetranychus pacificus	mitogenome	nuccore	"txid50031[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus schoenei	taxonomy Scientific Name	taxonomy	"""Tetranychus schoenei""[Scientific Name]"	0
+Tetranychus schoenei	taxonomy All Names	taxonomy	"""Tetranychus schoenei""[All Names]"	0
+Tetranychus schoenei	all nucleotide	nuccore	"""Tetranychus schoenei""[Organism]"	0
+Tetranychus schoenei	COI	nuccore	"""Tetranychus schoenei""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus schoenei	18S	nuccore	"""Tetranychus schoenei""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus schoenei	28S	nuccore	"""Tetranychus schoenei""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus schoenei	ITS2	nuccore	"""Tetranychus schoenei""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus schoenei	mitogenome	nuccore	"""Tetranychus schoenei""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus truncatus	taxonomy Scientific Name	taxonomy	"""Tetranychus truncatus""[Scientific Name]"	1
+Tetranychus truncatus	all nucleotide	nuccore	txid93132[Organism:exp]	445
+Tetranychus truncatus	COI	nuccore	"txid93132[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	99
+Tetranychus truncatus	18S	nuccore	"txid93132[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	10
+Tetranychus truncatus	28S	nuccore	"txid93132[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	66
+Tetranychus truncatus	ITS2	nuccore	"txid93132[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	113
+Tetranychus truncatus	mitogenome	nuccore	"txid93132[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	28
+Tetranychus tumidus	taxonomy Scientific Name	taxonomy	"""Tetranychus tumidus""[Scientific Name]"	0
+Tetranychus tumidus	taxonomy All Names	taxonomy	"""Tetranychus tumidus""[All Names]"	0
+Tetranychus tumidus	all nucleotide	nuccore	"""Tetranychus tumidus""[Organism]"	0
+Tetranychus tumidus	COI	nuccore	"""Tetranychus tumidus""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus tumidus	18S	nuccore	"""Tetranychus tumidus""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus tumidus	28S	nuccore	"""Tetranychus tumidus""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Tetranychus tumidus	ITS2	nuccore	"""Tetranychus tumidus""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Tetranychus tumidus	mitogenome	nuccore	"""Tetranychus tumidus""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus turkestani	taxonomy Scientific Name	taxonomy	"""Tetranychus turkestani""[Scientific Name]"	1
+Tetranychus turkestani	all nucleotide	nuccore	txid133227[Organism:exp]	128
+Tetranychus turkestani	COI	nuccore	"txid133227[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	54
+Tetranychus turkestani	18S	nuccore	"txid133227[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	12
+Tetranychus turkestani	28S	nuccore	"txid133227[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	18
+Tetranychus turkestani	ITS2	nuccore	"txid133227[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	42
+Tetranychus turkestani	mitogenome	nuccore	"txid133227[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Tetranychus urticae	taxonomy Scientific Name	taxonomy	"""Tetranychus urticae""[Scientific Name]"	1
+Tetranychus urticae	all nucleotide	nuccore	txid32264[Organism:exp]	138724
+Tetranychus urticae	COI	nuccore	"txid32264[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	630
+Tetranychus urticae	18S	nuccore	"txid32264[Organism:exp] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	239
+Tetranychus urticae	28S	nuccore	"txid32264[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	90
+Tetranychus urticae	ITS2	nuccore	"txid32264[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	199
+Tetranychus urticae	mitogenome	nuccore	"txid32264[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	10

@@ -1,6 +1,6 @@
 # Protocol
 
-Status: draft. To be completed and committed with a date at the end of stage 1, before any modelling.
+Status: draft submitted at the stage 1 checkpoint, 13 November 2026. Fixed once approved; later changes go in the change log.
 
 ## Hypotheses
 
@@ -40,9 +40,34 @@ One species, one active ingredient, one country, supported by a bioassay with a 
 - Sequences nesting inside another genus (flagged as probable misidentification).
 - Unidentified or genus-only records.
 
-## Models and sensitivity runs
+## Models
 
-To be completed at end of stage 1. Sensitivity runs planned: without *Tetranychus urticae*; Tetranychidae only; taxonomy-only tree; resistance ratio ≥ 100; rarefied host breadth; *T. cinnabarinus* merged and separate.
+| Hypothesis | Model | Software | Details |
+| --- | --- | --- | --- |
+| H1 | Fritz–Purvis D (binary); Pagel's λ and Blomberg's K (count) | `caper`, `phytools` | 1,000 permutations each |
+| H2 | Bayesian phylogenetic mixed model, Poisson or negative binomial | `MCMCglmm` or `brms` | Predictors scaled; host breadth with a quadratic term |
+| H3 | Mixed-effects Cox model | `coxme` | Species and active ingredient as random effects; phylogenetic covariance; pairs with no case by the cut-off year right-censored |
+| H4 | H2 and H3 structures refitted on published insect data; joint model with group × host-breadth interaction | as above | Standardised coefficients compared with intervals |
+
+Every model includes research effort and geographic range, and is run over 100 posterior trees with estimates pooled across trees.
+
+## Sensitivity runs
+
+- Without *Tetranychus urticae*
+- Tetranychidae only
+- Taxonomy-only tree
+- Resistance ratio of 100 or more
+- Rarefied host breadth
+- *Tetranychus cinnabarinus* merged with and separate from *T. urticae*
+
+## Validation
+
+- Temporal hold-out: fit on cases reported up to 2010; test on species whose first case came after 2010
+- Leave-one-species-out cross-validation
+
+## Name standard
+
+Stage 1 decisions are in `data/manual/name_map_stage1.csv`. The full naming standard (Spider Mites Web for Tetranychidae; current catalogues for Tenuipalpidae and Eriophyidae) is fixed at stage 2.
 
 ## Change log
 

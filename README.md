@@ -32,6 +32,7 @@ protocol.md            hypotheses, variables, models, exclusion rules
 environment.yml        conda programs (IQ-TREE, MAFFT, trimAl, BEAST 2, R)
 Makefile               one command rebuilds tables and figures
 data/raw/              downloads, never edited
+data/manual/           hand decisions read by scripts (name maps)
 data/clean/            curated tables, alignments, trees
 scripts/               numbered scripts, one per stage
 cloud/                 Google Cloud spot machine scripts
@@ -69,4 +70,4 @@ make all
 
 ## Status
 
-Stage 1 (feasibility) not yet started.
+Stage 1 (feasibility) run on 13 November 2026; awaiting go/no-go. Results: `results/tables/stage1_summary.csv`, `data/clean/feasibility_counts.csv`; decisions: `logs/decisions.md`.

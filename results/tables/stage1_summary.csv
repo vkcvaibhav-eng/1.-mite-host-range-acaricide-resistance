@@ -1,0 +1,6 @@
+group,species,from_APRD,from_literature,with_any_marker,with_COI,with_COI_plus_18S_or_28S,with_mitogenome,name_needs_check
+Eriophyidae,7,6,1,5,4,4,0,1
+Tenuipalpidae,3,3,0,3,3,3,0,1
+Tetranychidae,23,20,3,17,16,14,9,1
+All three families,33,29,4,25,23,21,9,3
+"All, T. cinnabarinus merged with T. urticae",32,28,4,24,22,20,8,3

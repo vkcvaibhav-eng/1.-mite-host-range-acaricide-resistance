@@ -1,0 +1,276 @@
+ai_id,ai_name,species_as_listed,family_as_listed,host_as_listed
+1,abamectin,bryobia praetiosa,tetranychidae,"apple, clover"
+1,abamectin,metaseiulus occidentalis,phytoseiidae,mites
+1,abamectin,panonychus citri,tetranychidae,citrus
+1,abamectin,panonychus ulmi,tetranychidae,fruit trees
+1,abamectin,tetranychus cinnabarinus,tetranychidae,
+1,abamectin,tetranychus turkestani,tetranychidae,
+1,abamectin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+15,amitraz,dermanyssus gallinae,dermanyssidae,poultry
+15,amitraz,panonychus citri,tetranychidae,citrus
+15,amitraz,panonychus ulmi,tetranychidae,fruit trees
+15,amitraz,rhipicephalus microplus,ixodidae,cattle
+15,amitraz,rhipicephalus sanguineus,ixodidae,dog
+15,amitraz,tetranychus cinnabarinus,tetranychidae,
+15,amitraz,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+15,amitraz,varroa destructor,varroidae,honey bees
+19,azinphos-methyl,amblyseius andersoni,phytoseiidae,
+19,azinphos-methyl,amblyseius chilenesis,phytoseiidae,
+19,azinphos-methyl,amblyseius fallacis,phytoseiidae,
+19,azinphos-methyl,amblyseius potentillae,phytoseiidae,
+19,azinphos-methyl,metaseiulus occidentalis,phytoseiidae,mites
+19,azinphos-methyl,panonychus ulmi,tetranychidae,fruit trees
+19,azinphos-methyl,tetranychus atlanticus,tetranychidae,"cotton, vegetables, peanut, strawberry"
+19,azinphos-methyl,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+19,azinphos-methyl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+19,azinphos-methyl,typhlodromus arboreus,phytoseiidae,mites
+19,azinphos-methyl,typhlodromus=galenod pyri,phytoseiidae,mites
+19,azinphos-methyl,zetzellia mali,stigmaeidae,
+21,azocyclotin,panonychus citri,tetranychidae,citrus
+21,azocyclotin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+35,bifenazate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+36,bifenthrin,halotydeus destructor,pentatomidae,
+36,bifenthrin,oligonychus pratensis,tetranychidae,"sorghum, corn"
+36,bifenthrin,tetranychus turkestani,tetranychidae,
+36,bifenthrin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+37,binapacryl,panonychus citri,tetranychidae,citrus
+37,binapacryl,panonychus ulmi,tetranychidae,fruit trees
+37,binapacryl,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+37,binapacryl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+41,bromopropylate,panonychus ulmi,tetranychidae,fruit trees
+41,bromopropylate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+51,carbophenothion,boophilus decoloratus,ixodidae,livestock
+51,carbophenothion,oligonychus pratensis,tetranychidae,"sorghum, corn"
+51,carbophenothion,panonychus citri,tetranychidae,citrus
+51,carbophenothion,panonychus ulmi,tetranychidae,fruit trees
+51,carbophenothion,rhipicephalus microplus,ixodidae,cattle
+51,carbophenothion,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+51,carbophenothion,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+51,carbophenothion,tetranychus viennensis,tetranychidae,pear
+59,chlordimeform,panonychus ulmi,tetranychidae,fruit trees
+59,chlordimeform,rhipicephalus microplus,ixodidae,cattle
+59,chlordimeform,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+61,chlorfenapyr,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+63,chlorfenson,panonychus citri,tetranychidae,citrus
+63,chlorfenson,panonychus ulmi,tetranychidae,fruit trees
+63,chlorfenson,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+63,chlorfenson,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+67,chlorobenzilate,aculus pelekassi,eriophyidae,citrus
+67,chlorobenzilate,panonychus ulmi,tetranychidae,fruit trees
+67,chlorobenzilate,tetranychus cinnabarinus,tetranychidae,
+67,chlorobenzilate,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+67,chlorobenzilate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+72,chlorpyrifos,rhipicephalus microplus,ixodidae,cattle
+72,chlorpyrifos,panonychus ulmi,tetranychidae,fruit trees
+72,chlorpyrifos,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+72,chlorpyrifos,typhlodromus exhilaratus,phytoseiidae,
+72,chlorpyrifos,typhlodromus=galenod pyri,phytoseiidae,mites
+90,cyhexatin,panonychus ulmi,tetranychidae,fruit trees
+90,cyhexatin,tetranychus kanzawai,tetranychidae,
+90,cyhexatin,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+90,cyhexatin,tetranychus pacificus,tetranychidae,"cotton, grape, apple"
+90,cyhexatin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+98,DDT,amblyomma hebraeum,ixodidae,livestock
+98,DDT,amblyseius fallacis,phytoseiidae,
+98,DDT,boophilus calcaratus,ixodidae,
+98,DDT,boophilus decoloratus,ixodidae,livestock
+98,DDT,dermacentor variabilis,ixodidae,"livestock, dogs"
+98,DDT,dermanyssus gallinae,dermanyssidae,poultry
+98,DDT,hyalomma detritum,ixodidae,
+98,DDT,panonychus citri,tetranychidae,citrus
+98,DDT,panonychus ulmi,tetranychidae,fruit trees
+98,DDT,rhipicephalus microplus,ixodidae,cattle
+98,DDT,rhipicephalus sanguineus,ixodidae,dog
+98,DDT,tetranychus pacificus,tetranychidae,"cotton, grape, apple"
+98,DDT,tetranychus tumidus,tetranychidae,"vegetables, cotton, melon"
+98,DDT,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+98,DDT,typhlodromus=galenod pyri,phytoseiidae,mites
+101,demeton,panonychus citri,tetranychidae,citrus
+101,demeton,panonychus ulmi,tetranychidae,fruit trees
+101,demeton,tetranychus cinnabarinus,tetranychidae,
+101,demeton,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+101,demeton,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+101,demeton,tetranychus viennensis,tetranychidae,pear
+102,demeton-S-methyl,aculus cornutus,eriophyidae,
+102,demeton-S-methyl,brevipalpus chilensis,tenuipalpidae,"grape, fig"
+102,demeton-S-methyl,panonychus ulmi,tetranychidae,fruit trees
+102,demeton-S-methyl,phytoseiulus persimilis,phytoseiidae,mites
+102,demeton-S-methyl,tetranychus cinnabarinus,tetranychidae,
+102,demeton-S-methyl,tetranychus desertorum,tetranychidae,cotton
+102,demeton-S-methyl,tetranychus hydrangaea,tetranychidae,cotton
+102,demeton-S-methyl,tetranychus ludeni,tetranychidae,cotton
+102,demeton-S-methyl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+102,demeton-S-methyl,tetranychus viennensis,tetranychidae,pear
+102,demeton-S-methyl,typhlodromus=galenod pyri,phytoseiidae,mites
+105,diazinon,amblyseius fallacis,phytoseiidae,
+105,diazinon,panonychus ulmi,tetranychidae,fruit trees
+105,diazinon,phytoseiulus persimilis,phytoseiidae,mites
+105,diazinon,rhipicephalus microplus,ixodidae,cattle
+105,diazinon,rhizoglyphus robini,acaridae,"ornamental plants, stored onions"
+105,diazinon,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+105,diazinon,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+108,dicofol,metaseiulus occidentalis,phytoseiidae,mites
+108,dicofol,panonychus citri,tetranychidae,citrus
+108,dicofol,panonychus ulmi,tetranychidae,fruit trees
+108,dicofol,phyllocoptruta oleivora,eriophyidae,citrus
+108,dicofol,tetranychus arabicus,tetranychidae,cotton
+108,dicofol,tetranychus cinnabarinus,tetranychidae,
+108,dicofol,tetranychus cucurbitacearum,tetranychidae,cotton
+108,dicofol,tetranychus kanzawai,tetranychidae,
+108,dicofol,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+108,dicofol,tetranychus pacificus,tetranychidae,"cotton, grape, apple"
+108,dicofol,tetranychus schoenei,tetranychidae,apple
+108,dicofol,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+114,dimethoate,aculus cornutus,eriophyidae,
+114,dimethoate,amblyseius psuedolongispinosus,phytoseiidae,
+114,dimethoate,boophilus decoloratus,ixodidae,livestock
+114,dimethoate,oligonychus pratensis,tetranychidae,"sorghum, corn"
+114,dimethoate,panonychus citri,tetranychidae,citrus
+114,dimethoate,panonychus ulmi,tetranychidae,fruit trees
+114,dimethoate,rhipicephalus appendiculatus,ixodidae,livestock
+114,dimethoate,rhipicephalus microplus,ixodidae,cattle
+114,dimethoate,rhizoglyphus robini,acaridae,"ornamental plants, stored onions"
+114,dimethoate,tetranychus atlanticus,tetranychidae,"cotton, vegetables, peanut, strawberry"
+114,dimethoate,tetranychus bimaculatus,tetranychidae,"cotton, peach"
+114,dimethoate,tetranychus cinnabarinus,tetranychidae,
+114,dimethoate,tetranychus crataegi,tetranychidae,apple
+114,dimethoate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+114,dimethoate,tetranychus viennensis,tetranychidae,pear
+132,ethion,amblyseius fallacis,phytoseiidae,
+132,ethion,panonychus citri,tetranychidae,citrus
+132,ethion,panonychus ulmi,tetranychidae,fruit trees
+132,ethion,phytoseiulus persimilis,phytoseiidae,mites
+132,ethion,rhipicephalus microplus,ixodidae,cattle
+132,ethion,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+144,fenazaquin,panonychus ulmi,tetranychidae,fruit trees
+144,fenazaquin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+145,fenbutatin oxide,panonychus citri,tetranychidae,citrus
+145,fenbutatin oxide,tetranychus turkestani,tetranychidae,
+145,fenbutatin oxide,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+149,fenpropathrin,panonychus citri,tetranychidae,citrus
+149,fenpropathrin,panonychus ulmi,tetranychidae,fruit trees
+149,fenpropathrin,tetranychus cinnabarinus,tetranychidae,
+149,fenpropathrin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+150,fenpyroximate,tetranychus kanzawai,tetranychidae,
+150,fenpyroximate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+168,formetanate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+204,malathion,acarus chaetoxysilus,acaridae,cheese
+204,malathion,amblyseius fallacis,phytoseiidae,
+204,malathion,brevipalpus chilensis,tenuipalpidae,"grape, fig"
+204,malathion,halotydeus destructor,pentatomidae,
+204,malathion,ornithonyssus sylviarum,macronyssidae,poultry
+204,malathion,panonychus ulmi,tetranychidae,fruit trees
+204,malathion,rhipicephalus microplus,ixodidae,cattle
+204,malathion,tetranychus cinnabarinus,tetranychidae,
+204,malathion,tetranychus crataegi,tetranychidae,apple
+204,malathion,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+210,methidathion,amblyseius womersleyi,phytoseiidae,
+210,methidathion,panonychus ulmi,tetranychidae,fruit trees
+210,methidathion,phytoseiulus persimilis,phytoseiidae,mites
+210,methidathion,tetranychus ludeni,tetranychidae,cotton
+210,methidathion,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+212,methomyl,metaseiulus occidentalis,phytoseiidae,mites
+212,methomyl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+219,milbemectin,phytoseiulus persimilis,phytoseiidae,
+219,milbemectin,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+223,monocrotophos,rhipicephalus microplus,ixodidae,cattle
+223,monocrotophos,rhizoglyphus robini,acaridae,"ornamental plants, stored onions"
+223,monocrotophos,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+233,omethoate,amblyseius potentillae,phytoseiidae,
+233,omethoate,panonychus ulmi,tetranychidae,fruit trees
+233,omethoate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+234,Organophosphates - Unspecified In Literature,aculus cornutus,eriophyidae,
+234,Organophosphates - Unspecified In Literature,aculus fockeui,eriophyidae,cherry
+234,Organophosphates - Unspecified In Literature,aculus malivagrans,eriophyidae,apple
+234,Organophosphates - Unspecified In Literature,aculus schlechtendali,eriophyidae,
+234,Organophosphates - Unspecified In Literature,amblyomma hebraeum,ixodidae,livestock
+234,Organophosphates - Unspecified In Literature,boophilus decoloratus,ixodidae,livestock
+234,Organophosphates - Unspecified In Literature,bryobia praetiosa,tetranychidae,"apple, clover"
+234,Organophosphates - Unspecified In Literature,rhipicephalus appendiculatus,ixodidae,livestock
+234,Organophosphates - Unspecified In Literature,rhipicephalus evertsi,ixodidae,livestock
+234,Organophosphates - Unspecified In Literature,rhipicephalus microplus,ixodidae,cattle
+234,Organophosphates - Unspecified In Literature,rhipicephalus pravus,ixodidae,
+234,Organophosphates - Unspecified In Literature,rhipicephalus sanguineus,ixodidae,dog
+234,Organophosphates - Unspecified In Literature,hyalomma anatolicum,ixodidae,
+234,Organophosphates - Unspecified In Literature,hyalomma asiaticum,ixodidae,
+234,Organophosphates - Unspecified In Literature,hyalomma plumbeum,ixodidae,
+234,Organophosphates - Unspecified In Literature,ornithonyssus sylviarum,macronyssidae,poultry
+234,Organophosphates - Unspecified In Literature,panonychus ulmi,tetranychidae,fruit trees
+234,Organophosphates - Unspecified In Literature,tetranychus althaeae,tetranychidae,chrysanthemum
+234,Organophosphates - Unspecified In Literature,tetranychus atlanticus,tetranychidae,"cotton, vegetables, peanut, strawberry"
+234,Organophosphates - Unspecified In Literature,tetranychus canadensis,tetranychidae,fourspotted spider mite
+234,Organophosphates - Unspecified In Literature,tetranychus cinnabarinus,tetranychidae,
+234,Organophosphates - Unspecified In Literature,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+234,Organophosphates - Unspecified In Literature,tetranychus pacificus,tetranychidae,"cotton, grape, apple"
+234,Organophosphates - Unspecified In Literature,tetranychus schoenei,tetranychidae,apple
+234,Organophosphates - Unspecified In Literature,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+241,parathion,amblyseius fallacis,phytoseiidae,
+241,parathion,amblyseius hibisci,phytoseiidae,
+241,parathion,amblyseius potentillae,phytoseiidae,
+241,parathion,brevipalpus chilensis,tenuipalpidae,"grape, fig"
+241,parathion,oligonychus pratensis,tetranychidae,"sorghum, corn"
+241,parathion,panonychus citri,tetranychidae,citrus
+241,parathion,panonychus ulmi,tetranychidae,fruit trees
+241,parathion,phytoseiulus persimilis,phytoseiidae,mites
+241,parathion,tetranychus atlanticus,tetranychidae,"cotton, vegetables, peanut, strawberry"
+241,parathion,tetranychus cinnabarinus,tetranychidae,
+241,parathion,tetranychus desertorum,tetranychidae,cotton
+241,parathion,tetranychus hydrangaea,tetranychidae,cotton
+241,parathion,tetranychus ludeni,tetranychidae,cotton
+241,parathion,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+241,parathion,tetranychus tumidus,tetranychidae,"vegetables, cotton, melon"
+241,parathion,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+241,parathion,tetranychus viennensis,tetranychidae,pear
+241,parathion,typhlodromus=galenod pyri,phytoseiidae,mites
+242,parathion-methyl,panonychus ulmi,tetranychidae,fruit trees
+242,parathion-methyl,rhizoglyphus robini,acaridae,"ornamental plants, stored onions"
+242,parathion-methyl,tetranychus arabicus,tetranychidae,cotton
+242,parathion-methyl,tetranychus cucurbitacearum,tetranychidae,cotton
+242,parathion-methyl,tetranychus desertorum,tetranychidae,cotton
+242,parathion-methyl,tetranychus hydrangaea,tetranychidae,cotton
+242,parathion-methyl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+242,parathion-methyl,typhlodromus=galenod pyri,phytoseiidae,mites
+249,phosalone,rhipicephalus microplus,ixodidae,cattle
+249,phosalone,tetranychus arabicus,tetranychidae,cotton
+249,phosalone,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+249,phosalone,tetranychus viennensis,tetranychidae,pear
+249,phosalone,typhlodromus=galenod pyri,phytoseiidae,mites
+263,propargite,amblyseius fallacis,phytoseiidae,
+263,propargite,oligonychus pratensis,tetranychidae,"sorghum, corn"
+263,propargite,panonychus ulmi,tetranychidae,fruit trees
+263,propargite,tetranychus cinnabarinus,tetranychidae,
+263,propargite,tetranychus pacificus,tetranychidae,"cotton, grape, apple"
+263,propargite,tetranychus turkestani,tetranychidae,
+263,propargite,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+274,pyridaben,panonychus citri,tetranychidae,citrus
+274,pyridaben,tetranychus cinnabarinus,tetranychidae,
+274,pyridaben,tetranychus kanzawai,tetranychidae,
+274,pyridaben,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+280,chinomethionate,panonychus citri,tetranychidae,citrus
+280,chinomethionate,panonychus ulmi,tetranychidae,fruit trees
+280,chinomethionate,tetranychus cinnabarinus,tetranychidae,
+280,chinomethionate,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+291,spirodiclofen,brevipalpus yothersi,tenuipalpidae,
+291,spirodiclofen,panonychus citri,tetranychidae,citrus
+291,spirodiclofen,panonychus ulmi,tetranychidae,fruit trees
+291,spirodiclofen,phytoseiulus persimilis,phytoseiidae,mites
+291,spirodiclofen,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+305,tebufenpyrad,panonychus ulmi,tetranychidae,fruit trees
+305,tebufenpyrad,tetranychus kanzawai,tetranychidae,
+305,tebufenpyrad,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+313,tetradifon,panonychus citri,tetranychidae,citrus
+313,tetradifon,panonychus ulmi,tetranychidae,fruit trees
+313,tetradifon,tetranychus mcdanieli,tetranychidae,"fruit trees, raspberries"
+313,tetradifon,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+387,acequinocyl,phytoseiulus persimilis,phytoseiidae,
+387,acequinocyl,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+389,clofentezine,panonychus ulmi,tetranychidae,fruit trees
+389,clofentezine,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+396,hexythiazox,brevipalpus phoenicis,tenuipalpidae,citrus
+396,hexythiazox,panonychus citri,tetranychidae,citrus
+396,hexythiazox,panonychus ulmi,tetranychidae,fruit trees
+396,hexythiazox,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+406,etoxazole,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"
+464,cyflumetofen,panonychus citri,tetranychidae,citrus
+464,cyflumetofen,tetranychus cinnabarinus,tetranychidae,
+464,cyflumetofen,tetranychus urticae,tetranychidae,"cotton, fruits, vegetables, walnut, ornamentals"

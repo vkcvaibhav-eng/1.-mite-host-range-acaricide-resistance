@@ -1,0 +1,11 @@
+name_as_listed,query_name,decision,confidence,note
+tetranychus bimaculatus,Tetranychus urticae,synonym merged,high,Tetranychus bimaculatus Harvey is a junior synonym of T. urticae
+tetranychus althaeae,Tetranychus urticae,synonym merged,high,Tetranychus althaeae von Hanstein is a junior synonym of T. urticae
+tetranychus atlanticus,Tetranychus turkestani,synonym merged,high,Tetranychus atlanticus McGregor is a junior synonym of T. turkestani
+tetranychus viennensis,Amphitetranychus viennensis,current combination,high,species now placed in Amphitetranychus
+aculus pelekassi,Aculops pelekassi,current combination,high,pink citrus rust mite is now placed in Aculops
+tetranychus hydrangaea,Tetranychus hydrangeae,spelling corrected,high,database spelling 'hydrangaea'
+tetranychus cinnabarinus,Tetranychus cinnabarinus,kept separate,decision,protocol runs T. cinnabarinus both merged with and separate from T. urticae
+brevipalpus phoenicis,Brevipalpus phoenicis,kept as listed,check,"B. phoenicis sensu lato was split in 2015; the citrus record may be B. yothersi"
+tetranychus crataegi,Tetranychus crataegi,kept as listed,check,validity and possible synonymy to be checked against Spider Mites Web in stage 2
+aculus malivagrans,Aculus malivagrans,kept as listed,check,validity to be checked against an eriophyoid catalogue in stage 2
