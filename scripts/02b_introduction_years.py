@@ -3,6 +3,7 @@
 Inputs
   data/raw/ppdb_introduction_dates_2026-11-13.txt   'Introduction & key dates' text from PPDB/BPDB/VSDB
   data/manual/irac_map.csv                          active-ingredient list
+  data/manual/intro_year_overrides.csv              second-source years where PPDB is missing or contradicted
   data/clean/resistance_cases.csv                   from scripts/02_resistance.py
 
 Outputs
@@ -61,6 +62,14 @@ def main() -> None:
     ai.loc[ai["irac_group"].isin(["MIX"]) | ai["ai_name"].str.contains("Unspecified"), "intro_basis"] = \
         "not a single compound"
     ai["intro_year_used"] = ai["intro_year"].fillna(ai["intro_year_fallback"])
+    # second-source corrections where the database year is missing or contradicted by the case records
+    ov = pd.read_csv(ROOT / "data/manual/intro_year_overrides.csv", dtype={"ai_id": str})
+    ai = ai.merge(ov[["ai_id", "intro_year", "source", "confidence"]].rename(columns={
+        "intro_year": "override_year", "source": "override_source", "confidence": "override_confidence"}),
+        on="ai_id", how="left")
+    has = ai["override_year"].notna()
+    ai.loc[has, "intro_year_used"] = ai.loc[has, "override_year"]
+    ai.loc[has, "intro_basis"] = "second source (data/manual/intro_year_overrides.csv)"
     ai.to_csv(ROOT / "data/clean/ai_introduction_years.csv", index=False)
     print(ai["intro_basis"].value_counts().to_string(), file=log)
 

@@ -94,7 +94,7 @@ Panonychus ulmi,Tetranychidae,324,thiometon,1B,1965,2,1960.0,introduction/regist
 Panonychus ulmi,Tetranychidae,33,benzoximate,UN,1984,1,1971.0,introduction/registration,13.0,False
 Panonychus ulmi,Tetranychidae,337,vamidothion,1B,1975,1,1962.0,introduction/registration,13.0,False
 Panonychus ulmi,Tetranychidae,37,binapacryl,13,1974,3,1960.0,introduction/registration,14.0,False
-Panonychus ulmi,Tetranychidae,389,clofentezine,10A,1991,3,2001.0,introduction/registration,-10.0,True
+Panonychus ulmi,Tetranychidae,389,clofentezine,10A,1991,3,1981.0,second source (data/manual/intro_year_overrides.csv),10.0,False
 Panonychus ulmi,Tetranychidae,396,hexythiazox,10A,1991,2,1982.0,introduction/registration,9.0,False
 Panonychus ulmi,Tetranychidae,41,bromopropylate,UN,2007,1,1967.0,introduction/registration,40.0,False
 Panonychus ulmi,Tetranychidae,49,carbaryl,1A,1974,1,1958.0,introduction/registration,16.0,False
@@ -202,7 +202,7 @@ Tetranychus urticae,Tetranychidae,113,dimefox,1B,1974,1,1946.0,introduction/regi
 Tetranychus urticae,Tetranychidae,114,dimethoate,1B,1965,18,1951.0,introduction/registration,14.0,False
 Tetranychus urticae,Tetranychidae,122,disulfoton,1B,1972,1,1956.0,introduction/registration,16.0,False
 Tetranychus urticae,Tetranychidae,13,amidithion,1B,1968,3,1965.0,introduction/registration,3.0,False
-Tetranychus urticae,Tetranychidae,130,EPN,1B,1965,2,,no year,,False
+Tetranychus urticae,Tetranychidae,130,EPN,1B,1965,2,1950.0,second source (data/manual/intro_year_overrides.csv),15.0,False
 Tetranychus urticae,Tetranychidae,132,ethion,1B,1965,1,1957.0,introduction/registration,8.0,False
 Tetranychus urticae,Tetranychidae,134,ethoate-methyl,1B,1974,1,1963.0,introduction/registration,11.0,False
 Tetranychus urticae,Tetranychidae,143,famphur,1B,2008,1,1975.0,introduction/registration,33.0,False
@@ -230,9 +230,9 @@ Tetranychus urticae,Tetranychidae,233,omethoate,1B,1974,3,1960.0,introduction/re
 Tetranychus urticae,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1949,27,,not a single compound,,False
 Tetranychus urticae,Tetranychidae,241,parathion,1B,1961,25,1950.0,introduction/registration,11.0,False
 Tetranychus urticae,Tetranychidae,242,parathion-methyl,1B,1968,4,1950.0,introduction/registration,18.0,False
-Tetranychus urticae,Tetranychidae,243,permethrin,3A,1974,2,1979.0,introduction/registration,-5.0,True
+Tetranychus urticae,Tetranychidae,243,permethrin,3A,1974,2,1977.0,second source (data/manual/intro_year_overrides.csv),-3.0,True
 Tetranychus urticae,Tetranychidae,244,phenkapton,1B,1965,3,1955.0,discovery only,10.0,False
-Tetranychus urticae,Tetranychidae,247,phenthoate,1B,1974,1,1980.0,introduction/registration,-6.0,True
+Tetranychus urticae,Tetranychidae,247,phenthoate,1B,1974,1,1964.0,second source (data/manual/intro_year_overrides.csv),10.0,False
 Tetranychus urticae,Tetranychidae,248,phorate,1B,1969,1,1954.0,introduction/registration,15.0,False
 Tetranychus urticae,Tetranychidae,249,phosalone,1B,1974,1,1965.0,introduction/registration,9.0,False
 Tetranychus urticae,Tetranychidae,250,phosmet,1B,1974,1,1962.0,introduction/registration,12.0,False
@@ -253,15 +253,15 @@ Tetranychus urticae,Tetranychidae,310,TEPP,1B,1965,1,1946.0,introduction/registr
 Tetranychus urticae,Tetranychidae,313,tetradifon,12D,1965,10,1955.0,introduction/registration,10.0,False
 Tetranychus urticae,Tetranychidae,324,thiometon,1B,1961,6,1960.0,introduction/registration,1.0,False
 Tetranychus urticae,Tetranychidae,33,benzoximate,UN,2004,1,1971.0,introduction/registration,33.0,False
-Tetranychus urticae,Tetranychidae,334,trichlorfon,1B,1961,1,1990.0,introduction/registration,-29.0,True
+Tetranychus urticae,Tetranychidae,334,trichlorfon,1B,1961,1,1952.0,second source (data/manual/intro_year_overrides.csv),9.0,False
 Tetranychus urticae,Tetranychidae,337,vamidothion,1B,1974,3,1962.0,introduction/registration,12.0,False
 Tetranychus urticae,Tetranychidae,34,BHC/cyclodienes - Unspecified In Literature,2A,1965,1,,not a single compound,,False
 Tetranychus urticae,Tetranychidae,35,bifenazate,20D,2005,19,1996.0,introduction/registration,9.0,False
 Tetranychus urticae,Tetranychidae,36,bifenthrin,3A,2002,5,1984.0,introduction/registration,18.0,False
 Tetranychus urticae,Tetranychidae,37,binapacryl,13,1968,1,1960.0,introduction/registration,8.0,False
 Tetranychus urticae,Tetranychidae,387,acequinocyl,20B,2025,4,1999.0,introduction/registration,26.0,False
-Tetranychus urticae,Tetranychidae,389,clofentezine,10A,1993,6,2001.0,introduction/registration,-8.0,True
-Tetranychus urticae,Tetranychidae,39,bromophos,1B,1970,1,1973.0,introduction/registration,-3.0,True
+Tetranychus urticae,Tetranychidae,389,clofentezine,10A,1993,6,1981.0,second source (data/manual/intro_year_overrides.csv),12.0,False
+Tetranychus urticae,Tetranychidae,39,bromophos,1B,1970,1,1963.0,second source (data/manual/intro_year_overrides.csv),7.0,False
 Tetranychus urticae,Tetranychidae,393,azobenzene,NC,1965,1,1945.0,introduction/registration,20.0,False
 Tetranychus urticae,Tetranychidae,396,hexythiazox,10A,1993,10,1982.0,introduction/registration,11.0,False
 Tetranychus urticae,Tetranychidae,405,hexythiazox + organotin,MIX,1995,1,,not a single compound,,False

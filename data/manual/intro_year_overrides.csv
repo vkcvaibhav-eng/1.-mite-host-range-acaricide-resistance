@@ -1,0 +1,7 @@
+ai_id,ai_name,intro_year,basis,source,confidence
+389,clofentezine,1981,first reported,"Bryan K.M.G. et al. (1981) Proceedings of the British Crop Protection Conference - Pests and Diseases, p. 67; cited in the Merck Index entry (drugfuture.com/chemdata/clofentezine.html)",high
+334,trichlorfon,1952,introduced as insecticide,"Lorenz et al. (1955), cited in Archives of Toxicology, doi:10.1007/BF00351766: 'introduced as an insecticide, trichlorfon, in 1952'",high
+243,permethrin,1977,first marketed,"IARC Monograph 53 (1991): first synthesized 1973 (Swaine and Tandy 1984), first marketed 1977 (WHO 1990)",high
+39,bromophos,1963,first reported (patent),"Merck Index: US 3227610 (1963) to Boehringer Ingelheim (drugfuture.com/chemdata/bromophos.html)",medium
+247,phenthoate,1964,first reported (toxicity data),"RTECS entry for phenthoate citing Toxicology and Applied Pharmacology 6:147 (1964) (drugfuture.com/toxic/q4-q251.html)",low
+130,EPN,1950,first reported (patent),"Merck Index: US 2503390 (1950) to du Pont (drugfuture.com/chemdata/EPN.html)",medium
