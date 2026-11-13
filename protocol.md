@@ -17,7 +17,9 @@ All phytophagous mites (Tetranychidae, Tenuipalpidae, Eriophyidae) recorded on c
 
 ## Resistance case definition
 
-One species, one active ingredient, one country, supported by a bioassay with a resistance ratio of 10 or more against a susceptible reference, or by a field control failure confirmed in a bioassay.
+Main analysis: a case as recorded in the Arthropod Pesticide Resistance Database (one species, one active ingredient, one location and report), excluding populations resistant only after laboratory selection and duplicate database entries of the same paper. Cases added from the literature for species absent from the database follow the same rule and, where reported, must show a resistance ratio of 10 or more against a susceptible reference or a field control failure confirmed in a bioassay.
+
+Sensitivity runs: (a) field-evolved cases only; (b) cases supported by a journal paper, excluding FAO reports and personal communications.
 
 ## Variables
 
@@ -56,7 +58,8 @@ Every model includes research effort and geographic range, and is run over 100 p
 - Without *Tetranychus urticae*
 - Tetranychidae only
 - Taxonomy-only tree
-- Resistance ratio of 100 or more
+- Field-evolved cases only
+- Journal-supported cases only (no FAO reports or personal communications)
 - Rarefied host breadth
 - *Tetranychus cinnabarinus* merged with and separate from *T. urticae*
 
@@ -73,3 +76,4 @@ Stage 1 decisions are in `data/manual/name_map_stage1.csv`. The full naming stan
 
 | Date | Change | Reason |
 | --- | --- | --- |
+| 13 November 2026 | Case definition changed from a resistance-ratio rule to database cases as recorded, with two new sensitivity runs (field-evolved only; journal-supported only) | Database records do not report resistance ratios, and many early sources (FAO reports, personal communications) cannot be checked; approved by V. K. Chaudhari |
