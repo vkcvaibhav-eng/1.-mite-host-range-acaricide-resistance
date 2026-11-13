@@ -1,0 +1,20 @@
+name: mite-resistance
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - biopython
+  - pandas
+  - requests
+  - mafft
+  - trimal
+  - iqtree
+  - beast2
+  - r-base=4.3
+  - r-ape
+  - r-phytools
+  - r-caper
+  - r-mcmcglmm
+  - r-coxme
+  - r-tidyverse
