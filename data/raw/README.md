@@ -40,3 +40,13 @@ For each phytophagous species page: every active ingredient listed and its case 
 ### bold_summary_2026-11-13.csv
 
 BOLD Data Portal summary counts per species name (`tax:species:<name>`): specimens, records with any COI region, and records with the COI-5P barcode region.
+
+## Stage 2 files (13 November 2026, collected through the user's Chrome browser)
+
+### aprd_cases_part1_2026-11-13.txt and aprd_cases_part2_2026-11-13.txt
+
+Every resistance case on the 291 species × active-ingredient pages (`display.php?page=rrc`) for the phytophagous species in the three families: arId, ai_id, case ID, year of report, type of resistance, location, reference index. Part 1 keeps the browser's space-separated layout and full type labels; part 2 is pipe-separated with type codes (F field-evolved, U unspecified, L lab-selected only, LF lab-selected after field-evolved resistance, L+F, L+LF). Checksum from the browser: 1,027 rows, sum of numeric case IDs 7,748,965; `scripts/02_resistance.py` stops if either differs. Garbled characters in a few Turkish and Brazilian place names were written in plain ASCII (Cicekli, Sao Paulo) during transfer.
+
+### aprd_references_2026-11-13.txt
+
+The 283 references cited by those cases (index|citation as shown in the database). The same plain-ASCII fix was applied to three names (Doker, Cagatay, page range 996-1004).

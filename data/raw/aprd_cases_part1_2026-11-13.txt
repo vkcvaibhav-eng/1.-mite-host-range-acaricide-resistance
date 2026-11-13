@@ -1,0 +1,520 @@
+194 234 G1024 1965 F USA-- Washington 0
+123 234 G1011 1965 F USA-- Washington 0
+378 48 G6827 2002 U Afghanistan 1
+123 114 G3557 1979 F New Zealand 2
+290 209 G4346 1985 F Egypt 3
+123 102 G3556 1979 F New Zealand 2
+303 234 G1025 1965 F USA-- Washington 4
+379 67 G2162 1973 F Japan 5
+463 234 G165 1958 F Canada-- British Columbia 6
+379 70 G2163 1973 F Japan 5
+103 102 G1321 1968 F Chile 7
+103 241 G1323 1968 F Chile 7
+103 204 G1322 1968 F Chile 7
+597 396 G9616 2002 F Brazil-- Sao Paulo-- Piracicaba 8
+700 291 G20741 2021 F Brazil-- São Paulo-- Araraquara 9
+700 291 G20744 2021 F Brazil-- São Paulo-- Gavião Peixoto 9
+700 291 G20745 2021 F Brazil-- São Paulo-- Barretos 9
+700 291 G20746 2021 F Brazil-- São Paulo-- Gavião Peixoto 9
+411 1 G22520 2022 Lab selected after field-evolved resistance** China-- Gansu 10
+234 104 G4020 1982 F USA-- Louisiana 11
+411 234 G563 1965 F Poland 12
+412 36 G5663 2002 U USA-- Texas-- Muleshoe 13
+412 122 G3332 1977 F USA-- Texas 14
+412 114 G6834 2002 U USA-- Kansas 15
+412 51 G3331 1977 F USA-- Texas 14
+412 241 G3333 1977 F USA-- Texas 14
+412 263 G3394 1978 F USA-- Texas 16
+109 15 G4147 1984 F Japan 17
+109 1 G20873 2021 F Turkey-- Adana-- Yakapinar 18
+109 1 G20930 2021 F Turkey-- Agzibuyuk 18
+109 1 G20931 2021 F Turkey-- Cicekli 18
+109 1 G10513 2010 F China-- Fujian 19
+109 1 G10514 2010 F China-- Fujian 19
+109 1 G10515 2010 F China-- Zhejiang 19
+109 1 G10516 2010 F China-- Chongqing City 19
+109 1 G10517 2010 F China-- Hubei 19
+109 37 G2076 1973 F Japan 5
+109 33 G4148 1984 F Japan 20
+109 51 G564 1965 F USA-- Florida 21
+109 21 G14686 2011 F China-- Chongqing-- Zhongxian 22
+109 21 G14687 2011 F China-- Chongqing-- Zhongxian 22
+109 280 G2698 1975 F Japan 23
+109 63 G2696 1975 F Japan 23
+109 63 G1160 1967 F USA-- California 24
+109 108 G15379 2012 F Turkey-- Havutlu 25
+109 108 G15380 2012 F Turkey-- Kayarli 25
+109 108 G15381 2012 F Turkey-- Cicekli 25
+109 108 G15387 2012 F Turkey-- Havutlu 25
+109 108 G15388 2012 F Turkey-- Karadut 25
+109 108 G15389 2012 F Turkey-- Kayarli 25
+109 108 G15390 2012 F Turkey-- Cicekli 25
+109 108 G2069 1973 F Japan 5
+109 108 G1157 1967 F USA-- California 24
+109 114 G2217 1974 F USSR-- Georgia 26
+109 114 G2070 1973 F Japan 27
+109 98 G2068 1973 F Japan 27
+109 121 G565 1965 F USA-- Florida 21
+109 464 G20602 2020 F China-- Guangxi-- Nanning 28
+109 464 G20603 2020 F China-- Guangxi-- Guilin 28
+109 464 G20605 2020 F China-- Sichuan-- Daying 28
+109 464 G20604 2020 F China-- Sichuan-- Anyue 28
+109 464 G20606 2020 F China-- Sichuan-- Daying 28
+109 464 G20601 2020 F China-- Chongqing-- Liangping 28
+109 101 G1158 1967 F USA-- California 24
+109 132 G566 1965 F USA-- Florida 21
+109 145 G15382 2012 F Turkey-- Kayarli 25
+109 145 G15395 2012 F Turkey-- Havutlu 25
+109 145 G15396 2012 F Turkey-- Karadut 25
+109 145 G15397 2012 F Turkey-- Kayarli 25
+109 145 G15398 2012 F Turkey-- Cicekli 25
+109 396 G10522 2010 F China-- Fujian 19
+109 396 G10523 2010 F China-- Zhejiang 19
+109 396 G10524 2010 F China-- Hubei 19
+109 149 G20593 2020 F China-- Chongqing-- Wanzhou 28
+109 149 G20594 2020 F China-- Chongqing-- Wanzhou 28
+109 149 G20595 2020 F China-- Chongqing-- Liangping 28
+109 149 G20599 2020 F China-- Sichuan-- Anyue 28
+109 149 G20598 2020 F China-- Guangxi-- Guilin 28
+109 149 G20597 2020 F China-- Guangxi-- Nanning 28
+109 149 G20596 2020 F China-- Yunnan-- Yuxi 28
+109 149 G20600 2020 F China-- Sichuan-- Anyue 28
+109 149 G10521 2010 F China-- Hubei 19
+109 149 G10520 2010 F China-- Chongqing City 19
+109 149 G10519 2010 F China-- Zhejiang 19
+109 149 G10518 2010 F China-- Fujian 19
+109 244 G2072 1973 F Japan 5
+109 221 G2697 1975 F Japan 23
+109 238 G2071 1973 F Japan 5
+109 241 G1324 1968 F South Africa 29
+109 241 G1159 1967 F USA-- California 24
+109 274 G21799 2023 Lab selected after field-evolved resistance** China 30
+109 274 G21792 2023 F China 30
+109 274 G20875 2021 F Turkey-- Adana-- Cicekl 18
+109 274 G20874 2021 F Turkey-- Adana-- Yakapinar 18
+109 274 G21793 2023 F China 30
+109 274 G21795 2023 F China 30
+109 274 G21796 2023 F China 30
+109 274 G21798 2023 F China 30
+109 274 G21794 2023 F China 30
+109 274 G21791 2023 F China 30
+109 274 G21790 2023 F China 30
+109 274 G21789 2023 F China 30
+109 274 G21797 2023 F China 30
+109 274 G10530 2010 F China-- Hubei 19
+109 274 G10529 2010 F China-- Chongqing City 19
+109 274 G10528 2010 F China-- Zhejiang 19
+109 274 G10527 2010 F China-- Fujian 19
+109 274 G10526 2010 F China-- Fujian 19
+109 274 G10525 2010 F China-- Fujian 19
+109 285 G2073 1973 F Japan 27
+109 291 G21575 2022 Lab selected*Field Evolved Resistance China-- Danling Sichuan 31
+109 291 G20932 2021 F Turkey-- Misis 18
+109 291 G15386 2012 F Turkey-- Cicekli 25
+109 291 G15385 2012 F Turkey-- Kayarli 25
+109 291 G15384 2012 F Turkey-- Karadut 25
+109 291 G15383 2012 F Turkey-- Havutlu 25
+109 291 G15378 2012 F Turkey-- Cicekli 25
+109 291 G15377 2012 F Turkey-- Karadut 25
+109 291 G15376 2012 F Turkey-- Havutlu 25
+109 291 G10512 2010 F China-- Zhejiang 19
+109 291 G10510 2010 F China-- Fujian 19
+109 291 G10511 2010 F China-- Fujian 19
+109 312 G2074 1973 F Japan 27
+109 417 G10540 2010 F China-- Fujian 19
+109 417 G10541 2010 F China-- Fujian 19
+532 1 G20229 2019 F Iran-- Shahin Dej 32
+532 1 G20230 2019 F Iran-- Mahabad 32
+532 1 G20231 2019 F Iran-- Mianeh 32
+532 1 G20232 2019 F Iran-- Ahar 32
+532 1 G20233 2019 F Iran-- Semirom 32
+532 1 G20234 2019 F Iran-- Salmas 32
+532 1 G20235 2019 F Iran-- Marand 32
+532 1 G5946 1998 U USA 33
+109 313 G15391 2012 F Turkey-- Havutlu 25
+109 313 G15392 2012 F Turkey-- Karadut 25
+109 313 G15393 2012 F Turkey-- Kayarli 25
+109 313 G15394 2012 F Turkey-- Cicekli 25
+109 313 G2075 1973 F Japan 27
+109 313 G1161 1967 F USA-- California 24
+109 313 G567 1965 F USA-- Florida 21
+109 326 G2699 1975 F Japan 23
+532 15 G10894 2007 Lab selected after field-evolved resistance** Turkey-- Bursa 34
+532 19 G3346 1977 F Australia-- New South Wales 35
+532 19 G2723 1975 F New Zealand 36
+532 19 G2318 1974 F Canada-- Ontario 37
+532 19 G2317 1974 F USA-- North Carolina 38
+532 19 G2316 1974 F USA-- Maine 39
+532 19 G2315 1974 F USA-- Illinois 40
+532 19 G2098 1973 F USA-- Michigan 41
+532 19 G1357 1968 F Chile 42
+532 19 G1190 1967 F USA-- Maryland 24
+532 19 G679 1965 F Canada-- Quebec 43
+532 51 G2099 1973 F New Zealand 44
+532 51 G1358 1968 F Chile 42
+532 37 G3342 1977 F Australia-- New South Wales 35
+532 37 G2711 1975 F United Kingdom 45
+532 37 G2274 1974 F USA-- Illinois 40
+532 41 G10892 2007 Lab selected after field-evolved resistance** Turkey-- Bursa 34
+532 33 G4153 1984 F Japan 20
+532 49 G2268 1974 F USA-- Illinois 40
+532 280 G2713 1975 F New Zealand 36
+532 280 G2275 1974 F USA-- Illinois 40
+532 280 G2276 1974 F USA-- Washington 46
+532 56 G569 1967 F New Zealand 24
+532 56 G570 1965 F United Kingdom 47
+532 59 G4945 1988 F USA-- New York 48
+532 59 G2712 1975 F Japan 23
+532 59 G2091 1973 F USA-- Michigan 41
+532 63 G2269 1974 F Canada-- Nova Scotia 49
+532 63 G2084 1973 F Japan 27
+532 63 G2085 1973 F USA-- Michigan 41
+532 63 G1186 1967 F New Zealand 24
+532 63 G630 1985 F USA-- California 50
+532 63 G631 1965 F United Kingdom 47
+532 63 G632 1965 F USA-- Washington 4
+532 389 G6605 2001 U France 51
+532 389 G5325 1991 U Australia-- New South Wales 52
+532 389 G5327 1991 U USA-- Pennsylvania 53
+532 64 G2086 1973 F New Zealand 44
+532 72 G9721 2009 F Turkey-- Bursa-- Gursu-Agakoy 54
+532 72 G9722 2009 F Turkey-- Bursa-- Iznik-Merkez 54
+532 90 G4842 1987 F Canada-- Ontario 55
+532 67 G2077 1973 F USA-- Michigan 41
+532 67 G571 1965 F USA-- Washington 4
+532 98 G568 1965 F France 56
+532 101 G2724 1975 F New Zealand 36
+532 101 G2319 1974 F USA-- Illinois 40
+532 101 G2320 1974 F Canada-- Ontario 37
+532 101 G2321 1974 F Sweden 57
+532 101 G2322 1974 F Switzerland 58
+532 101 G2100 1973 F USA-- Michigan 41
+532 101 G680 1965 F Denmark 59
+532 105 G2323 1974 F USA-- Illinois 40
+532 105 G2324 1974 F Portugal 60
+532 102 G1619 1970 F France 61
+532 102 G1518 1969 F Korea 62
+532 102 G681 1965 F Norway 63
+532 102 G682 1965 F United Kingdom 47
+532 109 G2657 1974 F Canada-- Ontario 37
+532 109 G2658 1974 F Switzerland 58
+532 109 G1012 1965 F Denmark 59
+532 108 G5108 1989 F Canada 64
+532 108 G4149 1984 F Yugoslavia 65
+532 108 G3395 1978 F USSR 66
+532 108 G2219 1974 F Portugal 60
+532 108 G2218 1974 F USA-- North Carolina 38
+532 108 G2080 1973 F Canada-- Ontario 67
+532 108 G2079 1973 F USA-- Michigan 41
+532 108 G2078 1973 F Japan 27
+532 108 G1749 1971 F Bulgaria 68
+532 108 G1506 1969 F Korea 62
+532 108 G1505 1969 F USA-- Pennsylvania 69
+532 108 G1325 1968 F Israel 70
+532 108 G1164 1967 F USA-- West Virginia 24
+532 108 G1163 1967 F New Zealand 24
+532 108 G1162 1967 F USA-- Indiana 24
+532 108 G574 1965 F USA-- Washington 0
+532 108 G573 1965 F United Kingdom 47
+532 108 G572 1965 F USA-- Illinois 71
+532 114 G3500 1978 F USSR 66
+532 114 G1013 1965 F United Kingdom 47
+532 132 G2659 1974 F USA-- Illinois 40
+532 132 G2660 1974 F Canada-- Ontario 37
+532 132 G2160 1973 F New Zealand 44
+532 144 G14661 2003 F France-- Tarn 72
+532 144 G14662 2003 F France-- Gard 72
+532 144 G14663 2003 F France-- Garrone 72
+532 144 G14664 2003 F France-- Vaucluse 72
+532 149 G20046 2019 F Azerbaijan-- Marand 73
+532 149 G20047 2019 F Azerbaijan-- Mianeh 73
+532 149 G20048 2019 F Azerbaijan-- Maraqeh 73
+532 153 G2661 1974 F Canada-- Ontario 37
+532 396 G6604 2001 U France 51
+532 396 G5326 1991 U Australia-- New South Wales 52
+532 172 G2087 1973 F USA-- Michigan 41
+532 172 G635 1965 F USA-- Washington 4
+532 210 G3386 1977 F Australia-- New South Wales 35
+532 210 G2800 1975 F Germany 74
+532 210 G2666 1974 F Portugal 60
+532 151 G2270 1974 F Norway 57
+532 151 G633 1965 F United Kingdom 47
+532 151 G634 1965 F USA-- Washington 4
+532 204 G2662 1974 F USA-- Illinois 40
+532 204 G2663 1974 F Canada-- Ontario 37
+532 204 G2664 1974 F Portugal 60
+532 204 G2665 1974 F Sweden 57
+532 204 G1290 1967 F USA-- Indiana 24
+532 204 G1014 1965 F Canada-- British Columbia 75
+532 204 G1015 1965 F Denmark 59
+532 204 G1016 1965 F Australia-- Tasmania 76
+532 204 G1017 1965 F USA-- Virginia 77
+532 218 G2667 1974 F Canada-- Ontario 37
+532 218 G1018 1965 F Denmark 59
+532 233 G2161 1973 F New Zealand 44
+532 241 G2709 1975 F New Zealand 36
+532 241 G2708 1975 F Germany 74
+532 241 G2258 1974 F USA-- Illinois 40
+532 241 G2259 1974 F USA-- North Carolina 38
+532 241 G2260 1974 F Canada-- Ontario 37
+532 241 G2261 1974 F Portugal 57
+532 241 G2262 1974 F Sweden 57
+532 241 G2082 1973 F USA-- Michigan 41
+532 241 G1953 1971 F Bulgaria 68
+532 241 G1509 1969 F Korea 62
+532 241 G1184 1967 F USA-- Indiana 24
+532 241 G1023 1965 F Denmark 59
+532 241 G624 1965 F Italy 78
+532 241 G625 1965 F Australia-- Tasmania 76
+532 241 G626 1965 F United Kingdom 47
+532 241 G627 1965 F USA-- Virginia 77
+532 241 G1019 1965 F Austria 79
+532 241 G1020 1965 F Canada-- British Columbia 75
+532 241 G1021 1985 F USA-- California 50
+532 241 G1022 1965 F USA-- Delaware 80
+532 241 G32 1951 F USA-- Washington 81
+532 234 G2220 1974 F Norway 60
+532 234 G1971 1972 F Germany 82
+532 234 G1166 1967 F USA-- Pennsylvania 24
+532 234 G1165 1967 F Bulgaria 83
+532 234 G576 1965 F USA-- Delaware 80
+532 234 G577 1965 F France 84
+532 234 G578 1965 F USA-- Illinois 71
+532 234 G579 1965 F Italy 85
+532 234 G580 1965 F Canada-- Nova Scotia 86
+532 234 G581 1965 F USA-- Ohio 87
+532 234 G582 1965 F Poland 12
+532 234 G583 1965 F Canada-- Quebec 43
+532 234 G678 1965 F USA-- Washington 0
+532 234 G575 1965 F Austria 79
+532 234 G453 1964 F Australia-- Tasmania 88
+532 234 G440 1964 F USA-- Indiana 89
+532 234 G389 1963 F Lebanon 90
+532 234 G265 1961 F Japan 91
+532 234 G209 1960 F Syria 92
+532 234 G169 1959 F Canada-- Ontario 93
+532 234 G168 1959 F Netherlands 94
+532 234 G143 1958 F United Kingdom 95
+532 234 G111 1965 F Switzerland 96
+532 234 G108 1957 F USA-- South Carolina 97
+532 234 G107 1957 F USA-- Mississippi 97
+532 234 G106 1957 F USA-- California 97
+532 234 G54 1954 F Canada-- British Columbia 98
+532 234 G34 1952 F USA-- New York 99
+532 242 G1488 1968 F Chile 42
+532 242 G1291 1967 F Bulgaria 83
+532 251 G2266 1974 F USA-- Illinois 40
+532 251 G2267 1974 F Canada-- Ontario 37
+532 250 G2264 1974 F USA-- Illinois 40
+532 250 G2265 1974 F USA-- Maine 39
+532 244 G2263 1974 F Switzerland 58
+532 244 G2083 1973 F Japan 27
+532 244 G628 1965 F United Kingdom 47
+532 263 G4152 1984 F New Zealand 100
+532 263 G3341 1977 F Australia 35
+532 263 G2271 1974 F USA-- Illinois 40
+532 291 G13717 2011 Lab selected after field-evolved resistance** Germany-- Heidenfahrt-Heidesheim 101
+532 291 G13718 2011 Lab selected after field-evolved resistance** Germany-- Heidenfahrt-Heidesheim 101
+532 313 G2273 1974 F USA-- North Carolina 38
+532 313 G2272 1974 F Austria 102
+532 313 G2090 1973 F Canada-- Ontario 67
+532 313 G2089 1973 F USA-- Michigan 41
+532 313 G2088 1973 F Japan 27
+532 313 G1752 1971 F Bulgaria 68
+532 313 G1332 1968 F Israel 70
+532 313 G1187 1967 F New Zealand 24
+532 313 G638 1965 F USA-- Washington 4
+532 313 G637 1965 F United Kingdom 47
+532 313 G636 1985 F USA-- California 50
+532 305 G14665 2003 F France-- Tarn 72
+532 305 G14666 2003 F France-- Gard 72
+532 305 G14667 2003 F France-- Garonne 72
+532 305 G14668 2003 F France-- Vaucluse 72
+532 316 G1753 1971 F Bulgaria 68
+532 337 G2710 1975 F Japan 23
+354 108 G5531 1994 U USA 103
+532 324 G1185 1967 F Bulgaria 83
+532 324 G629 1965 F Denmark 59
+354 340 G1292 1967 F USA-- Florida 24
+354 340 G1026 1965 F Cyprus 104
+16 234 G639 1965 F Denmark 59
+33 242 G1980 1972 F Egypt 105
+48 19 G3585 1980 F Iraq 106
+33 108 G1979 1972 F Egypt 105
+33 249 G1981 1972 F Egypt 105
+48 114 G2277 1974 F Bulgaria 107
+48 234 G3584 1980 F Iraq 106
+48 234 G640 1965 F France 84
+48 234 G141 1958 F USA-- California 108
+48 241 G2278 1974 F Bulgaria 107
+48 324 G2279 1974 F Bulgaria 107
+65 130 G641 1965 F USA-- Ohio 109
+106 280 G2284 1974 F Japan 110
+106 15 G4280 1985 F South Africa 111
+65 114 G642 1965 F Colombia 112
+106 1 G19399 2010 Lab selected* China 113
+106 1 G8720 2009 Lab selected after field-evolved resistance** China-- Chongqing-- Beibei District 114
+106 1 G9655 2009 Lab selected* China-- Chongqing-- Beibei 115
+84 234 G202 1960 F USA-- Illinois 116
+106 67 G2280 1974 F Japan 110
+106 464 G20889 2021 Lab selected* China-- Yunnan 117
+106 464 G21138 2021 Lab selected after field-evolved resistance** China-- Yunnan 118
+106 464 G20360 2020 Lab selected after field-evolved resistance** China-- Yunnan 119
+106 464 G19197 2016 Lab selected* China-- Chongqing-- Beibei District 120
+106 464 G16073 2014 Lab selected*Lab selected after field-evolved resistance** China-- Chongqing District-Controlled Municipality-- Beibei District 121
+106 464 G20241 2019 F China-- Chongqing-- Tongnan 122
+106 101 G4946 1988 F China 123
+106 101 G1982 1972 F Iran 124
+106 102 G644 1965 F Germany 125
+106 114 G1983 1972 F Zimbabwe 126
+106 108 G5773 2001 U Turkey-- Antalya 127
+106 108 G1333 1968 F Israel 70
+106 204 G2281 1974 F Japan 128
+106 204 G1615 1970 F Israel 129
+106 149 G19196 2016 Lab selected* China-- Chongqing-- Beibei District 120
+106 149 G17211 2015 Lab selected* China 130
+106 149 G8721 2009 Lab selected after field-evolved resistance** China-- Chongqing-- Beibei District 114
+106 149 G8722 2009 Lab selected after field-evolved resistance** China-- Chongqing-- Beibei District 114
+106 149 G8723 2009 Lab selected after field-evolved resistance** China-- Chongqing-- Beibei District 114
+106 238 G2282 1974 F Japan 128
+106 234 G643 1965 F USA-- Wisconsin 131
+106 234 G451 1964 F USA-- Alabama 89
+106 234 G452 1964 F USA-- California 89
+106 234 G170 1959 F USA-- Arizona 132
+106 244 G2283 1974 F Japan 128
+106 241 G4947 1988 F China 123
+106 241 G645 1965 F Germany 125
+106 263 G16316 2014 Lab selected* China-- Chongqing 133
+106 324 G1985 1972 F Iran 124
+106 251 G1984 1972 F Iran 124
+106 274 G20240 2019 F China-- Chongqing-- Tongnan 122
+129 114 G2285 1974 F USSR-- Ukraine 134
+129 169 G2286 1974 F USSR-- Ukraine 134
+129 204 G2287 1974 F USSR-- Ukraine 134
+133 108 G1986 1972 F Egypt 105
+133 242 G1987 1972 F Egypt 105
+144 241 G1334 1968 F Mexico 135
+144 242 G1336 1968 F Mexico 135
+144 102 G1335 1968 F Mexico 135
+242 241 G1337 1968 F Mexico 135
+242 241 G1340 1968 F Mexico 135
+242 102 G1338 1968 F Mexico 135
+242 242 G1339 1968 F Mexico 135
+242 248 G1341 1968 F Mexico 135
+263 90 G4948 1988 F Japan 136
+263 64 G2718 1975 F Japan 23
+263 56 G2714 1975 F Japan 23
+263 108 G2092 1973 F Japan 5
+263 150 G5965 1998 U Japan 137
+263 122 G2715 1975 F Japan 23
+263 169 G2716 1975 F Japan 23
+263 238 G2093 1973 F Japan 5
+263 274 G5966 1998 U Japan 137
+263 305 G5964 1998 U Japan 137
+263 324 G2717 1975 F Japan 23
+263 244 G2094 1973 F Japan 5
+286 102 G3345 1977 F Australia-- New South Wales 138
+286 210 G3344 1977 F Australia-- New South Wales 138
+306 19 G2289 1974 F USA-- Utah 139
+286 241 G3343 1977 F Australia-- New South Wales 138
+306 63 G2294 1974 F USA-- Utah 139
+306 67 G1188 1967 F USA-- Washington 24
+306 37 G1092 1966 F USA-- Washington 140
+306 51 G2290 1974 F USA-- Utah 139
+306 90 G4281 1985 F USA-- Utah 141
+306 101 G2291 1974 F USA-- Utah 139
+306 234 G647 1965 F USA-- Washington 0
+306 234 G648 1965 F Canada-- British Columbia 75
+306 234 G649 1965 F USA-- Utah 142
+306 298 G2295 1974 F USA-- Utah 139
+306 105 G2292 1974 F USA-- Utah 139
+306 313 G2296 1974 F USA-- Utah 139
+306 313 G267 1961 F USA-- Washington 143
+306 241 G2293 1974 F USA-- Utah 139
+306 241 G35 1952 F USA-- Washington 144
+306 108 G2288 1974 F USA-- Utah 139
+306 108 G646 1965 F Canada-- British Columbia 75
+306 108 G266 1961 F USA-- Washington 143
+368 90 G4920 1987 F USA-- California 145
+368 98 G1510 1969 F USA-- California 146
+368 234 G142 1958 F USA-- California 108
+368 234 G47 1953 F USA-- Washington 147
+368 108 G1511 1969 F USA-- California 146
+368 263 G5100 1989 F USA 148
+368 263 G4830 1987 F USA-- California 145
+464 234 G203 1960 F USA-- Virginia 116
+464 108 G650 1965 F USA-- Virginia 77
+529 98 G2297 1974 F Barbados 149
+529 241 G55 1954 F USA-- Texas 150
+530 1 G5616 1995 U USA 151
+530 36 G5530 1994 U USA 152
+530 145 G5613 1995 U Australia 153
+530 302 G5615 1995 U Australia 153
+536 2 G3512 1979 F United Kingdom 154
+530 263 G5614 1995 U Australia 153
+536 387 G23592 2025 F Turkey-- Antalya 155
+536 387 G23593 2025 F Turkey-- Antalya 155
+536 387 G23594 2025 F Turkey-- Ankara 155
+536 387 G7521 2006 Lab selected* Belgium-- East Flanders-- Ghent 156
+536 387 G23595 2025 F Turkey-- Izmir 155
+536 5 G15094 2013 F Cyprus-- Kiti 157
+536 5 G15093 2013 F Cyprus-- Arediou 157
+536 5 G15095 2013 F Cyprus-- Argaka 157
+536 5 G15096 2013 F Cyprus-- Xylofagou 157
+536 5 G7220 2004 U Korea 158
+536 1 G23740 2025 F China-- Hubei-- Wuhan 159
+536 1 G23739 2025 F China-- Shandong-- Shouguang 159
+536 1 G23741 2025 F China-- Hainan-- Sanya 159
+536 1 G22015 2023 F China-- Shanghai-- Qingpu 160
+536 1 G21496 2022 Lab selected after field-evolved resistance** Greece 161
+536 1 G20371 2020 F United Kingdom 162
+536 1 G20370 2020 F Italy 162
+536 1 G20372 2020 F Spain 162
+536 1 G20558 2020 F Italy-- Scicily-- Vittoria 163
+536 1 G20554 2020 F United Kingdom-- Double Yew Nursery 163
+536 1 G20560 2020 F Netherlands-- Limburg-- Meterik 163
+536 1 G20559 2020 F Spain-- Lugo-- Monforte de Lemos 163
+536 1 G20562 2020 F Netherlands-- Limburg-- Meterik 163
+536 1 G20567 2020 F Italy-- Scicily-- Granieri 163
+536 1 G20609 2018 Lab selected after field-evolved resistance** USA-- Washington -- Prosser 164
+536 1 G20556 2020 F Belgium-- Flemish-- Merelbeke 163
+536 1 G20005 2018 F China-- Zhejiang-- Ningbo 165
+536 1 G20002 2018 F China-- Beijing-- Changping 165
+536 1 G19998 2018 F China-- Beijing-- Shunyi 165
+536 1 G20563 2020 F Italy-- Scicily-- Granieri 163
+536 1 G20003 2018 F China-- Beijing-- Haidian 165
+536 1 G19992 2018 F China-- Beijing-- Miyun 165
+536 1 G19989 2018 F China-- Heilongjiang-- Harbin 165
+536 1 G20006 2018 F China-- Hainan-- Jiyang 165
+536 1 G20887 2021 F China-- Zhejiang-- Ningbo 166
+536 1 G20888 2021 F China-- Beijing-- Shunyi 166
+536 1 G20553 2020 F Italy-- Ragusa-- Comiso 163
+536 1 G20555 2020 F Spain-- Sevilla 163
+536 1 G20557 2020 F United Kingdom-- Worcestershire 163
+536 1 G20566 2020 F United Kingdom-- Nazeing 163
+536 1 G20060 2018 F Turkey-- Mugla-- Fethiye 167
+536 1 G20061 2018 F Turkey-- Antalya 167
+536 1 G20059 2018 F Turkey-- Mugla-- Fethiye 167
+536 1 G18631 2015 F Brazil-- Pernambuco-- Bonito 168
+536 1 G18630 2015 F Brazil-- Pernambuco-- Brejao 168
+536 1 G18629 2015 F Brazil-- Pernambuco-- Goiania 168
+536 1 G18628 2015 F Brazil-- Pernambuco-- Gravata 168
+536 1 G18627 2015 F Brazil-- Pernambuco-- Petrolina 168
+536 1 G17149 2014 F China-- Beijing-- Miyun 169
+536 1 G17148 2014 F China-- Beijing-- Changping 169
+536 1 G17124 2014 F China-- Beijing-- Changping 169
+536 1 G17125 2014 F China-- Beijing-- Miyun 169
+536 1 G17131 2014 F China-- Beijing-- Changping 169
+536 1 G17885 2015 F Brazil-- Sao Paulo-- Piracicaba 170
+536 1 G17132 2014 F China-- Beijing-- Miyun 169
+536 1 G17130 2014 F China-- Beijing-- Huairou 169
+536 1 G17126 2014 F China-- Beijing-- Haidian 169
+536 1 G17123 2014 F China-- Beijing-- Huairou 169
+536 1 G16424 2014 Lab selected after field-evolved resistance** Egypt 171
+536 1 G16059 2014 Lab selected after field-evolved resistance** Greece-- Athens 172
+536 1 G17133 2014 F China-- Beijing-- Haidian 169
+536 1 G17886 2015 F Brazil-- Sao Paulo-- Piracicaba 170
+536 1 G17884 2015 F Brazil-- Sao Paulo-- Piracicaba 170
+536 1 G17883 2015 F Brazil-- Sao Paulo-- Piracicaba 170
+536 1 G17882 2015 F Brazil-- Sao Paulo-- Piracicaba 170
+536 1 G17881 2015 F Brazil-- Sao Paulo-- Piracicaba 170

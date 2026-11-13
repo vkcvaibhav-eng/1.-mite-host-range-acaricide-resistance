@@ -3,10 +3,13 @@
 
 .PHONY: all feasibility clean-results
 
-all: feasibility
+all: feasibility resistance
 
 feasibility:
 	python scripts/01_feasibility.py
 
 clean-results:
 	rm -rf results/tables/* results/figures/*
+
+resistance:
+	python scripts/02_resistance.py

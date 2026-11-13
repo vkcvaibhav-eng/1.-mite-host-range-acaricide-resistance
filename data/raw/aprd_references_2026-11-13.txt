@@ -1,0 +1,283 @@
+0|Anthon 1965. (1965).
+1|Anonymous. (2002). IRAC Survey Spreadsheet. IRAC website.
+2|Baker, R. T. (1979). Insecticide resistance in the peach silver mite Aculus cornutus (Banks) (Acari: Eriophyidae).. N. Z. J. Exp. Agric., 7 405-06.
+3|Abou-Awad, B. A. and El-Banhawy, E. M. (1985). Susceptibility of the tomato russet mite, Aculops lycopersici (Acari: Eriophyidae) in Egypt to methamidophos, pyridaphenthion, cypermethrin, dicofol and fenamirol.. Exp. Appl. Acarol., 1 11-16.
+4|Hoyt, S.C. (1965). In: FAO 1967.
+5|Nomura, K. (1973). Review of acaricide resistance in red spider mites in Japan.. Rev. Plant Prot. Res., 6 44-58.
+6|Morgan, C. V. G. and Anderson, N. H. (1958). Notes on paration-resistant strains of two phytophagous mites and a predacious mite in British Columbia.. Can. Entomol., 90 92-97.
+7|Gonzalez 1968. (1968).
+8|Campos, F.J., Omoto, C. (2002). Resistance to hexythiazox in Brevipalpus phoenicis. Experimental and Applied Acarology, 26 243-251.
+9|Rocha, C. M., Della Vechia, J. F., Savi, P. J., Omoto, C., and Andrade, D. J. (2021). Resistance to spirodiclofen in Brevipalpus yothersi (Acari: Tenuipalpidae) from Brazilian citrus groves: detection, monitoring, and population performance. Pest Management Science.
+10|Ou, Chun & Jiang, Nan & Cheng, Wenhui & Lei, Tiantian & Jiang, Shuanglin & Yao, Xiamei. (2022). Detoxification enzyme activity, reproductive and developmental fitness of abamectin-resistant Bryobia praetiosa (Acari:Tetranychidae). Phytoparasitica, 51 101-112.
+11|Boethel, D. J. (1982). Resistance in the pecan leaf scorch mite, Eotetranychus hicorae (McGregor) (Acari: Tetranychidae): implications in pecan.. Entomol. Soc. Amer. Misc. Public., 12 31-44.
+12|Wegorek 1965. (1965).
+13|Bynum, E.D. JR., and T.L. Archer. (2002). Suseptibility of populations of Banks grass mites (Acari: Tetranychidae) suspected of developing bifenthrin resistance from three maize fields.. Experimental and Applied Acarology, 27 303-312.
+14|Ward, C. R. and Tan, F. M. (1977). Organophosphate resistance in the Banks grass mite.. J. Econ. Entomol., 70 250-52.
+15|Yang, X., L.L. Buschman, K.Y. Zhu, and D.C. Margolies. (2002). Susceptibility and detoxifying enzyme activity in two spider mite species (Acari: Tetranychidae) after selection with three insecticides. Journal of Economic Entomology, 95(2) 399-406.
+16|Archer, T. L., and Bynum, E. D. (1978). Pesticide resistance by arthropod pests on feed grains.. Southwest. Entomol., 3 251-59.
+17|Inoue, K. (1984). Resistance to armitraz in the citrus red mite Panonychus citri in relation to population genetics.. Jpn. J. Appl. Entomol. Zool., 28 260-68.
+18|Doker, I., Kazak, C., Ay, R. (2021). Resistance status and detoxification enzyme activity in ten populations of Panonychus citri (Acari: Tetranychidae) from Turkey. Crop Protection, 141.
+19|Hu, J., Wang, C., Wang, J., You, Y., and Chen, F. (2010). Monitoring of resistance to spirodiclofen and five other acaricides in Panonychus citri collected from Chinese citrus orchards. Pest Management Science, 66 1025-1030.
+20|Iwata, T. (1984). Personal communication.
+21|Johnson 1965. (1965).
+22|Niu, J., Liu, G., Dou, W., and Wang, J. (2011). Susceptibility and Activity of Glutathione S-Transferases in Nine Field Populations of Panonychus citri (Acari: Tetranychidae) to Pyridaben and Azocyclotin. Florida Entomologist , 94 321-329.
+23|Asakawa, M. (1975). Insecticide resistance in agricultural insect pests of Japan.. Jpn. Pestic. Inf., 23 5-8.
+24|(1967). Report of the First Session of the FAO Working Party of Experts on Resistance of Pests to Pesticides.. FAO, Rome 1965.
+25|Doker, I., and Kazak, C. (2012). Detecting acaricide resistance in Turkish populations of Panonychus citri McGregor (Acari: Tetranychidae). Systematic & Applied Acarology, 17(4) 368-377.
+26|Novidkaya & Abzianidze 1974. (1974).
+27|Anon. 1973. (1973).
+28|Pan, D., Dou, W.,Yuan, G. R., Zhou, Q. H., and Wang J. J. (2020). Monitoring the Resistance of the Citrus Red Mite (Acari: Tetranychidae) to Four Acaricides in Different Citrus Orchards in China. Journal of Economic Entomology, 113 918-923.
+29|Milne, D.L. (1968). In: FAO 1969.
+30|Pan, D., Xia, M. H., Luo, Q. J., Liu, X. Y., Li, C. Z., Yuan, G. R., Wang, J. J., & Dou, W. (2023). Resistance of Panonychus citri (McGregor) (Acari: Tetranychidae) to pyridaben in China: monitoring and fitness costs.. Pest management science, 79 996-1004.
+31|Lu-Yan Cheng, Dong-Yuan Hou , Qin-Zhe Sun, Shi-Jiang Yu, Si-Chen Li, Hao-Qiang Liu, Lin Cong and Chun Ran. (2022). Biochemical and Molecular Analysis of Field Resistance to Spirodiclofen in Panonychus citri (McGregor). Insect, 13 1011.
+32|Rameshgar, F., Khajehali, J., Nauen, R., Dermauw, W., and Van Leewen, T. (2019). Characterization of abamectin resistance in Iranian populations of European red mite, Panonychus ulmi Koch (Acari: Tetranychidae). Crop Protection, 125 104903.
+33|Beers, E.H., H. Riedl, and J.E. Dunley. (1998). Resistance to Abamectin and Reversion to susceptibility to Fenbutatin Oxide in Spider Mite (Acari: Tetranychidae) populations in the pacific northwest. Journal of Economic Entomology, 91(2) 352-360.
+34|N. Kumral, B. Kovanci. (2007). Susceptibility of female populations of Panonychus ulmi (Koch) (Acari: Tetranychidae) to some acaricides in appple orchards . Journal of Pest Science , 80 131-137.
+35|Bower, C. C. (1977). European red mite -- apple pest in N.. S. W. Agric. Gaz. N. S. W., 88 40-41.
+36|Collyer, E. and van Geldermalsen, M. (1975). Integrated control of apple pests in New Zealand.. I. Outline of experiment and general results. N. Z. J. Zool., 2 101-34.
+37|Herne 1974. (1974).
+38|Rock, G.C. (1974). Communication to FAO.
+39|Dimond 1974. (1974).
+40|Meyer 1974. (1974).
+41|Croft, B. A. and McGroarty, D. L. (1973). A model study of acaricide resistance, spider mite outbreaks, and biological control patterns in Michigan apple orchards.. Environ. Entomol., 2 633-38.
+42|Caballero 1968. (1968).
+43|Parent 1965. (1965).
+44|Helson, G. A. H. (1973). Insect pests of European red mite.. N. Z. J. Agric., 126 30.
+45|Cranham, J. E. (1975). Resistance to binapcryl in field populations of fruit tree red spider mite, Panonychus ulmi (Koch).. Plant Path., 24 39-44.
+46|Hoyt 1974. (1974).
+47|Dicker, G.H.L. (1965). In: FAO 1967.
+48|Welty et al. 1988. (1988).
+49|MacPhee 1974. (1974).
+50|Nickel, J.L. (1985). In: FAO 1967.
+51|Nauen, R., N. Stumpf, A. Elbert, C.P.W. Zebitz, and W. Kraus. (2001). Acaricide toxicity and resistance in larvae of different strains of Tetranychus urticae and Panonychus ulmi (Acari: Tetranychidae). Pest Manag Sci, 57 253-261.
+52|Graham, T.W. (1991). Resistance to Clofentezine and Hexythiazox in Panonychus ulmi from apples in Australia. Experimental & Applied Acarology, 11 73-80.
+53|Reissig, W.H., and L.A. Hull. (1991). Hexythiazox Resistance in a Field Population of European Red Mite (Acari: Tetranychidae) on Apples. Journal of Economic Entomology, 84(3) 727-735.
+54|Kumral, N.A., Susurluk, H., Gencer, N.S., Gurkan, M.O. (2009). Resistance to chlorpyrifos and lambda-cyhalothrin along with detoxifying enzyme activities in field-collected female populations of European red mite. Phytoparasitica, 37 7-15.
+55|Pree, D. J. and Wagner, H. W. (1987). Occurrence of cyhexatin and dicofol resistance in the European red mite, Panonychus ulmi (Koch) in southern Ontario.. Can. Entomol., 119 287-290.
+56|Gosswald & Mathur 1965. (1965).
+57|Anon. 1974c. (1974).
+58|Wildbolz 1974. (1974).
+59|Peterson, H.I. (1965). In: FAO 1967.
+60|Anon. 1974a. (1974). Communication to FAO. Laboratorio de Fitofarmacologia, Oerias, Portugal.
+61|Pfeiffer, C. I. And Ayats, J. F. (1970). Resistance a deux acaricides organophosphores d'une souche d'acariens dans la region parisienne.. Phytoma, 218 33-37.
+62|Lee, S.C. (1969). Resistance to parathion and kelthane of mites in Korea.. Korean Soc. Plant. Prot., 12 91-96.
+63|Fjelddalen, J. (1965). In: FAO 1967.
+64|Pree D.J., K.J. Cole, and P.A. Fisher. (1989). Comparison of Leaf Disc and Petri Dish Assays for the Assessment of Dicofol resistance in populations of European Red Mite From Southern Ontario. Canadian Entomologist, 121 771-776.
+65|Stamenkovic, T. (1984). Gaining resistance of Panonychus ulmi Kock (Tetranychidae) to some acaricides from the chlorinated carbohydrates group.. Plant Protection (Zastita Bilja), 170 309-16.
+66|Galetenko, S. M. (1978). Resistance of tetranychid mites.. (In Russian.) Zashch. Rast. (Mosc.), 12 21.
+67|Herne, D. H. C. (1973). Methodology for assessing resistance in the European red mite.. Proc. 3rd Int. Conf. Acarology, Prague, 1971, pp. 663-67.
+68|Balevski, A. (1971). Spinnmilbenbekampfung in Obstanlagen.. Int. Z. Landwirtsch., 1971 327-34.
+69|(1969). Report of the Fourth Session of the FAO Working Party of Experts on Resistance of Pests to Pesticides.. FAO, Rome 1968.
+70|Plaut 1968. (1968).
+71|Meyer 1965. (1965).
+72|Auger, P., Bonafos, R., Guichou, S., Kreiter, S. (2003). Resistance to fenazaquin and tebufenpyrad in Panonychus ulmi Koch (Acari: Tetranychidae) populations from South of France apple orchards. Crop Protection, 22 1039-1044.
+73|Rameshgar, F., Khajehali, J., Nauen, R., Bajdac, S., Jonckheerec, W., Dermauwc, W., and VanLeeuwen, T. (2019). Point mutations in the voltage-gated sodium channel gene associated with pyrethroid resistance in Iranian populations of the European red mite Panonychus ulmi . Pesticide Biochemistry and Physiology.
+74|Englert, W. D. (1975). Akarizidresistenz bei Freiland populationen der Ostbaumspinnmilbe Panonychus ulmi (Koch) an Reben.. Weinberg Keller, 22 491-99.
+75|Downing 1965. (1965).
+76|Miller 1965. (1965).
+77|Rock, G.C. (1965). In: FAO 1967.
+78|Rui, D. (1965). In: FAO 1967.
+79|Beran 1965. (1965).
+80|Kelsey 1965. (1965).
+81|O'Neill, W. T. and Hantsbarger, W. H. (1951). Apple and pear control experiments for 1951.. Proc. Wash. State Hortic. Assoc., 47 134-37.
+82|Kolbe, W. (1972). Untersuchungen uber Euparen Mals Fungizid im Kernobstbau unter besonderer Berucksichtigung der Spinnmilbenwirkung und Sortenvertraglichkeit.. Pflanzenschutz Nachr. Bayer, 25 123-62.
+83|Balevski, A. (1967). Vorbeugungmoglichkeiten gegen Akaricid-Resistenz von Panonychus ulmi.. Internat. Pflanz., Wien, 1967. Abstr..
+84|Coulon, J. (1965). In: FAO 1967.
+85|Pellegrini & Pietro-Tonelli 1965. (1965).
+86|Sanford 1965. (1965).
+87|Forsythe 1965. (1965).
+88|Kerr, R. W. (1964). Note on arthropod resistance to chemicals used in their control in Australia.. J. Aust. Inst. Agric. Sci., 30 33-38.
+89|Anon. (1964). U.S.. Dept. Agric. In: Brown 1971.
+90|Zoebelein 1963. (1963).
+91|Honma et al. 1961. (1961).
+92|Husseiny, M. (1960). In: Brown 1971.
+93|Putman, W. L. and Herne, D. C. (1959). Gross effects of some pesticides on populations of phytophagous mites in Ontario peach orchards and their economic implications.. Can. Entomol., 91 567-79.
+94|Van de Vrie 1959. (1959).
+95|Collyer, E. and Kirby, A. H. M. (1958). The problem of acaricide-tolerant strains of the fruit red speder mite, Metatetranychus ulmi (Koch) in southeast England.. Ann. Rep. East Malling Res. Stn., Kent,, 46 131-39.
+96|Geigy, R. (1965). In: FAO 1967.
+97|Gaines, R. C. (1957). Resistance to insecticides.. Agric. Chem., 12 41-42.
+98|Downing 1954. (1954).
+99|Lienk, S. E., Dean, R. W. and Chapman, P. J. (1952). Resistance of European red mite to parathion.. J. Econ. Entomol., 45 1082.
+100|Chapman, R. K., and Penman, D. R. (1984). Resistance to propargite by Europoean red mite, Panonychus ulmi, and two spotted mit, Tetranychus urticae.. New Zeal. J. Agric. Res., 27 103-03.
+101|Kramer, T., Nauen, R. (2011). Monitoring of spirodiclofen susceptibility in field populations of European red mites, Pananychus ulmi (Kock) (Acari: Tetranychidae), and the cross-resistance pattern of a laboratory-selected strain. Pest Management Science, 67 1285-1293.
+102|Bohm 1974. (1974).
+103|Omoto, C., T.J. Dennehy, C.W. McCoy, S.E. Crane, and J.W. Long. (1994). Detection and Characterization of the Interpopulation Variation of Citrus Rust Mite (Acari: Eriophyidae) Resistance to Dicofol in Florida Citrus. Journal of Economic Entomology, 87(3) 566-572.
+104|Papasolomontos, A. (1965). In: FAO 1967.
+105|Awad 1972. (1972).
+106|Ghobrial, A. and Dittrich, V. (1980). Early and late pest complexes on cotton, their control by aerial and ground application of insecticides and side effects of the predator fauna.. Z. Angew. Entomol., 90 306-13.
+107|Balevski, A. (1974). Communication to FAO.
+108|Andres, L. A. And Reynolds, H. T. (1958). Laboratory determination of organophosphours insecticide resistance in three species of Tetranychus on cotton.. J. Econ. Entomol., 51 285-87.
+109|Rings 1965. (1965).
+110|Kiritani, K. (1974). Communication to FAO.
+111|Giliomee, J. H. and Pringle, K. L. (1985). The sensitivity of six colonies of the red spider mite Tetranychus cinabarinus (Boisd.) to amitraz.. J. Ent. Soc. South Africa, 48 325-30.
+112|Rodrigo Adarve, R. (1965). In: FAO 1967.
+113|Xin-jun, Z., Wen-cai, Lu., Ya-ning, F., and Lin, H. (2010). High y-aminobutyric acid content, a novel component associated with resistance to abamectin in Tetranychus cinnabarinus (Boisduval). Journal of Insect Physiology 56, 2010 1895-1900.
+114|Lin, H., Chuan-hua, X., Jin-jun, W., Ming, L., Wen-cai, L., and Zhi-mo, Z. (2009). Resistance selection and biochemical mechanism of resistance to two Acaricides in Tetranychus cinnabarinus (Boiduval). Pesticide Biochemistry and Physiology, 93 47-52.
+115|He, L., Gao, X., Wang, J., Zhao, Z., Liu, N. (2009). Genetic analysis of abamectin resistance in Tetranychus cinnabarinus. Pesticide Biochemistry and Physiology, 95 147-151.
+116|Glass, E. H. (1960). Current status of pesticide resistance in insects and mites attaching deciduous orchard crops.. Misc. Pub. Entomol. Soc. Am., 2 17-25.
+117|Liu, J.,Jiang, Z., Feng, K., Lu, W., Wen, X., Sun, J., Li, J., Liu, J., and He, J. (2021). Transcriptome analysis revealed that multiple genes were related to the cyflumetofen resistance of Tetranychus cinnabarinus (Boisduval) . Pesticide Biochemistry and Physiology, 173.
+118|Jialu Liu, Zhixin Jiang, Kaiyang Feng, Wencai Lu, Xiang Wen, Jingyu Sun, Jinhang Li, Jie Liu and Lin He. (2021). Transcriptome analysis revealed that multiple genes were related to the cyflumetofen resistance of Tetranychus cinnabarinus (Boisduval). Pesticide Biochemistry and Physiology, 173.
+119|Liu., J., Zhang, Y., Feng, K., Liu, X., Li, J., Li, Ch., Zhang, P., Yu, Q., Liu, J., Shen, G., and He, L. (2020). Amidase, a novel detoxifying enzyme, is involved in cyflumetofen resistance in Tetranychus cinnabarinus (Boisduval). Pesticide Biochemistry and Physiology , 163 31-38.
+120|Wei, P., Shi, L., Shen, G., Xu, Z., Liu, J., Pan, Y., and He, L. (2016). Characteristics of carboxylesterase genes and their expression-level between acaricide-susceptible and resistant Tetranychus cinnabarinus (Boisduval). Pesticide Biochemistry and Physiology, 131 87-95.
+121|Wang, y., Zhao, S., Shi, L., Xu, Z., He, L. (2014). Resistance selection and biochemical mechanism of resistance against cyflumetofen in Tetranychus cinnabarinus (Biosduval). Pesticide Biochemistry and Physiology, 111 24-30.
+122|Feng, K., Ou, S., Zhang, P., Wen, X., Shi, L., Yang, Y., Hu, H., Zhang, Y., Shen, G., Xu, Z. and He, L. (2019). The cytochrome P450 CYP389C16 contributes to the cross-resistance between cyflumetofen and pyridaben inTetranychus cinnabarinus (Boisduval). Pest Management Science.
+123|Tang, Z. H., Gong, K. Y. and You, Z. P. (1988). Present status and countermeasures of insecticide resistance in agricultural pests in China.. Pestic. Sci., 23 189-198.
+124|Sepascosarian, H. (1972). Pflanzenspinnmilben und ihre wirtchaftliche Bedeutung im Iran.. Anz. Schadlingsk. D. Pflanzenschutz., 45 105-107.
+125|Klinkowski 1965. (1965).
+126|Duncombe, W. G. (1972). Red spider mite on cotton and its control.. Rhodesia Agricultural Journal, 69 7-10.
+127|Dagli, F., and I. Tunc. (2001). Dicofol resistance in "Tetranychus cinnabarinus", resistance and stability of resistance in populations from Antalya, Turkey. Pest Manag Sci, 57 609-614.
+128|Ozaki, K. (1974). Communication to FAO.
+129|Tahori, A. S. and Raccah, B. (1970). Resistance to acaricides in the carmine spider mite in Israel.. J. Econ. Entomol., 63 545-58.
+130|Shi, L., Xu, Z., Shen, G., Song, C., Wang, Y., Peng, J., Zhang, J., and He, L. (2015). Expression characteristics of two novel cytochrome P450 genes involved in fenpropathrin resistance in Tetranychus cinnabarinus (Boisduval). Pesticide Biochemistry and Physiology.
+131|Matsumura 1965. (1965).
+132|Gerhardt, P. D. and Wene, G. P. (1959). Resistance of the mite Tetranychus cinnabarinus (Bois.)to organic phosphate acaricides.. J. Econ. Entomol., 52 760-61.
+133|Luo, Y-J., Yang, Z-G., Xie, D-Y., Ding, W., Da, A-S., Ni, J., Chai, J-P., Huang, P., Jiang, X-J., and Li, S-X. (2014). Molecular cloning and expression of glutathione S-transferases involved in propargite resistance of the carmine spider mite, Tetranychus cinnabarinus (Boisduval). Pesticide Biochemistry and Physiology.
+134|Vinogradov & Galetenko 1974. (1974).
+135|Von Eickstedt 1968. (1968).
+136|Mizutani, A., Kumayama, F., Ohba, K., Ishiguro, T. and Hayashi, Y. (1988). Inheritance of resistance to cyhexatin in the Kazawa spider mite, Tetranychus kazawai Kishioka (Acarina, Tetranychidae).. Appl. Entomol. Zool., 23 251-255.
+137|Loka, K. (1998). Mode of Inheritance of resistance of three new acaracides in the kanzawa mite.. Exp. App. Acarol., 22 699-708.
+138|Kerr, R. W. (1977). Resistance to control chemicals in Australian arthropod pests.. J. Aust. Entomol. Soc., 16 327-34.
+139|Davis, D.W. (1974). Communication to FAO.
+140|Hoyt, S. C. (1966). Resistance to binapacryl and Union Carbide 1978b in the McDaniel spider mite, Tetranychus mcdanieli.. J. Econ. Entomol., 59 1278-79.
+141|Davis 1985. (1985).
+142|Davis, D.W. (1965). In: FAO 1967.
+143|Hoyt, S. C. and Harries, F. H. (1961). Laboratory and field studies on orchard-mite resistance to Kelthane.. J. Econ. Entomol., 54 12-16.
+144|O'Neill, W. T. and Hantsbarger, W. H. (1952). Apple and pear insect investigations at the Tree Fruit Experiment Station.. Proc. Wash. State Hort. Assoc., 48 170-73.
+145|Keena, M.A., and J. Garnett. (1987). Cyhexatin and Propargite Resistance in Populations of Spider Mites (Acari: Tetranychidae) from California Almonds. Journal of Economic Entomology, 80 560-564.
+146|Leigh, T. F. (1969). Chemical and microbial insecticide studies for cotton insect control.. Proc. Cotton Symp. Insect Mite Contr. Problems, Calif., pp. 53-81 (Mimeo)..
+147|Newcomer, E. J. and Dean, F. P. (1953). Control of orchard mites resistant to parathion.. J. Econ. Entomol., 46 894-96.
+148|Hoy, M.A., and J. Conley. (1989). Propargite Resistance in Pacific Spide Mite (Acari:Tetranychidae): Stability and Mode of Inheritance. Journal of Economic Entomology, 82(1) 11-16.
+149|Alam, M. M. (1974). Insect pests of sweet potato, impombatatu, and their natural enemies in Barbados,. W. I. Proc. Caribbean Food Crop Soc., Jamaica.
+150|Ivy, E. E. and Scales, A. L. (1954). Are cotton insects becoming resistant to insecticides? J.. Econ. Entomol., 47 981-84.
+151|Campos, F., R.A. Dybas, and D.A. Krupa. (1995). Susceptibility of tetranychus urticae (Acari: Tetranychidae) Populations in California to abamectin. Journal of Economic Entomology, 88(2) 225-231.
+152|Kolmes, S.A., T.J. Dennehy, and Y. Sam. (1994). Contrasting Behaviour of Twospotted Spider Mites (Acari: Tetranychidae) on Discontinuous Residues of a Pyrethoid and a Chlorinated Hydrocarbon Acaricide. Journal of Economic Entomology, 87(3) 559-565.
+153|Goodwin, S., G. Herron, N. Gough, T. Wellham, J. Rophail, and R. Parker. (1995). Relationship Between Insecticide-Acaricide Resistance and Field Control in Tertranychus urticae (tetranychidae) Infesting Roses. Journal of Economic Entomology, 88(5) 1106-1112.
+154|Muir, R. C. and Cranham, J. E. (1979). Resistance to pesticides in damson-hop aphid and red spider mite on English hops.. Proc. Br. Crop Prot. Conf. Pests Dis., 1 161-67.
+155|Demirci B, Söylemezoğlu G, Van Leeuwen T, Toprak U, İnak E. (2025). Monitoring and molecular mechanisms of resistance to complex III inhibitors in Tetranychus urticae populations from Türkiye. Pestic Biochem Physiol.
+156|Van Leeuwen, Thomas, Tirry, Luc, and Nauen, Ralf. (2006). Complete maternal inheritance of bifenazate resistance in Tetranychus urticae Loch ( Acari: Tetranychidae) and its implications in mode of action considerations. Insect Biochemistry and Molecular Biology, 36 869-877.
+157|Vassiliou, V. A., and Kitsis, P. (2013). Acaricide resistance in Tetranychus urticae (Acari: Tetranychidae) populations from cyprus. Journal of Economic Entomology, 106 1848-1854.
+158|Kim, Y.J., S.H. Lee, S.W. Lee, and Y.J. Ahn. (2004). Fenpyroximate resistance in Tetranychus urticae (Acari: Tetranychidae): cross-resistance and biochemical resistance mechanisms. Pest Management Science, 60 1001-1006.
+159|Wu, M., Dong, R., Zhang, Y., Liao, H., Tian, T., Xu, D., Zhang, Y., Guo, Z., & Wang, S. (2025). Overexpression of TuABCC4 is associated with abamectin resistance in Tetranychus urticae Koch.. Journal of Integrative Agriculture, 24 2299-2310.
+160|Wu, M., Zhang, Y., Tian, T., Xu, D., Wu, Q., Xie, W., and Wang, S. (2023). Assessment of the role of an ABCC transporter TuMRP1 in the toxicity of abamectin to Tetranychus urticae. Pesticide Biochemistry and Physiology, 195 105543.
+161|Papapostolou, K. M., Riga, M., Samantsidis, G. R., Skoufa, E., Balabanidou, V., Van Leeuwen, T., and Vontas, J. (2022). ver-expression in cis of the midgut P450 CYP392A16 contributes to abamectin resistance in Tetranychus urticae.. Insect biochemistry and molecular biology, 142.
+162|Xue, W., Snoeck, S., Njiru,C., Inark, E., Dermauw,and Leeuwen, T.V. (2020). Geographical distribution and molecular insights into abamectin and milbemectin cross-resistance in European field populations of Tetranychus urticae. Pest Management Science.
+163|Xue, W., Snoeck, S., Njiru, C., Inak, E., Dermauwa, W., and Van Leeuwen, T. (2020). Geographical distribution and molecular insights into abamectin and milbemectin cross-resistance in European field populations of Tetranychus urticae. Pest Management Science, 76 2569-2581.
+164|Adesanya, A. W., Morales, M A., Walsh, D. B., Lavine, L. C., Lavine, M. D., and Zhu, F. (2018). Mechanisms of resistance to three mitegrowth inhibitors ofTetranychus urticaein hops. Bulletin of Entomological Research, 108 1-12.
+165|Xu, D., He,Y., Zhang, Y., Xie, W., Wu, Q. and Wang, S. (2018). Status of pesticide resistance and associated mutations in the two-spotted spider mite, Tetranychus urticae, in China. Pesticide Biochemistry and Physiology , 150 89-96.
+166|Xu, D., Zhang, Y., Zhang, Y., Wu, Q., Guo, Z., Xie, W., Zhoua, X., and Wang, S. (2021). Transcriptome profiling and functional analysis suggest that the constitutive overexpression of four cytochrome P450s confers resistance to abamectin in Tetranychus urticae from China. Pest Management Science, 77 1204-1213.
+167|Naciye Sena Cagatay, Pauline Menault, Maria Riga, John Vontas, Recep Ay. (2018). Identification and characterization of abamectin resistance in Tetranychus urticae Koch populations from greenhouses in Turkey. Crop Protection, 112 112-117.
+168|Ferreira, C., Andrade, F., Rodrigues, A., Siqueira, H., and Gondim Jr., M. (2015). Resistance in field populations of Tetranychus urticae to acaricides and characterization of the inheritance of abamectin resistance. Crop Protection, 67 77-83.
+169|Tang, X., Zhang, Y., Wu, Q., Xie, W., and Wang, S. (2014). Stage-Specific Expression of Resistance to Different Acaricides in Four Field Populations of Tetranychus urticae (Acari: Tetranychidae). Journal of Economic Entomology, 107(5) 1900-1907.
+170|Monteiro, V., Godim Jr., M., Oliveira, J., Siqueira, H., and Sousa, J. (2015). Monitoring Tetranychus urticae Koch (Acari: Tetranychidae) resistance to abamectin in vineyards in the Lower Middle Sao Francisco Valley. Crop Protection, 69 90-96.
+171|Abd El-Wahab, R.A., Bursic, V. (2014). Light Emitting Diodes (LEDs) Reduce Vertimec, Resistance in Tetranychus urticae (Koch). International Journal of Chemical and Biological Studies, 1.
+172|Riga, M., Tsakireli, D., Ilias, A., Morou, E., Myridakis, A., Stephanou, E. G., Nauen, R., Dermauw, W., Van Leeuwen, T., Paine, M., and Vontas, J. (2014). Abamectin is metabolized by CYP392A16, a cytochrome P450 associated with high levels of acaricide resistance in Tetranychus urticae. Insect Biochemistry and Molecular Biology, 46 43-53.
+173|Assis, Carla & Guedes Correa Gondim Jr, Manoel & Siqueira, Herbert. (2017). Synergism to acaricides in resistant Neoseiulus californicus (Acari: Phytoseiidae), a predator of Tetranychus urticae (Acari: Tetranychidae).. Crop Protection, 106 139-145.
+174|Yorulmaz, S., Ay, R. (2009). Multiple resistance, detoxifying enzyme activity, and inheritance of abamectin resistance in Tetranychus urticae Koch (Acarina: Tetranychidae). Turkish Journal of Agriculture and Forestry, 33 393-402.
+175|Sato, Mario E., Da Silva, Marcos Z., Raga, Adalton, and De Souza Filho, Miguel F. (2005). Abamectin Resistance in Tetranychus urticae Koch ( Acari: Tetranychidae): Selection, Cross-Resistance and Stability of Resistance. Crop Protection, 34(6) 991-998.
+176|Van Leeuwen, T., Pottelberge, S.V., Tirry, L. (2005). Comparative acaricide susceptibility and detoxifying enzyme activties in field-collected resistant and susceptible strains of Tetranychus urticae.. Pest Management Science, 61 499-507.
+177|Fergusson-Kolmes, L.A., J.G. Scott, and T.J. Dennehey. (1991). Dicofol Resistance in Tetranychus urticae (Acari:Tetranychidae) : Cross-resistance and Pharmacokinetics. Journal of Economic Entomology, 84(1) 41-48.
+178|Edge 1984. (1984).
+179|Stone, L. E. W., Lane, A. Hammon, R. P., Gould, H. J. and Potter, R. F. (1977). Aldicarb treatment of year-round chrysanthemums for control of red spider mite, Tetranychus urticae (Koch), in 1976.. Plant Path., 26 109-11.
+180|Markkula, M. and Tittanen, K. (1970). Two-spotted spider mite Tetranychus telarius L.. resistant to aldicarb. Ann. Entomol. Fenn., 36 191-92.
+181|Markkula, M. and Kurppa, S. (1985). Resistance of insects and mites to pesticides in Finland.. Ann. Agric. Fenn., 24 161-174.
+182|Myburgh, G. (1968). In: FAO 1969.
+183|Cwilich & Ascher 1965. (1965).
+184|Hely, P.C. (1965). In: FAO 1967.
+185|Hussey 1965. (1965).
+186|Kornilov, V. G. (1972). Control methods for preventing the development of spider mite resistance incovered ground (in Russian).. Zashch. Rast., 35 209-15.
+187|Ghobrial, A., Dittrich, V., Hafiz, M. and Voss, G. (1969). Population analyses of resistance patterns in spider mites of the Tetranychus telarius complex (red and green forms) occuring in Egypt.. J. Econ. Entomol., 62 1262-68.
+188|Maher Ali, A. (1968). In: FAO 1969.
+189|Graves 1965. (1965).
+190|Van Nieuwenhuyse, P., Van Leeuwen, T., Khajehali, J., Vanholme, B., and Tirry, L. (2009). Mutations in the mitochondrial cytochrome b of Tetranychus urticae Koch (Acari: Tetranychidae) confer cross-resistance between bifenazate and acequinocyl. Pest Management Science, 65 404-412.
+191|Tsagkarakau, A., Leeuwent, T., Khajehali, J., llias, A., Grispou, M., Williamson, M., Tirry, L., and Vontas, J.,. (2009). Identification of pyrethroid resistance associated mutations in the para sodium channel of the two-spotted spider mite Tetranychus urticae (Acari: Tetranychidae). Insect Molecular Biology, 18 583-593.
+192|French, N. and Ludlam, F. A. B. (1972). Chemical control of red spider mite on glasshouse roses.. Plant Path., 21 99-104.
+193|Mello, E. J. R. (1969). Estudo da resistencia do acaro do algodeiro Tetanychus urtiecae aos defensivos emperedgados no seu control.. Biologico (Brazil), 35 125-27.
+194|Mello 1968. (1968).
+195|Mistric 1965. (1965).
+196|Rimes, G. D. (1962). Organophosphorus resistance in red spider mite.. J. Dep. Agric. W. Aust. 3rd Ser., 3 871.
+197|Lakocy, A. (1974). Communication to FAO.
+198|Westigard, P. H., Lombard, P. and Berry, D. (1967). Bionomics and control of two-spotted spider mite on pear in southern Oregon.. Oreg. State Univ. Agric. Exp. Stn. Tech. Bull. 101, 32 pp..
+199|Nicastro, R., Sato, M., Arthur, V., and Silva, M. (2013). Chlorfenapyr resistance in the spider mite Tetranychus urticae: stability, cross-resistance and monitoring of resistance. Phytoparasitica, 41 503-513.
+200|Herron, G.A., J. Rophail, and L.J. Wilson. (2004). Chlorfenapyr resistance in two-spotted spider mite (Acari: Tetranychidae) from Australian cotton.. Experimental and Applied Acarology, 34 315-321.
+201|Cermeli, M. (1968). In: FAO 1969.
+202|Pasfield 1968. (1968).
+203|Zamani, P., Sajedi, R. H., Ghadamyari, M., and Memarizadeh, N. (2014). Resistance Mechanisms to Chlorpyrifos in Iranian Populations of the Two-spotted Spider Mite, Tetranychus urticae (Acari: Tetranychidae). Journal of Agricultural Science and Technology, 16 277-289.
+204|Khajehali, J., Van Leeuwen, T., Grispou, M., Morou, E., Alout, H., Weill, M., Tirry, L., Vontas, J., Tsagkarakou, A. (2010). Acetylcholinesterase point mutations in European strains of Tetranychus urticae (Acari: Tetranychidae) resistant to organophosphates. Pest Management Science, 66 220-228.
+205|Demaeght, P., Osborne, J. E., Odman-Naresh, J., Grbic, M., Nauen, R., Merzendorfer, H., Clark M. R., and Van Leeuwen, T. (2014). High resolution genetic mapping uncovers chitin synthase-1 as the target-site of the structurally diverse mite growth inhibitors clofentezine, hexythiazox and etoxazole in Tetranychus urticae. Insect Biochemistry and Molecular Biology, 51 55-61.
+206|Ay, R., and Kara, F.E. (2011). Toxicity, inheritance and biochemistry of clofentezine resistance in Tetranychus urticae. Insect Science, 18 503-511.
+207|Grant, H., V. Edge, and J. Rophail. (1993). Clofentezine and hexythiazox resistance in Tetranychus urticae Koch in Australia. Experimental & Applied Acarology, 17 433-440.
+208|Sugimoto, N., Osakabe M. (2013). Cross-resistance between cyenopyrafen and pyridaben in the twospotted spider mite Tetranychus urticae (Acari: Trtranychidae). Pest Management Science, 70 1090-6.
+209|Flexner, J.L., P.H. Westigard, R.Hilton, and B.A. Croft. (1995). Experimental Evaluation of Resistance Management for twospotted spider mite (Acari: Tetranychidae) on Southern Oregon Pear: 1987-1993. Journal of Economic Entomology, 88(6) 1517-1524.
+210|Nelson, R. D. (1985). In: Miller et al.. , 1985..
+211|Hoyt, S. C., Westigard, P. H. and Croft, B. A. (1985). Cyhexatin resistance in Oregon populations of Tetranychus urticae (Acarina: Tetranychidae).. J. Econ. Entomol., 78 656-59.
+212|Shanks 1984. (1984).
+213|Edge, V. E. and James, D. G. (1982). Detection of cyhexatin resistance in two-spotted mite, Tetranychus urticae Koch (Acarina: Tetranychidae) in Australia.. J. Aust. Entomol. Soc., 21 198.
+214|Smirnova 1974. (1974).
+215|Lambert 1974. (1974).
+216|Stathopoulos 1974. (1974).
+217|Harrison 1968. (1968).
+218|Legonski 1965. (1965).
+219|Lakocy, A. (1965). In: FAO 1967.
+220|Oden, T. (1974). Communication to FAO.
+221|Fritzsche 1965. (1965).
+222|Anon. 1974d. (1974). Communication to FAO. Dept. Insect Toxicol., Inst. Entomol., Czechoslovak Acad. Praha.
+223|McEnroe, W. D. and Lakocy, A. (1969). The development of Pentac resistance in an outcrossing swarm of the two-spotted spider mite.. J. Econ. Entomol., 62 283-86.
+224|Baker, R. T. (1985). A note on resistance of two-spotted mite, Tetranychus urticae Koch (Acarina: Tetranychidae) to dicofol in New Zealand.. N. Z. J. Exp. Agric., 13 101-02.
+225|Overmeer, W.P.J. and Van Zon, A. Q. (1975). The stability of acaricide resistance in spider mite (Tetranychus urticae) populations from rosehouses.. Entomol. Exp. Appl., 18 68-74.
+226|Setuin, E. (1974). Communication to FAO.
+227|Hogan, T.W. (1974). Communication to FAO.
+228|Lower, H.F. (1968). In: FAO 1969.
+229|Plaut, H.N. (1965). In: FAO 1967.
+230|Somme 1965. (1965).
+231|Gasser 1965. (1965).
+232|Allen 1965. (1965).
+233|Harries 1965. (1965).
+234|Brun, L. O., Edge, V. E. and Gutierrez, J. (1983). The occurrence of five Tetranychus spp.. (Acarine: Tetranychidae) in New Caledonia and their response to acaricides. Trop. Pest Management., 29 371-77.
+235|Siforova, T.A. and Gaznyan, N.V. (1975). Resistance of mites to acaricides (in Russian).. Zashch. Rast. (Mosc.), 9 52.
+236|Gould, J. J. (1974). Laboratory and field investigations with organophosphate-resistant Tetranychus urticae.. Ann. Appl. Biol., 74 17-23.
+237|KiSu, A, K. GilHah, L. SoYoung, K. ChulSu, S. SangChul. (2004). Inheritance and stability of etoxazole resistance in twospotted spider mite, Tetranychus urticae, and its cross resistance. Korean Journal of Applied Entomology, 43 43-48.
+238|Devine, G.J., M. Barber, and I. Denholm. (2001). Incidence and inheritence of resistance to METI-acaricides in European strains of the two spotted spider mite (Tetranychus uticae). Pest Manag Sci, 57 443-448.
+239|Van Pottelberge, S., Van Leeuwen, T., Nauen, R., Tirry, L. (2008). Resistance mechanisms to mitochondrial electron transport inhibitors in a field-collected strain of Tetranychus urticae Koch (Acari: Tetranychidae). Bulletin of Entomological Research, 99 22-31.
+240|Gorman, K., Hewitt, F., Denholm, I., Devine, G.J. (2001). New Developments in insecticide resistance in the glasshouse whitefly (Trialeurodes vaporariorum) and the two-spotted spider mite (Tetranychus urticae) in the UK. Pest Management Science, 58 123-130.
+241|Ay, R., and Kara, F.E. (2011). Toxicity, inheritance of fenpyroximate resistance, and detoxification-enzyme levels in a laboratory-selected fenpyroximate-resistant strain of Tetranychus urticae Koch (Acari: Tetranychidae). Crop Protection, 30 605-610.
+242|Suh, E., Koh, S.H., Lee, J.H., Shin, K.I., Cho, K. (2006). Evaluation of resistance pattern to fenpyroximate and pyridaben in Tetranychus urticae collected from greenhouses and apple orchards using lethal cencentration-slope relationship. Experimental and Applied Acarology, 38 151-165.
+243|Sato, M.E., Miyata,T., Silva, M., Raga, A., Souza Filho, M.F. (2004). Slections for fenpyroximate resistance and susceptibility, and inheritance, cross-resistance and stability of fenpyroximate resistance in Tetranychus urticae Koch (Acari:Tetranychidae). Applied Entomology and Zoology, 39 293-302.
+244|Croft, B. A., Miller, R. W., Nelson, R. D., and Westigard, P. H. (1984). Inheritance of early-stage resistance to formetanate and cyhexatin in Tetranychus urticae, Acarina: Tetranychidae.. J. Econ. Entomol., 77 574-78.
+245|Ong, S. H. and Ballantyne, G. H. (1974). Acaricidal resistance and gentic affinities of some two spotted spider mite populations in New Zealand.. N. Z. J. Zool., 1 523-30.
+246|Cranham 1974b. (1974).
+247|Herne, D. H. C. and Brown, A. W. A. (1969). Inheritance and biochemistry of OP-resistance in a New York strain of the two-spotted spider mite.. J. Econ. Entomol., 62 205-09.
+248|Cranham, J. E. (1974). Resistance to organophosphates in red spider mite, Tetranychus urticae, from English hop gardens.. Ann. Appl. Biol., 78 99-111.
+249|Tsagkarakou, A., M. Navajas, J. Lagnel, J. Gutierrez, and N. Pasteur. (1996). Genetic variability in teranychus urticae (Acari: Tetranychidae) from Greece : Insecticide resistance and Isozymes. Journal of Economic Entomology, 89(6) 1354-1358.
+250|Unwin, B. (1973). Chemical resistance in populations of Tetranychus urticae (Koch) (Acarina: Tetranychidae) from apple orchards in New South Wales, Australia.. J. Aust. Entomol. Soc., 12 59-67.
+251|Nicastro, R., Sato, M., Silva, M. (2009). Milbemectin resistance in Tetranychus urticae (Acari: Tetranychidae): selection, stability and cross resistance to abamectin . Experimenal and Applied Acarology.
+252|Coulon, J. (1971). Toxicites comparees de diverses substances pour des acariens phytophages (Tetranychus urticae K.) resistants ou non au parathion ethyl.. Ann. Zool. Ecol. Anim., 3 69-78.
+253|Gesner, M. and Hurkova, J. (1979). The resistance of red spider mite populations (Tetranychus urticae) to insecticides applied in the hop gardens of Bohemia.. Ochr. Rostl., 15 133-38.
+254|Van Zon, A. Q. and Overmeer, W. P. J. (1975). The occurrence of pesticide resistance in red spider mite populations (Tetranychus urticae Koch) collected from wild plants in the greenhouse district of Aalsmeer, the Netherlands.. Z. Angew. Entomol., 79 213-22.
+255|Robertson, R.L. (1974). Communication to FAO.
+256|Miner, F.D. (1974). Communication to FAO.
+257|Martelli, M. (1968). In: FAO 1969.
+258|Talhouk 1968. (1968).
+259|Pate & Brook 1965. (1965).
+260|Morris 1965. (1965).
+261|Maelzer, D. A. and Lohmeyer, V. K. (1960). Insecticides and the resistance problem in aple and pear orchards in South Australia.. Dep. Agric. S. Aust. Tech. Bull., 30 8.
+262|Anon. (1957). Report on Research, Dept.. Agric., Ottawa, Canada. In: Brown 1971..
+263|Dosse 1952. (1952).
+264|Smith & Fulton 1951. (1951).
+265|Garman, P. (1950). Parathion resistant red spiders.. J. Econ. Entomol, 43 53-56.
+266|Palm, C. E. (1949). Development and use of synthetic organic insecticides.. Adv. Chem. Ser., 1 218-22.
+267|Roush, R. T. and Hoy, M. A. (1978). Relative toxicity of permethrin to a predator, Metaseiulus occidentalis and its prey, Tetranychus urticae.. Environ. Entomol., 7 287-88.
+268|Berendt 1968. (1968).
+269|Goodwin-Wilson 1965. (1965).
+270|Cwilich, R. and Ascher, K. R. S. (1961). Organophosphorus resistance of spider mites on sugar beets.. Israel J. Agric. Res., 11 135-36.
+271|Eldefrawi 1968. (1968).
+272|Dennehy 1984. (1984).
+273|Seyed-Talebi, F., Kheradmand, K., Talaei-Hassanloui, R., and Talebi-Jahromi. (2014). Synergistic effect of Beauveria bassiana and spirodiclofen on the two-spotted spider mite (Tetranychus urticae). Phytoparasitica, 42 405-412.
+274|Demaeght, P., Dermauw, W., Tsakireli, D., Khajehali, J., Nauen, R., Tirry, L., Vontas, J., Lummen, P., and Van Leeuwen, T. (2013). Molecular analysis of resistance to acaricidal spirocyclic tetronic acids in Tetranychus urticae: CYP392E10 metabolizes spirodiclofen, but not its corresponding enol. Insect Biochemistry and Molecular Biology, 43 544-554.
+275|Van Pottelberge, S., Van Leeuwen, T., Khajehali, J., and Tirry, L. (2009). Genetic and biochemical analysis of a laboratory-selected spirodiclofen-resistant strain of Tetranychus urticae Koch (Acari: Tetranychidae). Pest Management Science, 65 358-366.
+276|Quayle, H. J. (1943). The increase in resistance in insects to insecticides.. J. Econ. Entomol., 36 493-500.
+277|Sato, M., Veronez, B., Stocco, R., Queiroz, M., and Gallego, R. (2016). Spiromesifen resistance in Tetranychus urticae (Acari: Tetranychidae): Selection, stability, and monitoring. Crop Protection, 89 278-283.
+278|Herron, G.A., and J. Rophil. (1998). Tebufenpyrad (Pyranica) resistance detected in two-spotted spider mite Tetranychus urticae Koch (Acari: Tetranychus) from apples in Western Australia.. Experimental and Applied Acarology, 22 633-641.
+279|Graham 1974. (1974).
+280|Ma, L.F. (1965). In: FAO 1967.
+281|Anon. (1977). An examination of the resistance of Tetranychus viennensis Zacher to organophosphate insecticides.. Acta Entomol. Sin., 20 33-38.
+282|Lobzhanidze, T. D. (1980). Development of resistance in Tetranychus viennensis to organophosphorus insecto-acaricides and chemical measures for its control in the eastern Georgian-SSR, USSR.. Soobshcheniya Akademii Nauk Gruzinskioi SSR., 98 705-08.

@@ -28,3 +28,13 @@ Each entry: date, stage, decision, reason. Name decisions are also listed in `da
 16. **Protocol approved** and fixed as of this date.
 17. **Database use.** The user considers citation and acknowledgement of the Arthropod Pesticide Resistance Database sufficient because the data are openly viewable. Open point: the database states that permission must be granted when a significant portion of a paper is based on its data. To be settled before submission.
 18. **Permission requested.** On 13 November 2026 the user emailed Dr David Mota-Sanchez (Cc Dr John C. Wise) asking consent to use the database's Acari records and offering to share the manuscript before submission. Awaiting reply.
+
+## 2026-11-13 · Stage 2
+
+19. **Case records** for all 291 species × compound pairs were taken from the database through the user's browser (1,027 cases; transfer checked against a row count and case-ID checksum).
+20. **IRAC groups** assigned by hand in `data/manual/irac_map.csv` from the current IRAC classification. Obsolete compounds that IRAC never classified (bridged diphenyls such as chlorobenzilate, chlorfenson, tetrasul; selenium sulfide; zineb; dienochlor; MNFA; genite; azobenzene) are coded NC; UN (dicofol, bromopropylate, benzoximate, chinomethionate) and NC are not counted as mode-of-action groups, but are kept in a separate count of chemical classes. The hexythiazox + organotin mixture is coded MIX. Bifenazate is placed in 20D although the database lists it as unknown.
+21. **Lab-selected only** cases (22) are excluded from the main analysis; the population did not evolve resistance in the field.
+22. **Duplicate entries.** Xue et al. (2020) is entered twice in the database (reference 162 at country level, 163 at site level). The country-level rows (9) are excluded. *T. cinnabarinus* cyflumetofen (references 117 and 118) is the same paper, but the extra row is already excluded as lab-selected.
+23. **Open: case definition.** The database records do not give resistance ratios, so the protocol's rule (ratio of 10 or more against a susceptible reference) cannot be applied to them. 153 of the 996 included cases rest on FAO reports or personal communications. A decision is needed before modelling (see checkpoint report).
+24. **Open: first registration year** of each active ingredient (needed for H3) is not yet compiled.
+25. **Open: literature cases** for *Oligonychus coffeae*, *Tetranychus evansi* and *Tetranychus truncatus*, and the documented literature search, are not yet done.

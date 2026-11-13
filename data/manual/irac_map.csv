@@ -1,0 +1,112 @@
+ai_id,ai_name,aprd_moa_code,irac_group,chemical_class,note
+1,abamectin,ABM,6,avermectin,
+2,acephate,OP,1B,organophosphate,
+5,acrinathrin,PYR,3A,pyrethroid,
+7,aldicarb,CAR,1A,carbamate,
+13,amidithion,OP,1B,organophosphate,
+15,amitraz,FORM,19,formamidine,
+19,azinphos-methyl,OP,1B,organophosphate,
+21,azocyclotin,TIN,12B,organotin,
+33,benzoximate,MISC,UN,benzoximate,
+34,BHC/cyclodienes - Unspecified In Literature,CYCLO,2A,organochlorine cyclodiene,group assumed from database label
+35,bifenazate,MISC,20D,bifenazate,database lists unknown MOA; IRAC places bifenazate in 20D
+36,bifenthrin,PYR,3A,pyrethroid,
+37,binapacryl,DNP,13,dinitrophenol,obsolete; uncoupler like DNOC
+39,bromophos,OP,1B,organophosphate,
+41,bromopropylate,MISC,UN,bridged diphenyl,
+48,Carbamates - Unspecified in Literature,CAR,1A,carbamate,
+49,carbaryl,CAR,1A,carbamate,
+51,carbophenothion,OP,1B,organophosphate,
+56,chlorbenside,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+59,chlordimeform,FORM,19,formamidine,obsolete
+61,chlorfenapyr,PYZ,13,pyrrole,
+63,chlorfenson,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+64,chlorfensulfide,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+67,chlorobenzilate,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+70,chloropropylate,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+72,chlorpyrifos,OP,1B,organophosphate,
+90,cyhexatin,TIN,12B,organotin,
+92,cypermethrin-alpha,PYR,3A,pyrethroid,
+98,DDT,OCL,3B,DDT,
+99,deltamethrin,PYR,3A,pyrethroid,
+101,demeton,OP,1B,organophosphate,
+102,demeton-S-methyl,OP,1B,organophosphate,
+103,diafenthiuron,THIOUR,12A,thiourea,
+104,dialifos,OP,1B,organophosphate,
+105,diazinon,OP,1B,organophosphate,
+108,dicofol,OCL,UN,bridged diphenyl,
+109,dicrotophos,OP,1B,organophosphate,
+111,dienochlor,CYCLO,NC,organochlorine,obsolete; not in IRAC classification
+113,dimefox,OP,1B,organophosphate,
+114,dimethoate,OP,1B,organophosphate,
+121,dioxathion,OP,1B,organophosphate,
+122,disulfoton,OP,1B,organophosphate,
+130,EPN,OP,1B,organophosphate,
+132,ethion,OP,1B,organophosphate,
+134,ethoate-methyl,OP,1B,organophosphate,
+143,famphur,OP,1B,organophosphate,
+144,fenazaquin,QUIN,21A,METI,
+145,fenbutatin oxide,TIN,12B,organotin,
+149,fenpropathrin,PYR,3A,pyrethroid,
+150,fenpyroximate,PYZ,21A,METI,
+151,fenson,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+153,fenthion,OP,1B,organophosphate,
+161,flucycloxuron,BPU,15,benzoylurea,
+168,formetanate,CAR,1A,carbamate,
+169,formothion,OP,1B,organophosphate,
+172,genite,MISC,NC,sulfonate,obsolete; not in IRAC classification
+204,malathion,OP,1B,organophosphate,
+207,mephosfolan,OP,1B,organophosphate,
+209,methamidophos,OP,1B,organophosphate,
+210,methidathion,OP,1B,organophosphate,
+212,methomyl,CAR,1A,carbamate,
+218,mevinphos,OP,1B,organophosphate,
+219,milbemectin,ABM,6,milbemycin,
+221,MNFA,MISC,NC,fluoroacetamide,obsolete; not in IRAC classification
+223,monocrotophos,OP,1B,organophosphate,
+225,naled,OP,1B,organophosphate,
+233,omethoate,OP,1B,organophosphate,
+234,Organophosphates - Unspecified In Literature,OP,1B,organophosphate,compound not named in source
+238,oxydeprofos,OP,1B,organophosphate,
+241,parathion,OP,1B,organophosphate,
+242,parathion-methyl,OP,1B,organophosphate,
+243,permethrin,PYR,3A,pyrethroid,
+244,phenkapton,OP,1B,organophosphate,
+247,phenthoate,OP,1B,organophosphate,
+248,phorate,OP,1B,organophosphate,
+249,phosalone,OP,1B,organophosphate,
+250,phosmet,OP,1B,organophosphate,
+251,phosphamidon,OP,1B,organophosphate,
+258,pirimiphos-methyl,OP,1B,organophosphate,
+260,profenofos,OP,1B,organophosphate,
+263,propargite,MISC,12C,propargite,
+268,prothoate,OP,1B,organophosphate,
+274,pyridaben,MISC,21A,METI,
+280,chinomethionate,MISC,UN,quinoxaline,
+285,schradan,OP,1B,organophosphate,
+286,selenium sulfide,INORG,NC,inorganic,obsolete; not in IRAC classification
+291,spirodiclofen,TETR,23,tetronic acid,
+292,spiromesifen,TETR,23,tetronic acid,
+295,sulfotep,OP,1B,organophosphate,
+298,sulphenone,MISC,NC,bridged diphenyl,obsolete; not in IRAC classification
+302,tau-fluvalinate,PYR,3A,pyrethroid,
+305,tebufenpyrad,PYCAR,21A,METI,
+310,TEPP,OP,1B,organophosphate,
+312,tetrachlorvinphos Z-isomer,OP,1B,organophosphate,
+313,tetradifon,MISC,12D,tetradifon,
+316,tetrasul,MISC,NC,bridged diphenyl,obsolete; related to tetradifon but not in IRAC classification
+324,thiometon,OP,1B,organophosphate,
+326,thioquinox,MISC,NC,quinoxaline,obsolete; not in IRAC classification
+334,trichlorfon,OP,1B,organophosphate,
+337,vamidothion,OP,1B,organophosphate,
+340,zineb,INORG,NC,dithiocarbamate fungicide,fungicide; not in IRAC classification
+387,acequinocyl,NAPH,20B,acequinocyl,
+389,clofentezine,TETR,10A,mite growth inhibitor,
+393,azobenzene,MISC,NC,azobenzene,obsolete; not in IRAC classification
+396,hexythiazox,TETR,10A,mite growth inhibitor,
+405,hexythiazox + organotin,MISC,MIX,mixture,mixture of 10A and 12B; excluded from group counts
+406,etoxazole,TETR,10B,mite growth inhibitor,
+411,fluacrypyrim,MET,20C,fluacrypyrim,
+417,spirotetramat,TETR,23,tetramic acid,
+426,cyenopyrafen,PYZ,25A,beta-ketonitrile,
+464,cyflumetofen,MET,25A,beta-ketonitrile,
