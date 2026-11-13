@@ -3,6 +3,7 @@
 Input:  data/manual/verification_sample_stage2.csv (with Claude's first-pass columns)
         data/clean/resistance_cases.csv (for the extra Pan et al. 2020 cases)
         data/manual/verification_dois.json (DOIs found on Crossref; optional)
+        data/manual/verification_papers_stage2.csv (paper list; optional)
 Output: data/manual/verification_sample_stage2_for_checking.xlsx
 """
 import json
@@ -143,6 +144,27 @@ def main():
         ok.add(f"{col[h]}2:{col[h]}{n}")
     ms.add(f"{col['matches_source']}2:{col['matches_source']}{n}")
     assert col["matches_source"] == "S", col["matches_source"]
+
+    pp = MANUAL / "verification_papers_stage2.csv"
+    if pp.exists():
+        papers = pd.read_csv(pp, dtype=str).fillna("")
+        ps = wb.create_sheet("Papers", 1)
+        ph = ["n", "cases", "bibliography", "doi_link", "what_to_check"]
+        for j, h in enumerate(ph, start=1):
+            c = ps.cell(row=1, column=j, value=h)
+            c.font = Font(name=FONT, bold=True, size=10)
+            c.fill = HEAD
+        for i, row in enumerate(papers[ph].itertuples(index=False), start=2):
+            for j, v in enumerate(row, start=1):
+                c = ps.cell(row=i, column=j, value=int(v) if j == 1 else v)
+                c.font = Font(name=FONT, size=10)
+                c.alignment = Alignment(wrap_text=True, vertical="top")
+                if j == 4 and v:
+                    c.hyperlink = v
+                    c.font = Font(name=FONT, size=10, color="0563C1", underline="single")
+        for col, w in zip("ABCDE", [5, 18, 80, 34, 50]):
+            ps.column_dimensions[col].width = w
+        ps.freeze_panes = "A2"
 
     wb.save(OUT)
     print(f"wrote {OUT.name}: {len(allc)} cases;", allc["priority"].value_counts().sort_index().to_dict())
