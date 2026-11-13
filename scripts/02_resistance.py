@@ -9,6 +9,7 @@ Inputs
   data/raw/literature_resistant_species_2026-11-13.csv
   data/manual/name_map_stage1.csv               name decisions
   data/manual/irac_map.csv                      IRAC group per active ingredient
+  data/manual/literature_cases.csv              cases from papers for species absent from APRD
 
 Outputs
   data/clean/resistance_cases.csv               one row per APRD case, with inclusion flags
@@ -174,6 +175,29 @@ def main() -> None:
     CLEAN.mkdir(parents=True, exist_ok=True)
     cases.to_csv(CLEAN / "resistance_cases.csv", index=False)
 
+    # literature cases for species absent from the database (logs/literature_search_stage2.md)
+    lit_cases = pd.read_csv(MANUAL / "literature_cases.csv", dtype=str)
+    ai_by_name = irac.set_index(irac["ai_name"].str.lower())
+    lit_cases["ai_id"] = lit_cases["ai_name"].str.lower().map(ai_by_name["ai_id"])
+    lit_cases["irac_group"] = lit_cases["ai_name"].str.lower().map(ai_by_name["irac_group"])
+    lit_cases["chemical_class"] = lit_cases["ai_name"].str.lower().map(ai_by_name["chemical_class"])
+    if lit_cases["ai_id"].isna().any():
+        raise ValueError("literature compound without IRAC mapping")
+    lit_cases = lit_cases.assign(
+        species_as_listed=lit_cases["species"], family=lit_cases["family"].str.capitalize(), arId="",
+        year_of_report=lit_cases["year_of_report"].astype(int),
+        country=lit_cases["country"], ref_idx=-1,
+        possible_duplicate=False,
+        include_main=lit_cases["meets_case_definition"].eq("yes"),
+        exclusion_reason=lit_cases["meets_case_definition"].map(
+            {"yes": "", "no": "below case definition", "pending": "resistance ratio not yet verified"}),
+        source="literature")
+    cases = pd.concat([cases, lit_cases[cases.columns.drop([]).intersection(lit_cases.columns)]],
+                      ignore_index=True)
+    cases.to_csv(CLEAN / "resistance_cases.csv", index=False)
+    log.info("literature cases added: %d (%d meet the case definition)", len(lit_cases),
+             int(lit_cases["include_main"].sum()))
+
     main_cases = cases[cases["include_main"]]
 
     def groups(s: pd.Series) -> int:
@@ -195,12 +219,9 @@ def main() -> None:
     if excluded_only:
         log.warning("species whose every case is excluded: %s", excluded_only)
 
-    lit = pd.read_csv(RAW / "literature_resistant_species_2026-11-13.csv", dtype=str)
-    lit = lit.assign(species=lit["species"].map(binomial), family=lit["family"].str.capitalize())
-    lit = lit.loc[~lit["species"].isin(cases["species"]), ["species", "family"]]
-    lit["source_note"] = "literature only; cases to compile from papers"
-    by_sp["source_note"] = "APRD"
-    by_sp = pd.concat([by_sp, lit], ignore_index=True)
+    src = cases.groupby("species")["source"].agg(lambda s: "; ".join(sorted(set(s))))
+    by_sp["source_note"] = by_sp["species"].map(src)
+    lit = pd.DataFrame(columns=["species"])  # all literature species now enter through literature_cases.csv
     for c in ["n_cases", "n_active_ingredients", "n_irac_groups", "n_chemical_classes", "n_countries",
               "n_references", "n_field_evolved"]:
         by_sp[c] = by_sp[c].fillna(0).astype(int)
@@ -208,13 +229,14 @@ def main() -> None:
     by_sp.to_csv(CLEAN / "resistance_by_species.csv", index=False)
 
     flow = pd.DataFrame([
-        ("APRD Acari cases in the three families", len(cases)),
+        ("APRD Acari cases in the three families", int((cases["source"] != "literature").sum())),
         ("excluded: lab-selected population only", int((cases["exclusion_reason"] == "lab-selected population only").sum())),
         ("excluded: same paper entered twice", int((cases["exclusion_reason"] == "same paper entered twice in database").sum())),
         ("cases in main analysis", len(main_cases)),
         ("species with at least one main-analysis case", main_cases["species"].nunique()),
-        ("species from literature, cases still to compile", len(lit)),
-        ("references cited by main-analysis cases", main_cases["ref_idx"].nunique()),
+        ("literature cases screened", int((cases["source"] == "literature").sum())),
+        ("literature cases meeting the case definition", int(((cases["source"] == "literature") & cases["include_main"]).sum())),
+        ("APRD references cited by main-analysis cases", main_cases.loc[main_cases["ref_idx"] >= 0, "ref_idx"].nunique()),
         ("main-analysis cases from FAO or personal communications", int(main_cases["reference"].str.contains(
             r"FAO|Personal communication|Communication to", case=False, regex=True).sum())),
     ], columns=["step", "n"])

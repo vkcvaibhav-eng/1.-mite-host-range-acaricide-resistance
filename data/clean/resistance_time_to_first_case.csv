@@ -24,6 +24,8 @@ Brevipalpus yothersi,Tenuipalpidae,291,spirodiclofen,23,2021,4,2000.0,introducti
 Bryobia praetiosa,Tetranychidae,1,abamectin,6,2022,1,1985.0,introduction/registration,37.0,False
 Bryobia praetiosa,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1965,1,,not a single compound,,False
 Eotetranychus hicoriae,Tetranychidae,104,dialifos,1B,1982,1,1967.0,introduction/registration,15.0,False
+Oligonychus coffeae,Tetranychidae,108,dicofol,UN,2018,1,1956.0,introduction/registration,62.0,False
+Oligonychus coffeae,Tetranychidae,132,ethion,1B,2018,1,1957.0,introduction/registration,61.0,False
 Oligonychus pratensis,Tetranychidae,114,dimethoate,1B,2002,1,1951.0,introduction/registration,51.0,False
 Oligonychus pratensis,Tetranychidae,122,disulfoton,1B,1977,1,1956.0,introduction/registration,21.0,False
 Oligonychus pratensis,Tetranychidae,241,parathion,1B,1977,1,1950.0,introduction/registration,27.0,False
@@ -139,6 +141,7 @@ Tetranychus cucurbitacearum,Tetranychidae,242,parathion-methyl,1B,1972,1,1950.0,
 Tetranychus desertorum,Tetranychidae,102,demeton-S-methyl,1B,1968,1,1957.0,introduction/registration,11.0,False
 Tetranychus desertorum,Tetranychidae,241,parathion,1B,1968,1,1950.0,introduction/registration,18.0,False
 Tetranychus desertorum,Tetranychidae,242,parathion-methyl,1B,1968,1,1950.0,introduction/registration,18.0,False
+Tetranychus evansi,Tetranychidae,36,bifenthrin,3A,2011,1,1984.0,introduction/registration,27.0,False
 Tetranychus hydrangeae,Tetranychidae,102,demeton-S-methyl,1B,1968,1,1957.0,introduction/registration,11.0,False
 Tetranychus hydrangeae,Tetranychidae,241,parathion,1B,1968,2,1950.0,introduction/registration,18.0,False
 Tetranychus hydrangeae,Tetranychidae,242,parathion-methyl,1B,1968,1,1950.0,introduction/registration,18.0,False
@@ -178,6 +181,8 @@ Tetranychus pacificus,Tetranychidae,90,cyhexatin,12B,1987,1,1970.0,introduction/
 Tetranychus pacificus,Tetranychidae,98,DDT,3B,1969,1,1944.0,introduction/registration,25.0,False
 Tetranychus schoenei,Tetranychidae,108,dicofol,UN,1965,1,1956.0,introduction/registration,9.0,False
 Tetranychus schoenei,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1960,1,,not a single compound,,False
+Tetranychus truncatus,Tetranychidae,103,diafenthiuron,12A,2019,1,1988.0,introduction/registration,31.0,False
+Tetranychus truncatus,Tetranychidae,144,fenazaquin,21A,2019,1,1992.0,introduction/registration,27.0,False
 Tetranychus tumidus,Tetranychidae,241,parathion,1B,1954,1,1950.0,introduction/registration,4.0,False
 Tetranychus tumidus,Tetranychidae,98,DDT,3B,1974,1,1944.0,introduction/registration,30.0,False
 Tetranychus turkestani,Tetranychidae,1,abamectin,6,1995,1,1985.0,introduction/registration,10.0,False

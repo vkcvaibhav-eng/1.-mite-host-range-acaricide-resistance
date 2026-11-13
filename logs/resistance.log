@@ -1,14 +1,16 @@
-2026-11-13 17:29:12,935 INFO run started 2026-11-13T17:29:12; pandas 3.0.5; numpy 2.5.3
-2026-11-13 17:29:12,938 INFO cases read: 1027; checksum matches the browser export
-2026-11-13 17:29:13,025 INFO record flow
+2026-11-13 17:48:52,396 INFO run started 2026-11-13T17:48:52; pandas 3.0.5; numpy 2.5.3
+2026-11-13 17:48:52,401 INFO cases read: 1027; checksum matches the browser export
+2026-11-13 17:48:52,487 INFO literature cases added: 9 (5 meet the case definition)
+2026-11-13 17:48:52,532 INFO record flow
                                                    step    n
                  APRD Acari cases in the three families 1027
                  excluded: lab-selected population only   22
                      excluded: same paper entered twice    9
-                                 cases in main analysis  996
-           species with at least one main-analysis case   31
-        species from literature, cases still to compile    3
-                references cited by main-analysis cases  275
+                                 cases in main analysis 1001
+           species with at least one main-analysis case   34
+                              literature cases screened    9
+           literature cases meeting the case definition    5
+           APRD references cited by main-analysis cases  275
 main-analysis cases from FAO or personal communications  153
-2026-11-13 17:29:13,025 INFO verification sample: 100 cases (seed 2026)
-2026-11-13 17:29:13,025 INFO run finished 2026-11-13T17:29:13
+2026-11-13 17:48:52,532 INFO verification sample: 100 cases (seed 2026)
+2026-11-13 17:48:52,532 INFO run finished 2026-11-13T17:48:52
