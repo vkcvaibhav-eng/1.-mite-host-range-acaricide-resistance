@@ -21,3 +21,9 @@ Each entry: date, stage, decision, reason. Name decisions are also listed in `da
 12. **BOLD counts added** through the browser on the same day. A species counts as having COI if either GenBank or BOLD has a record. BOLD adds COI for *Aculus cornutus* (1 record) and raises *T. pacificus* (4 in GenBank, 55 in BOLD) and *T. ludeni* (21 and 140).
 13. ***T. urticae* case total**: 575 = 572 (*T. urticae*) + 2 (*T. bimaculatus*) + 1 (*T. althaeae*).
 14. **NCBI throttling.** The second run met HTTP 429 responses; the pause between requests was raised to 1 s with longer back-off. Counts are unchanged where the two runs overlap.
+
+## 2026-11-13 · Stage 1 checkpoint
+
+15. **Go.** The user approved moving to stage 2 with 34 resistant species (24 with COI), using the plan's fallback: susceptible species kept as zeros and research effort modelled.
+16. **Protocol approved** and fixed as of this date.
+17. **Database use.** The user considers citation and acknowledgement of the Arthropod Pesticide Resistance Database sufficient because the data are openly viewable. Open point: the database states that permission must be granted when a significant portion of a paper is based on its data. To be settled before submission.

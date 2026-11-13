@@ -1,6 +1,6 @@
 # Protocol
 
-Status: draft submitted at the stage 1 checkpoint, 13 November 2026. Fixed once approved; later changes go in the change log.
+Status: approved by V. K. Chaudhari on 13 November 2026 at the stage 1 checkpoint. Fixed from this date; later changes go in the change log.
 
 ## Hypotheses
 
