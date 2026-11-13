@@ -50,3 +50,7 @@ Every resistance case on the 291 species × active-ingredient pages (`display.ph
 ### aprd_references_2026-11-13.txt
 
 The 283 references cited by those cases (index|citation as shown in the database). The same plain-ASCII fix was applied to three names (Doker, Cagatay, page range 996-1004).
+
+### ppdb_introduction_dates_2026-11-13.txt
+
+"Introduction & key dates" and "Availability status" for 102 active ingredients, read on 13 November 2026 through the user's browser from the University of Hertfordshire Pesticide Properties DataBase (PPDB); abamectin and milbemectin from its BioPesticides DataBase (BPDB) and famphur from its Veterinary Substances DataBase (VSDB). Columns: ai_id | name used for matching | record (database:report number) | introduction text | availability. Not found in any of the three: chlorfensulfide, genite, MNFA, selenium sulfide, sulphenone.

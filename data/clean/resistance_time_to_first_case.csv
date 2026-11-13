@@ -1,0 +1,287 @@
+species,family,ai_id,ai_name,irac_group,first_report_year,n_cases,intro_year_used,intro_basis,years_to_first_case,conflict
+Aculops lycopersici,Eriophyidae,209,methamidophos,1B,1985,1,1972.0,introduction/registration,13.0,False
+Aculops pelekassi,Eriophyidae,48,Carbamates - Unspecified in Literature,1A,2002,1,,not a single compound,,False
+Aculops pelekassi,Eriophyidae,67,chlorobenzilate,NC,1973,1,1953.0,introduction/registration,20.0,False
+Aculops pelekassi,Eriophyidae,70,chloropropylate,NC,1973,1,1956.0,introduction/registration,17.0,False
+Aculus cornutus,Eriophyidae,102,demeton-S-methyl,1B,1979,1,1957.0,introduction/registration,22.0,False
+Aculus cornutus,Eriophyidae,114,dimethoate,1B,1979,1,1951.0,introduction/registration,28.0,False
+Aculus cornutus,Eriophyidae,234,Organophosphates - Unspecified In Literature,1B,1965,1,,not a single compound,,False
+Aculus fockeui,Eriophyidae,234,Organophosphates - Unspecified In Literature,1B,1965,1,,not a single compound,,False
+Aculus malivagrans,Eriophyidae,234,Organophosphates - Unspecified In Literature,1B,1965,1,,not a single compound,,False
+Aculus schlechtendali,Eriophyidae,234,Organophosphates - Unspecified In Literature,1B,1958,1,,not a single compound,,False
+Amphitetranychus viennensis,Tetranychidae,101,demeton,1B,1988,1,1951.0,introduction/registration,37.0,False
+Amphitetranychus viennensis,Tetranychidae,102,demeton-S-methyl,1B,1973,1,1957.0,introduction/registration,16.0,False
+Amphitetranychus viennensis,Tetranychidae,114,dimethoate,1B,1977,1,1951.0,introduction/registration,26.0,False
+Amphitetranychus viennensis,Tetranychidae,241,parathion,1B,1988,1,1950.0,introduction/registration,38.0,False
+Amphitetranychus viennensis,Tetranychidae,249,phosalone,1B,1980,1,1965.0,introduction/registration,15.0,False
+Amphitetranychus viennensis,Tetranychidae,285,schradan,1B,1977,1,1954.0,introduction/registration,23.0,False
+Amphitetranychus viennensis,Tetranychidae,51,carbophenothion,1B,1977,1,1955.0,introduction/registration,22.0,False
+Brevipalpus chilensis,Tenuipalpidae,102,demeton-S-methyl,1B,1968,1,1957.0,introduction/registration,11.0,False
+Brevipalpus chilensis,Tenuipalpidae,204,malathion,1B,1968,1,1952.0,introduction/registration,16.0,False
+Brevipalpus chilensis,Tenuipalpidae,241,parathion,1B,1968,1,1950.0,introduction/registration,18.0,False
+Brevipalpus phoenicis,Tenuipalpidae,396,hexythiazox,10A,2002,1,1982.0,introduction/registration,20.0,False
+Brevipalpus yothersi,Tenuipalpidae,291,spirodiclofen,23,2021,4,2000.0,introduction/registration,21.0,False
+Bryobia praetiosa,Tetranychidae,1,abamectin,6,2022,1,1985.0,introduction/registration,37.0,False
+Bryobia praetiosa,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1965,1,,not a single compound,,False
+Eotetranychus hicoriae,Tetranychidae,104,dialifos,1B,1982,1,1967.0,introduction/registration,15.0,False
+Oligonychus pratensis,Tetranychidae,114,dimethoate,1B,2002,1,1951.0,introduction/registration,51.0,False
+Oligonychus pratensis,Tetranychidae,122,disulfoton,1B,1977,1,1956.0,introduction/registration,21.0,False
+Oligonychus pratensis,Tetranychidae,241,parathion,1B,1977,1,1950.0,introduction/registration,27.0,False
+Oligonychus pratensis,Tetranychidae,263,propargite,12C,1978,1,1969.0,introduction/registration,9.0,False
+Oligonychus pratensis,Tetranychidae,36,bifenthrin,3A,2002,1,1984.0,introduction/registration,18.0,False
+Oligonychus pratensis,Tetranychidae,51,carbophenothion,1B,1977,1,1955.0,introduction/registration,22.0,False
+Panonychus citri,Tetranychidae,1,abamectin,6,2010,8,1985.0,introduction/registration,25.0,False
+Panonychus citri,Tetranychidae,101,demeton,1B,1967,1,1951.0,introduction/registration,16.0,False
+Panonychus citri,Tetranychidae,108,dicofol,UN,1967,9,1956.0,introduction/registration,11.0,False
+Panonychus citri,Tetranychidae,114,dimethoate,1B,1973,2,1951.0,introduction/registration,22.0,False
+Panonychus citri,Tetranychidae,121,dioxathion,1B,1965,1,1959.0,introduction/registration,6.0,False
+Panonychus citri,Tetranychidae,132,ethion,1B,1965,1,1957.0,introduction/registration,8.0,False
+Panonychus citri,Tetranychidae,145,fenbutatin oxide,12B,2012,5,1974.0,introduction/registration,38.0,False
+Panonychus citri,Tetranychidae,149,fenpropathrin,3A,2010,12,1981.0,introduction/registration,29.0,False
+Panonychus citri,Tetranychidae,15,amitraz,19,1984,1,1972.0,introduction/registration,12.0,False
+Panonychus citri,Tetranychidae,21,azocyclotin,12B,2011,2,1978.0,introduction/registration,33.0,False
+Panonychus citri,Tetranychidae,221,MNFA,NC,1975,1,,not in PPDB,,False
+Panonychus citri,Tetranychidae,238,oxydeprofos,1B,1973,1,1950.0,discovery only,23.0,False
+Panonychus citri,Tetranychidae,241,parathion,1B,1967,2,1950.0,introduction/registration,17.0,False
+Panonychus citri,Tetranychidae,244,phenkapton,1B,1973,1,1955.0,discovery only,18.0,False
+Panonychus citri,Tetranychidae,274,pyridaben,21A,2010,19,1988.0,introduction/registration,22.0,False
+Panonychus citri,Tetranychidae,280,chinomethionate,UN,1975,1,1960.0,introduction/registration,15.0,False
+Panonychus citri,Tetranychidae,285,schradan,1B,1973,1,1954.0,introduction/registration,19.0,False
+Panonychus citri,Tetranychidae,291,spirodiclofen,23,2010,12,2000.0,introduction/registration,10.0,False
+Panonychus citri,Tetranychidae,312,tetrachlorvinphos Z-isomer,1B,1973,1,1967.0,introduction/registration,6.0,False
+Panonychus citri,Tetranychidae,313,tetradifon,12D,1965,7,1955.0,introduction/registration,10.0,False
+Panonychus citri,Tetranychidae,326,thioquinox,NC,1975,1,1957.0,introduction/registration,18.0,False
+Panonychus citri,Tetranychidae,33,benzoximate,UN,1984,1,1971.0,introduction/registration,13.0,False
+Panonychus citri,Tetranychidae,37,binapacryl,13,1973,1,1960.0,introduction/registration,13.0,False
+Panonychus citri,Tetranychidae,396,hexythiazox,10A,2010,3,1982.0,introduction/registration,28.0,False
+Panonychus citri,Tetranychidae,417,spirotetramat,23,2010,2,2007.0,introduction/registration,3.0,False
+Panonychus citri,Tetranychidae,464,cyflumetofen,25A,2020,6,2007.0,introduction/registration,13.0,False
+Panonychus citri,Tetranychidae,51,carbophenothion,1B,1965,1,1955.0,introduction/registration,10.0,False
+Panonychus citri,Tetranychidae,63,chlorfenson,NC,1967,2,1949.0,introduction/registration,18.0,False
+Panonychus citri,Tetranychidae,98,DDT,3B,1973,1,1944.0,introduction/registration,29.0,False
+Panonychus ulmi,Tetranychidae,1,abamectin,6,1998,8,1985.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,101,demeton,1B,1965,7,1951.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,102,demeton-S-methyl,1B,1965,4,1957.0,introduction/registration,8.0,False
+Panonychus ulmi,Tetranychidae,105,diazinon,1B,1974,2,1953.0,introduction/registration,21.0,False
+Panonychus ulmi,Tetranychidae,108,dicofol,UN,1965,18,1956.0,introduction/registration,9.0,False
+Panonychus ulmi,Tetranychidae,109,dicrotophos,1B,1965,3,1965.0,introduction/registration,0.0,False
+Panonychus ulmi,Tetranychidae,114,dimethoate,1B,1965,2,1951.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,132,ethion,1B,1973,3,1957.0,introduction/registration,16.0,False
+Panonychus ulmi,Tetranychidae,144,fenazaquin,21A,2003,4,1992.0,introduction/registration,11.0,False
+Panonychus ulmi,Tetranychidae,149,fenpropathrin,3A,2019,3,1981.0,introduction/registration,38.0,False
+Panonychus ulmi,Tetranychidae,15,amitraz,19,2007,1,1972.0,introduction/registration,35.0,False
+Panonychus ulmi,Tetranychidae,151,fenson,NC,1965,3,1958.0,introduction/registration,7.0,False
+Panonychus ulmi,Tetranychidae,153,fenthion,1B,1974,1,1960.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,172,genite,NC,1965,2,,not in PPDB,,False
+Panonychus ulmi,Tetranychidae,19,azinphos-methyl,1B,1965,10,1955.0,introduction/registration,10.0,False
+Panonychus ulmi,Tetranychidae,204,malathion,1B,1965,9,1952.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,210,methidathion,1B,1974,3,1968.0,introduction/registration,6.0,False
+Panonychus ulmi,Tetranychidae,218,mevinphos,1B,1965,2,1955.0,introduction/registration,10.0,False
+Panonychus ulmi,Tetranychidae,233,omethoate,1B,1973,1,1960.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1952,28,,not a single compound,,False
+Panonychus ulmi,Tetranychidae,241,parathion,1B,1951,21,1950.0,introduction/registration,1.0,False
+Panonychus ulmi,Tetranychidae,242,parathion-methyl,1B,1967,2,1950.0,introduction/registration,17.0,False
+Panonychus ulmi,Tetranychidae,244,phenkapton,1B,1965,3,1955.0,discovery only,10.0,False
+Panonychus ulmi,Tetranychidae,250,phosmet,1B,1974,2,1962.0,introduction/registration,12.0,False
+Panonychus ulmi,Tetranychidae,251,phosphamidon,1B,1974,2,1960.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,263,propargite,12C,1974,3,1969.0,introduction/registration,5.0,False
+Panonychus ulmi,Tetranychidae,280,chinomethionate,UN,1974,3,1960.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,291,spirodiclofen,23,2011,2,2000.0,introduction/registration,11.0,False
+Panonychus ulmi,Tetranychidae,305,tebufenpyrad,21A,2003,4,1993.0,introduction/registration,10.0,False
+Panonychus ulmi,Tetranychidae,313,tetradifon,12D,1965,11,1955.0,introduction/registration,10.0,False
+Panonychus ulmi,Tetranychidae,316,tetrasul,NC,1971,1,1957.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,324,thiometon,1B,1965,2,1960.0,introduction/registration,5.0,False
+Panonychus ulmi,Tetranychidae,33,benzoximate,UN,1984,1,1971.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,337,vamidothion,1B,1975,1,1962.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,37,binapacryl,13,1974,3,1960.0,introduction/registration,14.0,False
+Panonychus ulmi,Tetranychidae,389,clofentezine,10A,1991,3,2001.0,introduction/registration,-10.0,True
+Panonychus ulmi,Tetranychidae,396,hexythiazox,10A,1991,2,1982.0,introduction/registration,9.0,False
+Panonychus ulmi,Tetranychidae,41,bromopropylate,UN,2007,1,1967.0,introduction/registration,40.0,False
+Panonychus ulmi,Tetranychidae,49,carbaryl,1A,1974,1,1958.0,introduction/registration,16.0,False
+Panonychus ulmi,Tetranychidae,51,carbophenothion,1B,1968,2,1955.0,introduction/registration,13.0,False
+Panonychus ulmi,Tetranychidae,56,chlorbenside,NC,1965,2,1953.0,introduction/registration,12.0,False
+Panonychus ulmi,Tetranychidae,59,chlordimeform,19,1973,3,1966.0,introduction/registration,7.0,False
+Panonychus ulmi,Tetranychidae,63,chlorfenson,NC,1965,7,1949.0,introduction/registration,16.0,False
+Panonychus ulmi,Tetranychidae,64,chlorfensulfide,NC,1973,1,,not in PPDB,,False
+Panonychus ulmi,Tetranychidae,67,chlorobenzilate,NC,1965,2,1953.0,introduction/registration,12.0,False
+Panonychus ulmi,Tetranychidae,72,chlorpyrifos,1B,2009,2,1965.0,introduction/registration,44.0,False
+Panonychus ulmi,Tetranychidae,90,cyhexatin,12B,1987,1,1970.0,introduction/registration,17.0,False
+Panonychus ulmi,Tetranychidae,98,DDT,3B,1965,1,1944.0,introduction/registration,21.0,False
+Phyllocoptruta oleivora,Eriophyidae,108,dicofol,UN,1994,1,1956.0,introduction/registration,38.0,False
+Phyllocoptruta oleivora,Eriophyidae,340,zineb,NC,1965,2,1950.0,introduction/registration,15.0,False
+Tetranychus arabicus,Tetranychidae,108,dicofol,UN,1972,1,1956.0,introduction/registration,16.0,False
+Tetranychus arabicus,Tetranychidae,242,parathion-methyl,1B,1972,1,1950.0,introduction/registration,22.0,False
+Tetranychus arabicus,Tetranychidae,249,phosalone,1B,1972,1,1965.0,introduction/registration,7.0,False
+Tetranychus canadensis,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1960,1,,not a single compound,,False
+Tetranychus cinnabarinus,Tetranychidae,1,abamectin,6,2009,1,1985.0,introduction/registration,24.0,False
+Tetranychus cinnabarinus,Tetranychidae,101,demeton,1B,1972,2,1951.0,introduction/registration,21.0,False
+Tetranychus cinnabarinus,Tetranychidae,102,demeton-S-methyl,1B,1965,1,1957.0,introduction/registration,8.0,False
+Tetranychus cinnabarinus,Tetranychidae,108,dicofol,UN,1968,2,1956.0,introduction/registration,12.0,False
+Tetranychus cinnabarinus,Tetranychidae,114,dimethoate,1B,1972,1,1951.0,introduction/registration,21.0,False
+Tetranychus cinnabarinus,Tetranychidae,149,fenpropathrin,3A,2009,3,1981.0,introduction/registration,28.0,False
+Tetranychus cinnabarinus,Tetranychidae,15,amitraz,19,1985,1,1972.0,introduction/registration,13.0,False
+Tetranychus cinnabarinus,Tetranychidae,204,malathion,1B,1970,2,1952.0,introduction/registration,18.0,False
+Tetranychus cinnabarinus,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1959,4,,not a single compound,,False
+Tetranychus cinnabarinus,Tetranychidae,238,oxydeprofos,1B,1974,1,1950.0,discovery only,24.0,False
+Tetranychus cinnabarinus,Tetranychidae,241,parathion,1B,1965,2,1950.0,introduction/registration,15.0,False
+Tetranychus cinnabarinus,Tetranychidae,244,phenkapton,1B,1974,1,1955.0,discovery only,19.0,False
+Tetranychus cinnabarinus,Tetranychidae,251,phosphamidon,1B,1972,1,1960.0,introduction/registration,12.0,False
+Tetranychus cinnabarinus,Tetranychidae,274,pyridaben,21A,2019,1,1988.0,introduction/registration,31.0,False
+Tetranychus cinnabarinus,Tetranychidae,280,chinomethionate,UN,1974,1,1960.0,introduction/registration,14.0,False
+Tetranychus cinnabarinus,Tetranychidae,324,thiometon,1B,1972,1,1960.0,introduction/registration,12.0,False
+Tetranychus cinnabarinus,Tetranychidae,464,cyflumetofen,25A,2014,4,2007.0,introduction/registration,7.0,False
+Tetranychus cinnabarinus,Tetranychidae,67,chlorobenzilate,NC,1974,1,1953.0,introduction/registration,21.0,False
+Tetranychus crataegi,Tetranychidae,114,dimethoate,1B,1974,1,1951.0,introduction/registration,23.0,False
+Tetranychus crataegi,Tetranychidae,169,formothion,1B,1974,1,1961.0,introduction/registration,13.0,False
+Tetranychus crataegi,Tetranychidae,204,malathion,1B,1974,1,1952.0,introduction/registration,22.0,False
+Tetranychus cucurbitacearum,Tetranychidae,108,dicofol,UN,1972,1,1956.0,introduction/registration,16.0,False
+Tetranychus cucurbitacearum,Tetranychidae,242,parathion-methyl,1B,1972,1,1950.0,introduction/registration,22.0,False
+Tetranychus desertorum,Tetranychidae,102,demeton-S-methyl,1B,1968,1,1957.0,introduction/registration,11.0,False
+Tetranychus desertorum,Tetranychidae,241,parathion,1B,1968,1,1950.0,introduction/registration,18.0,False
+Tetranychus desertorum,Tetranychidae,242,parathion-methyl,1B,1968,1,1950.0,introduction/registration,18.0,False
+Tetranychus hydrangeae,Tetranychidae,102,demeton-S-methyl,1B,1968,1,1957.0,introduction/registration,11.0,False
+Tetranychus hydrangeae,Tetranychidae,241,parathion,1B,1968,2,1950.0,introduction/registration,18.0,False
+Tetranychus hydrangeae,Tetranychidae,242,parathion-methyl,1B,1968,1,1950.0,introduction/registration,18.0,False
+Tetranychus hydrangeae,Tetranychidae,248,phorate,1B,1968,1,1954.0,introduction/registration,14.0,False
+Tetranychus kanzawai,Tetranychidae,108,dicofol,UN,1973,1,1956.0,introduction/registration,17.0,False
+Tetranychus kanzawai,Tetranychidae,122,disulfoton,1B,1975,1,1956.0,introduction/registration,19.0,False
+Tetranychus kanzawai,Tetranychidae,150,fenpyroximate,21A,1998,1,1990.0,introduction/registration,8.0,False
+Tetranychus kanzawai,Tetranychidae,169,formothion,1B,1975,1,1961.0,introduction/registration,14.0,False
+Tetranychus kanzawai,Tetranychidae,238,oxydeprofos,1B,1973,1,1950.0,discovery only,23.0,False
+Tetranychus kanzawai,Tetranychidae,244,phenkapton,1B,1973,1,1955.0,discovery only,18.0,False
+Tetranychus kanzawai,Tetranychidae,274,pyridaben,21A,1998,1,1988.0,introduction/registration,10.0,False
+Tetranychus kanzawai,Tetranychidae,305,tebufenpyrad,21A,1998,1,1993.0,introduction/registration,5.0,False
+Tetranychus kanzawai,Tetranychidae,324,thiometon,1B,1975,1,1960.0,introduction/registration,15.0,False
+Tetranychus kanzawai,Tetranychidae,56,chlorbenside,NC,1975,1,1953.0,introduction/registration,22.0,False
+Tetranychus kanzawai,Tetranychidae,64,chlorfensulfide,NC,1975,1,,not in PPDB,,False
+Tetranychus kanzawai,Tetranychidae,90,cyhexatin,12B,1988,1,1970.0,introduction/registration,18.0,False
+Tetranychus ludeni,Tetranychidae,102,demeton-S-methyl,1B,1977,1,1957.0,introduction/registration,20.0,False
+Tetranychus ludeni,Tetranychidae,210,methidathion,1B,1977,1,1968.0,introduction/registration,9.0,False
+Tetranychus ludeni,Tetranychidae,241,parathion,1B,1977,1,1950.0,introduction/registration,27.0,False
+Tetranychus mcdanieli,Tetranychidae,101,demeton,1B,1974,1,1951.0,introduction/registration,23.0,False
+Tetranychus mcdanieli,Tetranychidae,105,diazinon,1B,1974,1,1953.0,introduction/registration,21.0,False
+Tetranychus mcdanieli,Tetranychidae,108,dicofol,UN,1961,3,1956.0,introduction/registration,5.0,False
+Tetranychus mcdanieli,Tetranychidae,19,azinphos-methyl,1B,1974,1,1955.0,introduction/registration,19.0,False
+Tetranychus mcdanieli,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1965,3,,not a single compound,,False
+Tetranychus mcdanieli,Tetranychidae,241,parathion,1B,1952,2,1950.0,introduction/registration,2.0,False
+Tetranychus mcdanieli,Tetranychidae,298,sulphenone,NC,1974,1,,not in PPDB,,False
+Tetranychus mcdanieli,Tetranychidae,313,tetradifon,12D,1961,2,1955.0,introduction/registration,6.0,False
+Tetranychus mcdanieli,Tetranychidae,37,binapacryl,13,1966,1,1960.0,introduction/registration,6.0,False
+Tetranychus mcdanieli,Tetranychidae,51,carbophenothion,1B,1974,1,1955.0,introduction/registration,19.0,False
+Tetranychus mcdanieli,Tetranychidae,63,chlorfenson,NC,1974,1,1949.0,introduction/registration,25.0,False
+Tetranychus mcdanieli,Tetranychidae,67,chlorobenzilate,NC,1967,1,1953.0,introduction/registration,14.0,False
+Tetranychus mcdanieli,Tetranychidae,90,cyhexatin,12B,1985,1,1970.0,introduction/registration,15.0,False
+Tetranychus pacificus,Tetranychidae,108,dicofol,UN,1969,1,1956.0,introduction/registration,13.0,False
+Tetranychus pacificus,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1953,2,,not a single compound,,False
+Tetranychus pacificus,Tetranychidae,263,propargite,12C,1987,2,1969.0,introduction/registration,18.0,False
+Tetranychus pacificus,Tetranychidae,90,cyhexatin,12B,1987,1,1970.0,introduction/registration,17.0,False
+Tetranychus pacificus,Tetranychidae,98,DDT,3B,1969,1,1944.0,introduction/registration,25.0,False
+Tetranychus schoenei,Tetranychidae,108,dicofol,UN,1965,1,1956.0,introduction/registration,9.0,False
+Tetranychus schoenei,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1960,1,,not a single compound,,False
+Tetranychus tumidus,Tetranychidae,241,parathion,1B,1954,1,1950.0,introduction/registration,4.0,False
+Tetranychus tumidus,Tetranychidae,98,DDT,3B,1974,1,1944.0,introduction/registration,30.0,False
+Tetranychus turkestani,Tetranychidae,1,abamectin,6,1995,1,1985.0,introduction/registration,10.0,False
+Tetranychus turkestani,Tetranychidae,114,dimethoate,1B,1974,1,1951.0,introduction/registration,23.0,False
+Tetranychus turkestani,Tetranychidae,145,fenbutatin oxide,12B,1995,1,1974.0,introduction/registration,21.0,False
+Tetranychus turkestani,Tetranychidae,19,azinphos-methyl,1B,1980,1,1955.0,introduction/registration,25.0,False
+Tetranychus turkestani,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1958,3,,not a single compound,,False
+Tetranychus turkestani,Tetranychidae,241,parathion,1B,1974,1,1950.0,introduction/registration,24.0,False
+Tetranychus turkestani,Tetranychidae,263,propargite,12C,1995,1,1969.0,introduction/registration,26.0,False
+Tetranychus turkestani,Tetranychidae,302,tau-fluvalinate,3A,1995,1,1985.0,introduction/registration,10.0,False
+Tetranychus turkestani,Tetranychidae,324,thiometon,1B,1974,1,1960.0,introduction/registration,14.0,False
+Tetranychus turkestani,Tetranychidae,36,bifenthrin,3A,1994,1,1984.0,introduction/registration,10.0,False
+Tetranychus urticae,Tetranychidae,1,abamectin,6,1998,76,1985.0,introduction/registration,13.0,False
+Tetranychus urticae,Tetranychidae,101,demeton,1B,1965,6,1951.0,introduction/registration,14.0,False
+Tetranychus urticae,Tetranychidae,102,demeton-S-methyl,1B,1962,16,1957.0,introduction/registration,5.0,False
+Tetranychus urticae,Tetranychidae,103,diafenthiuron,12A,2015,2,1988.0,introduction/registration,27.0,False
+Tetranychus urticae,Tetranychidae,105,diazinon,1B,1970,1,1953.0,introduction/registration,17.0,False
+Tetranychus urticae,Tetranychidae,108,dicofol,UN,1965,25,1956.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,109,dicrotophos,1B,1974,2,1965.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,111,dienochlor,NC,1969,1,1964.0,introduction/registration,5.0,False
+Tetranychus urticae,Tetranychidae,113,dimefox,1B,1974,1,1946.0,introduction/registration,28.0,False
+Tetranychus urticae,Tetranychidae,114,dimethoate,1B,1965,18,1951.0,introduction/registration,14.0,False
+Tetranychus urticae,Tetranychidae,122,disulfoton,1B,1972,1,1956.0,introduction/registration,16.0,False
+Tetranychus urticae,Tetranychidae,13,amidithion,1B,1968,3,1965.0,introduction/registration,3.0,False
+Tetranychus urticae,Tetranychidae,130,EPN,1B,1965,2,,no year,,False
+Tetranychus urticae,Tetranychidae,132,ethion,1B,1965,1,1957.0,introduction/registration,8.0,False
+Tetranychus urticae,Tetranychidae,134,ethoate-methyl,1B,1974,1,1963.0,introduction/registration,11.0,False
+Tetranychus urticae,Tetranychidae,143,famphur,1B,2008,1,1975.0,introduction/registration,33.0,False
+Tetranychus urticae,Tetranychidae,144,fenazaquin,21A,2001,3,1992.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,145,fenbutatin oxide,12B,1984,7,1974.0,introduction/registration,10.0,False
+Tetranychus urticae,Tetranychidae,149,fenpropathrin,3A,2004,3,1981.0,introduction/registration,23.0,False
+Tetranychus urticae,Tetranychidae,15,amitraz,19,1991,2,1972.0,introduction/registration,19.0,False
+Tetranychus urticae,Tetranychidae,150,fenpyroximate,21A,2001,30,1990.0,introduction/registration,11.0,False
+Tetranychus urticae,Tetranychidae,161,flucycloxuron,15,2005,1,1988.0,introduction/registration,17.0,False
+Tetranychus urticae,Tetranychidae,168,formetanate,1A,1974,3,1969.0,introduction/registration,5.0,False
+Tetranychus urticae,Tetranychidae,169,formothion,1B,1974,1,1961.0,introduction/registration,13.0,False
+Tetranychus urticae,Tetranychidae,19,azinphos-methyl,1B,1965,6,1955.0,introduction/registration,10.0,False
+Tetranychus urticae,Tetranychidae,2,acephate,1B,1979,1,1970.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,204,malathion,1B,1965,7,1952.0,introduction/registration,13.0,False
+Tetranychus urticae,Tetranychidae,207,mephosfolan,1B,1979,1,1960.0,discovery only,19.0,False
+Tetranychus urticae,Tetranychidae,209,methamidophos,1B,1974,2,1972.0,introduction/registration,2.0,False
+Tetranychus urticae,Tetranychidae,21,azocyclotin,12B,1984,3,1978.0,introduction/registration,6.0,False
+Tetranychus urticae,Tetranychidae,210,methidathion,1B,1968,6,1968.0,introduction/registration,0.0,False
+Tetranychus urticae,Tetranychidae,212,methomyl,1A,1974,4,1968.0,introduction/registration,6.0,False
+Tetranychus urticae,Tetranychidae,218,mevinphos,1B,1968,4,1955.0,introduction/registration,13.0,False
+Tetranychus urticae,Tetranychidae,219,milbemectin,6,2009,12,1990.0,introduction/registration,19.0,False
+Tetranychus urticae,Tetranychidae,223,monocrotophos,1B,1971,2,1965.0,introduction/registration,6.0,False
+Tetranychus urticae,Tetranychidae,225,naled,1B,1971,3,1956.0,introduction/registration,15.0,False
+Tetranychus urticae,Tetranychidae,233,omethoate,1B,1974,3,1960.0,introduction/registration,14.0,False
+Tetranychus urticae,Tetranychidae,234,Organophosphates - Unspecified In Literature,1B,1949,27,,not a single compound,,False
+Tetranychus urticae,Tetranychidae,241,parathion,1B,1961,25,1950.0,introduction/registration,11.0,False
+Tetranychus urticae,Tetranychidae,242,parathion-methyl,1B,1968,4,1950.0,introduction/registration,18.0,False
+Tetranychus urticae,Tetranychidae,243,permethrin,3A,1974,2,1979.0,introduction/registration,-5.0,True
+Tetranychus urticae,Tetranychidae,244,phenkapton,1B,1965,3,1955.0,discovery only,10.0,False
+Tetranychus urticae,Tetranychidae,247,phenthoate,1B,1974,1,1980.0,introduction/registration,-6.0,True
+Tetranychus urticae,Tetranychidae,248,phorate,1B,1969,1,1954.0,introduction/registration,15.0,False
+Tetranychus urticae,Tetranychidae,249,phosalone,1B,1974,1,1965.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,250,phosmet,1B,1974,1,1962.0,introduction/registration,12.0,False
+Tetranychus urticae,Tetranychidae,251,phosphamidon,1B,1968,3,1960.0,introduction/registration,8.0,False
+Tetranychus urticae,Tetranychidae,258,pirimiphos-methyl,1B,1974,9,1973.0,introduction/registration,1.0,False
+Tetranychus urticae,Tetranychidae,260,profenofos,1B,1983,1,1975.0,introduction/registration,8.0,False
+Tetranychus urticae,Tetranychidae,263,propargite,12C,1984,7,1969.0,introduction/registration,15.0,False
+Tetranychus urticae,Tetranychidae,268,prothoate,1B,1974,1,1955.0,introduction/registration,19.0,False
+Tetranychus urticae,Tetranychidae,274,pyridaben,21A,2001,31,1988.0,introduction/registration,13.0,False
+Tetranychus urticae,Tetranychidae,280,chinomethionate,UN,1972,2,1960.0,introduction/registration,12.0,False
+Tetranychus urticae,Tetranychidae,286,selenium sulfide,NC,1943,1,,not in PPDB,,False
+Tetranychus urticae,Tetranychidae,291,spirodiclofen,23,2009,10,2000.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,292,spiromesifen,23,2009,6,2002.0,introduction/registration,7.0,False
+Tetranychus urticae,Tetranychidae,295,sulfotep,1B,1965,2,1945.0,introduction/registration,20.0,False
+Tetranychus urticae,Tetranychidae,302,tau-fluvalinate,3A,2009,2,1985.0,introduction/registration,24.0,False
+Tetranychus urticae,Tetranychidae,305,tebufenpyrad,21A,1998,8,1993.0,introduction/registration,5.0,False
+Tetranychus urticae,Tetranychidae,310,TEPP,1B,1965,1,1946.0,introduction/registration,19.0,False
+Tetranychus urticae,Tetranychidae,313,tetradifon,12D,1965,10,1955.0,introduction/registration,10.0,False
+Tetranychus urticae,Tetranychidae,324,thiometon,1B,1961,6,1960.0,introduction/registration,1.0,False
+Tetranychus urticae,Tetranychidae,33,benzoximate,UN,2004,1,1971.0,introduction/registration,33.0,False
+Tetranychus urticae,Tetranychidae,334,trichlorfon,1B,1961,1,1990.0,introduction/registration,-29.0,True
+Tetranychus urticae,Tetranychidae,337,vamidothion,1B,1974,3,1962.0,introduction/registration,12.0,False
+Tetranychus urticae,Tetranychidae,34,BHC/cyclodienes - Unspecified In Literature,2A,1965,1,,not a single compound,,False
+Tetranychus urticae,Tetranychidae,35,bifenazate,20D,2005,19,1996.0,introduction/registration,9.0,False
+Tetranychus urticae,Tetranychidae,36,bifenthrin,3A,2002,5,1984.0,introduction/registration,18.0,False
+Tetranychus urticae,Tetranychidae,37,binapacryl,13,1968,1,1960.0,introduction/registration,8.0,False
+Tetranychus urticae,Tetranychidae,387,acequinocyl,20B,2025,4,1999.0,introduction/registration,26.0,False
+Tetranychus urticae,Tetranychidae,389,clofentezine,10A,1993,6,2001.0,introduction/registration,-8.0,True
+Tetranychus urticae,Tetranychidae,39,bromophos,1B,1970,1,1973.0,introduction/registration,-3.0,True
+Tetranychus urticae,Tetranychidae,393,azobenzene,NC,1965,1,1945.0,introduction/registration,20.0,False
+Tetranychus urticae,Tetranychidae,396,hexythiazox,10A,1993,10,1982.0,introduction/registration,11.0,False
+Tetranychus urticae,Tetranychidae,405,hexythiazox + organotin,MIX,1995,1,,not a single compound,,False
+Tetranychus urticae,Tetranychidae,406,etoxazole,10B,2004,3,1994.0,introduction/registration,10.0,False
+Tetranychus urticae,Tetranychidae,41,bromopropylate,UN,1991,2,1967.0,introduction/registration,24.0,False
+Tetranychus urticae,Tetranychidae,417,spirotetramat,23,2013,1,2007.0,introduction/registration,6.0,False
+Tetranychus urticae,Tetranychidae,426,cyenopyrafen,25A,2013,6,2006.0,introduction/registration,7.0,False
+Tetranychus urticae,Tetranychidae,464,cyflumetofen,25A,2018,2,2007.0,introduction/registration,11.0,False
+Tetranychus urticae,Tetranychidae,48,Carbamates - Unspecified in Literature,1A,1965,1,,not a single compound,,False
+Tetranychus urticae,Tetranychidae,5,acrinathrin,3A,2004,5,1990.0,introduction/registration,14.0,False
+Tetranychus urticae,Tetranychidae,51,carbophenothion,1B,1962,7,1955.0,introduction/registration,7.0,False
+Tetranychus urticae,Tetranychidae,56,chlorbenside,NC,1975,1,1953.0,introduction/registration,22.0,False
+Tetranychus urticae,Tetranychidae,59,chlordimeform,19,1969,3,1966.0,introduction/registration,3.0,False
+Tetranychus urticae,Tetranychidae,61,chlorfenapyr,13,2004,10,1996.0,introduction/registration,8.0,False
+Tetranychus urticae,Tetranychidae,63,chlorfenson,NC,1967,2,1949.0,introduction/registration,18.0,False
+Tetranychus urticae,Tetranychidae,64,chlorfensulfide,NC,1974,1,,not in PPDB,,False
+Tetranychus urticae,Tetranychidae,67,chlorobenzilate,NC,1968,3,1953.0,introduction/registration,15.0,False
+Tetranychus urticae,Tetranychidae,7,aldicarb,1A,1970,2,1970.0,introduction/registration,0.0,False
+Tetranychus urticae,Tetranychidae,70,chloropropylate,NC,1968,1,1956.0,introduction/registration,12.0,False
+Tetranychus urticae,Tetranychidae,72,chlorpyrifos,1B,2001,8,1965.0,introduction/registration,36.0,False
+Tetranychus urticae,Tetranychidae,90,cyhexatin,12B,1982,6,1970.0,introduction/registration,12.0,False
+Tetranychus urticae,Tetranychidae,98,DDT,3B,1965,1,1944.0,introduction/registration,21.0,False
+Tetranychus urticae,Tetranychidae,99,deltamethrin,3A,2001,1,1994.0,introduction/registration,7.0,False

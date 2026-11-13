@@ -1,0 +1,112 @@
+ai_id,ai_name,irac_group,ppdb_name,ppdb_record,introduction_text,availability,intro_year,intro_year_fallback,intro_basis,intro_year_used
+1,abamectin,6,abamectin,bpdb:8,"1967, avermectins discovered; 1985, first introduced by American Cyanamid, Shell",Current,1985.0,1967.0,introduction/registration,1985.0
+2,acephate,1B,acephate,ppdb:9,"Circa 1970, first introduced; 2001, use restricted USA; 2004, effective ban in EU",Current,1970.0,,introduction/registration,1970.0
+5,acrinathrin,3A,acrinathrin,ppdb:16,"1990, first introduced France; 2022, withdrawn UK",Current,1990.0,,introduction/registration,1990.0
+7,aldicarb,1A,aldicarb,ppdb:19,"1970, first introduced USA; 2011, withdrawn EU",Current,1970.0,,introduction/registration,1970.0
+13,amidithion,1B,amidithion,ppdb:1586,"Early 1960s, first synthesised; circa 1965, introduced",Considered obsolete but may be available in some countries,1965.0,1960.0,introduction/registration,1965.0
+15,amitraz,19,amitraz,ppdb:30,"Circa 1972, introduced; 1975, first registered USA; 1980, restricted use globally",Current,1972.0,,introduction/registration,1972.0
+19,azinphos-methyl,1B,azinphos-methyl,ppdb:51,"1955, introduced",Current,1955.0,,introduction/registration,1955.0
+21,azocyclotin,12B,azocyclotin,ppdb:53,"1978, introduced",-,1978.0,,introduction/registration,1978.0
+33,benzoximate,UN,benzoximate,ppdb:73,"1971, introduced Japan",Considered obsolete but may be available in some countries,1971.0,,introduction/registration,1971.0
+34,BHC/cyclodienes - Unspecified In Literature,2A,,,,,,,not a single compound,
+35,bifenazate,20D,bifenazate,ppdb:76,"1996, first introduced; 1999, registered USA; 2000, registered UK",Current,1996.0,,introduction/registration,1996.0
+36,bifenthrin,3A,bifenthrin,ppdb:78,"Circa 1984, introduced",Current,1984.0,,introduction/registration,1984.0
+37,binapacryl,13,binapacryl,ppdb:79,"Circa 1960, introduced",Considered obsolete - banned or voluntarily withdrawn - but may be available in some countries,1960.0,,introduction/registration,1960.0
+39,bromophos,1B,bromophos,ppdb:93,"Circa 1973, introduced & registered; 2002, cancelled EU",Considered obsolete but may be available in some countries,1973.0,,introduction/registration,1973.0
+41,bromopropylate,UN,bromopropylate,ppdb:95,"1967, first reported; early 1970s, first registered; 2007, withdrawn EU",Current,1967.0,,introduction/registration,1967.0
+48,Carbamates - Unspecified in Literature,1A,,,,,,,not a single compound,
+49,carbaryl,1A,carbaryl,ppdb:115,"1958, introduced by Union Carbide; 2007, withdrawn EU",Considered obsolete but may be available in some countries,1958.0,,introduction/registration,1958.0
+51,carbophenothion,1B,carbophenothion,ppdb:120,"1955, registered USA",Considered obsolete but may be available in some countries,1955.0,,introduction/registration,1955.0
+56,chlorbenside,NC,chlorbenside,ppdb:1225,"1953, first reported",Considered obsolete but may be available in some countries,1953.0,,introduction/registration,1953.0
+59,chlordimeform,19,chlordimeform,ppdb:1229,"Circa 1966, introduced",Considered obsolete but may be available in some countries,1966.0,,introduction/registration,1966.0
+61,chlorfenapyr,13,chlorfenapyr,ppdb:136,"1996, first registered Japan; 2001, first registered US",Current,1996.0,,introduction/registration,1996.0
+63,chlorfenson,NC,chlorfenson,ppdb:137,"1949, first reported",Considered obsolete but may be available in some countries,1949.0,,introduction/registration,1949.0
+64,chlorfensulfide,NC,,,,,,,not in PPDB,
+67,chlorobenzilate,NC,chlorobenzilate,ppdb:144,"Circa 1953, introduced",Considered obsolete but may be available in some countries,1953.0,,introduction/registration,1953.0
+70,chloropropylate,NC,chloropropylate,ppdb:149,"1956, first reported",Considered obsolete but may be available in some countries,1956.0,,introduction/registration,1956.0
+72,chlorpyrifos,1B,chlorpyrifos,ppdb:154,"1965, first reported and introduced; 2011, start of phase-out EU",Current,1965.0,,introduction/registration,1965.0
+90,cyhexatin,12B,cyhexatin,ppdb:195,"Circa 1970, introduced; Late 1980s, withdrawn UK",-,1970.0,,introduction/registration,1970.0
+92,cypermethrin-alpha,3A,alpha-cypermethrin,ppdb:24,"1983, first reported; Circa 1985, introduced; 2013, first registered USA; 201, first registered EU; 2021, start of withdrawal EU",Current,1983.0,,introduction/registration,1983.0
+98,DDT,3B,DDT,ppdb:204,"1944, introduced; 1970, start of global withdrawal; 1972, withdrawn USA",Considered obsolete but may be available in some countries; Banned in many countries,1944.0,,introduction/registration,1944.0
+99,deltamethrin,3A,deltamethrin,ppdb:205,"1974, first described; 1994, first registered USA",Current,1994.0,1974.0,introduction/registration,1994.0
+101,demeton,1B,demeton,ppdb:1537,"1951, introduced by Bayer",Considered obsolete but may be available in some countries,1951.0,,introduction/registration,1951.0
+102,demeton-S-methyl,1B,demeton-S-methyl,ppdb:206,"1957, introduced",Considered obsolete but may be available in some countries,1957.0,,introduction/registration,1957.0
+103,diafenthiuron,12A,diafenthiuron,ppdb:210,"1988, first reported; 1990, first marketed; 2008, withdrawn EU",Current,1988.0,,introduction/registration,1988.0
+104,dialifos,1B,dialifos,ppdb:1101,"1967, first reported",Considered obsolete but may be available in some countries,1967.0,,introduction/registration,1967.0
+105,diazinon,1B,diazinon,ppdb:212,"1953, first reported; 2007, withdrawn UK",Current,1953.0,,introduction/registration,1953.0
+108,dicofol,UN,dicofol,ppdb:223,"1956, first reported; 1957, first marketed USA",Current,1956.0,,introduction/registration,1956.0
+109,dicrotophos,1B,dicrotophos,ppdb:224,"Circa 1965, introduced",Current,1965.0,,introduction/registration,1965.0
+111,dienochlor,NC,dienochlor,ppdb:227,"1964, first reported",Considered obsolete but may be available in some countries,1964.0,,introduction/registration,1964.0
+113,dimefox,1B,dimefox,ppdb:236,"1946, first reported",Considered obsolete but may be available in some countries,1946.0,,introduction/registration,1946.0
+114,dimethoate,1B,dimethoate,ppdb:244,"1951, first reported",Current,1951.0,,introduction/registration,1951.0
+121,dioxathion,1B,dioxathion,ppdb:1100,"1959, first reported; 1988, withdrawn USA",Considered obsolete but may be available in some countries,1959.0,,introduction/registration,1959.0
+122,disulfoton,1B,disulfoton,ppdb:257,"1956, introduced",Current,1956.0,,introduction/registration,1956.0
+130,EPN,1B,EPN,ppdb:1186,"2020, withdrawn UK",-,,,no year,
+132,ethion,1B,ethion,ppdb:276,"1957, first reported; 2002, withdrawn UK",Current,1957.0,,introduction/registration,1957.0
+134,ethoate-methyl,1B,ethoate-methyl,ppdb:1597,"1963, first reported",Considered obsolete but may be available in some countries,1963.0,,introduction/registration,1963.0
+143,famphur,1B,famphur,vsdb:1598,"1975, first approval USA; 2000s, start of global withdrawal",Considered obsolete but may be available in some countries,1975.0,,introduction/registration,1975.0
+144,fenazaquin,21A,fenazaquin,ppdb:292,"1992, first reported; 1993, first introduced",Current,1992.0,,introduction/registration,1992.0
+145,fenbutatin oxide,12B,fenbutatin oxide,ppdb:294,"1974, first registered in US",Current,1974.0,,introduction/registration,1974.0
+149,fenpropathrin,3A,fenpropathrin,ppdb:306,"1981, first reported",Current,1981.0,,introduction/registration,1981.0
+150,fenpyroximate,21A,fenpyroximate,ppdb:309,"1990, first reported; 1991, first introduced",Current,1990.0,,introduction/registration,1990.0
+151,fenson,NC,fenson,ppdb:1270,"1958, first registered USA",Considered obsolete but may be available in some countries,1958.0,,introduction/registration,1958.0
+153,fenthion,1B,fenthion,ppdb:310,"1960, first reported & introduced",Current,1960.0,,introduction/registration,1960.0
+161,flucycloxuron,15,flucycloxuron,ppdb:328,"1988, first reported",Considered obsolete but may be available in some countries,1988.0,,introduction/registration,1988.0
+168,formetanate,1A,formetanate,ppdb:360,"1969, introduced",Current,1969.0,,introduction/registration,1969.0
+169,formothion,1B,formothion,ppdb:361,"1961, first reported; 2010, withdrawn EU",Considered obsolete but may be available in some countries,1961.0,,introduction/registration,1961.0
+172,genite,NC,,,,,,,not in PPDB,
+204,malathion,1B,malathion,ppdb:421,"1952, first reported; 2025, withdrawn UK",Current,1952.0,,introduction/registration,1952.0
+207,mephosfolan,1B,mephosfolan,ppdb:436,"1960-1970, discovered; 1990s, global phase out began",Considered obsolete but may be available in some countries,,1960.0,discovery only,1960.0
+209,methamidophos,1B,methamidophos,ppdb:453,"Circa 1972, introduced; 2009, voluntarily cancelled USA; 2024, phase out in New Zealand",Current,1972.0,,introduction/registration,1972.0
+210,methidathion,1B,methidathion,ppdb:456,"Circa 1968, introduced",Current,1968.0,,introduction/registration,1968.0
+212,methomyl,1A,methomyl,ppdb:458,"1968, first registered USA; 2007, withdrawn EU",Current,1968.0,,introduction/registration,1968.0
+218,mevinphos,1B,mevinphos,ppdb:471,"Circa 1955, introduced",Considered obsolete but may be available in some countries,1955.0,,introduction/registration,1955.0
+219,milbemectin,6,milbemectin,bpdb:472,"1972, first isolated; 1990, registered Japan",Current,1990.0,1972.0,introduction/registration,1990.0
+221,MNFA,NC,,,,,,,not in PPDB,
+223,monocrotophos,1B,monocrotophos,ppdb:1111,"1965, first registered USA; 1996, withdrawn UK",Banned in many countries,1965.0,,introduction/registration,1965.0
+225,naled,1B,naled,ppdb:480,"1956, introduced",Current,1956.0,,introduction/registration,1956.0
+233,omethoate,1B,omethoate,ppdb:492,"Circa 1960, introduced",Current,1960.0,,introduction/registration,1960.0
+234,Organophosphates - Unspecified In Literature,1B,,,,,,,not a single compound,
+238,oxydeprofos,1B,oxydeprofos,ppdb:2834,"1950s, discovered; 1972, listed on UK poisons list; 1990s, usage declined",Considered obsolete but may be available in some countries,,1950.0,discovery only,1950.0
+241,parathion,1B,parathion,ppdb:506,"Circa 1950, introduced",Considered obsolete but may be available in some countriesl Banned in many countries,1950.0,,introduction/registration,1950.0
+242,parathion-methyl,1B,parathion-methyl,ppdb:507,"Circa 1950, introduced",Current,1950.0,,introduction/registration,1950.0
+243,permethrin,3A,permethrin,ppdb:515,"1979, introduced; 2002, phase out began GB",Current,1979.0,,introduction/registration,1979.0
+244,phenkapton,1B,phenkapton,ppdb:1274,"Circa 1955, first synthesised; 1990s, phase out began",Considered obsolete but may be available in some countries,,1955.0,discovery only,1955.0
+247,phenthoate,1B,phenthoate,ppdb:518,"Circa 1980, introduced",-,1980.0,,introduction/registration,1980.0
+248,phorate,1B,phorate,ppdb:519,"1954, introduced; 2001, withdrawn UK",Current,1954.0,,introduction/registration,1954.0
+249,phosalone,1B,phosalone,ppdb:520,"Circa 1965, introduced",Current,1965.0,,introduction/registration,1965.0
+250,phosmet,1B,phosmet,ppdb:521,"Circa 1962, introduced",Current,1962.0,,introduction/registration,1962.0
+251,phosphamidon,1B,phosphamidon,ppdb:522,"Circa 1960, introduced; 1991, withdrawn UK",-,1960.0,,introduction/registration,1960.0
+258,pirimiphos-methyl,1B,pirimiphos-methyl,ppdb:532,"1973, first registration USA",Current,1973.0,,introduction/registration,1973.0
+260,profenofos,1B,profenofos,ppdb:538,"1975, first reported",Current,1975.0,,introduction/registration,1975.0
+263,propargite,12C,propargite,ppdb:547,"1969, first introduced",Current,1969.0,,introduction/registration,1969.0
+268,prothoate,1B,prothoate,ppdb:561,"1955, first reported",Considered obsolete but may be available in some countries,1955.0,,introduction/registration,1955.0
+274,pyridaben,21A,pyridaben,ppdb:569,"1988, first reported; 1990, first marketed Belgium",Current,1988.0,,introduction/registration,1988.0
+280,chinomethionate,UN,chinomethionat,ppdb:127,"1960, first reported; 1968, first registered USA; 2012, withdrawn EU",Current,1960.0,,introduction/registration,1960.0
+285,schradan,1B,schradan,ppdb:1678,"Circa 1954, introduced",Considered obsolete but may be available in some countries,1954.0,,introduction/registration,1954.0
+286,selenium sulfide,NC,,,,,,,not in PPDB,
+291,spirodiclofen,23,spirodiclofen,ppdb:597,"2000, first reported",Current,2000.0,,introduction/registration,2000.0
+292,spiromesifen,23,spiromesifen,ppdb:598,"2002, first reported",Current,2002.0,,introduction/registration,2002.0
+295,sulfotep,1B,sulfotep,ppdb:604,"1945, introduced",-,1945.0,,introduction/registration,1945.0
+298,sulphenone,NC,,,,,,,not in PPDB,
+302,tau-fluvalinate,3A,tau-fluvalinate,ppdb:608,"1985, introduced",Current,1985.0,,introduction/registration,1985.0
+305,tebufenpyrad,21A,tebufenpyrad,ppdb:612,"1993, registered Japan; 2002, registered USA",Current,1993.0,,introduction/registration,1993.0
+310,TEPP,1B,TEPP,ppdb:1272,"Circa 1940 discovered; 1946, registered USA; 1962, withdrawn UK",Considered obsolete but may be available in some countries,1946.0,1940.0,introduction/registration,1946.0
+312,tetrachlorvinphos Z-isomer,1B,tetrachlorvinphos,ppdb:625,"1967, registered USA",Current,1967.0,,introduction/registration,1967.0
+313,tetradifon,12D,tetradifon,ppdb:627,"Circa 1955, introduced",Current,1955.0,,introduction/registration,1955.0
+316,tetrasul,NC,tetrasul,ppdb:1275,"1957, first reported",Considered obsolete but may be available in some countries; Banned in many countries,1957.0,,introduction/registration,1957.0
+324,thiometon,1B,thiometon,ppdb:639,"Circa 1960s, first registrations",Current,1960.0,,introduction/registration,1960.0
+326,thioquinox,NC,thioquinox,ppdb:2999,"1957, first intoduced; 1964, preparation method patented; Circa 1980s, discontinued",Considered obsolete but may be available in some countries,1957.0,,introduction/registration,1957.0
+334,trichlorfon,1B,trichlorfon,ppdb:657,"1990, first registered USA; 2007, withdraw EU",Current,1990.0,,introduction/registration,1990.0
+337,vamidothion,1B,vamidothion,ppdb:678,"1962, first reported",Current,1962.0,,introduction/registration,1962.0
+340,zineb,NC,zineb,ppdb:683,"Circa 1950, introduced",Current,1950.0,,introduction/registration,1950.0
+387,acequinocyl,20B,acequinocyl,ppdb:10,"Mid-1990s, discovered; 1999, first introduced Japan and Korea; 2004, registered USA; 2013, registered EU",Current,1999.0,1990.0,introduction/registration,1999.0
+389,clofentezine,10A,clofentezine,ppdb:167,"2001, introduced; 2023, withdrawn EU",Current but banned in some countries,2001.0,,introduction/registration,2001.0
+393,azobenzene,NC,azobenzene,ppdb:1296,"1945, first reported",Considered obsolete but may be available in some countries,1945.0,,introduction/registration,1945.0
+396,hexythiazox,10A,hexythiazox,ppdb:385,"1982, first reported; 1985, first registered Japan",Current,1982.0,,introduction/registration,1982.0
+405,hexythiazox + organotin,MIX,,,,,,,not a single compound,
+406,etoxazole,10B,etoxazole,ppdb:284,"1994, first reported; 1998, first registered Japan",Current,1994.0,,introduction/registration,1994.0
+411,fluacrypyrim,20C,fluacrypyrim,ppdb:687,"2000, registered USA",Current,2000.0,,introduction/registration,2000.0
+417,spirotetramat,23,spirotetramat,ppdb:1119,"2007, registered Tunisia; 2008, registered USA",Current,2007.0,,introduction/registration,2007.0
+426,cyenopyrafen,25A,cyenopyrafen,ppdb:1685,"2006, introduced",-,2006.0,,introduction/registration,2006.0
+464,cyflumetofen,25A,cyflumetofen,ppdb:1143,"2007, first registered Japan; 2014, first registered US",Current,2007.0,,introduction/registration,2007.0

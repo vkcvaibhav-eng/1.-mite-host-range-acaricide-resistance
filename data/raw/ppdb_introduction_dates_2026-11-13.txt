@@ -1,0 +1,102 @@
+2|acephate|ppdb:9|Circa 1970, first introduced; 2001, use restricted USA; 2004, effective ban in EU|Current
+5|acrinathrin|ppdb:16|1990, first introduced France; 2022, withdrawn UK|Current
+7|aldicarb|ppdb:19|1970, first introduced USA; 2011, withdrawn EU|Current
+13|amidithion|ppdb:1586|Early 1960s, first synthesised; circa 1965, introduced|Considered obsolete but may be available in some countries
+15|amitraz|ppdb:30|Circa 1972, introduced; 1975, first registered USA; 1980, restricted use globally|Current
+19|azinphos-methyl|ppdb:51|1955, introduced|Current
+21|azocyclotin|ppdb:53|1978, introduced|-
+33|benzoximate|ppdb:73|1971, introduced Japan|Considered obsolete but may be available in some countries
+35|bifenazate|ppdb:76|1996, first introduced; 1999, registered USA; 2000, registered UK|Current
+36|bifenthrin|ppdb:78|Circa 1984, introduced|Current
+37|binapacryl|ppdb:79|Circa 1960, introduced|Considered obsolete - banned or voluntarily withdrawn - but may be available in some countries
+39|bromophos|ppdb:93|Circa 1973, introduced & registered; 2002, cancelled EU|Considered obsolete but may be available in some countries
+41|bromopropylate|ppdb:95|1967, first reported; early 1970s, first registered; 2007, withdrawn EU|Current
+49|carbaryl|ppdb:115|1958, introduced by Union Carbide; 2007, withdrawn EU|Considered obsolete but may be available in some countries
+51|carbophenothion|ppdb:120|1955, registered USA|Considered obsolete but may be available in some countries
+56|chlorbenside|ppdb:1225|1953, first reported|Considered obsolete but may be available in some countries
+59|chlordimeform|ppdb:1229|Circa 1966, introduced|Considered obsolete but may be available in some countries
+61|chlorfenapyr|ppdb:136|1996, first registered Japan; 2001, first registered US|Current
+63|chlorfenson|ppdb:137|1949, first reported|Considered obsolete but may be available in some countries
+67|chlorobenzilate|ppdb:144|Circa 1953, introduced|Considered obsolete but may be available in some countries
+70|chloropropylate|ppdb:149|1956, first reported|Considered obsolete but may be available in some countries
+72|chlorpyrifos|ppdb:154|1965, first reported and introduced; 2011, start of phase-out EU|Current
+90|cyhexatin|ppdb:195|Circa 1970, introduced; Late 1980s, withdrawn UK|-
+92|alpha-cypermethrin|ppdb:24|1983, first reported; Circa 1985, introduced; 2013, first registered USA; 201, first registered EU; 2021, start of withdrawal EU|Current
+98|DDT|ppdb:204|1944, introduced; 1970, start of global withdrawal; 1972, withdrawn USA|Considered obsolete but may be available in some countries; Banned in many countries
+99|deltamethrin|ppdb:205|1974, first described; 1994, first registered USA|Current
+101|demeton|ppdb:1537|1951, introduced by Bayer|Considered obsolete but may be available in some countries
+102|demeton-S-methyl|ppdb:206|1957, introduced|Considered obsolete but may be available in some countries
+103|diafenthiuron|ppdb:210|1988, first reported; 1990, first marketed; 2008, withdrawn EU|Current
+104|dialifos|ppdb:1101|1967, first reported|Considered obsolete but may be available in some countries
+105|diazinon|ppdb:212|1953, first reported; 2007, withdrawn UK|Current
+108|dicofol|ppdb:223|1956, first reported; 1957, first marketed USA|Current
+109|dicrotophos|ppdb:224|Circa 1965, introduced|Current
+111|dienochlor|ppdb:227|1964, first reported|Considered obsolete but may be available in some countries
+113|dimefox|ppdb:236|1946, first reported|Considered obsolete but may be available in some countries
+114|dimethoate|ppdb:244|1951, first reported|Current
+121|dioxathion|ppdb:1100|1959, first reported; 1988, withdrawn USA|Considered obsolete but may be available in some countries
+122|disulfoton|ppdb:257|1956, introduced|Current
+130|EPN|ppdb:1186|2020, withdrawn UK|-
+132|ethion|ppdb:276|1957, first reported; 2002, withdrawn UK|Current
+134|ethoate-methyl|ppdb:1597|1963, first reported|Considered obsolete but may be available in some countries
+144|fenazaquin|ppdb:292|1992, first reported; 1993, first introduced|Current
+145|fenbutatin oxide|ppdb:294|1974, first registered in US|Current
+149|fenpropathrin|ppdb:306|1981, first reported|Current
+150|fenpyroximate|ppdb:309|1990, first reported; 1991, first introduced|Current
+151|fenson|ppdb:1270|1958, first registered USA|Considered obsolete but may be available in some countries
+153|fenthion|ppdb:310|1960, first reported & introduced|Current
+161|flucycloxuron|ppdb:328|1988, first reported|Considered obsolete but may be available in some countries
+168|formetanate|ppdb:360|1969, introduced|Current
+169|formothion|ppdb:361|1961, first reported; 2010, withdrawn EU|Considered obsolete but may be available in some countries
+204|malathion|ppdb:421|1952, first reported; 2025, withdrawn UK|Current
+207|mephosfolan|ppdb:436|1960-1970, discovered; 1990s, global phase out began|Considered obsolete but may be available in some countries
+209|methamidophos|ppdb:453|Circa 1972, introduced; 2009, voluntarily cancelled USA; 2024, phase out in New Zealand|Current
+210|methidathion|ppdb:456|Circa 1968, introduced|Current
+212|methomyl|ppdb:458|1968, first registered USA; 2007, withdrawn EU|Current
+218|mevinphos|ppdb:471|Circa 1955, introduced|Considered obsolete but may be available in some countries
+223|monocrotophos|ppdb:1111|1965, first registered USA; 1996, withdrawn UK|Banned in many countries
+225|naled|ppdb:480|1956, introduced|Current
+233|omethoate|ppdb:492|Circa 1960, introduced|Current
+238|oxydeprofos|ppdb:2834|1950s, discovered; 1972, listed on UK poisons list; 1990s, usage declined|Considered obsolete but may be available in some countries
+241|parathion|ppdb:506|Circa 1950, introduced|Considered obsolete but may be available in some countriesl Banned in many countries
+242|parathion-methyl|ppdb:507|Circa 1950, introduced|Current
+243|permethrin|ppdb:515|1979, introduced; 2002, phase out began GB|Current
+244|phenkapton|ppdb:1274|Circa 1955, first synthesised; 1990s, phase out began|Considered obsolete but may be available in some countries
+247|phenthoate|ppdb:518|Circa 1980, introduced|-
+248|phorate|ppdb:519|1954, introduced; 2001, withdrawn UK|Current
+249|phosalone|ppdb:520|Circa 1965, introduced|Current
+250|phosmet|ppdb:521|Circa 1962, introduced|Current
+251|phosphamidon|ppdb:522|Circa 1960, introduced; 1991, withdrawn UK|-
+258|pirimiphos-methyl|ppdb:532|1973, first registration USA|Current
+260|profenofos|ppdb:538|1975, first reported|Current
+263|propargite|ppdb:547|1969, first introduced|Current
+268|prothoate|ppdb:561|1955, first reported|Considered obsolete but may be available in some countries
+274|pyridaben|ppdb:569|1988, first reported; 1990, first marketed Belgium|Current
+280|chinomethionat|ppdb:127|1960, first reported; 1968, first registered USA; 2012, withdrawn EU|Current
+285|schradan|ppdb:1678|Circa 1954, introduced|Considered obsolete but may be available in some countries
+291|spirodiclofen|ppdb:597|2000, first reported|Current
+292|spiromesifen|ppdb:598|2002, first reported|Current
+295|sulfotep|ppdb:604|1945, introduced|-
+302|tau-fluvalinate|ppdb:608|1985, introduced|Current
+305|tebufenpyrad|ppdb:612|1993, registered Japan; 2002, registered USA|Current
+312|tetrachlorvinphos|ppdb:625|1967, registered USA|Current
+313|tetradifon|ppdb:627|Circa 1955, introduced|Current
+316|tetrasul|ppdb:1275|1957, first reported|Considered obsolete but may be available in some countries; Banned in many countries
+324|thiometon|ppdb:639|Circa 1960s, first registrations|Current
+326|thioquinox|ppdb:2999|1957, first intoduced; 1964, preparation method patented; Circa 1980s, discontinued|Considered obsolete but may be available in some countries
+334|trichlorfon|ppdb:657|1990, first registered USA; 2007, withdraw EU|Current
+337|vamidothion|ppdb:678|1962, first reported|Current
+340|zineb|ppdb:683|Circa 1950, introduced|Current
+387|acequinocyl|ppdb:10|Mid-1990s, discovered; 1999, first introduced Japan and Korea; 2004, registered USA; 2013, registered EU|Current
+389|clofentezine|ppdb:167|2001, introduced; 2023, withdrawn EU|Current but banned in some countries
+393|azobenzene|ppdb:1296|1945, first reported|Considered obsolete but may be available in some countries
+396|hexythiazox|ppdb:385|1982, first reported; 1985, first registered Japan|Current
+406|etoxazole|ppdb:284|1994, first reported; 1998, first registered Japan|Current
+411|fluacrypyrim|ppdb:687|2000, registered USA|Current
+417|spirotetramat|ppdb:1119|2007, registered Tunisia; 2008, registered USA|Current
+426|cyenopyrafen|ppdb:1685|2006, introduced|-
+464|cyflumetofen|ppdb:1143|2007, first registered Japan; 2014, first registered US|Current
+310|TEPP|ppdb:1272|Circa 1940 discovered; 1946, registered USA; 1962, withdrawn UK|Considered obsolete but may be available in some countries
+1|abamectin|bpdb:8|1967, avermectins discovered; 1985, first introduced by American Cyanamid, Shell|Current
+219|milbemectin|bpdb:472|1972, first isolated; 1990, registered Japan|Current
+143|famphur|vsdb:1598|1975, first approval USA; 2000s, start of global withdrawal|Considered obsolete but may be available in some countries

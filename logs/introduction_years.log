@@ -1,0 +1,16 @@
+intro_basis
+introduction/registration    98
+not in PPDB                   5
+not a single compound         4
+discovery only                3
+no year                       1
+
+first case earlier than introduction year (source year probably wrong):
+     ai_name  intro_year_used  n_pairs  earliest_case
+   bromophos           1973.0        1           1970
+clofentezine           2001.0        2           1991
+  permethrin           1979.0        1           1974
+  phenthoate           1980.0        1           1974
+ trichlorfon           1990.0        1           1961
+
+pairs: 286; with a usable year: 261; conflicts: 6

@@ -13,3 +13,7 @@ clean-results:
 
 resistance:
 	python scripts/02_resistance.py
+	python scripts/02b_introduction_years.py
+
+resistance_old:
+	python scripts/02_resistance.py
