@@ -85,6 +85,14 @@ Bryobia praetiosa	18S	nuccore	"txid166497[Organism:exp] AND (""18S ribosomal RNA
 Bryobia praetiosa	28S	nuccore	"txid166497[Organism:exp] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	3
 Bryobia praetiosa	ITS2	nuccore	"txid166497[Organism:exp] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	1
 Bryobia praetiosa	mitogenome	nuccore	"txid166497[Organism:exp] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
+Eotetranychus hicoriae	taxonomy Scientific Name	taxonomy	"""Eotetranychus hicoriae""[Scientific Name]"	0
+Eotetranychus hicoriae	taxonomy All Names	taxonomy	"""Eotetranychus hicoriae""[All Names]"	0
+Eotetranychus hicoriae	all nucleotide	nuccore	"""Eotetranychus hicoriae""[Organism]"	0
+Eotetranychus hicoriae	COI	nuccore	"""Eotetranychus hicoriae""[Organism] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	0
+Eotetranychus hicoriae	18S	nuccore	"""Eotetranychus hicoriae""[Organism] AND (""18S ribosomal RNA""[Title] OR ""18S rRNA""[Title] OR ""small subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Eotetranychus hicoriae	28S	nuccore	"""Eotetranychus hicoriae""[Organism] AND (""28S ribosomal RNA""[Title] OR ""28S rRNA""[Title] OR ""large subunit ribosomal RNA""[Title]) AND 150:3000[SLEN]"	0
+Eotetranychus hicoriae	ITS2	nuccore	"""Eotetranychus hicoriae""[Organism] AND (""internal transcribed spacer 2""[Title] OR ITS2[Title]) AND 150:3000[SLEN]"	0
+Eotetranychus hicoriae	mitogenome	nuccore	"""Eotetranychus hicoriae""[Organism] AND ""complete genome""[Title] AND mitochondrion[filter] AND 10000:30000[SLEN]"	0
 Oligonychus coffeae	taxonomy Scientific Name	taxonomy	"""Oligonychus coffeae""[Scientific Name]"	1
 Oligonychus coffeae	all nucleotide	nuccore	txid311847[Organism:exp]	21
 Oligonychus coffeae	COI	nuccore	"txid311847[Organism:exp] AND (COI[Gene] OR COX1[Gene] OR CO1[Gene] OR COXI[Gene] OR ""cytochrome oxidase subunit I""[Title] OR ""cytochrome oxidase subunit 1""[Title] OR ""cytochrome c oxidase subunit I""[Title] OR ""cytochrome c oxidase subunit 1""[Title]) AND 150:3000[SLEN]"	4

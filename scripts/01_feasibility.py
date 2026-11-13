@@ -1,9 +1,12 @@
 """Stage 1 feasibility: resistant phytophagous mite species and their GenBank sequence coverage.
 
 Inputs
-  data/raw/aprd_ai_pages_acari_2026-11-13.csv        Acari rows from 48 APRD active-ingredient pages
-  data/raw/literature_resistant_species_2026-11-13.csv  resistant species found in papers, not on those pages
+  data/raw/aprd_acari_ag_species_2026-11-13.csv      full APRD species table for order Acari, group AG
+  data/raw/aprd_species_ai_cases_2026-11-13.csv      cases per species and active ingredient (APRD species pages)
+  data/raw/bold_summary_2026-11-13.csv               BOLD specimen and COI counts per species
+  data/raw/literature_resistant_species_2026-11-13.csv  resistant species found in papers, not in APRD
   data/manual/name_map_stage1.csv                    name decisions (synonyms, spellings, flags)
+  (data/raw/aprd_ai_pages_acari_2026-11-13.csv, the first 48-page transcription, is superseded and not read)
 
 Outputs
   data/clean/stage1_species_list.csv     one row per standardised species name
@@ -29,7 +32,9 @@ import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_APRD = ROOT / "data/raw/aprd_ai_pages_acari_2026-11-13.csv"
+RAW_APRD = ROOT / "data/raw/aprd_acari_ag_species_2026-11-13.csv"
+RAW_APRD_AI = ROOT / "data/raw/aprd_species_ai_cases_2026-11-13.csv"
+RAW_BOLD = ROOT / "data/raw/bold_summary_2026-11-13.csv"
 RAW_LIT = ROOT / "data/raw/literature_resistant_species_2026-11-13.csv"
 NAME_MAP = ROOT / "data/manual/name_map_stage1.csv"
 OUT_SPECIES = ROOT / "data/clean/stage1_species_list.csv"
@@ -43,7 +48,7 @@ IN_SCOPE_FAMILIES = {"tetranychidae", "tenuipalpidae", "eriophyidae"}
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 TOOL = "mite-host-range-acaricide-resistance"
-PAUSE = 0.4  # NCBI allows 3 requests per second without an API key
+PAUSE = 1.0  # NCBI allows 3 requests per second without a key; slower to avoid shared-IP throttling
 
 # Length window matches the plan's family-level counts (150-3,000 bp).
 LEN = "150:3000[SLEN]"
@@ -103,19 +108,32 @@ def build_species_list() -> pd.DataFrame:
     flags = dict(zip(names["name_as_listed"].str.lower(), names["confidence"]))
 
     aprd = aprd.assign(query_name=aprd["species_as_listed"].map(lambda s: name_map.get(s, binomial(s))))
+    ai = pd.read_csv(RAW_APRD_AI, dtype={"arId": str, "ai_id": str})
+    ai = ai.merge(aprd[["arId", "query_name"]], on="arId", how="inner")
+    ai_per = (ai.groupby("query_name")
+              .agg(aprd_active_ingredients=("ai_id", "nunique"),
+                   aprd_compounds=("ai_name", lambda s: "; ".join(sorted(set(s)))))
+              .reset_index())
+    aprd["n_cases"] = aprd["n_cases"].astype(int)
+    aprd["n_citations"] = pd.to_numeric(aprd["n_citations"], errors="coerce").fillna(0).astype(int)
     per_species = (aprd.groupby("query_name")
                    .agg(family=("family_as_listed", "first"),
                         names_as_listed=("species_as_listed", lambda s: "; ".join(sorted(set(s)))),
-                        aprd_ai_pages=("ai_id", "nunique"),
-                        aprd_compounds=("ai_name", lambda s: "; ".join(sorted(set(s)))))
-                   .reset_index())
+                        aprd_ids=("arId", lambda s: "; ".join(sorted(set(s), key=int))),
+                        aprd_cases=("n_cases", "sum"),
+                        aprd_citations=("n_citations", "sum"),
+                        aprd_countries=("countries", lambda s: len({c for x in s for c in x.split("; ") if c})))
+                   .reset_index()
+                   .merge(ai_per, on="query_name", how="left"))
     per_species["source"] = "APRD"
 
     lit = pd.read_csv(RAW_LIT, dtype=str).fillna("")
     lit = lit.assign(query_name=lit["species"].map(binomial), names_as_listed=lit["species"],
-                     aprd_ai_pages=0, aprd_compounds="", source="literature")
+                     aprd_cases=0, aprd_active_ingredients=0, source="literature")
     lit = lit.loc[~lit["query_name"].isin(per_species["query_name"]),
-                  ["query_name", "family", "names_as_listed", "aprd_ai_pages", "aprd_compounds", "source"]]
+                  ["query_name", "family", "names_as_listed", "aprd_cases", "aprd_active_ingredients", "source"]]
+    log.info("literature species already in APRD and dropped from the literature list: %s",
+             sorted(set(pd.read_csv(RAW_LIT)["species"].map(binomial)) & set(per_species["query_name"])))
 
     species = pd.concat([per_species, lit], ignore_index=True)
     species["family"] = species["family"].str.capitalize()
@@ -138,13 +156,13 @@ class Entrez:
 
     def _get(self, endpoint: str, params: dict) -> dict:
         params = {**params, "retmode": "json", "tool": TOOL}
-        for attempt in range(5):
+        for attempt in range(8):
             time.sleep(PAUSE)
             r = self.session.get(EUTILS + endpoint, params=params, timeout=60)
             if r.status_code == 200:
                 return r.json()
             log.warning("HTTP %s on %s (attempt %d)", r.status_code, endpoint, attempt + 1)
-            time.sleep(2 ** attempt)
+            time.sleep(5 * (attempt + 1))
         r.raise_for_status()
         return {}
 
@@ -190,8 +208,13 @@ def count_sequences(species: pd.DataFrame) -> pd.DataFrame:
 
     pd.DataFrame(ez.rows).to_csv(LOG_QUERIES, sep="\t", index=False)
     counts = species.merge(pd.DataFrame(records), on="query_name", how="left")
-    counts["has_COI"] = counts["COI"] > 0
-    counts["has_any_marker"] = counts[["COI", "18S", "28S", "ITS2"]].sum(axis=1) > 0
+    bold = pd.read_csv(RAW_BOLD).rename(columns={"species": "query_name"})
+    counts = counts.merge(bold, on="query_name", how="left")
+    missing = counts.loc[counts["bold_specimens"].isna(), "query_name"].tolist()
+    if missing:
+        log.warning("no BOLD row for: %s", missing)
+    counts["has_COI"] = (counts["COI"] > 0) | (counts["bold_COI_all_regions"].fillna(0) > 0)
+    counts["has_any_marker"] = (counts[["COI", "18S", "28S", "ITS2"]].sum(axis=1) > 0) | counts["has_COI"]
     counts["COI_plus_rDNA"] = counts["has_COI"] & ((counts["18S"] > 0) | (counts["28S"] > 0))
     counts["accessed"] = dt.date.today().isoformat()
     counts.to_csv(OUT_COUNTS, index=False)
@@ -205,7 +228,10 @@ def summarise(counts: pd.DataFrame) -> pd.DataFrame:
                 "from_APRD": int((df["source"] == "APRD").sum()),
                 "from_literature": int((df["source"] == "literature").sum()),
                 "with_any_marker": int(df["has_any_marker"].sum()),
-                "with_COI": int(df["has_COI"].sum()),
+                "APRD_cases": int(df["aprd_cases"].fillna(0).sum()),
+                "with_2plus_APRD_cases": int((df["aprd_cases"].fillna(0) >= 2).sum()),
+                "with_COI_GenBank_or_BOLD": int(df["has_COI"].sum()),
+                "with_COI_GenBank": int((df["COI"] > 0).sum()),
                 "with_COI_plus_18S_or_28S": int(df["COI_plus_rDNA"].sum()),
                 "with_mitogenome": int((df["mitogenome"] > 0).sum()),
                 "name_needs_check": int(df["name_flag"].str.contains("check").sum())}

@@ -1,0 +1,46 @@
+arId,species_as_listed,family_as_listed,group,n_cases,n_citations,countries
+100,acarus chaetoxysilus,acaridae,AG,2,,
+175,acarus farris,acaridae,AG,1,,
+479,acarus siro,acaridae,AG,5,,
+290,aculops lycopersici,eriophyidae,AG,1,1,Egypt
+378,aculops pelekassi,eriophyidae,AG,1,1,Afghanistan
+123,aculus cornutus,eriophyidae,AG,3,2,New Zealand; USA
+194,aculus fockeui,eriophyidae,AG,1,1,USA
+303,aculus malivagrans,eriophyidae,AG,1,1,USA
+379,aculus pelekassi,eriophyidae,AG,2,1,Japan
+463,aculus schlechtendali,eriophyidae,AG,1,1,Canada
+103,brevipalpus chilensis,tenuipalpidae,AG,3,1,Chile
+597,brevipalpus phoenicis,tenuipalpidae,AG,1,1,Brazil
+700,Brevipalpus yothersi,tenuipalpidae,AG,4,1,Brazil
+411,bryobia praetiosa,tetranychidae,AG,2,2,Poland; China
+234,eotetranychus hicoriae,tetranychidae,AG,1,1,USA
+590,halotydeus destructor,pentatomidae,AG,14,4,Australia
+412,oligonychus pratensis,tetranychidae,AG,6,4,USA
+109,panonychus citri,tetranychidae,AG,106,16,Japan; South Africa; USA; USSR; China; Turkey
+532,panonychus ulmi,tetranychidae,AG,203,78,Australia; Austria; Bulgaria; Canada; Chile; Denmark; France; Germany; Israel; Italy; Japan; Korea; Lebanon; Netherlands; New Zealand; Norway; Poland; Portugal; Sweden; Switzerland; Syria; United Kingdom; USA; USSR; Yugoslavia; Turkey; Azerbaijan; Iran
+354,phyllocoptruta oleivora,eriophyidae,AG,3,3,Cyprus; USA
+158,rhizoglyphus echinopus,acaridae,AG,6,,
+446,rhizoglyphus robini,acaridae,AG,23,,
+16,tetranychus althaeae,tetranychidae,AG,1,1,Denmark
+33,tetranychus arabicus,tetranychidae,AG,3,1,Egypt
+48,tetranychus atlanticus,tetranychidae,AG,7,4,Bulgaria; France; Iraq; USA
+65,tetranychus bimaculatus,tetranychidae,AG,2,2,Colombia; USA
+84,tetranychus canadensis,tetranychidae,AG,1,1,USA
+106,tetranychus cinnabarinus,tetranychidae,AG,37,24,China; Germany; Iran; Israel; Japan; South Africa; Zimbabwe; USA; Turkey
+129,tetranychus crataegi,tetranychidae,AG,3,1,USSR
+133,tetranychus cucurbitacearum,tetranychidae,AG,2,1,Egypt
+144,tetranychus desertorum,tetranychidae,AG,3,1,Mexico
+242,tetranychus hydrangaea,tetranychidae,AG,5,1,Mexico
+263,tetranychus kanzawai,tetranychidae,AG,12,4,Japan
+286,tetranychus ludeni,tetranychidae,AG,3,1,Australia
+306,tetranychus mcdanieli,tetranychidae,AG,19,9,USA; Canada
+368,tetranychus pacificus,tetranychidae,AG,7,5,USA
+464,tetranychus schoenei,tetranychidae,AG,2,2,USA
+529,tetranychus tumidus,tetranychidae,AG,2,2,Barbados; USA
+530,tetranychus turkestani,tetranychidae,AG,5,3,Australia; USA
+536,tetranychus urticae,tetranychidae,AG,572,152,Argentina; Australia; Austria; Belgium; Brazil; Bulgaria; Canada; Chile; Czechoslovakia; Denmark; Egypt; Finland; France; Germany; Greece; Iran; Israel; Italy; Japan; Korea; Lebanon; Netherlands; New Zealand; Norway; Poland; South Africa; Sweden; Switzerland; Taiwan; Turkey; United Kingdom; USA; USSR; Venezuela; Zimbabwe; Cyprus; China; Spain
+555,tetranychus viennensis,tetranychidae,AG,7,4,China; Japan; USSR
+372,tyrophagus palmarum,acaridae,AG,1,,
+429,tyrophagus putrescentiae,acaridae,AG,1,,
+671,Varroa destructor,varroidae,AG,7,,
+259,varroa jacobsoni,varroidae,AG,10,,

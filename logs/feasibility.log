@@ -1,68 +1,65 @@
-2026-11-13 16:47:31,723 INFO run started 2026-11-13T16:47:31
-2026-11-13 16:47:31,727 INFO python 3.13.18, pandas 3.0.5, requests 2.34.2, Linux-6.18.44-fc-v445-x86_64-with-glibc2.39
-2026-11-13 16:47:31,748 INFO APRD rows read: 275; kept: 195; excluded: 80 (32 species names)
-2026-11-13 16:47:31,769 INFO standardised species: 33 (APRD 29, literature 4)
-2026-11-13 16:47:38,146 INFO Aculops lycopersici              taxid=1227671  COI=103   18S=14   28S=48   ITS2=70   mito=0
-2026-11-13 16:47:43,806 INFO Aculops pelekassi                taxid=1535316  COI=0     18S=1    28S=0    ITS2=0    mito=0
-2026-11-13 16:47:47,738 INFO Aculus cornutus                  taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:47:47,738 WARNING zero taxonomy hits: Aculus cornutus
-2026-11-13 16:47:47,738 WARNING zero nucleotide records: Aculus cornutus
-2026-11-13 16:47:54,088 INFO Aculus fockeui                   taxid=3439900  COI=15    18S=0    28S=15   ITS2=0    mito=0
-2026-11-13 16:47:56,953 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:47:59,388 INFO Aculus malivagrans               taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:47:59,388 WARNING zero taxonomy hits: Aculus malivagrans
-2026-11-13 16:47:59,388 WARNING zero nucleotide records: Aculus malivagrans
-2026-11-13 16:48:05,331 INFO Aculus schlechtendali            taxid=2813516  COI=4     18S=0    28S=1    ITS2=0    mito=0
-2026-11-13 16:48:11,907 INFO Phyllocoptruta oleivora          taxid=1452691  COI=3     18S=2    28S=2    ITS2=1    mito=0
-2026-11-13 16:48:19,265 INFO Brevipalpus chilensis            taxid=1336422  COI=42    18S=0    28S=15   ITS2=7    mito=0
-2026-11-13 16:48:25,877 INFO Brevipalpus phoenicis            taxid=152387   COI=92    18S=1    28S=2    ITS2=2    mito=0
-2026-11-13 16:48:31,847 INFO Brevipalpus yothersi             taxid=1754060  COI=339   18S=0    28S=91   ITS2=47   mito=0
-2026-11-13 16:48:38,419 INFO Amphitetranychus viennensis      taxid=381746   COI=57    18S=5    28S=8    ITS2=38   mito=2
-2026-11-13 16:48:44,591 INFO Bryobia praetiosa                taxid=166497   COI=6     18S=1    28S=3    ITS2=1    mito=0
-2026-11-13 16:48:46,021 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:48:52,624 INFO Oligonychus coffeae              taxid=311847   COI=4     18S=2    28S=6    ITS2=7    mito=0
-2026-11-13 16:48:58,277 INFO Oligonychus pratensis            taxid=3018568  COI=1     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:49:04,723 INFO Panonychus citri                 taxid=50023    COI=104   18S=264  28S=23   ITS2=31   mito=3
-2026-11-13 16:49:10,700 INFO Panonychus ulmi                  taxid=50024    COI=217   18S=2    28S=4    ITS2=102  mito=2
-2026-11-13 16:49:14,491 INFO Tetranychus arabicus             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:49:14,491 WARNING zero taxonomy hits: Tetranychus arabicus
-2026-11-13 16:49:14,491 WARNING zero nucleotide records: Tetranychus arabicus
-2026-11-13 16:49:18,308 INFO Tetranychus canadensis           taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:49:18,308 WARNING zero taxonomy hits: Tetranychus canadensis
-2026-11-13 16:49:18,308 WARNING zero nucleotide records: Tetranychus canadensis
-2026-11-13 16:49:24,836 INFO Tetranychus cinnabarinus         taxid=93129    COI=57    18S=6    28S=6    ITS2=33   mito=2
-2026-11-13 16:49:28,144 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:49:30,117 INFO Tetranychus crataegi             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:49:30,117 WARNING zero taxonomy hits: Tetranychus crataegi
-2026-11-13 16:49:30,117 WARNING zero nucleotide records: Tetranychus crataegi
-2026-11-13 16:49:33,962 INFO Tetranychus cucurbitacearum      taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:49:33,962 WARNING zero taxonomy hits: Tetranychus cucurbitacearum
-2026-11-13 16:49:33,962 WARNING zero nucleotide records: Tetranychus cucurbitacearum
-2026-11-13 16:49:34,420 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:49:41,780 INFO Tetranychus desertorum           taxid=2794279  COI=6     18S=3    28S=0    ITS2=5    mito=0
-2026-11-13 16:49:47,723 INFO Tetranychus evansi               taxid=178897   COI=168   18S=13   28S=14   ITS2=23   mito=1
-2026-11-13 16:49:49,137 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:49:54,727 INFO Tetranychus hydrangeae           taxid=311846   COI=0     18S=0    28S=1    ITS2=1    mito=0
-2026-11-13 16:50:00,954 INFO Tetranychus kanzawai             taxid=50028    COI=80    18S=11   28S=12   ITS2=22   mito=2
-2026-11-13 16:50:06,916 INFO Tetranychus ludeni               taxid=182134   COI=21    18S=6    28S=17   ITS2=43   mito=2
-2026-11-13 16:50:12,598 INFO Tetranychus mcdanieli            taxid=50029    COI=1     18S=0    28S=0    ITS2=1    mito=0
-2026-11-13 16:50:18,741 INFO Tetranychus pacificus            taxid=50031    COI=4     18S=1    28S=1    ITS2=3    mito=0
-2026-11-13 16:50:22,583 INFO Tetranychus schoenei             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:50:22,583 WARNING zero taxonomy hits: Tetranychus schoenei
-2026-11-13 16:50:22,583 WARNING zero nucleotide records: Tetranychus schoenei
-2026-11-13 16:50:23,044 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:50:25,431 WARNING HTTP 429 on esearch.fcgi (attempt 1)
-2026-11-13 16:50:31,998 INFO Tetranychus truncatus            taxid=93132    COI=99    18S=10   28S=66   ITS2=113  mito=28
-2026-11-13 16:50:35,766 INFO Tetranychus tumidus              taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
-2026-11-13 16:50:35,766 WARNING zero taxonomy hits: Tetranychus tumidus
-2026-11-13 16:50:35,766 WARNING zero nucleotide records: Tetranychus tumidus
-2026-11-13 16:50:42,002 INFO Tetranychus turkestani           taxid=133227   COI=54    18S=12   28S=18   ITS2=42   mito=0
-2026-11-13 16:50:48,102 INFO Tetranychus urticae              taxid=32264    COI=630   18S=239  28S=90   ITS2=199  mito=10
-2026-11-13 16:50:48,126 INFO summary
-                                      group  species  from_APRD  from_literature  with_any_marker  with_COI  with_COI_plus_18S_or_28S  with_mitogenome  name_needs_check
-                                Eriophyidae        7          6                1                5         4                         4                0                 1
-                              Tenuipalpidae        3          3                0                3         3                         3                0                 1
-                              Tetranychidae       23         20                3               17        16                        14                9                 1
-                         All three families       33         29                4               25        23                        21                9                 3
-All, T. cinnabarinus merged with T. urticae       32         28                4               24        22                        20                8                 3
-2026-11-13 16:50:48,126 INFO run finished 2026-11-13T16:50:48
+2026-11-13 17:05:09,081 INFO run started 2026-11-13T17:05:09
+2026-11-13 17:05:09,083 INFO python 3.13.18, pandas 3.0.5, requests 2.34.2, Linux-6.18.44-fc-v445-x86_64-with-glibc2.39
+2026-11-13 17:05:09,093 INFO APRD rows read: 45; kept: 35; excluded: 10 (10 species names)
+2026-11-13 17:05:09,125 INFO literature species already in APRD and dropped from the literature list: ['Aculops lycopersici']
+2026-11-13 17:05:09,130 INFO standardised species: 34 (APRD 31, literature 3)
+2026-11-13 17:05:20,609 INFO Aculops lycopersici              taxid=1227671  COI=103   18S=14   28S=48   ITS2=70   mito=0
+2026-11-13 17:05:31,265 INFO Aculops pelekassi                taxid=1535316  COI=0     18S=1    28S=0    ITS2=0    mito=0
+2026-11-13 17:05:39,939 INFO Aculus cornutus                  taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:05:39,939 WARNING zero taxonomy hits: Aculus cornutus
+2026-11-13 17:05:39,939 WARNING zero nucleotide records: Aculus cornutus
+2026-11-13 17:05:52,428 INFO Aculus fockeui                   taxid=3439900  COI=15    18S=0    28S=15   ITS2=0    mito=0
+2026-11-13 17:06:01,127 INFO Aculus malivagrans               taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:06:01,127 WARNING zero taxonomy hits: Aculus malivagrans
+2026-11-13 17:06:01,127 WARNING zero nucleotide records: Aculus malivagrans
+2026-11-13 17:06:13,481 INFO Aculus schlechtendali            taxid=2813516  COI=4     18S=0    28S=1    ITS2=0    mito=0
+2026-11-13 17:06:24,581 INFO Phyllocoptruta oleivora          taxid=1452691  COI=3     18S=2    28S=2    ITS2=1    mito=0
+2026-11-13 17:06:36,347 INFO Brevipalpus chilensis            taxid=1336422  COI=42    18S=0    28S=15   ITS2=7    mito=0
+2026-11-13 17:06:47,802 INFO Brevipalpus phoenicis            taxid=152387   COI=92    18S=1    28S=2    ITS2=2    mito=0
+2026-11-13 17:06:59,143 INFO Brevipalpus yothersi             taxid=1754060  COI=339   18S=0    28S=91   ITS2=47   mito=0
+2026-11-13 17:07:11,025 INFO Amphitetranychus viennensis      taxid=381746   COI=57    18S=5    28S=8    ITS2=38   mito=2
+2026-11-13 17:07:21,876 INFO Bryobia praetiosa                taxid=166497   COI=6     18S=1    28S=3    ITS2=1    mito=0
+2026-11-13 17:07:30,568 INFO Eotetranychus hicoriae           taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:07:30,568 WARNING zero taxonomy hits: Eotetranychus hicoriae
+2026-11-13 17:07:30,568 WARNING zero nucleotide records: Eotetranychus hicoriae
+2026-11-13 17:07:42,668 INFO Oligonychus coffeae              taxid=311847   COI=4     18S=2    28S=6    ITS2=7    mito=0
+2026-11-13 17:07:53,275 INFO Oligonychus pratensis            taxid=3018568  COI=1     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:08:04,664 INFO Panonychus citri                 taxid=50023    COI=104   18S=264  28S=23   ITS2=31   mito=3
+2026-11-13 17:08:16,224 INFO Panonychus ulmi                  taxid=50024    COI=217   18S=2    28S=4    ITS2=102  mito=2
+2026-11-13 17:08:24,900 INFO Tetranychus arabicus             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:08:24,900 WARNING zero taxonomy hits: Tetranychus arabicus
+2026-11-13 17:08:24,900 WARNING zero nucleotide records: Tetranychus arabicus
+2026-11-13 17:08:33,687 INFO Tetranychus canadensis           taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:08:33,687 WARNING zero taxonomy hits: Tetranychus canadensis
+2026-11-13 17:08:33,687 WARNING zero nucleotide records: Tetranychus canadensis
+2026-11-13 17:08:44,720 INFO Tetranychus cinnabarinus         taxid=93129    COI=57    18S=6    28S=6    ITS2=33   mito=2
+2026-11-13 17:08:53,437 INFO Tetranychus crataegi             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:08:53,438 WARNING zero taxonomy hits: Tetranychus crataegi
+2026-11-13 17:08:53,438 WARNING zero nucleotide records: Tetranychus crataegi
+2026-11-13 17:09:02,098 INFO Tetranychus cucurbitacearum      taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:09:02,099 WARNING zero taxonomy hits: Tetranychus cucurbitacearum
+2026-11-13 17:09:02,099 WARNING zero nucleotide records: Tetranychus cucurbitacearum
+2026-11-13 17:09:13,048 INFO Tetranychus desertorum           taxid=2794279  COI=6     18S=3    28S=0    ITS2=5    mito=0
+2026-11-13 17:09:24,133 INFO Tetranychus evansi               taxid=178897   COI=168   18S=13   28S=14   ITS2=23   mito=1
+2026-11-13 17:09:34,796 INFO Tetranychus hydrangeae           taxid=311846   COI=0     18S=0    28S=1    ITS2=1    mito=0
+2026-11-13 17:09:47,040 INFO Tetranychus kanzawai             taxid=50028    COI=80    18S=11   28S=12   ITS2=22   mito=2
+2026-11-13 17:09:58,498 INFO Tetranychus ludeni               taxid=182134   COI=21    18S=6    28S=17   ITS2=43   mito=2
+2026-11-13 17:10:09,862 INFO Tetranychus mcdanieli            taxid=50029    COI=1     18S=0    28S=0    ITS2=1    mito=0
+2026-11-13 17:10:20,528 INFO Tetranychus pacificus            taxid=50031    COI=4     18S=1    28S=1    ITS2=3    mito=0
+2026-11-13 17:10:29,187 INFO Tetranychus schoenei             taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:10:29,187 WARNING zero taxonomy hits: Tetranychus schoenei
+2026-11-13 17:10:29,187 WARNING zero nucleotide records: Tetranychus schoenei
+2026-11-13 17:10:41,254 INFO Tetranychus truncatus            taxid=93132    COI=99    18S=10   28S=66   ITS2=113  mito=28
+2026-11-13 17:10:50,009 INFO Tetranychus tumidus              taxid=-        COI=0     18S=0    28S=0    ITS2=0    mito=0
+2026-11-13 17:10:50,010 WARNING zero taxonomy hits: Tetranychus tumidus
+2026-11-13 17:10:50,010 WARNING zero nucleotide records: Tetranychus tumidus
+2026-11-13 17:11:01,653 INFO Tetranychus turkestani           taxid=133227   COI=54    18S=12   28S=18   ITS2=42   mito=0
+2026-11-13 17:11:13,486 INFO Tetranychus urticae              taxid=32264    COI=630   18S=239  28S=90   ITS2=199  mito=10
+2026-11-13 17:11:13,522 INFO summary
+                                      group  species  from_APRD  from_literature  with_any_marker  APRD_cases  with_2plus_APRD_cases  with_COI_GenBank_or_BOLD  with_COI_GenBank  with_COI_plus_18S_or_28S  with_mitogenome  name_needs_check
+                                Eriophyidae        7          7                0                6          13                      3                         5                 4                         4                0                 1
+                              Tenuipalpidae        3          3                0                3           8                      2                         3                 3                         3                0                 1
+                              Tetranychidae       24         21                3               17        1011                     19                        16                16                        14                9                 1
+                         All three families       34         31                3               26        1032                     24                        24                23                        21                9                 3
+All, T. cinnabarinus merged with T. urticae       33         30                3               25         995                     23                        23                22                        20                8                 3
+2026-11-13 17:11:13,523 INFO run finished 2026-11-13T17:11:13
