@@ -246,7 +246,14 @@ def main() -> None:
     sample = main_cases.sample(frac=0.10, random_state=SEED).sort_values(["species", "ai_name"])
     sample = sample[["case_id", "species", "ai_name", "year_of_report", "resistance_type", "location",
                      "reference"]].assign(matches_source="", note="")
-    sample.to_csv(MANUAL / "verification_sample_stage2.csv", index=False)
+    # The sample file holds hand-entered checks: write it only once, then only compare.
+    sample_path = MANUAL / "verification_sample_stage2.csv"
+    if sample_path.exists():
+        kept = pd.read_csv(sample_path, dtype=str)
+        if sorted(kept["case_id"]) != sorted(sample["case_id"].astype(str)):
+            log.warning("verification sample differs from the cases now drawn; hand checks kept, sample not rewritten")
+    else:
+        sample.to_csv(sample_path, index=False)
 
     log.info("record flow\n%s", flow.to_string(index=False))
     log.info("verification sample: %d cases (seed %d)", len(sample), SEED)
