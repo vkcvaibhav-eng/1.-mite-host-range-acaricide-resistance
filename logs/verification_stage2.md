@@ -32,6 +32,14 @@ G20612: Adesanya et al. 2018 deals with mite growth inhibitors; fenpyroximate is
 
 Abstract-level checks cannot confirm a country or a single population; "partly" and "unclear" are left for the full-text check.
 
-### 2b. Check by V. K. Chaudhari (to do)
+### 2b. Check by V. K. Chaudhari (started 14 November 2026)
 
-Column `matches_source`: yes, no, or not traceable. The error rate reported in the paper is the share of traceable cases that do not match.
+Raw file: `data/raw/verification_user_2026-11-14.xlsx`. Answers copied into `matches_source` of the sample file; Claude's recheck against the PDFs the user placed in the project is in `claude_recheck`.
+
+16 cases checked so far (13 in the sample plus G20604, G20605, G20606): 12 yes, 4 partly (G6598, G6622, G10058, G9045), 1 no (G20612, counting only sample cases: 8 yes, 4 partly, 1 no).
+
+Main correction: Pan et al. 2020 Table 4 (p. 921) reports cyflumetofen resistance in Liangping, Daying and Anyue (RR 11.6 to 198.9), against the paper's own abstract. Claude's first-pass "no" for G20601 was wrong; the four database cases stand.
+
+Not yet confirmed from a primary PDF: G2334 (Cranham 1974) and G9045 (Van Nieuwenhuyse 2009). G10519 and G10528 rest on secondary citations of Hu et al. 2010 (Pan et al. 2020; Niu et al. 2011).
+
+Remaining: 24 priority-1 cases, 21 priority-2 cases; 45 priority-3 cases to be marked not traceable.
