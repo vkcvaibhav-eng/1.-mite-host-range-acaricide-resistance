@@ -1,0 +1,12 @@
+taxon,family,tree,purpose
+Cheyletus malaccensis,Cheyletidae,Tetranychoidea,outgroup (Trombidiformes: Cheyletoidea)
+Leptotrombidium deliense,Trombiculidae,Tetranychoidea,outgroup (Trombidiformes: Parasitengona)
+Raoiella indica,Tenuipalpidae,Tetranychoidea,additional Tenuipalpidae to anchor Brevipalpus
+Brevipalpus obovatus,Tenuipalpidae,Tetranychoidea,additional Tenuipalpidae to anchor Brevipalpus
+Brevipalpus californicus,Tenuipalpidae,Tetranychoidea,additional Tenuipalpidae to anchor Brevipalpus
+Phytoptus avellanae,Phytoptidae,Eriophyoidea,outgroup (Eriophyoidea: Phytoptidae)
+Nalepella tsugifoliae,Phytoptidae,Eriophyoidea,outgroup (Eriophyoidea: Nalepellinae)
+Aceria tosichella,Eriophyidae,Eriophyoidea,additional Eriophyidae to anchor the resistant species
+Epitrimerus sabinae,Eriophyidae,Eriophyoidea,additional Eriophyidae to anchor the resistant species
+Abacarus hystrix,Eriophyidae,Eriophyoidea,additional Eriophyidae to anchor the resistant species
+Calacarus carinatus,Eriophyidae,Eriophyoidea,additional Eriophyidae to anchor the resistant species

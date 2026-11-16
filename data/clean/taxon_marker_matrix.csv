@@ -1,0 +1,135 @@
+taxon,family,group,COI,18S,28S,n_markers
+Aculops lycopersici,Eriophyidae,resistant,True,True,True,3
+Aculops pelekassi,Eriophyidae,resistant,False,True,False,1
+Aculus fockeui,Eriophyidae,resistant,True,False,True,2
+Aculus schlechtendali,Eriophyidae,resistant,True,False,False,1
+Phyllocoptruta oleivora,Eriophyidae,resistant,True,True,False,2
+Brevipalpus chilensis,Tenuipalpidae,resistant,True,False,False,1
+Brevipalpus phoenicis,Tenuipalpidae,resistant,True,True,True,3
+Brevipalpus yothersi,Tenuipalpidae,resistant,True,False,False,1
+Acanthonychus jiangfengensis,Tetranychidae,zero-resistance,True,False,False,1
+Amphitetranychus viennensis,Tetranychidae,resistant,True,True,True,3
+Aplonobia histricina,Tetranychidae,zero-resistance,True,False,False,1
+Aponychus corpuzae,Tetranychidae,zero-resistance,True,True,True,3
+Bryobia eharai,Tetranychidae,zero-resistance,False,True,True,2
+Bryobia kissophila,Tetranychidae,zero-resistance,True,False,False,1
+Bryobia praetiosa,Tetranychidae,resistant,True,True,True,3
+Bryobia rubrioculus,Tetranychidae,zero-resistance,True,False,False,1
+Bryobia sarothamni,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus boreus,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus broodryki,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus carpini,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus celtis,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus coryli,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus frosti,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus hicoriae,Tetranychidae,resistant,False,False,False,0
+Eotetranychus kankitus,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus lewisi,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus nomurai,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus palatiensis,Tetranychidae,zero-resistance,True,False,False,1
+Eotetranychus populi,Tetranychidae,zero-resistance,True,False,True,2
+Eotetranychus pruni,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus sexmaculatus,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus smithi,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus suginamensis,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus tiliarium,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus uncatus,Tetranychidae,zero-resistance,True,True,True,3
+Eotetranychus willamettei,Tetranychidae,zero-resistance,True,False,False,1
+Eurytetranychoides japonicus,Tetranychidae,zero-resistance,True,True,True,3
+Eutetranychus africanus,Tetranychidae,zero-resistance,False,True,True,2
+Eutetranychus banksi,Tetranychidae,zero-resistance,True,False,False,1
+Eutetranychus orientalis,Tetranychidae,zero-resistance,True,False,False,1
+Mononychellus caribbeanae,Tetranychidae,zero-resistance,True,False,False,1
+Mononychellus mcgregori,Tetranychidae,zero-resistance,True,False,False,1
+Mononychellus progresivus,Tetranychidae,zero-resistance,True,False,False,1
+Mononychellus tanajoa,Tetranychidae,zero-resistance,True,False,False,1
+Neotetranychus rubi,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus aceris,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus afrasiaticus,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus biharensis,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus camelliae,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus castaneae,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus coffeae,Tetranychidae,resistant,True,True,True,3
+Oligonychus gossypii,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus gotohi,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus grypus,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus ilicis,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus indicus,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus modestus,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus neocastaneae,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus orthius,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus oryzae,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus perditus,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus perseae,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus platani,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus plegas,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus pratensis,Tetranychidae,resistant,True,False,False,1
+Oligonychus punicae,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus rubicundus,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus thelytokus,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus tylus,Tetranychidae,zero-resistance,True,False,False,1
+Oligonychus ununguis,Tetranychidae,zero-resistance,True,True,True,3
+Oligonychus yothersi,Tetranychidae,zero-resistance,True,False,False,1
+Panonychus caglei,Tetranychidae,zero-resistance,True,True,True,3
+Panonychus caricae,Tetranychidae,zero-resistance,True,False,False,1
+Panonychus citri,Tetranychidae,resistant,True,True,True,3
+Panonychus elongatus,Tetranychidae,zero-resistance,True,True,True,3
+Panonychus hadzhibejliae,Tetranychidae,zero-resistance,True,False,False,1
+Panonychus mori,Tetranychidae,zero-resistance,True,True,True,3
+Panonychus ulmi,Tetranychidae,resistant,True,True,True,3
+Paraponychus corderoi,Tetranychidae,zero-resistance,True,False,False,1
+Petrobia harti,Tetranychidae,zero-resistance,True,True,True,3
+Petrobia latens,Tetranychidae,zero-resistance,True,True,True,3
+Petrobia tunisiae,Tetranychidae,zero-resistance,True,False,False,1
+Schizotetranychus andropogoni,Tetranychidae,zero-resistance,True,False,False,1
+Schizotetranychus asparagi,Tetranychidae,zero-resistance,False,False,False,0
+Schizotetranychus baltazarae,Tetranychidae,zero-resistance,True,False,False,1
+Schizotetranychus krungthepensis,Tetranychidae,zero-resistance,True,False,False,1
+Schizotetranychus lespedezae,Tetranychidae,zero-resistance,True,True,True,3
+Schizotetranychus mansoni,Tetranychidae,zero-resistance,True,False,True,2
+Schizotetranychus schizopus,Tetranychidae,zero-resistance,True,True,True,3
+Stigmaeopsis celarius,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus canadensis,Tetranychidae,resistant,False,False,False,0
+Tetranychus desertorum,Tetranychidae,resistant,True,False,False,1
+Tetranychus evansi,Tetranychidae,resistant,True,True,True,3
+Tetranychus fijiensis,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus gloveri,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus huhhotensis,Tetranychidae,zero-resistance,False,True,True,2
+Tetranychus kanzawai,Tetranychidae,resistant,True,True,True,3
+Tetranychus lambi,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus lombardinii,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus ludeni,Tetranychidae,resistant,True,True,True,3
+Tetranychus macfarlanei,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus marianae,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus mcdanieli,Tetranychidae,resistant,True,False,False,1
+Tetranychus merganser,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus mexicanus,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus neocaledonicus,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus pacificus,Tetranychidae,resistant,True,False,False,1
+Tetranychus parakanzawai,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus phaselus,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus piercei,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus przhevalskii,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus pueraricola,Tetranychidae,zero-resistance,True,True,True,3
+Tetranychus puschelii,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus sawzdargi,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus schoenei,Tetranychidae,resistant,False,False,False,0
+Tetranychus taiwanicus,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus truncatus,Tetranychidae,resistant,True,True,True,3
+Tetranychus tumidellus,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus tumidus,Tetranychidae,resistant,False,False,False,0
+Tetranychus turkestani,Tetranychidae,resistant,True,True,True,3
+Tetranychus udaipurensis,Tetranychidae,zero-resistance,True,False,False,1
+Tetranychus urticae,Tetranychidae,resistant,True,True,True,3
+Tetranychus zeae,Tetranychidae,zero-resistance,False,True,True,2
+Cheyletus malaccensis,Cheyletidae,outgroup or anchor,True,True,False,2
+Leptotrombidium deliense,Trombiculidae,outgroup or anchor,True,False,False,1
+Raoiella indica,Tenuipalpidae,outgroup or anchor,True,False,True,2
+Brevipalpus obovatus,Tenuipalpidae,outgroup or anchor,True,True,True,3
+Brevipalpus californicus,Tenuipalpidae,outgroup or anchor,True,True,True,3
+Phytoptus avellanae,Phytoptidae,outgroup or anchor,True,True,True,3
+Nalepella tsugifoliae,Phytoptidae,outgroup or anchor,True,True,True,3
+Aceria tosichella,Eriophyidae,outgroup or anchor,True,True,True,3
+Epitrimerus sabinae,Eriophyidae,outgroup or anchor,True,True,True,3
+Abacarus hystrix,Eriophyidae,outgroup or anchor,True,True,True,3
+Calacarus carinatus,Eriophyidae,outgroup or anchor,True,True,True,3

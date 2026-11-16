@@ -1,0 +1,9 @@
+tree,marker,taxa_with_marker,taxa_in_matrix,aligned_length,length_before_trimming,missing_cells_pct
+tetranychoidea,COI,114,118,1536,1536.0,47.3
+tetranychoidea,18S,57,118,1783,2103.0,52.3
+tetranychoidea,28S,59,118,795,3202.0,54.5
+tetranychoidea,all,118,118,4114,,
+eriophyoidea,COI,10,11,1500,1500.0,42.0
+eriophyoidea,18S,9,11,2230,2434.0,30.2
+eriophyoidea,28S,8,11,559,4146.0,29.0
+eriophyoidea,all,11,11,4289,,

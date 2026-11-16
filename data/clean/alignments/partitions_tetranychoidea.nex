@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset COI_pos1 = 1-1536\3;
+  charset COI_pos2 = 2-1536\3;
+  charset COI_pos3 = 3-1536\3;
+  charset r18S = 1537-3319;
+  charset r28S = 3320-4114;
+end;

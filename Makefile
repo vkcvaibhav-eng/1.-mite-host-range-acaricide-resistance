@@ -3,7 +3,7 @@
 
 .PHONY: all feasibility clean-results
 
-all: feasibility resistance hosts
+all: feasibility resistance hosts sequences
 
 feasibility:
 	python scripts/01_feasibility.py
@@ -22,3 +22,10 @@ hosts:
 	python scripts/03a_candidate_species.py
 	python scripts/03b_host_records.py
 	python -W ignore scripts/03c_host_breadth.py
+
+# stage 4: needs MAFFT and trimAl on the PATH; 04b downloads from GenBank (about 20 minutes)
+sequences:
+	python scripts/04a_taxa.py
+	python scripts/04b_fetch_sequences.py 2026-11-16
+	python -W ignore scripts/04c_select_sequences.py
+	python scripts/04d_align.py

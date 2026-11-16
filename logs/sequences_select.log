@@ -1,0 +1,12 @@
+2026-11-16 17:03:05,084 INFO COI reference Tetranychus urticae EU345430.1 (1536 bp); records to place 1240
+2026-11-16 17:03:16,879 INFO COI segment 2 rejected: Eotetranychus lewisi PV806348.1 nearest Eotetranychus kankitus at 0.000
+2026-11-16 17:03:17,128 INFO COI: second segments added for 22 taxa
+2026-11-16 17:03:17,130 INFO COI: usable records 1141; taxa with a representative 146; review flags 32
+2026-11-16 17:03:17,132 INFO 18S reference Tetranychus urticae AB926312.1 (1858 bp); records to place 74
+2026-11-16 17:03:19,409 INFO 18S: usable records 74; taxa with a representative 57; review flags 0
+2026-11-16 17:03:19,411 INFO 18S reference Aceria tosichella ON555756.1 (2168 bp); records to place 24
+2026-11-16 17:03:20,542 INFO 18S: usable records 19; taxa with a representative 9; review flags 0
+2026-11-16 17:03:20,544 INFO 28S reference Tetranychus urticae KU323546.1 (814 bp); records to place 225
+2026-11-16 17:03:22,410 INFO 28S: usable records 108; taxa with a representative 59; review flags 1
+2026-11-16 17:03:22,412 INFO 28S reference Aceria tosichella JQ918879.1 (614 bp); records to place 69
+2026-11-16 17:03:23,090 INFO 28S: usable records 50; taxa with a representative 8; review flags 0

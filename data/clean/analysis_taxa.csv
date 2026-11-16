@@ -1,0 +1,187 @@
+taxon,family,search_names,resistant,on_crop,has_coi_genbank,in_analysis,n_cases,host_source
+Aculops lycopersici,Eriophyidae,Aculops lycopersici,True,True,True,True,1,"published count: EPPO Global Database, Aculops lycopersici (VASALY) host list, accessed 16 November 2026"
+Aculops pelekassi,Eriophyidae,Aculops pelekassi,True,True,False,True,3,"published count: Ashihara et al. (2004), Japan Agricultural Research Quarterly 38: 31-41; Papaioannou-Souliotis et al. review in Hellenic Plant Protection Journal 6 (2013)"
+Aculus fockeui,Eriophyidae,Aculus cornutus; Aculus fockeui,True,True,True,True,4,"published count: Host-associated differentiation in the plum rust mite Aculus fockeui (abstract, core.ac.uk 690628513): about 17 Prunus species"
+Aculus schlechtendali,Eriophyidae,Aculus malivagrans; Aculus schlechtendali,True,True,True,True,2,"published count: Beers, Oldfield and Westigard (1993), Orchard Pest Management, Washington State University: cultivated apple and several Malus species, also survives on pear"
+Phyllocoptruta oleivora,Eriophyidae,Phyllocoptruta oleivora,True,True,True,True,3,"published count: Demard and Qureshi (2020), EENY-748, University of Florida EDIS"
+Brevipalpus chilensis,Tenuipalpidae,Brevipalpus chilensis,True,True,True,True,3,Tenuipalpidae Database
+Brevipalpus phoenicis,Tenuipalpidae,Brevipalpus phoenicis,True,True,True,True,1,Tenuipalpidae Database
+Brevipalpus yothersi,Tenuipalpidae,Brevipalpus yothersi,True,True,True,True,4,Tenuipalpidae Database
+Acanthonychus jiangfengensis,Tetranychidae,Acanthonychus jiangfengensis,False,True,True,True,0,Spider Mites Web
+Amphitetranychus quercivorus,Tetranychidae,Amphitetranychus quercivorus,False,False,True,False,0,Spider Mites Web
+Amphitetranychus savenkoae,Tetranychidae,Amphitetranychus savenkoae,False,False,True,False,0,Spider Mites Web
+Amphitetranychus viennensis,Tetranychidae,Amphitetranychus viennensis; Tetranychus crataegi; Tetranychus viennensis,True,True,True,True,10,Spider Mites Web
+Aplonobia histricina,Tetranychidae,Aplonobia histricina,False,True,True,True,0,Spider Mites Web
+Aplonobia hyderabadiensis,Tetranychidae,Aplonobia hyderabadiensis,False,False,True,False,0,Spider Mites Web
+Aponychus corpuzae,Tetranychidae,Aponychus corpuzae,False,True,True,True,0,Spider Mites Web
+Aponychus firmianae,Tetranychidae,Aponychus firmianae,False,False,True,False,0,Spider Mites Web
+Aponychus imperatus,Tetranychidae,Aponychus imperatus,False,False,True,False,0,Spider Mites Web
+Augeriflechtmannia armeniaca,Tetranychidae,Augeriflechtmannia armeniaca,False,False,True,False,0,Spider Mites Web
+Bryobia abbatielloi,Tetranychidae,Bryobia abbatielloi,False,False,True,False,0,Spider Mites Web
+Bryobia abyssiniae,Tetranychidae,Bryobia abyssiniae,False,False,True,False,0,Spider Mites Web
+Bryobia berlesei,Tetranychidae,Bryobia berlesei,False,False,True,False,0,Spider Mites Web
+Bryobia eharai,Tetranychidae,Bryobia eharai,False,True,True,True,0,Spider Mites Web
+Bryobia kissophila,Tetranychidae,Bryobia kissophila,False,True,True,True,0,Spider Mites Web
+Bryobia polymorpha,Tetranychidae,Bryobia polymorpha,False,False,True,False,0,Spider Mites Web
+Bryobia praetiosa,Tetranychidae,Bryobia praetiosa,True,True,True,True,2,Spider Mites Web
+Bryobia rubrioculus,Tetranychidae,Bryobia rubrioculus,False,True,True,True,0,Spider Mites Web
+Bryobia sarothamni,Tetranychidae,Bryobia sarothamni,False,True,True,True,0,Spider Mites Web
+Eotetranychus boreus,Tetranychidae,Eotetranychus boreus,False,True,True,True,0,Spider Mites Web
+Eotetranychus broodryki,Tetranychidae,Eotetranychus broodryki,False,True,True,True,0,Spider Mites Web
+Eotetranychus carpini,Tetranychidae,Eotetranychus carpini,False,True,True,True,0,Spider Mites Web
+Eotetranychus carpinicolus,Tetranychidae,Eotetranychus carpinicolus,False,False,True,False,0,Spider Mites Web
+Eotetranychus celtis,Tetranychidae,Eotetranychus celtis,False,True,True,True,0,Spider Mites Web
+Eotetranychus cornicola,Tetranychidae,Eotetranychus cornicola,False,False,True,False,0,Spider Mites Web
+Eotetranychus coryli,Tetranychidae,Eotetranychus coryli,False,True,True,True,0,Spider Mites Web
+Eotetranychus dissectus,Tetranychidae,Eotetranychus dissectus,False,False,True,False,0,Spider Mites Web
+Eotetranychus frosti,Tetranychidae,Eotetranychus frosti,False,True,True,True,0,Spider Mites Web
+Eotetranychus hicoriae,Tetranychidae,Eotetranychus hicoriae,True,True,False,True,1,Spider Mites Web
+Eotetranychus kankitus,Tetranychidae,Eotetranychus kankitus,False,True,True,True,0,Spider Mites Web
+Eotetranychus lewisi,Tetranychidae,Eotetranychus lewisi,False,True,True,True,0,Spider Mites Web
+Eotetranychus linderae,Tetranychidae,Eotetranychus linderae,False,False,True,False,0,Spider Mites Web
+Eotetranychus nomurai,Tetranychidae,Eotetranychus nomurai,False,True,True,True,0,Spider Mites Web
+Eotetranychus palatiensis,Tetranychidae,Eotetranychus palatiensis,False,True,True,True,0,Spider Mites Web
+Eotetranychus populi,Tetranychidae,Eotetranychus populi,False,True,True,True,0,Spider Mites Web
+Eotetranychus potentillae,Tetranychidae,Eotetranychus potentillae,False,False,True,False,0,Spider Mites Web
+Eotetranychus pruni,Tetranychidae,Eotetranychus pruni,False,True,True,True,0,Spider Mites Web
+Eotetranychus querci,Tetranychidae,Eotetranychus querci,False,False,True,False,0,Spider Mites Web
+Eotetranychus quercifoliae,Tetranychidae,Eotetranychus quercifoliae,False,False,True,False,0,Spider Mites Web
+Eotetranychus rubricans,Tetranychidae,Eotetranychus rubricans,False,False,True,False,0,Spider Mites Web
+Eotetranychus sexmaculatus,Tetranychidae,Eotetranychus asiaticus; Eotetranychus sexmaculatus,False,True,True,True,0,Spider Mites Web
+Eotetranychus smithi,Tetranychidae,Eotetranychus smithi,False,True,True,True,0,Spider Mites Web
+Eotetranychus spectabilis,Tetranychidae,Eotetranychus spectabilis,False,False,True,False,0,Spider Mites Web
+Eotetranychus suginamensis,Tetranychidae,Eotetranychus suginamensis,False,True,True,True,0,Spider Mites Web
+Eotetranychus thujae,Tetranychidae,Eotetranychus thujae,False,False,True,False,0,Spider Mites Web
+Eotetranychus tiliaecola,Tetranychidae,Eotetranychus tiliaecola,False,False,True,False,0,Spider Mites Web
+Eotetranychus tiliarium,Tetranychidae,Eotetranychus tiliarium,False,True,True,True,0,Spider Mites Web
+Eotetranychus toyoshimai,Tetranychidae,Eotetranychus toyoshimai,False,False,True,False,0,Spider Mites Web
+Eotetranychus uchidai,Tetranychidae,Eotetranychus uchidai,False,False,True,False,0,Spider Mites Web
+Eotetranychus uncatus,Tetranychidae,Eotetranychus uncatus,False,True,True,True,0,Spider Mites Web
+Eotetranychus willamettei,Tetranychidae,Eotetranychus willamettei,False,True,True,True,0,Spider Mites Web
+Eurytetranychoides japonicus,Tetranychidae,Eurytetranychoides japonicus,False,True,True,True,0,Spider Mites Web
+Eurytetranychus buxi,Tetranychidae,Eurytetranychus buxi,False,False,True,False,0,Spider Mites Web
+Eutetranychus africanus,Tetranychidae,Eutetranychus africanus,False,True,True,True,0,Spider Mites Web
+Eutetranychus banksi,Tetranychidae,Eutetranychus banksi,False,True,True,True,0,Spider Mites Web
+Eutetranychus orientalis,Tetranychidae,Eutetranychus orientalis,False,True,True,True,0,Spider Mites Web
+Mononychellus caribbeanae,Tetranychidae,Mononychellus caribbeanae,False,True,True,True,0,Spider Mites Web
+Mononychellus mcgregori,Tetranychidae,Mononychellus mcgregori,False,True,True,True,0,Spider Mites Web
+Mononychellus progresivus,Tetranychidae,Mononychellus progresivus,False,True,True,True,0,Spider Mites Web
+Mononychellus tanajoa,Tetranychidae,Mononychellus tanajoa,False,True,True,True,0,Spider Mites Web
+Neotetranychus rubi,Tetranychidae,Neotetranychus rubi,False,True,True,True,0,Spider Mites Web
+Oligonychus aceris,Tetranychidae,Oligonychus aceris,False,True,True,True,0,Spider Mites Web
+Oligonychus afrasiaticus,Tetranychidae,Oligonychus afrasiaticus,False,True,True,True,0,Spider Mites Web
+Oligonychus amiensis,Tetranychidae,Oligonychus amiensis,False,False,True,False,0,Spider Mites Web
+Oligonychus biharensis,Tetranychidae,Oligonychus biharensis,False,True,True,True,0,Spider Mites Web
+Oligonychus camelliae,Tetranychidae,Oligonychus camelliae,False,True,True,True,0,Spider Mites Web
+Oligonychus castaneae,Tetranychidae,Oligonychus castaneae,False,True,True,True,0,Spider Mites Web
+Oligonychus clavatus,Tetranychidae,Oligonychus clavatus,False,False,True,False,0,Spider Mites Web
+Oligonychus coffeae,Tetranychidae,Oligonychus coffeae,True,True,True,True,2,Spider Mites Web
+Oligonychus dactyloni,Tetranychidae,Oligonychus dactyloni,False,False,True,False,0,Spider Mites Web
+Oligonychus gossypii,Tetranychidae,Oligonychus gossypii,False,True,True,True,0,Spider Mites Web
+Oligonychus gotohi,Tetranychidae,Oligonychus gotohi,False,True,True,True,0,Spider Mites Web
+Oligonychus grypus,Tetranychidae,Oligonychus grypus,False,True,True,True,0,Spider Mites Web
+Oligonychus hondoensis,Tetranychidae,Oligonychus hondoensis,False,False,True,False,0,Spider Mites Web
+Oligonychus ilicis,Tetranychidae,Oligonychus ilicis,False,True,True,True,0,Spider Mites Web
+Oligonychus indicus,Tetranychidae,Oligonychus indicus,False,True,True,True,0,Spider Mites Web
+Oligonychus karamatus,Tetranychidae,Oligonychus karamatus,False,False,True,False,0,Spider Mites Web
+Oligonychus modestus,Tetranychidae,Oligonychus modestus,False,True,True,True,0,Spider Mites Web
+Oligonychus neocastaneae,Tetranychidae,Oligonychus neocastaneae,False,True,True,True,0,Spider Mites Web
+Oligonychus orthius,Tetranychidae,Oligonychus orthius,False,True,True,True,0,Spider Mites Web
+Oligonychus oryzae,Tetranychidae,Oligonychus oryzae,False,True,True,True,0,Spider Mites Web
+Oligonychus perditus,Tetranychidae,Oligonychus perditus,False,True,True,True,0,Spider Mites Web
+Oligonychus perseae,Tetranychidae,Oligonychus perseae,False,True,True,True,0,Spider Mites Web
+Oligonychus piceae,Tetranychidae,Oligonychus piceae,False,False,True,False,0,Spider Mites Web
+Oligonychus platani,Tetranychidae,Oligonychus platani,False,True,True,True,0,Spider Mites Web
+Oligonychus plegas,Tetranychidae,Oligonychus plegas,False,True,True,True,0,Spider Mites Web
+Oligonychus pratensis,Tetranychidae,Oligonychus pratensis,True,True,True,True,6,Spider Mites Web
+Oligonychus punicae,Tetranychidae,Oligonychus mangiferus; Oligonychus punicae; Oligonychus vitis,False,True,True,True,0,Spider Mites Web
+Oligonychus pustulosus,Tetranychidae,Oligonychus pustulosus,False,False,True,False,0,Spider Mites Web
+Oligonychus rubicundus,Tetranychidae,Oligonychus rubicundus,False,True,True,True,0,Spider Mites Web
+Oligonychus thelytokus,Tetranychidae,Oligonychus thelytokus,False,True,True,True,0,Spider Mites Web
+Oligonychus trichardti,Tetranychidae,Oligonychus trichardti,False,False,True,False,0,Spider Mites Web
+Oligonychus tsudomei,Tetranychidae,Oligonychus tsudomei,False,False,True,False,0,Spider Mites Web
+Oligonychus tylus,Tetranychidae,Oligonychus tylus,False,True,True,True,0,Spider Mites Web
+Oligonychus ununguis,Tetranychidae,Oligonychus ununguis,False,True,True,True,0,Spider Mites Web
+Oligonychus washingtoniae,Tetranychidae,Oligonychus washingtoniae,False,False,True,False,0,Spider Mites Web
+Oligonychus yothersi,Tetranychidae,Oligonychus yothersi,False,True,True,True,0,Spider Mites Web
+Panonychus bambusicola,Tetranychidae,Panonychus bambusicola,False,False,True,False,0,Spider Mites Web
+Panonychus caglei,Tetranychidae,Panonychus caglei,False,True,True,True,0,Spider Mites Web
+Panonychus caricae,Tetranychidae,Panonychus caricae,False,True,True,True,0,Spider Mites Web
+Panonychus citri,Tetranychidae,Panonychus citri,True,True,True,True,106,Spider Mites Web
+Panonychus elongatus,Tetranychidae,Panonychus elongatus,False,True,True,True,0,Spider Mites Web
+Panonychus hadzhibejliae,Tetranychidae,Panonychus hadzhibejliae,False,True,True,True,0,Spider Mites Web
+Panonychus mori,Tetranychidae,Panonychus mori,False,True,True,True,0,Spider Mites Web
+Panonychus osmanthi,Tetranychidae,Panonychus osmanthi,False,False,True,False,0,Spider Mites Web
+Panonychus thelytokus,Tetranychidae,Panonychus thelytokus,False,False,True,False,0,Spider Mites Web
+Panonychus ulmi,Tetranychidae,Panonychus ulmi,True,True,True,True,202,Spider Mites Web
+Paraponychus corderoi,Tetranychidae,Paraponychus corderoi,False,True,True,True,0,Spider Mites Web
+Petrobia harti,Tetranychidae,Petrobia harti,False,True,True,True,0,Spider Mites Web
+Petrobia latens,Tetranychidae,Petrobia latens,False,True,True,True,0,Spider Mites Web
+Petrobia tunisiae,Tetranychidae,Petrobia tunisiae,False,True,True,True,0,Spider Mites Web
+Sasanychus akitanus,Tetranychidae,Panonychus akitanus; Sasanychus akitanus,False,False,True,False,0,Spider Mites Web
+Sasanychus pusillus,Tetranychidae,Panonychus pusillus; Sasanychus pusillus,False,False,True,False,0,Spider Mites Web
+Schizotetranychus andropogoni,Tetranychidae,Schizotetranychus andropogoni,False,True,True,True,0,Spider Mites Web
+Schizotetranychus asparagi,Tetranychidae,Schizotetranychus asparagi,False,True,True,True,0,Spider Mites Web
+Schizotetranychus baltazarae,Tetranychidae,Schizotetranychus baltazarae; Schizotetranychus baltazari,False,True,True,True,0,Spider Mites Web
+Schizotetranychus bambusae,Tetranychidae,Schizotetranychus bambusae,False,False,True,False,0,Spider Mites Web
+Schizotetranychus brevisetosus,Tetranychidae,Schizotetranychus brevisetosus,False,False,True,False,0,Spider Mites Web
+Schizotetranychus cercidiphylli,Tetranychidae,Schizotetranychus cercidiphylli,False,False,True,False,0,Spider Mites Web
+Schizotetranychus gilvus,Tetranychidae,Schizotetranychus gilvus,False,False,True,False,0,Spider Mites Web
+Schizotetranychus krungthepensis,Tetranychidae,Schizotetranychus krungthepensis,False,True,True,True,0,Spider Mites Web
+Schizotetranychus laevidorsatus,Tetranychidae,Schizotetranychus laevidorsatus,False,False,True,False,0,Spider Mites Web
+Schizotetranychus lespedezae,Tetranychidae,Schizotetranychus lespedezae,False,True,True,True,0,Spider Mites Web
+Schizotetranychus mansoni,Tetranychidae,Schizotetranychus mansoni,False,True,True,True,0,Spider Mites Web
+Schizotetranychus recki,Tetranychidae,Schizotetranychus recki,False,False,True,False,0,Spider Mites Web
+Schizotetranychus schizopus,Tetranychidae,Schizotetranychus schizopus,False,True,True,True,0,Spider Mites Web
+Schizotetranychus shii,Tetranychidae,Schizotetranychus shii,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis celarius,Tetranychidae,Stigmaeopsis celarius,False,True,True,True,0,Spider Mites Web
+Stigmaeopsis continentalis,Tetranychidae,Stigmaeopsis continentalis,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis inthanonsis,Tetranychidae,Stigmaeopsis inthanonsis,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis longus,Tetranychidae,Stigmaeopsis longus,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis miscanthi,Tetranychidae,Stigmaeopsis miscanthi,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis nanjingensis,Tetranychidae,Stigmaeopsis nanjingensis,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis sabelisi,Tetranychidae,Stigmaeopsis sabelisi,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis saharai,Tetranychidae,Stigmaeopsis saharai,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis takahashii,Tetranychidae,Stigmaeopsis takahashii,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis temporalis,Tetranychidae,Stigmaeopsis temporalis,False,False,True,False,0,Spider Mites Web
+Stigmaeopsis tenuinidus,Tetranychidae,Stigmaeopsis tenuinidus,False,False,True,False,0,Spider Mites Web
+Tetranychus bambusae,Tetranychidae,Tetranychus bambusae,False,False,True,False,0,Spider Mites Web
+Tetranychus canadensis,Tetranychidae,Tetranychus canadensis,True,True,False,True,1,Spider Mites Web
+Tetranychus desertorum,Tetranychidae,Tetranychus desertorum,True,True,True,True,3,Spider Mites Web
+Tetranychus evansi,Tetranychidae,Tetranychus evansi,True,True,True,True,1,Spider Mites Web
+Tetranychus ezoensis,Tetranychidae,Tetranychus ezoensis,False,False,True,False,0,Spider Mites Web
+Tetranychus fijiensis,Tetranychidae,Tetranychus fijiensis,False,True,True,True,0,Spider Mites Web
+Tetranychus gloveri,Tetranychidae,Tetranychus gloveri; Tetranychus okinawanus,False,True,True,True,0,Spider Mites Web
+Tetranychus hirsutus,Tetranychidae,Tetranychus hirsutus,False,False,True,False,0,Spider Mites Web
+Tetranychus huhhotensis,Tetranychidae,Tetranychus huhhotensis,False,True,True,True,0,Spider Mites Web
+Tetranychus kanzawai,Tetranychidae,Tetranychus hydrangeae; Tetranychus kanzawai,True,True,True,True,17,Spider Mites Web
+Tetranychus lambi,Tetranychidae,Tetranychus lambi,False,True,True,True,0,Spider Mites Web
+Tetranychus lombardinii,Tetranychidae,Tetranychus lombardinii,False,True,True,True,0,Spider Mites Web
+Tetranychus ludeni,Tetranychidae,Tetranychus ludeni,True,True,True,True,3,Spider Mites Web
+Tetranychus macfarlanei,Tetranychidae,Tetranychus macfarlanei; Tetranychus malaysiensis,False,True,True,True,0,Spider Mites Web
+Tetranychus malvae,Tetranychidae,Tetranychus malvae,False,False,True,False,0,Spider Mites Web
+Tetranychus marianae,Tetranychidae,Tetranychus marianae,False,True,True,True,0,Spider Mites Web
+Tetranychus mcdanieli,Tetranychidae,Tetranychus mcdanieli,True,True,True,True,19,Spider Mites Web
+Tetranychus merganser,Tetranychidae,Tetranychus merganser,False,True,True,True,0,Spider Mites Web
+Tetranychus mexicanus,Tetranychidae,Tetranychus mexicanus,False,True,True,True,0,Spider Mites Web
+Tetranychus misumaiensis,Tetranychidae,Tetranychus misumaiensis,False,False,True,False,0,Spider Mites Web
+Tetranychus neocaledonicus,Tetranychidae,Tetranychus neocaledonicus,False,True,True,True,0,Spider Mites Web
+Tetranychus pacificus,Tetranychidae,Tetranychus pacificus,True,True,True,True,7,Spider Mites Web
+Tetranychus parakanzawai,Tetranychidae,Tetranychus parakanzawai,False,True,True,True,0,Spider Mites Web
+Tetranychus phaselus,Tetranychidae,Tetranychus phaselus,False,True,True,True,0,Spider Mites Web
+Tetranychus piercei,Tetranychidae,Tetranychus piercei,False,True,True,True,0,Spider Mites Web
+Tetranychus przhevalskii,Tetranychidae,Tetranychus przhevalskii,False,True,True,True,0,Spider Mites Web
+Tetranychus pueraricola,Tetranychidae,Tetranychus pueraricola,False,True,True,True,0,Spider Mites Web
+Tetranychus puschelii,Tetranychidae,Tetranychus puschelii,False,True,True,True,0,Spider Mites Web
+Tetranychus sawzdargi,Tetranychidae,Tetranychus sawzdargi,False,True,True,True,0,Spider Mites Web
+Tetranychus schoenei,Tetranychidae,Tetranychus schoenei,True,True,False,True,2,Spider Mites Web
+Tetranychus taiwanicus,Tetranychidae,Tetranychus taiwanicus,False,True,True,True,0,Spider Mites Web
+Tetranychus truncatus,Tetranychidae,Tetranychus truncatus,True,True,True,True,2,Spider Mites Web
+Tetranychus tumidellus,Tetranychidae,Tetranychus tumidellus,False,True,True,True,0,Spider Mites Web
+Tetranychus tumidus,Tetranychidae,Tetranychus tumidus,True,True,False,True,2,Spider Mites Web
+Tetranychus turkestani,Tetranychidae,Tetranychus turkestani,True,True,True,True,12,Spider Mites Web
+Tetranychus udaipurensis,Tetranychidae,Tetranychus udaipurensis,False,True,True,True,0,Spider Mites Web
+Tetranychus urticae,Tetranychidae,Tetranychus arabicus; Tetranychus cinnabarinus; Tetranychus cucurbitacearum; Tetranychus urticae,True,True,True,True,577,Spider Mites Web
+Tetranychus zeae,Tetranychidae,Tetranychus zeae,False,True,True,True,0,Spider Mites Web
+Tetranycopsis hystriciformis,Tetranychidae,Tetranycopsis hystriciformis,False,False,True,False,0,Spider Mites Web
+Yezonychus sapporensis,Tetranychidae,Yezonychus sapporensis,False,False,True,False,0,Spider Mites Web

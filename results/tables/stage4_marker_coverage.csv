@@ -1,0 +1,10 @@
+family,group,taxa,COI,r18S,r28S,no_marker,all_three
+Cheyletidae,outgroup or anchor,1,1,1,0,0,0
+Eriophyidae,outgroup or anchor,4,4,4,4,0,4
+Eriophyidae,resistant,5,4,3,2,0,1
+Phytoptidae,outgroup or anchor,2,2,2,2,0,2
+Tenuipalpidae,outgroup or anchor,3,3,2,3,0,2
+Tenuipalpidae,resistant,3,3,1,1,0,1
+Tetranychidae,resistant,19,15,11,11,4,11
+Tetranychidae,zero-resistance,96,91,42,44,1,38
+Trombiculidae,outgroup or anchor,1,1,0,0,0,0

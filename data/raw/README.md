@@ -63,3 +63,7 @@ The 283 references cited by those cases (index|citation as shown in the database
 - `GBOTB_smith_brown_2018.tre`: seed plant phylogeny GBOTB of Smith and Brown (2018), American Journal of Botany 105: 302-314; release v0.1 of github.com/FePhyFoFum/big_seed_plant_trees; md5 ce280a81ab824dc7cc83f395a7c7b54e.
 - Not stored (too large): World Flora Online Plant List June 2026, doi:10.5281/zenodo.20782718, file `_DwC_backbone_R.zip` (md5 0e4486945cd9f7af548ca87eb9a870ed).
 - `tenuipalpidae_db_hosts_2026-11-16.csv`: host records for Brevipalpus chilensis (18), B. phoenicis (547) and B. yothersi (104) from the Tenuipalpidae Database (www.tenuipalpidae.ibilce.unesp.br; Castro et al. 2020, Zootaxa), read in the user's Chrome and saved as CSV on 16 November 2026. B. phoenicis is the database's B. phoenicis sensu stricto after Beard et al. (2015).
+
+## Stage 4 (16 November 2026)
+
+- `genbank_2026-11-16/COI.gb.gz`, `18S.gb.gz`, `28S.gb.gz`: GenBank flat files downloaded by `scripts/04b_fetch_sequences.py` for the 123 analysis taxa and 11 outgroup or anchor taxa (3,836 record-by-marker rows). Where a taxon had more than 60 records for a marker, the 30 longest and a seeded random 30 of the rest were downloaded (seed 2026).

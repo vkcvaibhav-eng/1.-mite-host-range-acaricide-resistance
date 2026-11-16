@@ -1,0 +1,4 @@
+MAFFT v7.505 (2022/Apr/10)
+trimAl v1.5.rev1 build[2025-11-25]
+Biopython 1.88
+pandas 3.0.5
