@@ -1,5 +1,6 @@
 group,smw_valid_name,n_host_records,n_references,n_host_species,n_host_genera,n_host_families,n_crop_genera,rarefied_genera_10,host_pd_genus
-broadest,Tetranychus urticae,1284.0,462.0,1051.0,648.0,133.0,126.0,9.59310224339038,25539.0353589791
+broadest,Tetranychus urticae,1284.0,462.0,1052.0,648.0,133.0,126.0,9.59311995948214,25538.1708959791
+broadest,Brevipalpus phoenicis,547.0,156.0,362.0,350.0,96.0,78.0,9.392902861672564,15581.9199916718
 broadest,Tetranychus neocaledonicus,523.0,92.0,416.0,330.0,95.0,82.0,9.694528744252343,14440.400913168
 broadest,Tetranychus ludeni,371.0,118.0,285.0,225.0,65.0,65.0,9.408496223869141,9503.225449194
 broadest,Bryobia praetiosa,314.0,81.0,238.0,210.0,73.0,53.0,9.566468102124828,10843.8282562573
@@ -16,9 +17,8 @@ broadest,Eutetranychus banksi,117.0,73.0,98.0,92.0,37.0,35.0,8.451038539583257,5
 broadest,Tetranychus evansi,143.0,130.0,127.0,87.0,40.0,27.0,4.762586773510274,5283.25219896
 broadest,Tetranychus mexicanus,117.0,57.0,95.0,85.0,45.0,32.0,8.959138321523508,6390.262401068
 broadest,Tetranychus truncatus,120.0,37.0,97.0,84.0,38.0,41.0,9.199040623917224,4911.032326495
+broadest,Brevipalpus yothersi,104.0,27.0,81.0,80.0,48.0,28.0,8.292658465993977,5451.378998004
 broadest,Panonychus citri,121.0,166.0,101.0,79.0,40.0,32.0,5.747279219262783,5779.258322949
-broadest,Oligonychus yothersi,97.0,45.0,78.0,77.0,47.0,31.0,9.123955599556867,5918.256858521
-broadest,Tetranychus marianae,107.0,34.0,79.0,74.0,27.0,29.0,9.109538698873353,4245.200404044
 narrowest,Eotetranychus toyoshimai,1.0,2.0,1.0,1.0,1.0,0.0,,
 narrowest,Oligonychus amiensis,1.0,4.0,1.0,1.0,1.0,0.0,,
 narrowest,Oligonychus camelliae,1.0,3.0,1.0,1.0,1.0,1.0,,

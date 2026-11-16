@@ -1,190 +1,200 @@
-species,smw_id,smw_valid_name,n_host_records,n_references,n_host_species,n_host_genera,n_host_families,n_crop_genera,rarefied_genera_10,host_pd_genus,n_genera_in_tree,on_crop,has_coi,has_resistance_record,zero_resistance_species
-Acanthonychus jiangfengensis,964,Acanthonychus jiangfengensis,2.0,3.0,2.0,2.0,1.0,1.0,,53.574369999999995,2.0,True,True,False,True
-Amphitetranychus quercivorus,1119,Amphitetranychus quercivorus,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Amphitetranychus savenkoae,1120,Amphitetranychus savenkoae,2.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Amphitetranychus viennensis,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,True,True,False
-Aplonobia histricina,970,Aplonobia histricina,4.0,7.0,3.0,3.0,3.0,1.0,,352.94268999999997,3.0,True,True,False,True
-Aplonobia hyderabadiensis,25,Aplonobia hyderabadiensis,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,False,True,False,False
-Aponychus corpuzae,33,Aponychus corpuzae,24.0,23.0,20.0,16.0,5.0,5.0,6.177390406056244,815.758838,15.0,True,True,False,True
-Aponychus firmianae,38,Aponychus firmianae,1.0,6.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Aponychus imperatus,26,Aponychus imperatus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Augeriflechtmannia armeniaca,878,Augeriflechtmannia armeniaca,2.0,1.0,2.0,2.0,2.0,0.0,,87.322611,2.0,False,True,False,False
-Bryobia abbatielloi,14094,Bryobia abbatielloi,4.0,2.0,2.0,3.0,2.0,0.0,,277.182316,3.0,False,True,False,False
-Bryobia abyssiniae,13976,Bryobia abyssiniae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Bryobia berlesei,982,Bryobia berlesei,2.0,5.0,1.0,2.0,1.0,0.0,,30.095245,2.0,False,True,False,False
-Bryobia eharai,50,Bryobia eharai,4.0,8.0,3.0,3.0,2.0,2.0,,273.857258,3.0,True,True,False,True
-Bryobia kissophila,89,Bryobia kissophila,14.0,25.0,11.0,11.0,9.0,3.0,3.9841269408517332,1068.472834,11.0,True,True,False,True
-Bryobia polymorpha,14157,Bryobia polymorpha,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Bryobia praetiosa,54,Bryobia praetiosa,314.0,81.0,238.0,210.0,73.0,53.0,9.566468102124828,10843.8282562573,204.0,True,True,True,False
-Bryobia rubrioculus,57,Bryobia rubrioculus,95.0,83.0,75.0,52.0,29.0,19.0,5.743271404501685,4200.4869538804,52.0,True,True,False,True
-Bryobia sarothamni,63,Bryobia sarothamni,6.0,6.0,4.0,5.0,3.0,2.0,,429.12183799999997,5.0,True,True,False,True
-Eotetranychus asiaticus,216,Eotetranychus sexmaculatus,52.0,44.0,36.0,38.0,24.0,18.0,7.449549579337301,3295.13002308,38.0,True,True,False,True
-Eotetranychus boreus,228,Eotetranychus boreus,4.0,3.0,3.0,2.0,2.0,1.0,,237.157155,2.0,True,True,False,True
-Eotetranychus broodryki,157,Eotetranychus broodryki,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Eotetranychus carpini,209,Eotetranychus carpini,66.0,48.0,51.0,32.0,16.0,9.0,7.572474103866204,2479.262601,32.0,True,True,False,True
-Eotetranychus carpinicolus,14058,Eotetranychus carpinicolus,2.0,1.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus celtis,233,Eotetranychus celtis,6.0,5.0,5.0,5.0,3.0,1.0,,424.275381,5.0,True,True,False,True
-Eotetranychus cornicola,950,Eotetranychus cornicola,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus coryli,1108,Eotetranychus coryli,12.0,18.0,12.0,9.0,6.0,5.0,4.3563214729631525,816.783686,9.0,True,True,False,True
-Eotetranychus dissectus,238,Eotetranychus dissectus,2.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus frosti,148,Eotetranychus frosti,9.0,10.0,5.0,4.0,2.0,4.0,3.9220779220779223,416.721064,4.0,True,True,False,True
-Eotetranychus hicoriae,219,Eotetranychus hicoriae,14.0,10.0,13.0,8.0,6.0,4.0,5.571644042232277,689.187442,8.0,True,False,True,False
-Eotetranychus kankitus,251,Eotetranychus kankitus,16.0,11.0,12.0,12.0,10.0,6.0,6.660789674721563,1327.865464,12.0,True,True,False,True
-Eotetranychus lewisi,168,Eotetranychus lewisi,78.0,49.0,55.0,56.0,28.0,22.0,8.302328609437787,4297.208071,55.0,True,True,False,True
-Eotetranychus linderae,14061,Eotetranychus linderae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus nomurai,952,Eotetranychus nomurai,3.0,3.0,3.0,3.0,2.0,1.0,,342.70134096,3.0,True,True,False,True
-Eotetranychus palatiensis,14057,Eotetranychus palatiensis,1.0,1.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Eotetranychus populi,161,Eotetranychus populi,39.0,25.0,36.0,14.0,9.0,3.0,4.0205315046041985,1291.2294078,14.0,True,True,False,True
-Eotetranychus potentillae,267,Eotetranychus potentillae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus pruni,211,Eotetranychus pruni,47.0,35.0,42.0,21.0,10.0,8.0,6.584170326236039,1491.3800328804,20.0,True,True,False,True
-Eotetranychus querci,273,Eotetranychus querci,4.0,3.0,4.0,3.0,3.0,0.0,,335.036696,3.0,False,True,False,False
-Eotetranychus quercifoliae,2733,Eotetranychus quercifoliae,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus rubricans,1204,Eotetranychus rubricans,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus sexmaculatus,216,Eotetranychus sexmaculatus,52.0,44.0,36.0,38.0,24.0,18.0,7.449549579337301,3295.13002308,38.0,True,True,False,True
-Eotetranychus smithi,182,Eotetranychus smithi,25.0,12.0,20.0,13.0,6.0,9.0,5.970840386258484,963.289232,11.0,True,True,False,True
-Eotetranychus spectabilis,281,Eotetranychus spectabilis,3.0,2.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus suginamensis,215,Eotetranychus suginamensis,7.0,11.0,6.0,5.0,4.0,1.0,3.857142857142857,516.865795,5.0,True,True,False,True
-Eotetranychus thujae,682,Eotetranychus thujae,11.0,12.0,8.0,4.0,1.0,0.0,3.2627411288402,106.284898,4.0,False,True,False,False
-Eotetranychus tiliaecola,13858,Eotetranychus tiliaecola,2.0,1.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus tiliarium,208,Eotetranychus tiliarium,40.0,42.0,30.0,18.0,10.0,7.0,4.612711497457293,1525.917342,18.0,True,True,False,True
-Eotetranychus toyoshimai,13803,Eotetranychus toyoshimai,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Eotetranychus uchidai,288,Eotetranychus uchidai,4.0,4.0,3.0,2.0,1.0,0.0,,17.829946,2.0,False,True,False,False
-Eotetranychus uncatus,210,Eotetranychus uncatus,40.0,23.0,35.0,18.0,10.0,7.0,7.087559579947111,1397.197072,18.0,True,True,False,True
-Eotetranychus willamettei,990,Eotetranychus willamettei,16.0,7.0,13.0,13.0,9.0,4.0,8.522058823529411,1153.998957,13.0,True,True,False,True
-Eurytetranychoides japonicus,1089,Eurytetranychoides japonicus,4.0,4.0,4.0,3.0,2.0,1.0,,259.777562,3.0,True,True,False,True
-Eurytetranychus buxi,1162,Eurytetranychus buxi,5.0,26.0,4.0,3.0,3.0,0.0,1.7142857142857142,778.653928,3.0,False,True,False,False
-Eutetranychus africanus,322,Eutetranychus africanus,82.0,34.0,71.0,53.0,23.0,21.0,8.566928549790735,3557.108468,51.0,True,True,False,True
-Eutetranychus banksi,327,Eutetranychus banksi,117.0,73.0,98.0,92.0,37.0,35.0,8.451038539583257,5869.458124627,91.0,True,True,False,True
-Eutetranychus orientalis,321,Eutetranychus orientalis,237.0,101.0,189.0,159.0,63.0,60.0,8.546479774927079,9310.327442628,154.0,True,True,False,True
-Mononychellus caribbeanae,387,Mononychellus caribbeanae,9.0,14.0,6.0,8.0,5.0,2.0,4.947368421052632,708.729158,8.0,True,True,False,True
-Mononychellus mcgregori,398,Mononychellus mcgregori,5.0,6.0,2.0,5.0,4.0,1.0,,533.513578,5.0,True,True,False,True
-Mononychellus progresivus,391,Mononychellus progresivus,6.0,10.0,4.0,1.0,1.0,1.0,1.0,,1.0,True,True,False,True
-Mononychellus tanajoa,392,Mononychellus tanajoa,10.0,26.0,8.0,7.0,4.0,2.0,3.7686317905788815,655.647914,7.0,True,True,False,True
-Neotetranychus rubi,449,Neotetranychus rubi,6.0,14.0,5.0,1.0,1.0,1.0,1.0,,1.0,True,True,False,True
-Oligonychus aceris,455,Oligonychus aceris,9.0,10.0,7.0,4.0,3.0,1.0,3.3626373626373627,424.364712,4.0,True,True,False,True
-Oligonychus afrasiaticus,608,Oligonychus afrasiaticus,25.0,32.0,18.0,19.0,5.0,7.0,5.6418282341522445,884.21740272,19.0,True,True,False,True
-Oligonychus amiensis,13831,Oligonychus amiensis,1.0,4.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus biharensis,576,Oligonychus biharensis,87.0,46.0,73.0,66.0,27.0,31.0,9.138405781638275,4179.236438269,61.0,True,True,False,True
-Oligonychus camelliae,13839,Oligonychus camelliae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Oligonychus castaneae,13830,Oligonychus castaneae,5.0,6.0,5.0,3.0,1.0,1.0,2.769230769230769,92.771883,3.0,True,True,False,True
-Oligonychus clavatus,480,Oligonychus clavatus,3.0,3.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus coffeae,567,Oligonychus coffeae,149.0,69.0,125.0,101.0,47.0,36.0,9.20498509953796,6927.374632874,97.0,True,True,True,False
-Oligonychus dactyloni,1154,Oligonychus dactyloni,2.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus gossypii,584,Oligonychus gossypii,57.0,30.0,35.0,45.0,20.0,18.0,8.745070430012913,3148.06307983,43.0,True,True,False,True
-Oligonychus gotohi,1205,Oligonychus gotohi,6.0,10.0,5.0,3.0,1.0,1.0,2.8827838827838828,34.595367,3.0,True,True,False,True
-Oligonychus grypus,601,Oligonychus grypus,26.0,15.0,21.0,22.0,6.0,14.0,8.22286355181092,918.940887,21.0,True,True,False,True
-Oligonychus hondoensis,492,Oligonychus hondoensis,4.0,8.0,2.0,4.0,2.0,0.0,3.909090909090909,305.442342,4.0,False,True,False,False
-Oligonychus ilicis,493,Oligonychus ilicis,41.0,31.0,21.0,31.0,17.0,14.0,8.023186639547237,2755.791272,31.0,True,True,False,True
-Oligonychus indicus,494,Oligonychus indicus,23.0,14.0,16.0,15.0,5.0,10.0,6.912998051275188,672.150975269,13.0,True,True,False,True
-Oligonychus karamatus,498,Oligonychus karamatus,5.0,13.0,4.0,2.0,1.0,0.0,1.6666666666666667,77.59514300000001,2.0,False,True,False,False
-Oligonychus mangiferus,564,Oligonychus punicae,100.0,98.0,71.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True
-Oligonychus modestus,513,Oligonychus modestus,18.0,13.0,16.0,16.0,3.0,6.0,8.17975068409851,565.442525554,16.0,True,True,False,True
-Oligonychus neocastaneae,14044,Oligonychus neocastaneae,3.0,1.0,3.0,2.0,1.0,1.0,,24.618253000000003,2.0,True,True,False,True
-Oligonychus orthius,518,Oligonychus orthius,10.0,8.0,10.0,9.0,4.0,4.0,6.066125051419169,443.272686,8.0,True,True,False,True
-Oligonychus oryzae,519,Oligonychus oryzae,10.0,11.0,6.0,8.0,3.0,6.0,6.146493212669683,417.391531,7.0,True,True,False,True
-Oligonychus perditus,521,Oligonychus perditus,13.0,9.0,11.0,7.0,3.0,1.0,4.421052631578948,797.511204,6.0,True,True,False,True
-Oligonychus perseae,523,Oligonychus perseae,42.0,60.0,32.0,34.0,23.0,16.0,5.910653059201008,3052.59125503,34.0,True,True,False,True
-Oligonychus piceae,525,Oligonychus piceae,7.0,12.0,5.0,2.0,1.0,0.0,1.978021978021978,70.03282999999999,2.0,False,True,False,False
-Oligonychus platani,530,Oligonychus platani,24.0,13.0,18.0,17.0,11.0,5.0,7.359474191301221,1808.676689,16.0,True,True,False,True
-Oligonychus plegas,618,Oligonychus plegas,10.0,6.0,7.0,9.0,4.0,8.0,7.098901098901099,487.489843874,8.0,True,True,False,True
-Oligonychus pratensis,613,Oligonychus pratensis,81.0,41.0,71.0,56.0,13.0,24.0,8.761229584934373,2212.6466220410002,55.0,True,True,True,False
-Oligonychus punicae,564,Oligonychus punicae,100.0,98.0,71.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True
-Oligonychus pustulosus,539,Oligonychus pustulosus,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus rubicundus,13754,Oligonychus rubicundus,3.0,3.0,3.0,3.0,1.0,1.0,,16.308706,3.0,True,True,False,True
-Oligonychus thelytokus,565,Oligonychus thelytokus,35.0,4.0,23.0,32.0,20.0,13.0,9.24891774891775,2751.71854311,32.0,True,True,False,True
-Oligonychus trichardti,570,Oligonychus trichardti,8.0,5.0,5.0,5.0,2.0,0.0,,297.104598,4.0,False,True,False,False
-Oligonychus tsudomei,553,Oligonychus tsudomei,2.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus tylus,591,Oligonychus tylus,16.0,8.0,14.0,14.0,3.0,12.0,8.207792207792208,477.369499829,13.0,True,True,False,True
-Oligonychus ununguis,572,Oligonychus ununguis,111.0,62.0,94.0,31.0,12.0,4.0,6.777531875243836,2292.232026,31.0,True,True,False,True
-Oligonychus vitis,564,Oligonychus punicae,100.0,98.0,71.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True
-Oligonychus washingtoniae,14161,Oligonychus washingtoniae,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Oligonychus yothersi,559,Oligonychus yothersi,97.0,45.0,78.0,77.0,47.0,31.0,9.123955599556867,5918.256858521,73.0,True,True,False,True
-Panonychus akitanus,622,Sasanychus akitanus,2.0,4.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Panonychus bambusicola,956,Panonychus bambusicola,2.0,4.0,2.0,2.0,1.0,0.0,,,1.0,False,True,False,False
-Panonychus caglei,625,Panonychus caglei,16.0,9.0,14.0,10.0,7.0,4.0,6.468339967565973,947.862355,10.0,True,True,False,True
-Panonychus caricae,626,Panonychus caricae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Panonychus citri,624,Panonychus citri,121.0,166.0,101.0,79.0,40.0,32.0,5.747279219262783,5779.258322949,76.0,True,True,True,False
-Panonychus elongatus,627,Panonychus elongatus,28.0,10.0,22.0,23.0,12.0,10.0,8.593771748764222,2056.001886,22.0,True,True,False,True
-Panonychus hadzhibejliae,629,Panonychus hadzhibejliae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Panonychus mori,1053,Panonychus mori,9.0,11.0,8.0,7.0,5.0,3.0,5.301470588235294,418.365008,6.0,True,True,False,True
-Panonychus osmanthi,1165,Panonychus osmanthi,3.0,10.0,3.0,1.0,1.0,0.0,1.0,,1.0,False,True,False,False
-Panonychus pusillus,630,Sasanychus pusillus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Panonychus thelytokus,1054,Panonychus thelytokus,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Panonychus ulmi,623,Panonychus ulmi,172.0,137.0,134.0,98.0,42.0,42.0,7.536713127688701,5818.6799548804,92.0,True,True,True,False
-Paraponychus corderoi,1176,Paraponychus corderoi,6.0,8.0,6.0,6.0,5.0,5.0,5.818181818181818,656.43019,6.0,True,True,False,True
-Petrobia harti,664,Petrobia harti,46.0,60.0,37.0,32.0,19.0,18.0,5.3086564294586776,2836.3762659999998,31.0,True,True,False,True
-Petrobia latens,666,Petrobia latens,123.0,39.0,93.0,96.0,33.0,41.0,9.336634156717041,5166.289962,91.0,True,True,False,True
-Petrobia tunisiae,674,Petrobia tunisiae,11.0,9.0,6.0,7.0,3.0,5.0,5.786764705882353,447.877357,7.0,True,True,False,True
-Schizotetranychus andropogoni,733,Schizotetranychus andropogoni,10.0,13.0,8.0,8.0,3.0,4.0,5.395581198986772,333.910878,7.0,True,True,False,True
-Schizotetranychus asparagi,716,Schizotetranychus asparagi,12.0,17.0,9.0,4.0,3.0,4.0,2.0344827586206895,395.342435,4.0,True,True,False,True
-Schizotetranychus baltazari,735,Schizotetranychus baltazarae,14.0,15.0,12.0,8.0,4.0,2.0,4.789705246967328,508.333311,6.0,True,True,False,True
-Schizotetranychus bambusae,736,Schizotetranychus bambusae,30.0,16.0,27.0,6.0,1.0,0.0,2.3763066202090593,60.284096,6.0,False,True,False,False
-Schizotetranychus brevisetosus,949,Schizotetranychus brevisetosus,2.0,6.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Schizotetranychus cercidiphylli,745,Schizotetranychus cercidiphylli,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Schizotetranychus gilvus,3700,Schizotetranychus gilvus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Schizotetranychus krungthepensis,13936,Schizotetranychus krungthepensis,2.0,5.0,2.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Schizotetranychus laevidorsatus,769,Schizotetranychus laevidorsatus,4.0,3.0,2.0,2.0,1.0,0.0,,4.686285,2.0,False,True,False,False
-Schizotetranychus lespedezae,772,Schizotetranychus lespedezae,12.0,6.0,7.0,9.0,1.0,2.0,7.098901098901099,366.419449,9.0,True,True,False,True
-Schizotetranychus mansoni,777,Schizotetranychus mansoni,2.0,3.0,2.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Schizotetranychus recki,786,Schizotetranychus recki,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Schizotetranychus schizopus,790,Schizotetranychus schizopus,25.0,24.0,24.0,4.0,3.0,2.0,1.5660377358490565,401.292599,4.0,True,True,False,True
-Schizotetranychus shii,279,Schizotetranychus shii,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis celarius,743,Stigmaeopsis celarius,21.0,17.0,17.0,10.0,2.0,3.0,5.721880814990806,386.68987500000003,10.0,True,True,False,True
-Stigmaeopsis continentalis,14586,Stigmaeopsis continentalis,2.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis inthanonsis,14084,Stigmaeopsis inthanonsis,1.0,1.0,0.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis longus,954,Stigmaeopsis longus,6.0,13.0,4.0,3.0,1.0,0.0,2.0526315789473686,103.46507,3.0,False,True,False,False
-Stigmaeopsis miscanthi,955,Stigmaeopsis miscanthi,2.0,7.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis nanjingensis,779,Stigmaeopsis nanjingensis,15.0,11.0,14.0,3.0,1.0,0.0,2.292094861660079,9.368999,3.0,False,True,False,False
-Stigmaeopsis sabelisi,14580,Stigmaeopsis sabelisi,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis saharai,3691,Stigmaeopsis saharai,5.0,6.0,4.0,3.0,1.0,0.0,3.0,10.694513,3.0,False,True,False,False
-Stigmaeopsis takahashii,3694,Stigmaeopsis takahashii,5.0,6.0,4.0,3.0,3.0,0.0,,386.11663500000003,3.0,False,True,False,False
-Stigmaeopsis temporalis,13966,Stigmaeopsis temporalis,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Stigmaeopsis tenuinidus,1195,Stigmaeopsis tenuinidus,2.0,5.0,1.0,2.0,1.0,0.0,,47.92589,2.0,False,True,False,False
-Tetranychus arabicus,872,Tetranychus urticae,1284.0,462.0,1051.0,648.0,133.0,126.0,9.59310224339038,25539.0353589791,616.0,True,False,True,False
-Tetranychus bambusae,821,Tetranychus bambusae,4.0,6.0,3.0,2.0,1.0,0.0,,47.92589,2.0,False,True,False,False
-Tetranychus canadensis,880,Tetranychus canadensis,73.0,14.0,55.0,52.0,27.0,20.0,9.04758340283033,3786.1212398,50.0,True,False,True,False
-Tetranychus cinnabarinus,872,Tetranychus urticae,1284.0,462.0,1051.0,648.0,133.0,126.0,9.59310224339038,25539.0353589791,616.0,True,True,True,False
-Tetranychus crataegi,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,False,True,False
-Tetranychus cucurbitacearum,872,Tetranychus urticae,1284.0,462.0,1051.0,648.0,133.0,126.0,9.59310224339038,25539.0353589791,616.0,True,False,True,False
-Tetranychus desertorum,920,Tetranychus desertorum,223.0,52.0,183.0,164.0,55.0,49.0,9.597603078507385,8318.986714,157.0,True,True,True,False
-Tetranychus evansi,882,Tetranychus evansi,143.0,130.0,127.0,87.0,40.0,27.0,4.762586773510274,5283.25219896,84.0,True,True,True,False
-Tetranychus ezoensis,830,Tetranychus ezoensis,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Tetranychus fijiensis,915,Tetranychus fijiensis,30.0,26.0,21.0,21.0,13.0,9.0,7.248753472777016,1672.646188978,19.0,True,True,False,True
-Tetranychus gloveri,835,Tetranychus gloveri,216.0,48.0,171.0,158.0,55.0,49.0,9.550127026277035,7594.010936198,149.0,True,True,False,True
-Tetranychus hirsutus,13964,Tetranychus hirsutus,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Tetranychus huhhotensis,13852,Tetranychus huhhotensis,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Tetranychus hydrangeae,1023,Tetranychus kanzawai,195.0,112.0,154.0,146.0,64.0,53.0,9.130880701366761,8324.651837495,141.0,True,False,True,False
-Tetranychus kanzawai,1023,Tetranychus kanzawai,195.0,112.0,154.0,146.0,64.0,53.0,9.130880701366761,8324.651837495,141.0,True,True,True,False
-Tetranychus lambi,838,Tetranychus lambi,71.0,13.0,60.0,58.0,24.0,27.0,9.27886345175323,3943.501599921,55.0,True,True,False,True
-Tetranychus lombardinii,813,Tetranychus lombardinii,129.0,20.0,101.0,95.0,42.0,32.0,9.55231625841502,5296.563819058,89.0,True,True,False,True
-Tetranychus ludeni,884,Tetranychus ludeni,371.0,118.0,285.0,225.0,65.0,65.0,9.408496223869141,9503.225449194,216.0,True,True,True,False
-Tetranychus macfarlanei,916,Tetranychus macfarlanei,53.0,28.0,45.0,40.0,19.0,25.0,8.465025454095773,2420.5296550000003,37.0,True,True,False,True
-Tetranychus malaysiensis,916,Tetranychus macfarlanei,53.0,28.0,45.0,40.0,19.0,25.0,8.465025454095773,2420.5296550000003,37.0,True,True,False,True
-Tetranychus malvae,1062,Tetranychus malvae,3.0,1.0,3.0,3.0,3.0,0.0,,367.342647,3.0,False,True,False,False
-Tetranychus marianae,844,Tetranychus marianae,107.0,34.0,79.0,74.0,27.0,29.0,9.109538698873353,4245.200404044,71.0,True,True,False,True
-Tetranychus mcdanieli,845,Tetranychus mcdanieli,15.0,12.0,13.0,13.0,10.0,8.0,7.500430919195222,1410.3325498804,13.0,True,True,True,False
-Tetranychus merganser,846,Tetranychus merganser,23.0,25.0,15.0,20.0,16.0,10.0,8.27672160986955,1687.987936,18.0,True,True,False,True
-Tetranychus mexicanus,847,Tetranychus mexicanus,117.0,57.0,95.0,85.0,45.0,32.0,8.959138321523508,6390.262401068,82.0,True,True,False,True
-Tetranychus misumaiensis,13843,Tetranychus misumaiensis,1.0,3.0,0.0,1.0,1.0,0.0,,,1.0,False,True,False,False
-Tetranychus neocaledonicus,852,Tetranychus neocaledonicus,523.0,92.0,416.0,330.0,95.0,82.0,9.694528744252343,14440.400913168,315.0,True,True,False,True
-Tetranychus okinawanus,835,Tetranychus gloveri,216.0,48.0,171.0,158.0,55.0,49.0,9.550127026277035,7594.010936198,149.0,True,True,False,True
-Tetranychus pacificus,854,Tetranychus pacificus,54.0,17.0,31.0,43.0,25.0,23.0,8.736383346723763,3497.1569728804,43.0,True,True,True,False
-Tetranychus parakanzawai,1206,Tetranychus parakanzawai,20.0,11.0,20.0,19.0,13.0,8.0,7.637032120968521,1636.99025,19.0,True,True,False,True
-Tetranychus phaselus,858,Tetranychus phaselus,17.0,15.0,14.0,15.0,9.0,8.0,7.7239130434782615,1045.356461,13.0,True,True,False,True
-Tetranychus piercei,859,Tetranychus piercei,91.0,41.0,78.0,69.0,30.0,26.0,9.249612535022912,4522.783065719,68.0,True,True,False,True
-Tetranychus przhevalskii,1019,Tetranychus przhevalskii,14.0,5.0,11.0,11.0,2.0,6.0,8.688811188811188,416.616824,11.0,True,True,False,True
-Tetranychus pueraricola,1166,Tetranychus pueraricola,11.0,23.0,11.0,9.0,5.0,7.0,5.052810113832164,712.6364130000001,9.0,True,True,False,True
-Tetranychus puschelii,908,Tetranychus puschelii,26.0,4.0,21.0,25.0,13.0,10.0,9.86153846153846,1508.918672,25.0,True,True,False,True
-Tetranychus sawzdargi,1020,Tetranychus sawzdargi,8.0,3.0,5.0,7.0,5.0,5.0,,682.6918258804,7.0,True,True,False,True
-Tetranychus schoenei,865,Tetranychus schoenei,52.0,9.0,40.0,37.0,19.0,11.0,8.875339699146581,2872.386419,36.0,True,False,True,False
-Tetranychus taiwanicus,869,Tetranychus taiwanicus,3.0,5.0,2.0,2.0,2.0,1.0,,271.516091,2.0,True,True,False,True
-Tetranychus truncatus,921,Tetranychus truncatus,120.0,37.0,97.0,84.0,38.0,41.0,9.199040623917224,4911.032326495,82.0,True,True,True,False
-Tetranychus tumidellus,870,Tetranychus tumidellus,8.0,9.0,4.0,8.0,8.0,5.0,7.363636363636363,943.095416,8.0,True,True,False,True
-Tetranychus tumidus,1017,Tetranychus tumidus,55.0,17.0,46.0,40.0,21.0,22.0,9.120224318949365,2706.556370748,38.0,True,False,True,False
-Tetranychus turkestani,893,Tetranychus turkestani,323.0,87.0,269.0,199.0,72.0,68.0,9.391346008148037,10582.5652708804,192.0,True,True,True,False
-Tetranychus udaipurensis,3721,Tetranychus udaipurensis,7.0,3.0,7.0,7.0,6.0,4.0,,783.581355,7.0,True,True,False,True
-Tetranychus urticae,872,Tetranychus urticae,1284.0,462.0,1051.0,648.0,133.0,126.0,9.59310224339038,25539.0353589791,616.0,True,True,True,False
-Tetranychus viennensis,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,True,False,True
-Tetranychus zeae,13855,Tetranychus zeae,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True
-Tetranycopsis hystriciformis,1021,Tetranycopsis hystriciformis,6.0,6.0,4.0,3.0,3.0,0.0,3.0,341.19861099999997,3.0,False,True,False,False
-Yezonychus sapporensis,928,Yezonychus sapporensis,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False
+species,smw_id,smw_valid_name,n_host_records,n_references,n_host_species,n_host_genera,n_host_families,n_crop_genera,rarefied_genera_10,host_pd_genus,n_genera_in_tree,on_crop,has_coi,has_resistance_record,zero_resistance_species,host_source
+Acanthonychus jiangfengensis,964,Acanthonychus jiangfengensis,2.0,3.0,2.0,2.0,1.0,1.0,,53.574369999999995,2.0,True,True,False,True,Spider Mites Web
+Amphitetranychus quercivorus,1119,Amphitetranychus quercivorus,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Amphitetranychus savenkoae,1120,Amphitetranychus savenkoae,2.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Amphitetranychus viennensis,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,True,True,False,Spider Mites Web
+Aplonobia histricina,970,Aplonobia histricina,4.0,7.0,3.0,3.0,3.0,1.0,,352.94268999999997,3.0,True,True,False,True,Spider Mites Web
+Aplonobia hyderabadiensis,25,Aplonobia hyderabadiensis,0.0,0.0,0.0,0.0,0.0,0.0,,,0.0,False,True,False,False,Spider Mites Web
+Aponychus corpuzae,33,Aponychus corpuzae,24.0,23.0,20.0,16.0,5.0,5.0,6.177390406056244,815.758838,15.0,True,True,False,True,Spider Mites Web
+Aponychus firmianae,38,Aponychus firmianae,1.0,6.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Aponychus imperatus,26,Aponychus imperatus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Augeriflechtmannia armeniaca,878,Augeriflechtmannia armeniaca,2.0,1.0,2.0,2.0,2.0,0.0,,87.322611,2.0,False,True,False,False,Spider Mites Web
+Bryobia abbatielloi,14094,Bryobia abbatielloi,4.0,2.0,2.0,3.0,2.0,0.0,,277.182316,3.0,False,True,False,False,Spider Mites Web
+Bryobia abyssiniae,13976,Bryobia abyssiniae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Bryobia berlesei,982,Bryobia berlesei,2.0,5.0,1.0,2.0,1.0,0.0,,30.095245,2.0,False,True,False,False,Spider Mites Web
+Bryobia eharai,50,Bryobia eharai,4.0,8.0,3.0,3.0,2.0,2.0,,273.857258,3.0,True,True,False,True,Spider Mites Web
+Bryobia kissophila,89,Bryobia kissophila,14.0,25.0,11.0,11.0,9.0,3.0,3.9841269408517332,1068.472834,11.0,True,True,False,True,Spider Mites Web
+Bryobia polymorpha,14157,Bryobia polymorpha,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Bryobia praetiosa,54,Bryobia praetiosa,314.0,81.0,238.0,210.0,73.0,53.0,9.566468102124828,10843.8282562573,204.0,True,True,True,False,Spider Mites Web
+Bryobia rubrioculus,57,Bryobia rubrioculus,95.0,83.0,75.0,52.0,29.0,19.0,5.743271404501685,4200.4869538804,52.0,True,True,False,True,Spider Mites Web
+Bryobia sarothamni,63,Bryobia sarothamni,6.0,6.0,4.0,5.0,3.0,2.0,,429.12183799999997,5.0,True,True,False,True,Spider Mites Web
+Eotetranychus asiaticus,216,Eotetranychus sexmaculatus,52.0,44.0,36.0,38.0,24.0,18.0,7.449549579337301,3295.13002308,38.0,True,True,False,True,Spider Mites Web
+Eotetranychus boreus,228,Eotetranychus boreus,4.0,3.0,3.0,2.0,2.0,1.0,,237.157155,2.0,True,True,False,True,Spider Mites Web
+Eotetranychus broodryki,157,Eotetranychus broodryki,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Eotetranychus carpini,209,Eotetranychus carpini,66.0,48.0,51.0,32.0,16.0,9.0,7.572474103866204,2479.262601,32.0,True,True,False,True,Spider Mites Web
+Eotetranychus carpinicolus,14058,Eotetranychus carpinicolus,2.0,1.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus celtis,233,Eotetranychus celtis,6.0,5.0,5.0,5.0,3.0,1.0,,424.275381,5.0,True,True,False,True,Spider Mites Web
+Eotetranychus cornicola,950,Eotetranychus cornicola,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus coryli,1108,Eotetranychus coryli,12.0,18.0,12.0,9.0,6.0,5.0,4.3563214729631525,816.783686,9.0,True,True,False,True,Spider Mites Web
+Eotetranychus dissectus,238,Eotetranychus dissectus,2.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus frosti,148,Eotetranychus frosti,9.0,10.0,5.0,4.0,2.0,4.0,3.9220779220779223,416.721064,4.0,True,True,False,True,Spider Mites Web
+Eotetranychus hicoriae,219,Eotetranychus hicoriae,14.0,10.0,13.0,8.0,6.0,4.0,5.571644042232277,689.187442,8.0,True,False,True,False,Spider Mites Web
+Eotetranychus kankitus,251,Eotetranychus kankitus,16.0,11.0,12.0,12.0,10.0,6.0,6.660789674721563,1327.865464,12.0,True,True,False,True,Spider Mites Web
+Eotetranychus lewisi,168,Eotetranychus lewisi,78.0,49.0,55.0,56.0,28.0,22.0,8.302328609437787,4297.208071,55.0,True,True,False,True,Spider Mites Web
+Eotetranychus linderae,14061,Eotetranychus linderae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus nomurai,952,Eotetranychus nomurai,3.0,3.0,3.0,3.0,2.0,1.0,,342.70134096,3.0,True,True,False,True,Spider Mites Web
+Eotetranychus palatiensis,14057,Eotetranychus palatiensis,1.0,1.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Eotetranychus populi,161,Eotetranychus populi,39.0,25.0,36.0,14.0,9.0,3.0,4.0205315046041985,1291.2294078,14.0,True,True,False,True,Spider Mites Web
+Eotetranychus potentillae,267,Eotetranychus potentillae,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus pruni,211,Eotetranychus pruni,47.0,35.0,42.0,21.0,10.0,8.0,6.584170326236039,1491.3800328804,20.0,True,True,False,True,Spider Mites Web
+Eotetranychus querci,273,Eotetranychus querci,4.0,3.0,4.0,3.0,3.0,0.0,,335.036696,3.0,False,True,False,False,Spider Mites Web
+Eotetranychus quercifoliae,2733,Eotetranychus quercifoliae,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus rubricans,1204,Eotetranychus rubricans,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus sexmaculatus,216,Eotetranychus sexmaculatus,52.0,44.0,36.0,38.0,24.0,18.0,7.449549579337301,3295.13002308,38.0,True,True,False,True,Spider Mites Web
+Eotetranychus smithi,182,Eotetranychus smithi,25.0,12.0,20.0,13.0,6.0,9.0,5.970840386258484,963.289232,11.0,True,True,False,True,Spider Mites Web
+Eotetranychus spectabilis,281,Eotetranychus spectabilis,3.0,2.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus suginamensis,215,Eotetranychus suginamensis,7.0,11.0,6.0,5.0,4.0,1.0,3.857142857142857,516.865795,5.0,True,True,False,True,Spider Mites Web
+Eotetranychus thujae,682,Eotetranychus thujae,11.0,12.0,8.0,4.0,1.0,0.0,3.2627411288402,106.284898,4.0,False,True,False,False,Spider Mites Web
+Eotetranychus tiliaecola,13858,Eotetranychus tiliaecola,2.0,1.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus tiliarium,208,Eotetranychus tiliarium,40.0,42.0,30.0,18.0,10.0,7.0,4.612711497457293,1525.917342,18.0,True,True,False,True,Spider Mites Web
+Eotetranychus toyoshimai,13803,Eotetranychus toyoshimai,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Eotetranychus uchidai,288,Eotetranychus uchidai,4.0,4.0,3.0,2.0,1.0,0.0,,17.829946,2.0,False,True,False,False,Spider Mites Web
+Eotetranychus uncatus,210,Eotetranychus uncatus,40.0,23.0,35.0,18.0,10.0,7.0,7.087559579947111,1397.197072,18.0,True,True,False,True,Spider Mites Web
+Eotetranychus willamettei,990,Eotetranychus willamettei,16.0,7.0,13.0,13.0,9.0,4.0,8.522058823529411,1153.998957,13.0,True,True,False,True,Spider Mites Web
+Eurytetranychoides japonicus,1089,Eurytetranychoides japonicus,4.0,4.0,4.0,3.0,2.0,1.0,,259.777562,3.0,True,True,False,True,Spider Mites Web
+Eurytetranychus buxi,1162,Eurytetranychus buxi,5.0,26.0,4.0,3.0,3.0,0.0,1.7142857142857142,778.653928,3.0,False,True,False,False,Spider Mites Web
+Eutetranychus africanus,322,Eutetranychus africanus,82.0,34.0,71.0,53.0,23.0,21.0,8.566928549790735,3557.108468,51.0,True,True,False,True,Spider Mites Web
+Eutetranychus banksi,327,Eutetranychus banksi,117.0,73.0,98.0,92.0,37.0,35.0,8.451038539583257,5869.458124627,91.0,True,True,False,True,Spider Mites Web
+Eutetranychus orientalis,321,Eutetranychus orientalis,237.0,101.0,189.0,159.0,63.0,60.0,8.546479774927079,9310.327442628,154.0,True,True,False,True,Spider Mites Web
+Mononychellus caribbeanae,387,Mononychellus caribbeanae,9.0,14.0,6.0,8.0,5.0,2.0,4.947368421052632,708.729158,8.0,True,True,False,True,Spider Mites Web
+Mononychellus mcgregori,398,Mononychellus mcgregori,5.0,6.0,2.0,5.0,4.0,1.0,,533.513578,5.0,True,True,False,True,Spider Mites Web
+Mononychellus progresivus,391,Mononychellus progresivus,6.0,10.0,4.0,1.0,1.0,1.0,1.0,,1.0,True,True,False,True,Spider Mites Web
+Mononychellus tanajoa,392,Mononychellus tanajoa,10.0,26.0,8.0,7.0,4.0,2.0,3.7686317905788815,655.647914,7.0,True,True,False,True,Spider Mites Web
+Neotetranychus rubi,449,Neotetranychus rubi,6.0,14.0,5.0,1.0,1.0,1.0,1.0,,1.0,True,True,False,True,Spider Mites Web
+Oligonychus aceris,455,Oligonychus aceris,9.0,10.0,7.0,4.0,3.0,1.0,3.3626373626373627,424.364712,4.0,True,True,False,True,Spider Mites Web
+Oligonychus afrasiaticus,608,Oligonychus afrasiaticus,25.0,32.0,18.0,19.0,5.0,7.0,5.6418282341522445,884.21740272,19.0,True,True,False,True,Spider Mites Web
+Oligonychus amiensis,13831,Oligonychus amiensis,1.0,4.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus biharensis,576,Oligonychus biharensis,87.0,46.0,73.0,66.0,27.0,31.0,9.138405781638275,4179.236438269,61.0,True,True,False,True,Spider Mites Web
+Oligonychus camelliae,13839,Oligonychus camelliae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Oligonychus castaneae,13830,Oligonychus castaneae,5.0,6.0,5.0,3.0,1.0,1.0,2.769230769230769,92.771883,3.0,True,True,False,True,Spider Mites Web
+Oligonychus clavatus,480,Oligonychus clavatus,3.0,3.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus coffeae,567,Oligonychus coffeae,149.0,69.0,125.0,101.0,47.0,36.0,9.20498509953796,6927.374632874,97.0,True,True,True,False,Spider Mites Web
+Oligonychus dactyloni,1154,Oligonychus dactyloni,2.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus gossypii,584,Oligonychus gossypii,57.0,30.0,35.0,45.0,20.0,18.0,8.745070430012913,3148.06307983,43.0,True,True,False,True,Spider Mites Web
+Oligonychus gotohi,1205,Oligonychus gotohi,6.0,10.0,5.0,3.0,1.0,1.0,2.8827838827838828,34.595367,3.0,True,True,False,True,Spider Mites Web
+Oligonychus grypus,601,Oligonychus grypus,26.0,15.0,21.0,22.0,6.0,14.0,8.22286355181092,924.909002,21.0,True,True,False,True,Spider Mites Web
+Oligonychus hondoensis,492,Oligonychus hondoensis,4.0,8.0,2.0,4.0,2.0,0.0,3.909090909090909,305.442342,4.0,False,True,False,False,Spider Mites Web
+Oligonychus ilicis,493,Oligonychus ilicis,41.0,31.0,21.0,31.0,17.0,14.0,8.023186639547237,2755.791272,31.0,True,True,False,True,Spider Mites Web
+Oligonychus indicus,494,Oligonychus indicus,23.0,14.0,16.0,15.0,5.0,10.0,6.912998051275188,672.150975269,13.0,True,True,False,True,Spider Mites Web
+Oligonychus karamatus,498,Oligonychus karamatus,5.0,13.0,4.0,2.0,1.0,0.0,1.6666666666666667,77.59514300000001,2.0,False,True,False,False,Spider Mites Web
+Oligonychus mangiferus,564,Oligonychus punicae,100.0,98.0,72.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True,Spider Mites Web
+Oligonychus modestus,513,Oligonychus modestus,18.0,13.0,16.0,16.0,3.0,6.0,8.17975068409851,565.442525554,16.0,True,True,False,True,Spider Mites Web
+Oligonychus neocastaneae,14044,Oligonychus neocastaneae,3.0,1.0,3.0,2.0,1.0,1.0,,24.618253000000003,2.0,True,True,False,True,Spider Mites Web
+Oligonychus orthius,518,Oligonychus orthius,10.0,8.0,10.0,9.0,4.0,4.0,6.066125051419169,443.272686,8.0,True,True,False,True,Spider Mites Web
+Oligonychus oryzae,519,Oligonychus oryzae,10.0,11.0,6.0,8.0,3.0,6.0,6.146493212669683,417.391531,7.0,True,True,False,True,Spider Mites Web
+Oligonychus perditus,521,Oligonychus perditus,13.0,9.0,11.0,7.0,3.0,1.0,4.421052631578948,797.511204,6.0,True,True,False,True,Spider Mites Web
+Oligonychus perseae,523,Oligonychus perseae,42.0,60.0,32.0,34.0,23.0,16.0,5.910653059201008,3052.59125503,34.0,True,True,False,True,Spider Mites Web
+Oligonychus piceae,525,Oligonychus piceae,7.0,12.0,5.0,2.0,1.0,0.0,1.978021978021978,70.03282999999999,2.0,False,True,False,False,Spider Mites Web
+Oligonychus platani,530,Oligonychus platani,24.0,13.0,18.0,17.0,11.0,5.0,7.359474191301221,1808.676689,16.0,True,True,False,True,Spider Mites Web
+Oligonychus plegas,618,Oligonychus plegas,10.0,6.0,7.0,9.0,4.0,8.0,7.098901098901099,487.489843874,8.0,True,True,False,True,Spider Mites Web
+Oligonychus pratensis,613,Oligonychus pratensis,81.0,41.0,71.0,56.0,13.0,24.0,8.761229584934373,2212.6466220410002,55.0,True,True,True,False,Spider Mites Web
+Oligonychus punicae,564,Oligonychus punicae,100.0,98.0,72.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True,Spider Mites Web
+Oligonychus pustulosus,539,Oligonychus pustulosus,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus rubicundus,13754,Oligonychus rubicundus,3.0,3.0,3.0,3.0,1.0,1.0,,16.308706,3.0,True,True,False,True,Spider Mites Web
+Oligonychus thelytokus,565,Oligonychus thelytokus,35.0,4.0,23.0,32.0,20.0,13.0,9.24891774891775,2751.71854311,32.0,True,True,False,True,Spider Mites Web
+Oligonychus trichardti,570,Oligonychus trichardti,8.0,5.0,5.0,5.0,2.0,0.0,,297.104598,4.0,False,True,False,False,Spider Mites Web
+Oligonychus tsudomei,553,Oligonychus tsudomei,2.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus tylus,591,Oligonychus tylus,16.0,8.0,14.0,14.0,3.0,12.0,8.207792207792208,477.369499829,13.0,True,True,False,True,Spider Mites Web
+Oligonychus ununguis,572,Oligonychus ununguis,111.0,62.0,94.0,31.0,12.0,4.0,6.777531875243836,2292.232026,31.0,True,True,False,True,Spider Mites Web
+Oligonychus vitis,564,Oligonychus punicae,100.0,98.0,72.0,73.0,34.0,29.0,8.393980228830053,5228.585784856,72.0,True,True,False,True,Spider Mites Web
+Oligonychus washingtoniae,14161,Oligonychus washingtoniae,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Oligonychus yothersi,559,Oligonychus yothersi,97.0,45.0,78.0,77.0,47.0,31.0,9.123955599556867,5918.256858521,73.0,True,True,False,True,Spider Mites Web
+Panonychus akitanus,622,Sasanychus akitanus,2.0,4.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Panonychus bambusicola,956,Panonychus bambusicola,2.0,4.0,2.0,2.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Panonychus caglei,625,Panonychus caglei,16.0,9.0,14.0,10.0,7.0,4.0,6.468339967565973,947.862355,10.0,True,True,False,True,Spider Mites Web
+Panonychus caricae,626,Panonychus caricae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Panonychus citri,624,Panonychus citri,121.0,166.0,101.0,79.0,40.0,32.0,5.747279219262783,5779.258322949,76.0,True,True,True,False,Spider Mites Web
+Panonychus elongatus,627,Panonychus elongatus,28.0,10.0,22.0,23.0,12.0,10.0,8.593771748764222,2056.001886,22.0,True,True,False,True,Spider Mites Web
+Panonychus hadzhibejliae,629,Panonychus hadzhibejliae,1.0,3.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Panonychus mori,1053,Panonychus mori,9.0,11.0,8.0,7.0,5.0,3.0,5.301470588235294,418.365008,6.0,True,True,False,True,Spider Mites Web
+Panonychus osmanthi,1165,Panonychus osmanthi,3.0,10.0,3.0,1.0,1.0,0.0,1.0,,1.0,False,True,False,False,Spider Mites Web
+Panonychus pusillus,630,Sasanychus pusillus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Panonychus thelytokus,1054,Panonychus thelytokus,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Panonychus ulmi,623,Panonychus ulmi,172.0,137.0,134.0,98.0,42.0,42.0,7.536713127688701,5818.6799548804,92.0,True,True,True,False,Spider Mites Web
+Paraponychus corderoi,1176,Paraponychus corderoi,6.0,8.0,6.0,6.0,5.0,5.0,5.818181818181818,656.43019,6.0,True,True,False,True,Spider Mites Web
+Petrobia harti,664,Petrobia harti,46.0,60.0,37.0,32.0,19.0,18.0,5.3086564294586776,2836.3762659999998,31.0,True,True,False,True,Spider Mites Web
+Petrobia latens,666,Petrobia latens,123.0,39.0,93.0,96.0,33.0,41.0,9.336634156717041,5166.289962,91.0,True,True,False,True,Spider Mites Web
+Petrobia tunisiae,674,Petrobia tunisiae,11.0,9.0,6.0,7.0,3.0,5.0,5.786764705882353,447.877357,7.0,True,True,False,True,Spider Mites Web
+Schizotetranychus andropogoni,733,Schizotetranychus andropogoni,10.0,13.0,8.0,8.0,3.0,4.0,5.395581198986772,333.910878,7.0,True,True,False,True,Spider Mites Web
+Schizotetranychus asparagi,716,Schizotetranychus asparagi,12.0,17.0,9.0,4.0,3.0,4.0,2.0344827586206895,395.342435,4.0,True,True,False,True,Spider Mites Web
+Schizotetranychus baltazari,735,Schizotetranychus baltazarae,14.0,15.0,12.0,8.0,4.0,2.0,4.789705246967328,508.333311,6.0,True,True,False,True,Spider Mites Web
+Schizotetranychus bambusae,736,Schizotetranychus bambusae,30.0,16.0,27.0,6.0,1.0,0.0,2.3763066202090593,60.284096,6.0,False,True,False,False,Spider Mites Web
+Schizotetranychus brevisetosus,949,Schizotetranychus brevisetosus,2.0,6.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Schizotetranychus cercidiphylli,745,Schizotetranychus cercidiphylli,1.0,3.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Schizotetranychus gilvus,3700,Schizotetranychus gilvus,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Schizotetranychus krungthepensis,13936,Schizotetranychus krungthepensis,2.0,5.0,2.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Schizotetranychus laevidorsatus,769,Schizotetranychus laevidorsatus,4.0,3.0,2.0,2.0,1.0,0.0,,4.686285,2.0,False,True,False,False,Spider Mites Web
+Schizotetranychus lespedezae,772,Schizotetranychus lespedezae,12.0,6.0,7.0,9.0,1.0,2.0,7.098901098901099,366.419449,9.0,True,True,False,True,Spider Mites Web
+Schizotetranychus mansoni,777,Schizotetranychus mansoni,2.0,3.0,2.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Schizotetranychus recki,786,Schizotetranychus recki,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Schizotetranychus schizopus,790,Schizotetranychus schizopus,25.0,24.0,24.0,4.0,3.0,2.0,1.5660377358490565,401.292599,4.0,True,True,False,True,Spider Mites Web
+Schizotetranychus shii,279,Schizotetranychus shii,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis celarius,743,Stigmaeopsis celarius,21.0,17.0,17.0,10.0,2.0,3.0,5.721880814990806,386.68987500000003,10.0,True,True,False,True,Spider Mites Web
+Stigmaeopsis continentalis,14586,Stigmaeopsis continentalis,2.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis inthanonsis,14084,Stigmaeopsis inthanonsis,1.0,1.0,0.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis longus,954,Stigmaeopsis longus,6.0,13.0,4.0,3.0,1.0,0.0,2.0526315789473686,103.46507,3.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis miscanthi,955,Stigmaeopsis miscanthi,2.0,7.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis nanjingensis,779,Stigmaeopsis nanjingensis,15.0,11.0,14.0,3.0,1.0,0.0,2.292094861660079,9.368999,3.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis sabelisi,14580,Stigmaeopsis sabelisi,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis saharai,3691,Stigmaeopsis saharai,5.0,6.0,4.0,3.0,1.0,0.0,3.0,10.694513,3.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis takahashii,3694,Stigmaeopsis takahashii,5.0,6.0,4.0,3.0,3.0,0.0,,386.11663500000003,3.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis temporalis,13966,Stigmaeopsis temporalis,1.0,2.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Stigmaeopsis tenuinidus,1195,Stigmaeopsis tenuinidus,2.0,5.0,1.0,2.0,1.0,0.0,,47.92589,2.0,False,True,False,False,Spider Mites Web
+Tetranychus arabicus,872,Tetranychus urticae,1284.0,462.0,1052.0,648.0,133.0,126.0,9.59311995948214,25538.1708959791,616.0,True,False,True,False,Spider Mites Web
+Tetranychus bambusae,821,Tetranychus bambusae,4.0,6.0,3.0,2.0,1.0,0.0,,47.92589,2.0,False,True,False,False,Spider Mites Web
+Tetranychus canadensis,880,Tetranychus canadensis,73.0,14.0,55.0,52.0,27.0,20.0,9.04758340283033,3786.1212398,50.0,True,False,True,False,Spider Mites Web
+Tetranychus cinnabarinus,872,Tetranychus urticae,1284.0,462.0,1052.0,648.0,133.0,126.0,9.59311995948214,25538.1708959791,616.0,True,True,True,False,Spider Mites Web
+Tetranychus crataegi,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,False,True,False,Spider Mites Web
+Tetranychus cucurbitacearum,872,Tetranychus urticae,1284.0,462.0,1052.0,648.0,133.0,126.0,9.59311995948214,25538.1708959791,616.0,True,False,True,False,Spider Mites Web
+Tetranychus desertorum,920,Tetranychus desertorum,223.0,52.0,183.0,164.0,55.0,49.0,9.597603078507385,8318.986714,157.0,True,True,True,False,Spider Mites Web
+Tetranychus evansi,882,Tetranychus evansi,143.0,130.0,127.0,87.0,40.0,27.0,4.762586773510274,5283.25219896,84.0,True,True,True,False,Spider Mites Web
+Tetranychus ezoensis,830,Tetranychus ezoensis,1.0,5.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Tetranychus fijiensis,915,Tetranychus fijiensis,30.0,26.0,21.0,21.0,13.0,9.0,7.248753472777016,1672.646188978,19.0,True,True,False,True,Spider Mites Web
+Tetranychus gloveri,835,Tetranychus gloveri,216.0,48.0,171.0,158.0,55.0,49.0,9.550127026277035,7594.010936198,149.0,True,True,False,True,Spider Mites Web
+Tetranychus hirsutus,13964,Tetranychus hirsutus,1.0,1.0,1.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Tetranychus huhhotensis,13852,Tetranychus huhhotensis,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Tetranychus hydrangeae,1023,Tetranychus kanzawai,195.0,112.0,154.0,146.0,64.0,53.0,9.130880701366761,8324.651837495,141.0,True,False,True,False,Spider Mites Web
+Tetranychus kanzawai,1023,Tetranychus kanzawai,195.0,112.0,154.0,146.0,64.0,53.0,9.130880701366761,8324.651837495,141.0,True,True,True,False,Spider Mites Web
+Tetranychus lambi,838,Tetranychus lambi,71.0,13.0,60.0,58.0,24.0,27.0,9.27886345175323,3943.501599921,55.0,True,True,False,True,Spider Mites Web
+Tetranychus lombardinii,813,Tetranychus lombardinii,129.0,20.0,101.0,95.0,42.0,32.0,9.55231625841502,5296.563819058,89.0,True,True,False,True,Spider Mites Web
+Tetranychus ludeni,884,Tetranychus ludeni,371.0,118.0,285.0,225.0,65.0,65.0,9.408496223869141,9503.225449194,216.0,True,True,True,False,Spider Mites Web
+Tetranychus macfarlanei,916,Tetranychus macfarlanei,53.0,28.0,45.0,40.0,19.0,25.0,8.465025454095773,2420.529655,37.0,True,True,False,True,Spider Mites Web
+Tetranychus malaysiensis,916,Tetranychus macfarlanei,53.0,28.0,45.0,40.0,19.0,25.0,8.465025454095773,2420.529655,37.0,True,True,False,True,Spider Mites Web
+Tetranychus malvae,1062,Tetranychus malvae,3.0,1.0,3.0,3.0,3.0,0.0,,367.342647,3.0,False,True,False,False,Spider Mites Web
+Tetranychus marianae,844,Tetranychus marianae,107.0,34.0,79.0,74.0,27.0,29.0,9.109538698873353,4245.200404044,71.0,True,True,False,True,Spider Mites Web
+Tetranychus mcdanieli,845,Tetranychus mcdanieli,15.0,12.0,13.0,13.0,10.0,8.0,7.500430919195222,1410.3325498804,13.0,True,True,True,False,Spider Mites Web
+Tetranychus merganser,846,Tetranychus merganser,23.0,25.0,15.0,20.0,16.0,10.0,8.27672160986955,1687.987936,18.0,True,True,False,True,Spider Mites Web
+Tetranychus mexicanus,847,Tetranychus mexicanus,117.0,57.0,95.0,85.0,45.0,32.0,8.959138321523508,6390.262401068,82.0,True,True,False,True,Spider Mites Web
+Tetranychus misumaiensis,13843,Tetranychus misumaiensis,1.0,3.0,0.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Tetranychus neocaledonicus,852,Tetranychus neocaledonicus,523.0,92.0,416.0,330.0,95.0,82.0,9.694528744252343,14440.400913168,315.0,True,True,False,True,Spider Mites Web
+Tetranychus okinawanus,835,Tetranychus gloveri,216.0,48.0,171.0,158.0,55.0,49.0,9.550127026277035,7594.010936198,149.0,True,True,False,True,Spider Mites Web
+Tetranychus pacificus,854,Tetranychus pacificus,54.0,17.0,31.0,43.0,25.0,23.0,8.736383346723763,3497.1569728804,43.0,True,True,True,False,Spider Mites Web
+Tetranychus parakanzawai,1206,Tetranychus parakanzawai,20.0,11.0,20.0,19.0,13.0,8.0,7.637032120968521,1636.99025,19.0,True,True,False,True,Spider Mites Web
+Tetranychus phaselus,858,Tetranychus phaselus,17.0,15.0,14.0,15.0,9.0,8.0,7.7239130434782615,1045.356461,13.0,True,True,False,True,Spider Mites Web
+Tetranychus piercei,859,Tetranychus piercei,91.0,41.0,78.0,69.0,30.0,26.0,9.249612535022912,4522.783065719,68.0,True,True,False,True,Spider Mites Web
+Tetranychus przhevalskii,1019,Tetranychus przhevalskii,14.0,5.0,11.0,11.0,2.0,6.0,8.688811188811188,416.616824,11.0,True,True,False,True,Spider Mites Web
+Tetranychus pueraricola,1166,Tetranychus pueraricola,11.0,23.0,11.0,9.0,5.0,7.0,5.052810113832164,712.6364130000001,9.0,True,True,False,True,Spider Mites Web
+Tetranychus puschelii,908,Tetranychus puschelii,26.0,4.0,21.0,25.0,13.0,10.0,9.86153846153846,1508.918672,25.0,True,True,False,True,Spider Mites Web
+Tetranychus sawzdargi,1020,Tetranychus sawzdargi,8.0,3.0,5.0,7.0,5.0,5.0,,682.6918258804,7.0,True,True,False,True,Spider Mites Web
+Tetranychus schoenei,865,Tetranychus schoenei,52.0,9.0,40.0,37.0,19.0,11.0,8.875339699146581,2872.386419,36.0,True,False,True,False,Spider Mites Web
+Tetranychus taiwanicus,869,Tetranychus taiwanicus,3.0,5.0,2.0,2.0,2.0,1.0,,271.516091,2.0,True,True,False,True,Spider Mites Web
+Tetranychus truncatus,921,Tetranychus truncatus,120.0,37.0,97.0,84.0,38.0,41.0,9.199040623917224,4911.032326495,82.0,True,True,True,False,Spider Mites Web
+Tetranychus tumidellus,870,Tetranychus tumidellus,8.0,9.0,4.0,8.0,8.0,5.0,7.363636363636363,943.095416,8.0,True,True,False,True,Spider Mites Web
+Tetranychus tumidus,1017,Tetranychus tumidus,55.0,17.0,46.0,40.0,21.0,22.0,9.120224318949365,2706.556370748,38.0,True,False,True,False,Spider Mites Web
+Tetranychus turkestani,893,Tetranychus turkestani,323.0,87.0,269.0,199.0,72.0,68.0,9.391346008148037,10582.5652708804,192.0,True,True,True,False,Spider Mites Web
+Tetranychus udaipurensis,3721,Tetranychus udaipurensis,7.0,3.0,7.0,7.0,6.0,4.0,,783.581355,7.0,True,True,False,True,Spider Mites Web
+Tetranychus urticae,872,Tetranychus urticae,1284.0,462.0,1052.0,648.0,133.0,126.0,9.59311995948214,25538.1708959791,616.0,True,True,True,False,Spider Mites Web
+Tetranychus viennensis,1121,Amphitetranychus viennensis,80.0,61.0,66.0,32.0,15.0,13.0,5.639289892067125,2048.7306358804,29.0,True,True,False,True,Spider Mites Web
+Tetranychus zeae,13855,Tetranychus zeae,1.0,2.0,1.0,1.0,1.0,1.0,,,1.0,True,True,False,True,Spider Mites Web
+Tetranycopsis hystriciformis,1021,Tetranycopsis hystriciformis,6.0,6.0,4.0,3.0,3.0,0.0,3.0,341.19861099999997,3.0,False,True,False,False,Spider Mites Web
+Yezonychus sapporensis,928,Yezonychus sapporensis,2.0,4.0,2.0,1.0,1.0,0.0,,,1.0,False,True,False,False,Spider Mites Web
+Brevipalpus chilensis,TPDB:Brevipalpus chilensis,Brevipalpus chilensis,18.0,10.0,13.0,15.0,13.0,7.0,7.740305671340154,1561.490298,15.0,True,True,True,False,Tenuipalpidae Database
+Brevipalpus phoenicis,TPDB:Brevipalpus phoenicis,Brevipalpus phoenicis,547.0,156.0,362.0,350.0,96.0,78.0,9.392902861672564,15581.9199916718,326.0,True,True,True,False,Tenuipalpidae Database
+Brevipalpus yothersi,TPDB:Brevipalpus yothersi,Brevipalpus yothersi,104.0,27.0,81.0,80.0,48.0,28.0,8.292658465993977,5451.378998004,77.0,True,True,True,False,Tenuipalpidae Database
+Aculops lycopersici,,Aculops lycopersici,,,8.0,5.0,2.0,4.0,,,,True,True,True,False,"published count: EPPO Global Database, Aculops lycopersici (VASALY) host list, accessed 16 November 2026"
+Aculops pelekassi,,Aculops pelekassi,,,,1.0,1.0,1.0,,,,True,False,True,False,"published count: Ashihara et al. (2004), Japan Agricultural Research Quarterly 38: 31-41; Papaioannou-Souliotis et al. review in Hellenic Plant Protection Journal 6 (2013)"
+Aculus fockeui,,Aculus fockeui,,,17.0,1.0,1.0,1.0,,,,True,True,True,False,"published count: Host-associated differentiation in the plum rust mite Aculus fockeui (abstract, core.ac.uk 690628513): about 17 Prunus species"
+Aculus cornutus,,Aculus fockeui,,,17.0,1.0,1.0,1.0,,,,True,False,True,False,"published count: as Aculus fockeui; Oldfield (1984), Annals of the Entomological Society of America 77: 564-567"
+Aculus schlechtendali,,Aculus schlechtendali,,,,2.0,1.0,2.0,,,,True,True,True,False,"published count: Beers, Oldfield and Westigard (1993), Orchard Pest Management, Washington State University: cultivated apple and several Malus species, also survives on pear"
+Aculus malivagrans,,Aculus schlechtendali,,,,2.0,1.0,2.0,,,,True,False,True,False,"published count: as Aculus schlechtendali; Song, Xue and Hong (2008), Zootaxa 1756: 1-48 (synonymy)"
+Phyllocoptruta oleivora,,Phyllocoptruta oleivora,,,,1.0,1.0,1.0,,,,True,True,True,False,"published count: Demard and Qureshi (2020), EENY-748, University of Florida EDIS"

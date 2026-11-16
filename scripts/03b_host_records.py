@@ -3,6 +3,8 @@
 Inputs
   data/raw/smw_host_records_2026-11-16.csv   host records saved from Spider Mites Web (checksum below)
   data/manual/smw_name_map.csv               mite names -> Spider Mites Web species id
+  data/raw/tenuipalpidae_db_hosts_2026-11-16.csv  Brevipalpus host records from the Tenuipalpidae Database
+                                             (Castro et al. 2020), saved from the user's Chrome
   data/manual/crop_genera.csv                crop genera from the FAO Indicative Crop Classification
   WFO backbone (World Flora Online Plant List June 2026, doi:10.5281/zenodo.20782718,
   _DwC_backbone_R.zip, md5 0e4486945cd9f7af548ca87eb9a870ed), path given by WFO_CLASSIFICATION
@@ -44,6 +46,19 @@ def main():
     if len(raw) != EXPECTED_ROWS or raw["smw_id"].astype(int).sum() != EXPECTED_ID_SUM:
         raise ValueError("Spider Mites Web host file does not match its checksum")
     raw["n_refs"] = raw["ref_ids"].str.split().str.len().fillna(0).astype(int)
+    # Brevipalpus records from the Tenuipalpidae Database, put in the same shape
+    tp = pd.read_csv(ROOT / "data/raw/tenuipalpidae_db_hosts_2026-11-16.csv", dtype=str, keep_default_na=False)
+    if len(tp) != 669:
+        raise ValueError("Tenuipalpidae Database file does not have the expected 669 rows")
+    fam = tp["plant_family"].str.capitalize().replace({"Leguminosae": "Fabaceae", "Compositae": "Asteraceae",
+                                                       "Gramineae": "Poaceae", "Palmae": "Arecaceae",
+                                                       "Cruciferae": "Brassicaceae", "Labiatae": "Lamiaceae",
+                                                       "Umbelliferae": "Apiaceae", "Guttiferae": "Clusiaceae"})
+    tp = pd.DataFrame({"smw_id": "TPDB:" + tp["mite_species"], "species_title": tp["mite_species"],
+                       "host_header": "Tenuipalpidae Database", "plant_family": fam, "plant": tp["plant"],
+                       "ref_ids": tp["references"].str.replace("; ", "|", regex=False)})
+    tp["n_refs"] = tp["ref_ids"].str.split("|").str.len()
+    raw = pd.concat([raw, tp], ignore_index=True)
     unknown = raw["plant"].str.lower().isin(["unknown", ""]) | raw["plant_family"].str.lower().eq("unknown")
     log.info("records %d; unknown host %d", len(raw), int(unknown.sum()))
     rec = raw[~unknown].copy()
@@ -131,6 +146,9 @@ def main():
     rec["crop_genus"] = rec["host_genus"].isin(crops["genus"]) | rec["genus_listed"].isin(crops["genus"])
 
     nm = pd.read_csv(ROOT / "data/manual/smw_name_map.csv", dtype=str)
+    bre = sorted(x[5:] for x in raw["smw_id"].unique() if x.startswith("TPDB:"))
+    nm = pd.concat([nm, pd.DataFrame({"species": bre, "smw_id": ["TPDB:" + b for b in bre], "smw_valid_name": bre,
+                                      "match": "Tenuipalpidae Database"})], ignore_index=True)
     rec = nm.merge(rec, on="smw_id", how="left")
     keep = ["species", "smw_id", "smw_valid_name", "plant", "plant_family", "genus_listed", "epithet_listed",
             "wfo_id", "accepted_name", "host_genus", "host_family", "wfo_status", "match_level", "crop_genus",

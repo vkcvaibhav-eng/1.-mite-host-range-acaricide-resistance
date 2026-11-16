@@ -48,6 +48,8 @@ def main():
     h = h[h["plant"] != ""]  # species whose only record was "Unknown" keep no host rows
     # check against the counts printed on each Spider Mites Web page ("Host plants (N plants, ...)")
     raw = pd.read_csv(ROOT / "data/raw/smw_host_records_2026-11-16.csv", dtype=str, keep_default_na=False)
+    # Brevipalpus records keep their reference names (not ids); split on "|"
+    h.loc[h["smw_id"].str.startswith("TPDB:"), "ref_ids"] = h["ref_ids"].str.replace(" ", "_").str.replace("|", " ")
     stated = raw.drop_duplicates("smw_id").set_index("smw_id")["host_header"].str.extract(r"\((\d+) plant")[0].astype(int)
     got = raw.groupby("smw_id").size()
     bad = (stated != got.reindex(stated.index)).sum()
@@ -105,7 +107,9 @@ def main():
             n_crop_genera=g.loc[g["crop_genus"], "host_genus"].nunique(),
             rarefied_genera_10=hurlbert(counts, K), host_pd_genus=pd_val, n_genera_in_tree=n_tree))
     b = pd.DataFrame(rows)
-    nm = pd.read_csv(ROOT / "data/manual/smw_name_map.csv", dtype=str)
+    nm = h.drop_duplicates("species")[["species", "smw_id", "smw_valid_name"]]
+    nm = pd.concat([pd.read_csv(ROOT / "data/manual/smw_name_map.csv", dtype=str)[["species", "smw_id", "smw_valid_name"]],
+                    nm[nm["smw_id"].str.startswith("TPDB:")]], ignore_index=True)
     b = nm[["species", "smw_id", "smw_valid_name"]].merge(b.drop(columns=["smw_id", "smw_valid_name"]), on="species", how="left")
     b = b.fillna({c: 0 for c in ["n_host_records", "n_references", "n_host_species", "n_host_genera",
                                  "n_host_families", "n_crop_genera", "n_genera_in_tree"]})
@@ -125,17 +129,30 @@ def main():
     b["has_resistance_record"] = b["species"].isin(set(res["species"]))
     zero = b[b["species"].isin(tet) & b["on_crop"] & ~b["has_resistance_record"]]
     summ = pd.DataFrame([
-        ("spider mite names with host data", len(b)),
-        ("distinct Spider Mites Web taxa", b["smw_id"].nunique()),
-        ("host-plant records (distinct taxa)", int(raw.shape[0])),
-        ("names with at least one crop host", int(b["on_crop"].sum())),
-        ("resistant spider mite names", int(b["has_resistance_record"].sum())),
+        ("mite names with full host lists (Spider Mites Web or Tenuipalpidae Database)", len(b)),
+        ("distinct valid taxa in those lists", b["smw_id"].nunique()),
+        ("host-plant records in the source lists", int(raw.shape[0]) + 669),
+        ("names with full host lists and at least one crop host", int(b["on_crop"].sum())),
+        ("resistant names with full host lists", int(b["has_resistance_record"].sum())),
         ("zero-resistance species: COI, crop host, no resistance record", len(zero)),
         ("host genera", len(host_genera)),
         ("host genera not in the plant tree", len(missing)),
+        ("resistant Brevipalpus with full host lists", int(b["smw_id"].astype(str).str.startswith("TPDB:").sum())),
+        ("resistant Eriophyidae names with published host counts", len(pd.read_csv(ROOT / "data/manual/eriophyid_host_counts.csv"))),
     ], columns=["item", "n"])
     summ.to_csv(ROOT / "results/tables/stage3_summary.csv", index=False)
     b["zero_resistance_species"] = b["species"].isin(zero["species"])
+    b["host_source"] = b["smw_id"].map(lambda x: "Tenuipalpidae Database" if str(x).startswith("TPDB:") else "Spider Mites Web")
+    # resistant Eriophyidae: published host counts only (logs/decisions.md 47); no records, rarefaction or PD
+    er = pd.read_csv(ROOT / "data/manual/eriophyid_host_counts.csv")
+    er = pd.DataFrame({"species": er["species"], "smw_id": "", "smw_valid_name": er["valid_name"],
+                       "n_host_species": er["n_host_species"], "n_host_genera": er["n_host_genera"],
+                       "n_host_families": er["n_host_families"],
+                       "n_crop_genera": er["crop_genera"].str.split("; ").str.len(),
+                       "on_crop": True, "has_coi": er["species"].isin(set(cand["species"])),
+                       "has_resistance_record": er["species"].isin(set(res["species"])),
+                       "zero_resistance_species": False, "host_source": "published count: " + er["source"]})
+    b = pd.concat([b, er], ignore_index=True)
     b.to_csv(ROOT / "data/clean/host_breadth.csv", index=False)
     print(summ.to_string(index=False))
     log.info("species %d; distinct SMW taxa %d; on crop %d", len(b), b["smw_id"].nunique(), int(b["on_crop"].sum()))
