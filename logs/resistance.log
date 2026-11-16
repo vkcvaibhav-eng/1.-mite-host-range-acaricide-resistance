@@ -1,16 +1,36 @@
-2026-11-13 21:24:08,208 INFO run started 2026-11-13T21:24:08; pandas 3.0.5; numpy 2.5.3
-2026-11-13 21:24:08,213 INFO cases read: 1027; checksum matches the browser export
-2026-11-13 21:24:08,311 INFO literature cases added: 9 (5 meet the case definition)
-2026-11-13 21:24:08,363 INFO record flow
-                                                   step    n
-                 APRD Acari cases in the three families 1027
-                 excluded: lab-selected population only   22
-                     excluded: same paper entered twice    9
-                                 cases in main analysis 1001
-           species with at least one main-analysis case   34
-                              literature cases screened    9
-           literature cases meeting the case definition    5
-           APRD references cited by main-analysis cases  275
-main-analysis cases from FAO or personal communications  153
-2026-11-13 21:24:08,363 INFO verification sample: 100 cases (seed 2026)
-2026-11-13 21:24:08,363 INFO run finished 2026-11-13T21:24:08
+2026-11-16 15:47:30,425 INFO run started 2026-11-16T15:47:30; pandas 3.0.5; numpy 2.5.3
+2026-11-16 15:47:30,435 INFO cases read: 1027; checksum matches the browser export
+2026-11-16 15:47:30,462 INFO correction G5946: exclude_not_supported 
+2026-11-16 15:47:30,462 INFO correction G20612: exclude_not_supported 
+2026-11-16 15:47:30,464 INFO correction G8950: set_lab_only 
+2026-11-16 15:47:30,465 INFO correction G16424: set_lab_only 
+2026-11-16 15:47:30,466 INFO correction G20360: set_lab_only 
+2026-11-16 15:47:30,468 INFO correction G2343: set_ai parathion-methyl
+2026-11-16 15:47:30,469 INFO correction G269: set_location Israel
+2026-11-16 15:47:30,469 INFO correction G1524: set_location USA -- New York
+2026-11-16 15:47:30,470 INFO correction G3341: flag 
+2026-11-16 15:47:30,470 INFO correction G169: flag 
+2026-11-16 15:47:30,470 INFO correction G1510: flag 
+2026-11-16 15:47:30,471 INFO correction G9045: flag 
+2026-11-16 15:47:30,471 INFO correction G10058: flag 
+2026-11-16 15:47:30,471 INFO correction G646: flag 
+2026-11-16 15:47:30,472 INFO correction G2275: flag 
+2026-11-16 15:47:30,534 INFO literature cases added: 9 (5 meet the case definition)
+2026-11-16 15:47:30,576 WARNING verification sample differs from the cases now drawn; hand checks kept, sample not rewritten
+2026-11-16 15:47:30,577 INFO record flow
+                                                    step    n
+                  APRD Acari cases in the three families 1027
+                  excluded: lab-selected population only   22
+                      excluded: same paper entered twice    9
+excluded: lab-selected only, corrected after paper check    3
+               excluded: not supported by original paper    2
+  main-analysis cases with a corrected compound or place    3
+           main-analysis cases flagged after paper check   10
+                                  cases in main analysis  996
+            species with at least one main-analysis case   34
+                               literature cases screened    9
+            literature cases meeting the case definition    5
+            APRD references cited by main-analysis cases  273
+ main-analysis cases from FAO or personal communications  153
+2026-11-16 15:47:30,577 INFO verification sample: 100 cases (seed 2026)
+2026-11-16 15:47:30,577 INFO run finished 2026-11-16T15:47:30

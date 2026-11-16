@@ -70,4 +70,4 @@ make all
 
 ## Status
 
-Stage 1 (feasibility) run on 13 November 2026 with the full resistance-database species list and BOLD counts; approved (go) on 13 November 2026. Stage 2 (resistance dataset) first pass done: `data/clean/resistance_cases.csv`, `data/clean/resistance_by_species.csv`; open items in `logs/decisions.md`. Results: `results/tables/stage1_summary.csv`, `data/clean/feasibility_counts.csv`; decisions: `logs/decisions.md`.
+Stage 1 (feasibility) run on 13 November 2026 with the full resistance-database species list and BOLD counts; approved (go) on 13 November 2026. Stage 2 (resistance dataset) complete and waiting for checkpoint approval (16 November 2026): `data/clean/resistance_cases.csv`, `data/clean/resistance_by_species.csv`, introduction years in `data/clean/ai_introduction_years.csv`; record flow in `results/tables/stage2_record_flow.csv`; paper-level verification in `logs/verification_stage2.md` and `results/tables/stage2_verification_summary.csv`; corrections in `data/manual/case_corrections_stage2.csv`. Results: `results/tables/stage1_summary.csv`, `data/clean/feasibility_counts.csv`; decisions: `logs/decisions.md`.

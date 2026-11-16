@@ -2,9 +2,13 @@ step,n
 APRD Acari cases in the three families,1027
 excluded: lab-selected population only,22
 excluded: same paper entered twice,9
-cases in main analysis,1001
+"excluded: lab-selected only, corrected after paper check",3
+excluded: not supported by original paper,2
+main-analysis cases with a corrected compound or place,3
+main-analysis cases flagged after paper check,10
+cases in main analysis,996
 species with at least one main-analysis case,34
 literature cases screened,9
 literature cases meeting the case definition,5
-APRD references cited by main-analysis cases,275
+APRD references cited by main-analysis cases,273
 main-analysis cases from FAO or personal communications,153

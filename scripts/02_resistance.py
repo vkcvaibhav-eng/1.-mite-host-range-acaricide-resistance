@@ -147,6 +147,28 @@ def main() -> None:
 
     cases["resistance_type"] = cases["type_code"].map(TYPE_CODES)
 
+    # corrections from the paper-level check of the verification sample (logs/decisions.md 37-40)
+    corr = pd.read_csv(MANUAL / "case_corrections_stage2.csv", dtype=str, keep_default_na=False)
+    unknown = set(corr["case_id"]) - set(cases["case_id"])
+    if unknown:
+        raise ValueError(f"corrections for unknown cases: {sorted(unknown)}")
+    cases["verification_flag"] = ""
+    for r in corr.itertuples(index=False):
+        i = cases.index[cases["case_id"] == r.case_id]
+        if r.action == "set_ai":
+            m = irac.loc[irac["ai_name"] == r.new_value].iloc[0]
+            cases.loc[i, ["ai_id", "ai_name", "irac_group", "chemical_class"]] = [
+                m["ai_id"], m["ai_name"], m["irac_group"], m["chemical_class"]]
+        elif r.action == "set_location":
+            cases.loc[i, "location"] = r.new_value
+            cases.loc[i, "country"] = r.new_value.split(" -- ")[0]
+        elif r.action == "set_lab_only":
+            cases.loc[i, ["type_code", "resistance_type"]] = ["L", TYPE_CODES["L"]]
+        elif r.action not in ("exclude_not_supported", "flag"):
+            raise ValueError(f"unknown correction action {r.action}")
+        cases.loc[i, "verification_flag"] = r.flag
+        log.info("correction %s: %s %s", r.case_id, r.action, r.new_value)
+
     # possible duplicates: same species, compound, country and paper (paper entered twice in the database)
     key = ["species", "ai_id", "country", "year_of_report", "ref_key"]
     grp = cases.groupby(key)["ref_idx"].transform("nunique")
@@ -157,6 +179,10 @@ def main() -> None:
     cases["exclusion_reason"] = ""
     lab = cases["type_code"].eq("L")
     cases.loc[lab, ["include_main", "exclusion_reason"]] = [False, "lab-selected population only"]
+    lab_corrected = cases["case_id"].isin(corr.loc[corr["action"] == "set_lab_only", "case_id"])
+    cases.loc[lab_corrected, "exclusion_reason"] = "lab-selected only (corrected after paper check)"
+    unsupported = cases["case_id"].isin(corr.loc[corr["action"] == "exclude_not_supported", "case_id"])
+    cases.loc[unsupported, ["include_main", "exclusion_reason"]] = [False, "not supported by original paper"]
     # Where one paper is entered twice in the database, keep the entry with more location detail
     # (ties: keep the lower reference index) and exclude the other.
     for _, g in cases.loc[cases["possible_duplicate"] & cases["include_main"]].groupby(key):
@@ -169,7 +195,7 @@ def main() -> None:
 
     cols = ["case_id", "species", "species_as_listed", "family", "arId", "ai_id", "ai_name", "irac_group",
             "chemical_class", "year_of_report", "resistance_type", "country", "location", "ref_idx",
-            "reference", "possible_duplicate", "include_main", "exclusion_reason"]
+            "reference", "possible_duplicate", "include_main", "exclusion_reason", "verification_flag"]
     cases = cases[cols].sort_values(["family", "species", "ai_name", "year_of_report", "case_id"])
     cases.insert(len(cols), "source", "Arthropod Pesticide Resistance Database")
     CLEAN.mkdir(parents=True, exist_ok=True)
@@ -187,7 +213,7 @@ def main() -> None:
         species_as_listed=lit_cases["species"], family=lit_cases["family"].str.capitalize(), arId="",
         year_of_report=lit_cases["year_of_report"].astype(int),
         country=lit_cases["country"], ref_idx=-1,
-        possible_duplicate=False,
+        possible_duplicate=False, verification_flag="",
         include_main=lit_cases["meets_case_definition"].eq("yes"),
         exclusion_reason=lit_cases["meets_case_definition"].map(
             {"yes": "", "no": "below case definition", "pending": "resistance ratio not yet verified"}),
@@ -232,6 +258,13 @@ def main() -> None:
         ("APRD Acari cases in the three families", int((cases["source"] != "literature").sum())),
         ("excluded: lab-selected population only", int((cases["exclusion_reason"] == "lab-selected population only").sum())),
         ("excluded: same paper entered twice", int((cases["exclusion_reason"] == "same paper entered twice in database").sum())),
+        ("excluded: lab-selected only, corrected after paper check",
+         int((cases["exclusion_reason"] == "lab-selected only (corrected after paper check)").sum())),
+        ("excluded: not supported by original paper", int((cases["exclusion_reason"] == "not supported by original paper").sum())),
+        ("main-analysis cases with a corrected compound or place",
+         int(main_cases["verification_flag"].isin(["compound corrected", "country corrected", "location corrected"]).sum())),
+        ("main-analysis cases flagged after paper check",
+         int(main_cases["verification_flag"].ne("").sum())),
         ("cases in main analysis", len(main_cases)),
         ("species with at least one main-analysis case", main_cases["species"].nunique()),
         ("literature cases screened", int((cases["source"] == "literature").sum())),
