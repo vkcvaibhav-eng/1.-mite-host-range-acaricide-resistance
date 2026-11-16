@@ -1,9 +1,17 @@
 item,value
 cases in sample,100.0
-yes,32.0
-partly,20.0
+yes,34.0
+partly,55.0
 no,3.0
-not traceable,45.0
+not traceable,8.0
 not checked,0.0
-traceable cases (yes + partly + no),55.0
-share of traceable cases marked no (%),5.5
+journal-backed cases,55.0
+journal-backed: yes,32.0
+journal-backed: partly,20.0
+journal-backed: no,3.0
+grey-literature cases,45.0
+grey: yes (original found),2.0
+grey: partly (related or citing source only),35.0
+grey: not traceable,8.0
+cases checked against the original source,57.0
+share of those marked no (%),5.3
