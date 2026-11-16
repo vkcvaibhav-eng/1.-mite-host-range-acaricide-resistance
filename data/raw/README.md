@@ -54,3 +54,11 @@ The 283 references cited by those cases (index|citation as shown in the database
 ### ppdb_introduction_dates_2026-11-13.txt
 
 "Introduction & key dates" and "Availability status" for 102 active ingredients, read on 13 November 2026 through the user's browser from the University of Hertfordshire Pesticide Properties DataBase (PPDB); abamectin and milbemectin from its BioPesticides DataBase (BPDB) and famphur from its Veterinary Substances DataBase (VSDB). Columns: ai_id | name used for matching | record (database:report number) | introduction text | availability. Not found in any of the three: chlorfensulfide, genite, MNFA, selenium sulfide, sulphenone.
+
+## Stage 3 (16 November 2026)
+
+- `ncbi_coi_species_2026-11-16.csv`: GenBank nucleotide records matching COI terms under Tetranychidae (txid32262), Tenuipalpidae (txid50007) and Eriophyidae (txid70320), summarised by organism; written by `scripts/03a_candidate_species.py`.
+- `smw_host_records_2026-11-16.csv`: host-plant lists for 178 Spider Mites Web species pages (www1.montpellier.inrae.fr/CBGP/spmweb), read in the user's Chrome on 16 November 2026 and saved by the browser as CSV (7,716 rows; sum of species ids 5,967,422). Columns: species id, page title, page host header, plant family, plant name as listed, reference ids. Every species' row count equals the "N plants" count on its page.
+- `fao_icc_botanical_names_2026-11-16.csv`: crop names and botanical names of the FAO Indicative Crop Classification (World Programme for the Census of Agriculture 2010, Appendix 3; FAO 2005), taken from the R package fao56 (github.com/gopalpenny/fao56, commit 9ad4ce5).
+- `GBOTB_smith_brown_2018.tre`: seed plant phylogeny GBOTB of Smith and Brown (2018), American Journal of Botany 105: 302-314; release v0.1 of github.com/FePhyFoFum/big_seed_plant_trees; md5 ce280a81ab824dc7cc83f395a7c7b54e.
+- Not stored (too large): World Flora Online Plant List June 2026, doi:10.5281/zenodo.20782718, file `_DwC_backbone_R.zip` (md5 0e4486945cd9f7af548ca87eb9a870ed).

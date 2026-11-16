@@ -1,0 +1,3 @@
+2026-11-16 16:07:35,468 INFO records 7716; unknown host 6
+2026-11-16 16:07:49,366 INFO WFO rows (species and genus rank): 488977
+2026-11-16 16:08:39,309 INFO distinct host names 3217; match levels: {'species': 2682, 'genus only': 508, 'unmatched': 18, 'genus only (species not found)': 9}

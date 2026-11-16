@@ -1,0 +1,28 @@
+genus_listed,epithet_listed,plant_family,wfo_id,accepted_name,accepted_genus,accepted_family,wfo_status,match_level
+Acanthaceae,,Acanthaceae,,,,,unmatched,unmatched
+Arecaceae,,Arecaceae,,,,,unmatched,unmatched
+Asteraceae,,Asteraceae,,,,,unmatched,unmatched
+Balsaminaceae,,Balsaminaceae,,,,,unmatched,unmatched
+Brachiaria,distachya,Poaceae,wfo-4000039845,,Urochloa,Poaceae,synonym resolved,genus only (species not found)
+Bryophytes,,,,,,,unmatched,unmatched
+Convolvulaceae,,Convolvulaceae,,,,,unmatched,unmatched
+Cucurbitaceae,,Cucurbitaceae,,,,,unmatched,unmatched
+Echinochloa,colonum,Poaceae,wfo-4000012916,,Echinochloa,Poaceae,accepted,genus only (species not found)
+Euphorbiaceae,,Euphorbiaceae,,,,,unmatched,unmatched
+Fabaceae,,Fabaceae,,,,,unmatched,unmatched
+Lamiaceae,,Lamiaceae,,,,,unmatched,unmatched
+Lauraceae,,Lauraceae,,,,,unmatched,unmatched
+Lepistemon,owariense,Convolvulaceae,wfo-4000021175,,Lepistemon,Convolvulaceae,accepted,genus only (species not found)
+Malvaceae,,Malvaceae,,,,,unmatched,unmatched
+Manihot,carthaginensis,Euphorbiaceae,wfo-4000023040,,Manihot,Euphorbiaceae,accepted,genus only (species not found)
+Menispermaceae,,Menispermaceae,,,,,unmatched,unmatched
+Orchidaceae,,Orchidaceae,,,,,unmatched,unmatched
+Poaceae,,Poaceae,,,,,unmatched,unmatched
+Rosaceae,,Rosaceae,,,,,unmatched,unmatched
+Rubiaceae,,Rubiaceae,,,,,unmatched,unmatched
+Solanaceae,,Solanaceae,,,,,unmatched,unmatched
+Sorbus,esserteauiana,Rosaceae,wfo-4000035797,,Sorbus,Rosaceae,accepted,genus only (species not found)
+Trema,micrantha,Cannabaceae,wfo-4000038807,,Trema,Cannabaceae,accepted,genus only (species not found)
+Trema,orientalis,Cannabaceae,wfo-4000038807,,Trema,Cannabaceae,accepted,genus only (species not found)
+Trichilia,casaretti,Meliaceae,wfo-4000038940,,Trichilia,Meliaceae,accepted,genus only (species not found)
+Ziziphus,cambodianus,Rhamnaceae,wfo-4000041250,,Ziziphus,Rhamnaceae,accepted,genus only (species not found)
