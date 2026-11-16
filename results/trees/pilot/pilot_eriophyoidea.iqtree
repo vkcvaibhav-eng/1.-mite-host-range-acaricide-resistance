@@ -1,0 +1,190 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Partition file name: data/clean/alignments/partitions_eriophyoidea.nex
+Input file name: data/clean/alignments/concat_eriophyoidea.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 2026
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 11 taxa with 4 partitions and 4289 total sites (5.67413% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	11	2730	828	580	1706	1706	COI_pos1+r18S
+   2	DNA	10	500	91	22	423	423	COI_pos2
+   3	DNA	10	500	363	268	66	66	COI_pos3
+   4	DNA	8	559	302	235	218	218	r28S
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+R3:COI_pos1+r18S,TVM+F+R2:COI_pos2,HKY+F+R2:COI_pos3,TN+F+G4:r28S
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TIM2+F+R3        -11802.352   23626.703 + 3.1e-315   23626.801 - 5.35e-317   23691.736 - 7.18e-317
+   2  TVM+F+R2          -1192.289    2404.577 + 3.1e-315    2405.027 - 5.35e-317    2446.723 - 7.18e-317
+   3  HKY+F+R2          -3566.414    7146.828 + 3.1e-315    7147.055 - 5.35e-317    7176.330 - 7.18e-317
+   4  TN+F+G4           -3469.513    6953.027 + 3.1e-315    6953.230 - 5.35e-317    6983.310 - 7.18e-317
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TIM2+F+R3      0.0883  TIM2{1.58948,3.10433,7.24149}+F{0.272648,0.19271,0.252314,0.282328}+R3{0.717528,0.0775876,0.223923,1.66226,0.058549,9.77148}
+   2  TVM+F+R2       0.0214  TVM{12.17,23.3445,24.7359,100}+F{0.167531,0.22204,0.160639,0.44979}+R2{0.854374,0.0902485,0.145626,6.33744}
+   3  HKY+F+R2       7.9392  HKY{100}+F{0.22587,0.170488,0.132486,0.471156}+R2{0.504287,0.0788302,0.495713,1.9371}
+   4  TN+F+G4        0.1209  TN{3.62777,6.8059}+F{0.239698,0.186358,0.280218,0.293725}+G4{0.434459}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20024.9695 (s.e. 254.5169)
+Unconstrained log-likelihood (without tree): -21312.6506
+Number of free parameters (#branches + #model parameters): 53
+Akaike information criterion (AIC) score: 40155.9391
+Corrected Akaike information criterion (AICc) score: 40157.2906
+Bayesian information criterion (BIC) score: 40493.2209
+
+Total tree length (sum of branch lengths): 33.5095
+Sum of internal branch lengths: 12.6101 (37.6315% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Phytoptus_avellanae' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+                                                       +--Abacarus_hystrix
+                                                    +--| (97.5/99)
+                                                    |  +--Aceria_tosichella
+                                              +-----| (99.9/100)
+                                              |     |    +---Aculus_fockeui
+                                              |     +----| (99.1/100)
+                                              |          +--Aculus_schlechtendali
+                                           +--| (79/36)
+                                           |  +--------Phyllocoptruta_oleivora
+                                        +--| (98/67)
+                                        |  |  +-----------Aculops_lycopersici
+                                        |  +--| (54/26)
+                                        |     +----------Calacarus_carinatus
+                                     +--| (83.5/73)
+                                     |  +---Epitrimerus_sabinae
++------------------------------------| (100/100)
+|                                    +------Aculops_pelekassi
+|
++---------------Nalepella_tsugifoliae
+|
++--------------------------Phytoptus_avellanae
+
+Tree in newick format:
+
+(((((((Abacarus_hystrix:0.6243466827,Aceria_tosichella:0.7095701058)97.5/99:0.8082451626,(Aculus_fockeui:0.8341018193,Aculus_schlechtendali:0.3936906815)99.1/100:1.0457301430)99.9/100:1.3961621740,Phyllocoptruta_oleivora:1.9398104764)79/36:0.2214776676,(Aculops_lycopersici:2.6453508669,Calacarus_carinatus:2.2938417140)54/26:0.2873606242)98/67:0.6544127077,Epitrimerus_sabinae:0.8400943859)83.5/73:0.5814556949,Aculops_pelekassi:1.4933935384)100/100:7.6152711480,Nalepella_tsugifoliae:3.4866548653,Phytoptus_avellanae:5.6384826180);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -20025.908542
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                        +--Abacarus_hystrix
+                                                     +--| (99)
+                                                     |  +--Aceria_tosichella
+                                              +------| (100)
+                                              |      |    +---Aculus_fockeui
+                                              |      +----| (100)
+                                              |           +--Aculus_schlechtendali
+                                           +--|
+                                           |  |  +-----------Aculops_lycopersici
+                                           |  +--| (37)
+                                           |     +-------Phyllocoptruta_oleivora
+                                        +--| (12)
+                                        |  +----------Calacarus_carinatus
+                                     +--| (67)
+                                     |  +--Epitrimerus_sabinae
++------------------------------------| (73)
+|                                    +------Aculops_pelekassi
+| (100)
++---------------Nalepella_tsugifoliae
+|
++--------------------------Phytoptus_avellanae
+
+
+Consensus tree in newick format: 
+
+(((((((Abacarus_hystrix:0.6184768751,Aceria_tosichella:0.7172413254)99:0.8097116902,(Aculus_fockeui:0.8306182971,Aculus_schlechtendali:0.3991821690)100:1.0461978740)100:1.4787066113,(Aculops_lycopersici:2.6393129594,Phyllocoptruta_oleivora:1.8351822821)37:0.2657464410):0.1695445148,Calacarus_carinatus:2.4395091249)12:0.6490064948,Epitrimerus_sabinae:0.8212528115)67:0.5514076752,Aculops_pelekassi:1.5209634939)73:7.6432610277,Nalepella_tsugifoliae:3.4788563003,Phytoptus_avellanae:5.6258668128)100;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t work/stage5/pilot_erio.treefile -p work/stage5/pilot_erio.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s data/clean/alignments/concat_eriophyoidea.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s data/clean/alignments/concat_eriophyoidea.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 16 17:11:34 2026
+Total CPU time used: 16.947498 seconds (0h:0m:16s)
+Total wall-clock time used: 9.154351974 seconds (0h:0m:9s)
+
