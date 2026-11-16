@@ -32,14 +32,10 @@ G20612: Adesanya et al. 2018 deals with mite growth inhibitors; fenpyroximate is
 
 Abstract-level checks cannot confirm a country or a single population; "partly" and "unclear" are left for the full-text check.
 
-### 2b. Check by V. K. Chaudhari (started 14 November 2026)
+### 2b. Check by V. K. Chaudhari (14-16 November 2026)
 
-Raw file: `data/raw/verification_user_2026-11-14.xlsx`. Answers copied into `matches_source` of the sample file; Claude's recheck against the PDFs the user placed in the project is in `claude_recheck`.
+Raw files: `data/raw/verification_user_2026-11-14.xlsx`, `..._2026-11-15.xlsx`, `..._2026-11-16.xlsx`; supporting papers list in `data/raw/verification_papers_2026-11-16/`. Answers are in `matches_source`; Claude's recheck against the PDFs in the project is in `claude_recheck`.
 
-16 cases checked so far (13 in the sample plus G20604, G20605, G20606): 12 yes, 4 partly (G6598, G6622, G10058, G9045), 1 no (G20612, counting only sample cases: 8 yes, 4 partly, 1 no).
+All 55 journal-backed cases checked; the 45 grey-literature cases count as not traceable. Summary (written by `scripts/02d_verification_summary.py` to `results/tables/stage2_verification_summary.csv`): 32 yes, 20 partly, 3 no.
 
-Main correction: Pan et al. 2020 Table 4 (p. 921) reports cyflumetofen resistance in Liangping, Daying and Anyue (RR 11.6 to 198.9), against the paper's own abstract. Claude's first-pass "no" for G20601 was wrong; the four database cases stand.
-
-Not yet confirmed from a primary PDF: G2334 (Cranham 1974) and G9045 (Van Nieuwenhuyse 2009). G10519 and G10528 rest on secondary citations of Hu et al. 2010 (Pan et al. 2020; Niu et al. 2011).
-
-Remaining: 24 priority-1 cases, 21 priority-2 cases; 45 priority-3 cases to be marked not traceable.
+The "partly" group mixes three things: secondary-source support only, a missing population-specific ratio, and cases where the database type is wrong (G8950, G16424, G20360 were selected in the laboratory from susceptible strains). Corrections proposed in `logs/decisions.md` entries 37 and 38 await the user's approval.

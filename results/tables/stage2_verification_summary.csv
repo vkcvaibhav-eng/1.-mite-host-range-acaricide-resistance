@@ -1,0 +1,9 @@
+item,value
+cases in sample,100.0
+yes,32.0
+partly,20.0
+no,3.0
+not traceable,45.0
+not checked,0.0
+traceable cases (yes + partly + no),55.0
+share of traceable cases marked no (%),5.5

@@ -14,3 +14,4 @@ clean-results:
 resistance:
 	python scripts/02_resistance.py
 	python scripts/02b_introduction_years.py
+	python scripts/02d_verification_summary.py
