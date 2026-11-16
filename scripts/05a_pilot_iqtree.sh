@@ -15,3 +15,9 @@ cp work/stage5/pilot_tetra.contree results/trees/pilot/pilot_tetranychoidea.cont
 cp work/stage5/pilot_tetra.iqtree  results/trees/pilot/pilot_tetranychoidea.iqtree
 cp work/stage5/pilot_erio.contree  results/trees/pilot/pilot_eriophyoidea.contree
 cp work/stage5/pilot_erio.iqtree   results/trees/pilot/pilot_eriophyoidea.iqtree
+cp work/stage5/pilot_tetra.treefile results/trees/pilot/pilot_tetranychoidea.treefile
+cp work/stage5/pilot_erio.treefile  results/trees/pilot/pilot_eriophyoidea.treefile
+cp work/stage5/pilot_tetra.best_scheme.nex results/trees/pilot/pilot_tetranychoidea.best_scheme.nex
+cp work/stage5/pilot_erio.best_scheme.nex  results/trees/pilot/pilot_eriophyoidea.best_scheme.nex
+cp work/stage5/pilot_tetra.best_model.nex results/trees/pilot/pilot_tetranychoidea.best_model.nex
+cp work/stage5/pilot_erio.best_model.nex  results/trees/pilot/pilot_eriophyoidea.best_model.nex

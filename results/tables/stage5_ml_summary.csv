@@ -1,0 +1,35 @@
+tree,item,value,note
+tetranychoidea,taxa in tree,118,
+tetranychoidea,taxa in the constraint of Matsuda et al. (2018) as read from Figure 1,72,
+tetranychoidea,constraint taxa present in the alignment,44,
+tetranychoidea,constraint splits enforced,35,
+tetranychoidea,constraint splits found in the constrained tree,35,must equal the number enforced
+tetranychoidea,constraint splits already present in the unconstrained tree,24,of 35
+tetranychoidea,"log-likelihood under common parameters, unconstrained (pilot) tree",-44907.82,
+tetranychoidea,"approximately unbiased test p, unconstrained (pilot) tree",0.998,"10,000 RELL replicates; p below 0.05 means the tree is rejected by the three-gene data"
+tetranychoidea,"log-likelihood under common parameters, constrained tree",-44983.81,
+tetranychoidea,"approximately unbiased test p, constrained tree",0.0024,"10,000 RELL replicates; p below 0.05 means the tree is rejected by the three-gene data"
+tetranychoidea,log-likelihood cost of the constraint,75.99,
+tetranychoidea,independent constrained searches,10,
+tetranychoidea,search kept by IQ-TREE (highest reported log-likelihood),2,
+tetranychoidea,search with the highest log-likelihood under common parameters,2,must be the search kept
+tetranychoidea,"log-likelihood under common parameters, best search",-44983.81,
+tetranychoidea,"log-likelihood under common parameters, worst search",-45000.35,
+tetranychoidea,"splits of the best tree found in the other nine searches, median",88,of 115; range 77-97
+tetranychoidea,outgroups form one group at the root,False,if False the tree is rooted on Leptotrombidium deliense alone
+tetranychoidea,Tetranychoidea (all taxa except the two outgroups) monophyletic,True,"SH-aLRT 78.4, ultrafast bootstrap 95.0"
+tetranychoidea,internal nodes with support values,115,
+tetranychoidea,nodes with ultrafast bootstrap 95 or more,59,
+tetranychoidea,nodes with ultrafast bootstrap below 70,17,
+tetranychoidea,Tetranychidae monophyletic,True,"SH-aLRT 95.3, ultrafast bootstrap 97.0"
+tetranychoidea,Tenuipalpidae monophyletic,True,"SH-aLRT 98.7, ultrafast bootstrap 98.0"
+eriophyoidea,taxa in tree,11,
+eriophyoidea,outgroups form one group at the root,False,if False the tree is rooted on Phytoptus avellanae alone
+eriophyoidea,Eriophyidae monophyletic,True,"SH-aLRT 100.0, ultrafast bootstrap 100.0"
+eriophyoidea,independent searches,10,log-likelihood -20024.97 to -20024.96
+eriophyoidea,internal nodes with support values,8,
+eriophyoidea,nodes with ultrafast bootstrap 95 or more,4,
+eriophyoidea,nodes with ultrafast bootstrap below 70,3,
+eriophyoidea,log-likelihood,-20024.9613,
+eriophyoidea,tree length (substitutions per site),27.91,
+tetranychoidea,tree length (substitutions per site),53.16,

@@ -1,0 +1,616 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Partition file name: work/stage5/pilot_tetra.best_scheme.nex
+Input file name: data/clean/alignments/concat_tetranychoidea.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 11026
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 118 taxa with 4 partitions and 4114 total sites (32.0666% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	114	512	366	199	251	251	COI_pos1
+   2	DNA	114	512	281	81	361	361	COI_pos2
+   3	DNA	114	512	495	448	23	23	COI_pos3
+   4	DNA	60	2578	779	690	1765	1765	r18S_r28S
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+G4     0.2143  GTR{0.415115,2.14599,2.20014,0.24025,16.3511}+F{0.378015,0.102442,0.197369,0.322174}+I{0.3509}+G4{0.568838}
+   2  GTR+F+R4       0.0477  GTR{1.71566,5.45228,3.07296,9.70363,2.46733}+F{0.184522,0.212771,0.136481,0.466226}+R4{0.825564,0.162439,0.107591,1.45202,0.0436122,5.96502,0.0232327,19.3487}
+   3  TPM2u+F+R4     7.5345  TPM2u{0.370049,42.8579}+F{0.390136,0.0498262,0.0267443,0.533294}+R4{0.399498,0.0767099,0.177443,0.289182,0.162416,1.0496,0.260643,2.86817}
+   4  GTR+F+I+R3     0.0474  GTR{1.24244,2.72587,1.53837,0.567279,4.41498}+F{0.267512,0.210293,0.25746,0.264735}+I{0.641429}+R3{0.24344,1.25548,0.101218,5.04351,0.0139133,13.2157}
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-45043.0380
+2	-45023.9947
+3	-45041.1993
+4	-45064.3212
+5	-45096.8686
+6	-45034.0725
+7	-45037.2967
+8	-45039.4567
+9	-45032.2949
+10	-45048.1500
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -45023.9947 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -20667.1697
+Number of free parameters (#branches + #model parameters): 284
+Akaike information criterion (AIC) score: 90615.9895
+Corrected Akaike information criterion (AICc) score: 90658.2668
+Bayesian information criterion (BIC) score: 92411.4804
+
+Total tree length (sum of branch lengths): 59.4339
+Sum of internal branch lengths: 18.4617 (31.0625% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acanthonychus_jiangfengensis' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Acanthonychus_jiangfengensis
+|
+|           +--Amphitetranychus_viennensis
+|        +--| (100/99)
+|        |  |                       +--Oligonychus_afrasiaticus
+|        |  |                    +--| (88.5/50)
+|        |  |                    |  |     +--Tetranychus_neocaledonicus
+|        |  |                    |  |  +--| (96.1/100)
+|        |  |                    |  |  |  +--Tetranychus_udaipurensis
+|        |  |                    |  +--| (97.8/100)
+|        |  |                    |     +--Tetranychus_puschelii
+|        |  |                 +**| (100/33)
+|        |  |                 |  |  +--Tetranychus_desertorum
+|        |  |                 |  +--| (83.8/95)
+|        |  |                 |     +--Tetranychus_lombardinii
+|        |  |              +**| (100/80)
+|        |  |              |  |                       +**Oligonychus_grypus
+|        |  |              |  |                    +--| (99.9/100)
+|        |  |              |  |                    |  +--Oligonychus_oryzae
+|        |  |              |  |                 +--| (66.5/79)
+|        |  |              |  |                 |  +--Oligonychus_orthius
+|        |  |              |  |              +--| (51/60)
+|        |  |              |  |              |  +--Oligonychus_pratensis
+|        |  |              |  |           +--| (84.6/66)
+|        |  |              |  |           |  |     +--Oligonychus_modestus
+|        |  |              |  |           |  |  +--| (56.6/96)
+|        |  |              |  |           |  |  |  +--Oligonychus_tylus
+|        |  |              |  |           |  +--| (86.3/74)
+|        |  |              |  |           |     +--Oligonychus_plegas
+|        |  |              |  |        +--| (79.5/44)
+|        |  |              |  |        |  +--Oligonychus_rubicundus
+|        |  |              |  |     +--| (80.5/22)
+|        |  |              |  |     |  +--Tetranychus_lambi
+|        |  |              |  |  +--| (83.7/84)
+|        |  |              |  |  |  |        +--Tetranychus_fijiensis
+|        |  |              |  |  |  |     +--| (94.7/99)
+|        |  |              |  |  |  |     |  +--Tetranychus_taiwanicus
+|        |  |              |  |  |  |  +--| (86.9/51)
+|        |  |              |  |  |  |  |  +--Tetranychus_mexicanus
+|        |  |              |  |  |  +--| (79.2/21)
+|        |  |              |  |  |     +--Tetranychus_macfarlanei
+|        |  |              |  +--| (79/29)
+|        |  |              |     |  +--Tetranychus_mcdanieli
+|        |  |              |     +--| (97.5/95)
+|        |  |              |        +--Tetranychus_pacificus
+|        |  |           +--| (100/90)
+|        |  |           |  |     +--Tetranychus_gloveri
+|        |  |           |  |  +--| (94.8/100)
+|        |  |           |  |  |  +--Tetranychus_tumidellus
+|        |  |           |  +--| (97.6/88)
+|        |  |           |     +--Tetranychus_marianae
+|        |  |        +--| (100/90)
+|        |  |        |  +--Tetranychus_merganser
+|        |  |     +--| (100/95)
+|        |  |     |  |                    +--Tetranychus_kanzawai
+|        |  |     |  |                 +--| (100/100)
+|        |  |     |  |                 |  +--Tetranychus_parakanzawai
+|        |  |     |  |              +--| (23.7/84)
+|        |  |     |  |              |  |  +--Tetranychus_pueraricola
+|        |  |     |  |              |  +--| (88.5/99)
+|        |  |     |  |              |     |     +--Tetranychus_sawzdargi
+|        |  |     |  |              |     |  +--| (99.2/100)
+|        |  |     |  |              |     |  |  +**Tetranychus_turkestani
+|        |  |     |  |              |     +--| (98.9/100)
+|        |  |     |  |              |        +--Tetranychus_urticae
+|        |  |     |  |           +--| (93.5/100)
+|        |  |     |  |           |  +--Tetranychus_przhevalskii
+|        |  |     |  |        +**| (100/100)
+|        |  |     |  |        |  +--Tetranychus_huhhotensis
+|        |  |     |  |     +**| (100/100)
+|        |  |     |  |     |  +**Tetranychus_zeae
+|        |  |     |  |  +--| (100/100)
+|        |  |     |  |  |  +--Tetranychus_truncatus
+|        |  |     |  +--| (100/97)
+|        |  |     |     |  +--Tetranychus_phaselus
+|        |  |     |     +--| (100/100)
+|        |  |     |        +--Tetranychus_piercei
+|        |  |  +--| (100/99)
+|        |  |  |  |     +--Oligonychus_indicus
+|        |  |  |  |  +--| (74.6/97)
+|        |  |  |  |  |  +--Tetranychus_ludeni
+|        |  |  |  +--| (100/98)
+|        |  |  |     +--Tetranychus_evansi
+|        |  +--| (100/100)
+|        |     |  +--Oligonychus_biharensis
+|        |     +--| (91.3/99)
+|        |        +--Oligonychus_gossypii
+|     +--| (89.5/92)
+|     |  |                 +---Aponychus_corpuzae
+|     |  |              +--| (91.8/100)
+|     |  |              |  +-----Eutetranychus_africanus
+|     |  |           +--| (92.6/99)
+|     |  |           |  +-----Eurytetranychoides_japonicus
+|     |  |        +--| (53.1/95)
+|     |  |        |  +---Eutetranychus_orientalis
+|     |  |     +--| (82.3/92)
+|     |  |     |  +--Paraponychus_corderoi
+|     |  |  +--| (100/94)
+|     |  |  |  |              +--Eotetranychus_boreus
+|     |  |  |  |           +--| (97.2/99)
+|     |  |  |  |           |  |     +--Eotetranychus_kankitus
+|     |  |  |  |           |  |  +--| (98.5/100)
+|     |  |  |  |           |  |  |  +--Eotetranychus_sexmaculatus
+|     |  |  |  |           |  +--| (0/63)
+|     |  |  |  |           |     +--Eotetranychus_palatiensis
+|     |  |  |  |        +--| (100/99)
+|     |  |  |  |        |  |              +--Eotetranychus_carpini
+|     |  |  |  |        |  |           +--| (0/85)
+|     |  |  |  |        |  |           |  +--Eotetranychus_coryli
+|     |  |  |  |        |  |        +--| (72.6/98)
+|     |  |  |  |        |  |        |  +--Eotetranychus_pruni
+|     |  |  |  |        |  |     +--| (1.4/73)
+|     |  |  |  |        |  |     |  +--Eotetranychus_willamettei
+|     |  |  |  |        |  |  +--| (98.1/99)
+|     |  |  |  |        |  |  |  +--Eotetranychus_uncatus
+|     |  |  |  |        |  +--| (99.3/100)
+|     |  |  |  |        |     +--Eotetranychus_tiliarium
+|     |  |  |  |     +--| (100/94)
+|     |  |  |  |     |  |           +--Eotetranychus_celtis
+|     |  |  |  |     |  |        +--| (84.8/96)
+|     |  |  |  |     |  |        |  +--Schizotetranychus_baltazarae
+|     |  |  |  |     |  |     +--| (92.8/97)
+|     |  |  |  |     |  |     |  +--Eotetranychus_suginamensis
+|     |  |  |  |     |  |  +--| (100/92)
+|     |  |  |  |     |  |  |  |  +--Eotetranychus_lewisi
+|     |  |  |  |     |  |  |  +--| (0/72)
+|     |  |  |  |     |  |  |     +--Eotetranychus_nomurai
+|     |  |  |  |     |  +--| (100/92)
+|     |  |  |  |     |     |  +--Eotetranychus_populi
+|     |  |  |  |     |     +--| (87.2/96)
+|     |  |  |  |     |        +--Eotetranychus_smithi
+|     |  |  |  +-----| (100/97)
+|     |  |  |        |              +**Eotetranychus_broodryki
+|     |  |  |        |           +--| (98.9/99)
+|     |  |  |        |           |  |  +--Schizotetranychus_lespedezae
+|     |  |  |        |           |  +**| (0/57)
+|     |  |  |        |           |     +--Schizotetranychus_schizopus
+|     |  |  |        |        +--| (65.4/56)
+|     |  |  |        |        |  +--Mononychellus_caribbeanae
+|     |  |  |        |     +--| (100/63)
+|     |  |  |        |     |  |              +--Oligonychus_aceris
+|     |  |  |        |     |  |           +--| (84.2/86)
+|     |  |  |        |     |  |           |  |  +--Oligonychus_ilicis
+|     |  |  |        |     |  |           |  +--| (0/95)
+|     |  |  |        |     |  |           |     +--Oligonychus_platani
+|     |  |  |        |     |  |        +--| (38.5/69)
+|     |  |  |        |     |  |        |  |     +--Oligonychus_camelliae
+|     |  |  |        |     |  |        |  |  +--| (90.7/73)
+|     |  |  |        |     |  |        |  |  |  |     +--Oligonychus_castaneae
+|     |  |  |        |     |  |        |  |  |  |  +--| (0/73)
+|     |  |  |        |     |  |        |  |  |  |  |  +--Oligonychus_yothersi
+|     |  |  |        |     |  |        |  |  |  +--| (34.9/66)
+|     |  |  |        |     |  |        |  |  |     |  +--Oligonychus_coffeae
+|     |  |  |        |     |  |        |  |  |     +--| (92.5/92)
+|     |  |  |        |     |  |        |  |  |        |  +--Oligonychus_gotohi
+|     |  |  |        |     |  |        |  |  |        +--| (61.9/92)
+|     |  |  |        |     |  |        |  |  |           +--Oligonychus_punicae
+|     |  |  |        |     |  |        |  +--| (37.6/54)
+|     |  |  |        |     |  |        |     |  +--Oligonychus_neocastaneae
+|     |  |  |        |     |  |        |     +--| (94/77)
+|     |  |  |        |     |  |        |        +--Oligonychus_ununguis
+|     |  |  |        |     |  |     +--| (98.2/100)
+|     |  |  |        |     |  |     |  +--Oligonychus_perditus
+|     |  |  |        |     |  |  +--| (19.7/84)
+|     |  |  |        |     |  |  |  +--Oligonychus_perseae
+|     |  |  |        |     |  +--| (80.4/91)
+|     |  |  |        |     |     +--Oligonychus_thelytokus
+|     |  |  |        |  +--| (80.9/77)
+|     |  |  |        |  |  |     +--Mononychellus_progresivus
+|     |  |  |        |  |  |  +--| (53.1/92)
+|     |  |  |        |  |  |  |  |           +--Panonychus_caglei
+|     |  |  |        |  |  |  |  |        +--| (49.5/91)
+|     |  |  |        |  |  |  |  |        |  +--Panonychus_mori
+|     |  |  |        |  |  |  |  |     +--| (97.4/99)
+|     |  |  |        |  |  |  |  |     |  |     +--Panonychus_caricae
+|     |  |  |        |  |  |  |  |     |  |  +--| (83.8/100)
+|     |  |  |        |  |  |  |  |     |  |  |  +--Panonychus_ulmi
+|     |  |  |        |  |  |  |  |     |  +--| (95.8/100)
+|     |  |  |        |  |  |  |  |     |     +--Panonychus_hadzhibejliae
+|     |  |  |        |  |  |  |  |  +--| (94.5/84)
+|     |  |  |        |  |  |  |  |  |  +--Panonychus_elongatus
+|     |  |  |        |  |  |  |  +--| (91.9/84)
+|     |  |  |        |  |  |  |     +--Panonychus_citri
+|     |  |  |        |  |  +--| (74/57)
+|     |  |  |        |  |     +--Neotetranychus_rubi
+|     |  |  |        +--| (66.5/74)
+|     |  |  |           |  +--Eotetranychus_frosti
+|     |  |  |           +--| (78/73)
+|     |  |  |              |  +--Mononychellus_mcgregori
+|     |  |  |              +--| (90.8/94)
+|     |  |  |                 +--Mononychellus_tanajoa
+|     |  +--| (100/93)
+|     |     |  +-----Schizotetranychus_mansoni
+|     |     +--| (95.3/89)
+|     |        +--Stigmaeopsis_celarius
+|  +--| (63.3/88)
+|  |  |  +--Schizotetranychus_andropogoni
+|  |  +--| (57.3/90)
+|  |     +--Schizotetranychus_krungthepensis
++--| (95.6/95)
+|  +----Eutetranychus_banksi
+|
+|       +--Aplonobia_histricina
+|    +--| (88.7/97)
+|    |  |  +--Petrobia_harti
+|    |  +--| (56.3/87)
+|    |     |  +--Petrobia_latens
+|    |     +--| (89.1/99)
+|    |        +--Petrobia_tunisiae
++----| (99.9/100)
+     |                                +--Brevipalpus_californicus
+     |                             +--| (75.2/97)
+     |                             |  +--Brevipalpus_yothersi
+     |               +-------------| (100/100)
+     |               |             |     +--Brevipalpus_chilensis
+     |               |             |  +--| (96.6/100)
+     |               |             |  |  +--Brevipalpus_obovatus
+     |               |             +--| (85/97)
+     |               |                +--Brevipalpus_phoenicis
+     |     +---------| (98.7/98)
+     |     |         +--------------Raoiella_indica
+     |  +--| (78.4/95)
+     |  |  |      +--------------------------------Cheyletus_malaccensis
+     |  |  +------| (84.8/95)
+     |  |         +---------------------------------------Leptotrombidium_deliense
+     +--| (95.3/97)
+        |           +**Bryobia_kissophila
+        |        +--| (83.2/100)
+        |        |  +--Bryobia_praetiosa
+        |     +--| (75.3/97)
+        |     |  +----Bryobia_eharai
+        |  +--| (94.1/98)
+        |  |  +--Bryobia_rubrioculus
+        +--| (61/92)
+           +--Bryobia_sarothamni
+
+Tree in newick format:
+
+(Acanthonychus_jiangfengensis:0.5164310799,((((Amphitetranychus_viennensis:0.5676393744,((((((((Oligonychus_afrasiaticus:0.2423124280,((Tetranychus_neocaledonicus:0.0685336911,Tetranychus_udaipurensis:0.1231962330)96.1/100:0.0757989295,Tetranychus_puschelii:0.2297046493)97.8/100:0.0732672952)88.5/50:0.0280378003,(Tetranychus_desertorum:0.2429003398,Tetranychus_lombardinii:0.1616734220)83.8/95:0.0371999693)100/33:0.0000020362,((((((((Oligonychus_grypus:0.0001211900,Oligonychus_oryzae:0.0055116496)99.9/100:0.1871052562,Oligonychus_orthius:0.0899659216)66.5/79:0.0373915006,Oligonychus_pratensis:0.2936544839)51/60:0.0160391414,((Oligonychus_modestus:0.1695722307,Oligonychus_tylus:0.2501978920)56.6/96:0.0340658192,Oligonychus_plegas:0.2570673238)86.3/74:0.0654414739)84.6/66:0.0263616649,Oligonychus_rubicundus:0.1242268031)79.5/44:0.0368727171,Tetranychus_lambi:0.1701864611)80.5/22:0.0552812169,(((Tetranychus_fijiensis:0.2694790979,Tetranychus_taiwanicus:0.2719075411)94.7/99:0.2230014882,Tetranychus_mexicanus:0.3157094445)86.9/51:0.1011889923,Tetranychus_macfarlanei:0.2381965497)79.2/21:0.0306155297)83.7/84:0.0398464804,(Tetranychus_mcdanieli:0.1129257556,Tetranychus_pacificus:0.0876394988)97.5/95:0.1970691132)79/29:0.0273317360)100/80:0.0000020744,((Tetranychus_gloveri:0.0851232699,Tetranychus_tumidellus:0.3071374934)94.8/100:0.1114602406,Tetranychus_marianae:0.3062941424)97.6/88:0.1301085553)100/90:0.0079614582,Tetranychus_merganser:0.2329643017)100/90:0.0137342291,(((((((Tetranychus_kanzawai:0.0652640363,Tetranychus_parakanzawai:0.0324601454)100/100:0.0331800012,(Tetranychus_pueraricola:0.0736813038,((Tetranychus_sawzdargi:0.0040134300,Tetranychus_turkestani:0.0000029797)99.2/100:0.0263086018,Tetranychus_urticae:0.0096184529)98.9/100:0.0516941246)88.5/99:0.0221959263)23.7/84:0.0254149283,Tetranychus_przhevalskii:0.1943340266)93.5/100:0.0378388875,Tetranychus_huhhotensis:0.0252165161)100/100:0.0000020264,Tetranychus_zeae:0.0000010129)100/100:0.0000027529,Tetranychus_truncatus:0.1657868008)100/100:0.0670206155,(Tetranychus_phaselus:0.1847057362,Tetranychus_piercei:0.1325930439)100/100:0.0499277972)100/97:0.0251853381)100/95:0.0202888770,((Oligonychus_indicus:0.1822093418,Tetranychus_ludeni:0.1428803860)74.6/97:0.0275986288,Tetranychus_evansi:0.2306426011)100/98:0.0357587539)100/99:0.1393650024,(Oligonychus_biharensis:0.2360269743,Oligonychus_gossypii:0.2622603386)91.3/99:0.1582527182)100/100:0.2699762913)100/99:0.1365035355,((((((Aponychus_corpuzae:0.7070208105,Eutetranychus_africanus:0.9788092453)91.8/100:0.2394545413,Eurytetranychoides_japonicus:1.0454902180)92.6/99:0.5205420667,Eutetranychus_orientalis:0.6203687255)53.1/95:0.2892844011,Paraponychus_corderoi:0.3773970591)82.3/92:0.1364813716,((((Eotetranychus_boreus:0.0772460134,((Eotetranychus_kankitus:0.0101614768,Eotetranychus_sexmaculatus:0.0215501738)98.5/100:0.0713806300,Eotetranychus_palatiensis:0.1090492637)0/63:0.0053506967)97.2/99:0.0640845216,(((((Eotetranychus_carpini:0.1311586405,Eotetranychus_coryli:0.0851847642)0/85:0.0080608875,Eotetranychus_pruni:0.1220520608)72.6/98:0.0322887356,Eotetranychus_willamettei:0.1992119096)1.4/73:0.0055378022,Eotetranychus_uncatus:0.2024165994)98.1/99:0.0888648074,Eotetranychus_tiliarium:0.1101910145)99.3/100:0.1040667267)100/99:0.0471822043,((((Eotetranychus_celtis:0.0976110923,Schizotetranychus_baltazarae:0.4564405495)84.8/96:0.1160702416,Eotetranychus_suginamensis:0.2184223454)92.8/97:0.0626930999,(Eotetranychus_lewisi:0.4377123948,Eotetranychus_nomurai:0.2543799024)0/72:0.0061545188)100/92:0.0813527918,(Eotetranychus_populi:0.2712885392,Eotetranychus_smithi:0.0975887248)87.2/96:0.0854723182)100/92:0.0289860352)100/94:0.1337106662,(((((Eotetranychus_broodryki:0.0000020537,(Schizotetranychus_lespedezae:0.4229493573,Schizotetranychus_schizopus:0.4650131466)0/57:0.0000022397)98.9/99:0.4191511455,Mononychellus_caribbeanae:0.1866250672)65.4/56:0.0968599563,(((((Oligonychus_aceris:0.1233052105,(Oligonychus_ilicis:0.1404516676,Oligonychus_platani:0.1126076555)0/95:0.0114344874)84.2/86:0.0554224203,((Oligonychus_camelliae:0.2190103002,((Oligonychus_castaneae:0.1370633809,Oligonychus_yothersi:0.1995151660)0/73:0.0041956253,(Oligonychus_coffeae:0.4494596825,(Oligonychus_gotohi:0.1579492915,Oligonychus_punicae:0.2277130657)61.9/92:0.0298317767)92.5/92:0.0467633594)34.9/66:0.0369416280)90.7/73:0.0406640647,(Oligonychus_neocastaneae:0.1215177251,Oligonychus_ununguis:0.1089427559)94/77:0.0613739829)37.6/54:0.0081204016)38.5/69:0.0238772738,Oligonychus_perditus:0.2081930642)98.2/100:0.2814667540,Oligonychus_perseae:0.4869322038)19.7/84:0.0558098088,Oligonychus_thelytokus:0.4534977324)80.4/91:0.0819118919)100/63:0.0624660999,((Mononychellus_progresivus:0.2504834781,((((Panonychus_caglei:0.1033500288,Panonychus_mori:0.2473043390)49.5/91:0.0274851099,((Panonychus_caricae:0.0201211105,Panonychus_ulmi:0.0182653255)83.8/100:0.0283137043,Panonychus_hadzhibejliae:0.0969381506)95.8/100:0.0647626223)97.4/99:0.0719825461,Panonychus_elongatus:0.0726650220)94.5/84:0.0637218246,Panonychus_citri:0.0853553339)91.9/84:0.5756491503)53.1/92:0.1264437951,Neotetranychus_rubi:0.2052128814)74/57:0.1904753693)80.9/77:0.0805270843,(Eotetranychus_frosti:0.2180626905,(Mononychellus_mcgregori:0.2110652148,Mononychellus_tanajoa:0.2302434245)90.8/94:0.1058875323)78/73:0.0320903002)66.5/74:0.0398347997)100/97:0.9248941375)100/94:0.1915750878,(Schizotetranychus_mansoni:1.0732366746,Stigmaeopsis_celarius:0.4962428950)95.3/89:0.2488027407)100/93:0.0590924205)89.5/92:0.0883220648,(Schizotetranychus_andropogoni:0.2692844318,Schizotetranychus_krungthepensis:0.4428795884)57.3/90:0.0845294669)63.3/88:0.0993597385,Eutetranychus_banksi:0.8366581462)95.6/95:0.3462056671,((Aplonobia_histricina:0.3769244578,(Petrobia_harti:0.5122462159,(Petrobia_latens:0.2275926385,Petrobia_tunisiae:0.1508642499)89.1/99:0.1640158811)56.3/87:0.0757800992)88.7/97:0.3311511762,(((((Brevipalpus_californicus:0.2304501201,Brevipalpus_yothersi:0.2738806948)75.2/97:0.0831151851,((Brevipalpus_chilensis:0.0676894469,Brevipalpus_obovatus:0.0821876793)96.6/100:0.1137857436,Brevipalpus_phoenicis:0.1401210290)85/97:0.0905231972)100/100:2.2219982270,Raoiella_indica:2.4641927801)98.7/98:1.5757902390,(Cheyletus_malaccensis:5.1153422646,Leptotrombidium_deliense:6.2694213260)84.8/95:1.2274347430)78.4/95:0.5196919506,((((Bryobia_kissophila:0.0000024814,Bryobia_praetiosa:0.2951827864)83.2/100:0.2018854831,Bryobia_eharai:0.8394833070)75.3/97:0.3322809155,Bryobia_rubrioculus:0.2790571776)94.1/98:0.5582479135,Bryobia_sarothamni:0.2367644456)61/92:0.1602757435)95.3/97:0.4035448646)99.9/100:0.8271995230);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -45024.540350
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Acanthonychus_jiangfengensis
+|
+|           +--Amphitetranychus_viennensis
+|        +--| (99)
+|        |  |                       +--Oligonychus_afrasiaticus
+|        |  |                    +--| (50)
+|        |  |                    |  |     +--Tetranychus_neocaledonicus
+|        |  |                    |  |  +--| (100)
+|        |  |                    |  |  |  +--Tetranychus_udaipurensis
+|        |  |                    |  +--| (100)
+|        |  |                    |     +--Tetranychus_puschelii
+|        |  |                 +--| (33)
+|        |  |                 |  |  +--Tetranychus_desertorum
+|        |  |                 |  +--| (95)
+|        |  |                 |     +--Tetranychus_lombardinii
+|        |  |              +--| (80)
+|        |  |              |  |                          +--Oligonychus_grypus
+|        |  |              |  |                       +--| (100)
+|        |  |              |  |                       |  +--Oligonychus_oryzae
+|        |  |              |  |                    +--| (79)
+|        |  |              |  |                    |  +--Oligonychus_orthius
+|        |  |              |  |                 +--| (60)
+|        |  |              |  |                 |  +--Oligonychus_pratensis
+|        |  |              |  |              +--| (66)
+|        |  |              |  |              |  |     +--Oligonychus_modestus
+|        |  |              |  |              |  |  +--| (96)
+|        |  |              |  |              |  |  |  +--Oligonychus_tylus
+|        |  |              |  |              |  +--| (74)
+|        |  |              |  |              |     +--Oligonychus_plegas
+|        |  |              |  |           +--| (44)
+|        |  |              |  |           |  +--Oligonychus_rubicundus
+|        |  |              |  |        +--| (30)
+|        |  |              |  |        |  |     +--Tetranychus_fijiensis
+|        |  |              |  |        |  |  +--| (99)
+|        |  |              |  |        |  |  |  +--Tetranychus_taiwanicus
+|        |  |              |  |        |  +--| (51)
+|        |  |              |  |        |     +--Tetranychus_mexicanus
+|        |  |              |  |     +--| (34)
+|        |  |              |  |     |  +--Tetranychus_lambi
+|        |  |              |  |  +--| (84)
+|        |  |              |  |  |  +--Tetranychus_macfarlanei
+|        |  |              |  +--| (29)
+|        |  |              |     |  +--Tetranychus_mcdanieli
+|        |  |              |     +--| (95)
+|        |  |              |        +--Tetranychus_pacificus
+|        |  |           +--| (90)
+|        |  |           |  |     +--Tetranychus_gloveri
+|        |  |           |  |  +--| (100)
+|        |  |           |  |  |  +--Tetranychus_tumidellus
+|        |  |           |  +--| (88)
+|        |  |           |     +--Tetranychus_marianae
+|        |  |        +--| (90)
+|        |  |        |  +--Tetranychus_merganser
+|        |  |     +--| (95)
+|        |  |     |  |                    +--Tetranychus_kanzawai
+|        |  |     |  |                 +--| (100)
+|        |  |     |  |                 |  +--Tetranychus_parakanzawai
+|        |  |     |  |              +--| (84)
+|        |  |     |  |              |  |  +--Tetranychus_pueraricola
+|        |  |     |  |              |  +--| (99)
+|        |  |     |  |              |     |     +--Tetranychus_sawzdargi
+|        |  |     |  |              |     |  +--| (100)
+|        |  |     |  |              |     |  |  +--Tetranychus_turkestani
+|        |  |     |  |              |     +--| (100)
+|        |  |     |  |              |        +--Tetranychus_urticae
+|        |  |     |  |           +--| (100)
+|        |  |     |  |           |  +--Tetranychus_przhevalskii
+|        |  |     |  |        +--| (100)
+|        |  |     |  |        |  +--Tetranychus_huhhotensis
+|        |  |     |  |     +--| (100)
+|        |  |     |  |     |  +--Tetranychus_zeae
+|        |  |     |  |  +--| (100)
+|        |  |     |  |  |  +--Tetranychus_truncatus
+|        |  |     |  +--| (97)
+|        |  |     |     |  +--Tetranychus_phaselus
+|        |  |     |     +--| (100)
+|        |  |     |        +--Tetranychus_piercei
+|        |  |  +--| (99)
+|        |  |  |  |     +--Oligonychus_indicus
+|        |  |  |  |  +--| (97)
+|        |  |  |  |  |  +--Tetranychus_ludeni
+|        |  |  |  +--| (98)
+|        |  |  |     +--Tetranychus_evansi
+|        |  +--| (100)
+|        |     |  +--Oligonychus_biharensis
+|        |     +--| (99)
+|        |        +--Oligonychus_gossypii
+|     +--| (92)
+|     |  |                 +---Aponychus_corpuzae
+|     |  |              +--| (100)
+|     |  |              |  +-----Eutetranychus_africanus
+|     |  |           +--| (99)
+|     |  |           |  +-----Eurytetranychoides_japonicus
+|     |  |        +--| (95)
+|     |  |        |  +---Eutetranychus_orientalis
+|     |  |     +--| (92)
+|     |  |     |  +--Paraponychus_corderoi
+|     |  |  +--| (94)
+|     |  |  |  |             +--Eotetranychus_boreus
+|     |  |  |  |          +--| (99)
+|     |  |  |  |          |  |     +--Eotetranychus_kankitus
+|     |  |  |  |          |  |  +--| (100)
+|     |  |  |  |          |  |  |  +--Eotetranychus_sexmaculatus
+|     |  |  |  |          |  +--| (63)
+|     |  |  |  |          |     +--Eotetranychus_palatiensis
+|     |  |  |  |       +--| (99)
+|     |  |  |  |       |  |              +--Eotetranychus_carpini
+|     |  |  |  |       |  |           +--| (85)
+|     |  |  |  |       |  |           |  +--Eotetranychus_coryli
+|     |  |  |  |       |  |        +--| (98)
+|     |  |  |  |       |  |        |  +--Eotetranychus_pruni
+|     |  |  |  |       |  |     +--| (73)
+|     |  |  |  |       |  |     |  +--Eotetranychus_willamettei
+|     |  |  |  |       |  |  +--| (99)
+|     |  |  |  |       |  |  |  +--Eotetranychus_uncatus
+|     |  |  |  |       |  +--| (100)
+|     |  |  |  |       |     +--Eotetranychus_tiliarium
+|     |  |  |  |    +--| (94)
+|     |  |  |  |    |  |           +--Eotetranychus_celtis
+|     |  |  |  |    |  |        +--| (96)
+|     |  |  |  |    |  |        |  +--Schizotetranychus_baltazarae
+|     |  |  |  |    |  |     +--| (97)
+|     |  |  |  |    |  |     |  +--Eotetranychus_suginamensis
+|     |  |  |  |    |  |  +--| (92)
+|     |  |  |  |    |  |  |  |  +--Eotetranychus_lewisi
+|     |  |  |  |    |  |  |  +--| (72)
+|     |  |  |  |    |  |  |     +--Eotetranychus_nomurai
+|     |  |  |  |    |  +--| (92)
+|     |  |  |  |    |     |  +--Eotetranychus_populi
+|     |  |  |  |    |     +--| (96)
+|     |  |  |  |    |        +--Eotetranychus_smithi
+|     |  |  |  +----| (97)
+|     |  |  |       |              +--Eotetranychus_broodryki
+|     |  |  |       |           +--| (99)
+|     |  |  |       |           |  |  +--Schizotetranychus_lespedezae
+|     |  |  |       |           |  +--| (57)
+|     |  |  |       |           |     +--Schizotetranychus_schizopus
+|     |  |  |       |        +--| (56)
+|     |  |  |       |        |  +--Mononychellus_caribbeanae
+|     |  |  |       |     +--| (63)
+|     |  |  |       |     |  |              +--Oligonychus_aceris
+|     |  |  |       |     |  |           +--| (86)
+|     |  |  |       |     |  |           |  |  +--Oligonychus_ilicis
+|     |  |  |       |     |  |           |  +--| (95)
+|     |  |  |       |     |  |           |     +--Oligonychus_platani
+|     |  |  |       |     |  |        +--| (69)
+|     |  |  |       |     |  |        |  |     +--Oligonychus_camelliae
+|     |  |  |       |     |  |        |  |  +--| (73)
+|     |  |  |       |     |  |        |  |  |  |     +--Oligonychus_castaneae
+|     |  |  |       |     |  |        |  |  |  |  +--| (73)
+|     |  |  |       |     |  |        |  |  |  |  |  +--Oligonychus_yothersi
+|     |  |  |       |     |  |        |  |  |  +--| (66)
+|     |  |  |       |     |  |        |  |  |     |  +--Oligonychus_coffeae
+|     |  |  |       |     |  |        |  |  |     +--| (92)
+|     |  |  |       |     |  |        |  |  |        |  +--Oligonychus_gotohi
+|     |  |  |       |     |  |        |  |  |        +--| (92)
+|     |  |  |       |     |  |        |  |  |           +--Oligonychus_punicae
+|     |  |  |       |     |  |        |  +--| (54)
+|     |  |  |       |     |  |        |     |  +--Oligonychus_neocastaneae
+|     |  |  |       |     |  |        |     +--| (77)
+|     |  |  |       |     |  |        |        +--Oligonychus_ununguis
+|     |  |  |       |     |  |     +--| (100)
+|     |  |  |       |     |  |     |  +--Oligonychus_perditus
+|     |  |  |       |     |  |  +--| (84)
+|     |  |  |       |     |  |  |  +--Oligonychus_perseae
+|     |  |  |       |     |  +--| (91)
+|     |  |  |       |     |     +--Oligonychus_thelytokus
+|     |  |  |       |  +--| (77)
+|     |  |  |       |  |  |     +--Mononychellus_progresivus
+|     |  |  |       |  |  |  +--| (92)
+|     |  |  |       |  |  |  |  |           +--Panonychus_caglei
+|     |  |  |       |  |  |  |  |        +--| (91)
+|     |  |  |       |  |  |  |  |        |  +--Panonychus_mori
+|     |  |  |       |  |  |  |  |     +--| (99)
+|     |  |  |       |  |  |  |  |     |  |     +--Panonychus_caricae
+|     |  |  |       |  |  |  |  |     |  |  +--| (100)
+|     |  |  |       |  |  |  |  |     |  |  |  +--Panonychus_ulmi
+|     |  |  |       |  |  |  |  |     |  +--| (100)
+|     |  |  |       |  |  |  |  |     |     +--Panonychus_hadzhibejliae
+|     |  |  |       |  |  |  |  |  +--| (84)
+|     |  |  |       |  |  |  |  |  |  +--Panonychus_elongatus
+|     |  |  |       |  |  |  |  +--| (84)
+|     |  |  |       |  |  |  |     +--Panonychus_citri
+|     |  |  |       |  |  +--| (57)
+|     |  |  |       |  |     +--Neotetranychus_rubi
+|     |  |  |       +--| (74)
+|     |  |  |          |  +--Eotetranychus_frosti
+|     |  |  |          +--| (73)
+|     |  |  |             |  +--Mononychellus_mcgregori
+|     |  |  |             +--| (94)
+|     |  |  |                +--Mononychellus_tanajoa
+|     |  +--| (93)
+|     |     |  +-----Schizotetranychus_mansoni
+|     |     +--| (89)
+|     |        +--Stigmaeopsis_celarius
+|  +--| (88)
+|  |  |  +--Schizotetranychus_andropogoni
+|  |  +--| (90)
+|  |     +--Schizotetranychus_krungthepensis
++--| (95)
+|  +----Eutetranychus_banksi
+|
+|       +--Aplonobia_histricina
+|    +--| (97)
+|    |  |  +--Petrobia_harti
+|    |  +--| (87)
+|    |     |  +--Petrobia_latens
+|    |     +--| (99)
+|    |        +--Petrobia_tunisiae
++----| (100)
+     |                                +--Brevipalpus_californicus
+     |                             +--| (97)
+     |                             |  +--Brevipalpus_yothersi
+     |               +-------------| (100)
+     |               |             |     +--Brevipalpus_chilensis
+     |               |             |  +--| (100)
+     |               |             |  |  +--Brevipalpus_obovatus
+     |               |             +--| (97)
+     |               |                +--Brevipalpus_phoenicis
+     |     +---------| (98)
+     |     |         +--------------Raoiella_indica
+     |  +--| (95)
+     |  |  |      +--------------------------------Cheyletus_malaccensis
+     |  |  +------| (95)
+     |  |         +---------------------------------------Leptotrombidium_deliense
+     +--| (97)
+        |           +--Bryobia_kissophila
+        |        +--| (100)
+        |        |  +--Bryobia_praetiosa
+        |     +--| (97)
+        |     |  +----Bryobia_eharai
+        |  +--| (98)
+        |  |  +--Bryobia_rubrioculus
+        +--| (92)
+           +--Bryobia_sarothamni
+
+
+Consensus tree in newick format: 
+
+(Acanthonychus_jiangfengensis:0.5175902984,((((Amphitetranychus_viennensis:0.5688630735,((((((((Oligonychus_afrasiaticus:0.2430284749,((Tetranychus_neocaledonicus:0.0693309233,Tetranychus_udaipurensis:0.1227394465)100:0.0760080740,Tetranychus_puschelii:0.2302669308)100:0.0731442695)50:0.0275158423,(Tetranychus_desertorum:0.2439783608,Tetranychus_lombardinii:0.1629632535)95:0.0370989025)33:0.0000022104,(((((((((Oligonychus_grypus:0.0001169036,Oligonychus_oryzae:0.0055307562)100:0.1898898830,Oligonychus_orthius:0.0914980112)79:0.0348917274,Oligonychus_pratensis:0.3023577385)60:0.0162797035,((Oligonychus_modestus:0.1747332964,Oligonychus_tylus:0.2470965029)96:0.0370611751,Oligonychus_plegas:0.2475846898)74:0.0638474038)66:0.0252126490,Oligonychus_rubicundus:0.1288598886)44:0.0000025003,((Tetranychus_fijiensis:0.2428143333,Tetranychus_taiwanicus:0.2995123106)99:0.2408640527,Tetranychus_mexicanus:0.3171146334)51:0.1238169607)30:0.0506283234,Tetranychus_lambi:0.1720912602)34:0.0419053903,Tetranychus_macfarlanei:0.2728146365)84:0.0325599916,(Tetranychus_mcdanieli:0.1124927915,Tetranychus_pacificus:0.0896176913)95:0.1927143762)29:0.0322107772)80:0.0000022571,((Tetranychus_gloveri:0.0847525766,Tetranychus_tumidellus:0.3092440675)100:0.1117267297,Tetranychus_marianae:0.3077489433)88:0.1304259724)90:0.0079900195,Tetranychus_merganser:0.2334922551)90:0.0139890721,(((((((Tetranychus_kanzawai:0.0651216117,Tetranychus_parakanzawai:0.0330627780)100:0.0335786282,(Tetranychus_pueraricola:0.0738010577,((Tetranychus_sawzdargi:0.0040213373,Tetranychus_turkestani:0.0000022209)100:0.0264544380,Tetranychus_urticae:0.0096046318)100:0.0520853706)99:0.0219405458)84:0.0256442177,Tetranychus_przhevalskii:0.1948293873)100:0.0377223236,Tetranychus_huhhotensis:0.0252853066)100:0.0000029238,Tetranychus_zeae:0.0000025121)100:0.0000020290,Tetranychus_truncatus:0.1662894984)100:0.0671449812,(Tetranychus_phaselus:0.1858489458,Tetranychus_piercei:0.1323639713)100:0.0499588407)97:0.0255889428)95:0.0204238315,((Oligonychus_indicus:0.1835151526,Tetranychus_ludeni:0.1430166503)97:0.0271639050,Tetranychus_evansi:0.2314367639)98:0.0355951008)99:0.1396483754,(Oligonychus_biharensis:0.2344968901,Oligonychus_gossypii:0.2655285334)99:0.1613870086)100:0.2718086885)99:0.1369512441,((((((Aponychus_corpuzae:0.7089344946,Eutetranychus_africanus:0.9814692892)100:0.2399838152,Eurytetranychoides_japonicus:1.0482029577)99:0.5216397712,Eutetranychus_orientalis:0.6214000903)95:0.2921899355,Paraponychus_corderoi:0.3807974468)92:0.1356216824,((((Eotetranychus_boreus:0.0775230277,((Eotetranychus_kankitus:0.0099744419,Eotetranychus_sexmaculatus:0.0217900991)100:0.0714862260,Eotetranychus_palatiensis:0.1099947797)63:0.0053464926)99:0.0642396973,(((((Eotetranychus_carpini:0.1316164811,Eotetranychus_coryli:0.0862075046)85:0.0083731802,Eotetranychus_pruni:0.1226611132)98:0.0320107773,Eotetranychus_willamettei:0.2006754518)73:0.0056021612,Eotetranychus_uncatus:0.2033478790)99:0.0893351070,Eotetranychus_tiliarium:0.1105243084)100:0.1043996896)99:0.0476184317,((((Eotetranychus_celtis:0.0980258834,Schizotetranychus_baltazarae:0.4631021112)96:0.1163943889,Eotetranychus_suginamensis:0.2192687928)97:0.0631559424,(Eotetranychus_lewisi:0.4440453586,Eotetranychus_nomurai:0.2566603820)72:0.0051367823)92:0.0816314259,(Eotetranychus_populi:0.2736317979,Eotetranychus_smithi:0.0978942509)96:0.0860645223)92:0.0290753617)94:0.1335800903,(((((Eotetranychus_broodryki:0.0000028166,(Schizotetranychus_lespedezae:0.4254661813,Schizotetranychus_schizopus:0.4665792973)57:0.0000020387)99:0.4124369141,Mononychellus_caribbeanae:0.1824675023)56:0.1052783224,(((((Oligonychus_aceris:0.1235274417,(Oligonychus_ilicis:0.1409999134,Oligonychus_platani:0.1132969712)95:0.0120388077)86:0.0552050362,((Oligonychus_camelliae:0.2198615681,((Oligonychus_castaneae:0.1375457608,Oligonychus_yothersi:0.2004887815)73:0.0043527677,(Oligonychus_coffeae:0.4511960406,(Oligonychus_gotohi:0.1585045431,Oligonychus_punicae:0.2285690814)92:0.0299836749)92:0.0468880366)66:0.0370114469)73:0.0408094534,(Oligonychus_neocastaneae:0.1223423663,Oligonychus_ununguis:0.1093435250)77:0.0615289416)54:0.0081530454)69:0.0239343329,Oligonychus_perditus:0.2090735806)100:0.2842769231,Oligonychus_perseae:0.4879724398)84:0.0550131196,Oligonychus_thelytokus:0.4564032900)91:0.0824463462)63:0.0624444606,((Mononychellus_progresivus:0.2515079269,((((Panonychus_caglei:0.1036316343,Panonychus_mori:0.2481904611)91:0.0278038766,((Panonychus_caricae:0.0204136277,Panonychus_ulmi:0.0182942127)100:0.0282874012,Panonychus_hadzhibejliae:0.0975825286)100:0.0650653130)99:0.0722845810,Panonychus_elongatus:0.0728985174)84:0.0637149142,Panonychus_citri:0.0857918934)84:0.5339159016)92:0.1898870809,Neotetranychus_rubi:0.2128278334)57:0.1723234384)77:0.0751828364,(Eotetranychus_frosti:0.2175299249,(Mononychellus_mcgregori:0.2135930334,Mononychellus_tanajoa:0.2279241157)94:0.1060265525)73:0.0321986405)74:0.0464228125)97:0.9293069049)94:0.1922867638,(Schizotetranychus_mansoni:1.0757399876,Stigmaeopsis_celarius:0.4981391941)89:0.2495876795)93:0.0594283252)92:0.0885155708,(Schizotetranychus_andropogoni:0.2702114223,Schizotetranychus_krungthepensis:0.4437718293)90:0.0850080794)88:0.0978761693,Eutetranychus_banksi:0.8388965614)95:0.3468050057,((Aplonobia_histricina:0.3806479362,(Petrobia_harti:0.5141995764,(Petrobia_latens:0.2299828307,Petrobia_tunisiae:0.1518529404)99:0.1626398960)87:0.0806035408)97:0.3261025050,(((((Brevipalpus_californicus:0.2311864329,Brevipalpus_yothersi:0.2746574163)97:0.0834656675,((Brevipalpus_chilensis:0.0678711340,Brevipalpus_obovatus:0.0824581236)100:0.1141204065,Brevipalpus_phoenicis:0.1405585561)97:0.0908037937)100:2.2261002550,Raoiella_indica:2.4710609729)98:1.5839255710,(Cheyletus_malaccensis:5.1211286404,Leptotrombidium_deliense:6.2999890174)95:1.2344738860)95:0.5199577855,((((Bryobia_kissophila:0.0000023887,Bryobia_praetiosa:0.2976700070)100:0.2005302258,Bryobia_eharai:0.8420395325)97:0.3372318536,Bryobia_rubrioculus:0.2808044300)98:0.5560101727,Bryobia_sarothamni:0.2391196864)92:0.1603432963)97:0.4050455687)100:0.8350860030);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t work/stage5/constrained_tetra.treefile -p work/stage5/constrained_tetra.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s data/clean/alignments/concat_tetranychoidea.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s data/clean/alignments/concat_tetranychoidea.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 16 19:13:31 2026
+Total CPU time used: 9538.503883 seconds (2h:38m:58s)
+Total wall-clock time used: 5038.268809 seconds (1h:23m:58s)
+

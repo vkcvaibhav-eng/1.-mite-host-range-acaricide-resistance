@@ -1,0 +1,12 @@
+#nexus
+begin sets;
+  charset COI_pos1 = 1-1536\3;
+  charset COI_pos2 = 2-1536\3;
+  charset COI_pos3 = 3-1536\3;
+  charset r18S_r28S = 1537-3319  3320-4114;
+  charpartition mymodels =
+    GTR+F+I+G4: COI_pos1,
+    GTR+F+R4: COI_pos2,
+    TPM2u+F+R4: COI_pos3,
+    GTR+F+I+R3: r18S_r28S;
+end;

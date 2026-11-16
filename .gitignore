@@ -10,3 +10,6 @@ __pycache__/
 *.ckp.gz
 runs/
 work/
+# BEAST output written next to the input file
+analysis/beast/*.log
+analysis/beast/*.trees
