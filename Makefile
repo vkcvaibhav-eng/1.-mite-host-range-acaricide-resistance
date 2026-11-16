@@ -38,4 +38,4 @@ phylogeny:
 	./scripts/05c_eriophyoidea_iqtree.sh
 	python -W ignore scripts/05d_ml_summary.py
 	python -W ignore scripts/05f_beast_constraints.py
-	python scripts/05e_beast_xml.py tetranychoidea
+	python scripts/05e_beast_xml.py tetranychoidea --chain 100000000

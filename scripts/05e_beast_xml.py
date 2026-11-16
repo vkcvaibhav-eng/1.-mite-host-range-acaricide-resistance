@@ -9,19 +9,26 @@ Model (protocol: relaxed clock, relative dating)
 - birth-death tree prior
 - clades listed in the constraints file are kept monophyletic (backbone of Matsuda et al. 2018 and outgroup)
 
-Usage: python scripts/05e_beast_xml.py tetranychoidea [chain_length] [constraints.csv]
+Usage: python scripts/05e_beast_xml.py tetranychoidea [--chain N] [--log-every N] [--constraints file.csv]
+--chain is the number of states this run adds (BEAST -resume runs that many further states); the trace and
+tree logs are written every --log-every states (default 10,000) and the state file five times less often.
 Output: analysis/beast/<name>.xml (one file; chains differ only by the seed given on the command line)
 """
+import argparse
 import csv
 import re
-import sys
 from pathlib import Path
 from xml.sax.saxutils import quoteattr
 
 ROOT = Path(__file__).resolve().parents[1]
-name = sys.argv[1] if len(sys.argv) > 1 else "tetranychoidea"
-chain = int(sys.argv[2]) if len(sys.argv) > 2 else 100_000_000
-cons_file = Path(sys.argv[3]) if len(sys.argv) > 3 else ROOT / "data" / "clean" / f"beast_constraints_{name}.csv"
+ap = argparse.ArgumentParser()
+ap.add_argument("name", nargs="?", default="tetranychoidea")
+ap.add_argument("--chain", type=int, default=100_000_000)
+ap.add_argument("--log-every", type=int, default=10_000)
+ap.add_argument("--constraints", type=Path)
+args = ap.parse_args()
+name, chain, every = args.name, args.chain, args.log_every
+cons_file = args.constraints or ROOT / "data" / "clean" / f"beast_constraints_{name}.csv"
 aln_file = ROOT / "data" / "clean" / "alignments" / f"concat_{name}.fasta"
 scheme = ROOT / "results" / "trees" / "pilot" / f"pilot_{name}.best_scheme.nex"
 out = ROOT / "analysis" / "beast"
@@ -84,7 +91,7 @@ for t in taxa:
 w('</taxonset>')
 
 w(f'<run id="mcmc" spec="MCMC" chainLength="{chain}">')
-store = max(chain // 2000, 1000)
+store = 5 * every
 w(f'<state id="state" spec="State" storeEvery="{store}">')
 w('  <tree id="tree" spec="beast.base.evolution.tree.Tree" name="stateNode" taxonset="@taxa"/>')
 w(f'  <parameter id="BDBirthRate" spec="{RP}" name="stateNode" lower="0.0" upper="1000.0">10.0</parameter>')
@@ -174,7 +181,6 @@ w('  <weightvector spec="beast.base.inference.parameter.IntegerParameter" dimens
   f'{len(parts)}" estimate="false" lower="0" upper="0">' + " ".join(str(n) for _, _, n in parts) + '</weightvector>')
 w('</operator>')
 
-every = max(chain // 10000, 1000)
 w(f'<logger id="tracelog" spec="Logger" fileName="{name}.$(seed).log" logEvery="{every}" model="@posterior" sanitiseHeaders="true" sort="smart">')
 for ref in ["posterior", "likelihood", "prior", "BirthDeath", "BDBirthRate", "BDDeathRate", "ucldStdev"]:
     w(f'  <log idref="{ref}"/>')
