@@ -90,4 +90,6 @@ done
 cp status.log "runs/chain_${SEEDS%% *}/$ANALYSIS.xml" "$REPO/analysis/beast/run_config.env" results/
 tar -czf results.tar.gz results && say "results packed: $WORK/results.tar.gz ($(du -h results.tar.gz | cut -f1))"
 
-if [ "$failed" = 0 ] && [ "$SHUTDOWN_WHEN_DONE" = yes ]; then say "all chains finished; switching the machine off"; shutdown -h now; fi
+# switch off only if chains ran during this boot; after a restart to download results the machine stays on
+if [ "$failed" = 0 ] && [ "$SHUTDOWN_WHEN_DONE" = yes ] && [ ${#pids[@]} -gt 0 ]; then say "all chains finished; switching the machine off"; shutdown -h now
+elif [ "$failed" = 0 ]; then say "all chains finished; machine left on so the results can be downloaded - stop it afterwards"; fi
