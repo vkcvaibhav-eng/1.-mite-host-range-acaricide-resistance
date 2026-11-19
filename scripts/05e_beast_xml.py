@@ -26,6 +26,13 @@ ap.add_argument("name", nargs="?", default="tetranychoidea")
 ap.add_argument("--chain", type=int, default=100_000_000)
 ap.add_argument("--log-every", type=int, default=10_000)
 ap.add_argument("--constraints", type=Path)
+ap.add_argument("--drop", nargs="*", default=[], help="partitions left out of the dating analysis, e.g. COI_pos3")
+ap.add_argument("--start-tree", type=Path, help="ultrametric Newick starting tree (05g); default: random tree")
+ap.add_argument("--avmn", action="store_true",
+                help="add the adaptive multivariate normal operator of BEAST 2.7 for substitution-model parameters")
+ap.add_argument("--root-one", action="store_true",
+                help="relative dating with root age 1 (tight normal prior on the root), clock mean estimated with an "
+                     "up-down operator; without it the clock mean is fixed at 1 and ages are in substitutions per site")
 args = ap.parse_args()
 name, chain, every = args.name, args.chain, args.log_every
 cons_file = args.constraints or ROOT / "data" / "clean" / f"beast_constraints_{name}.csv"
@@ -57,6 +64,10 @@ for m in re.finditer(r"charset\s+(\S+)\s*=\s*([^;]+);", scheme.read_text()):
         n += len(range(int(a), int(b) + 1, int(step or 1)))
     parts.append((pid, ",".join(ranges), n))
 assert sum(n for _, _, n in parts) == nsite, "partitions do not cover the alignment"
+unknown = set(args.drop) - {pid for pid, _, _ in parts}
+assert not unknown, f"unknown partitions to drop: {unknown}"
+parts = [x for x in parts if x[0] not in args.drop]
+nsite = sum(n for _, _, n in parts)
 
 # ---- monophyly constraints
 clades = []
@@ -105,14 +116,29 @@ for pid, _, _ in parts:
     w(f'  <parameter id="gammaShape.{pid}" spec="{RP}" name="stateNode" lower="0.05" upper="50.0">0.5</parameter>')
     w(f'  <parameter id="freq.{pid}" spec="{RP}" name="stateNode" dimension="4" lower="0.0" upper="1.0">0.25</parameter>')
     w(f'  <parameter id="mutationRate.{pid}" spec="{RP}" name="stateNode" lower="0.0">1.0</parameter>')
+if args.root_one:
+    w(f'  <parameter id="ucldMean" spec="{RP}" name="stateNode" lower="0.0">5.0</parameter>')
 w('</state>')
 
-w('<init id="startTree" spec="beast.base.evolution.tree.coalescent.RandomTree" estimate="false" initial="@tree" '
-  'taxa="@aln" rootHeight="0.5">')
-w(f'  <populationModel spec="ConstantPopulation"><parameter name="popSize" spec="{RP}">1.0</parameter></populationModel>')
-for cid, _ in clades:
-    w(f'  <constraint idref="mono.{cid}"/>')
-w('</init>')
+if args.start_tree:
+    newick = args.start_tree.read_text().strip()
+    if args.root_one:
+        import dendropy
+        st = dendropy.Tree.get(data=newick, schema="newick", preserve_underscores=True, rooting="force-rooted")
+        rh = max(l.distance_from_root() for l in st.leaf_node_iter())
+        for e in st.postorder_edge_iter():
+            if e.length is not None:
+                e.length /= rh
+        newick = st.as_string(schema="newick", suppress_rooting=True, unquoted_underscores=True).strip()
+    w(f'<init id="startTree" spec="beast.base.evolution.tree.TreeParser" initial="@tree" taxa="@aln" '
+      f'IsLabelledNewick="true" adjustTipHeights="false" newick="{newick}"/>')
+else:
+    w('<init id="startTree" spec="beast.base.evolution.tree.coalescent.RandomTree" estimate="false" initial="@tree" '
+      'taxa="@aln" rootHeight="0.5">')
+    w(f'  <populationModel spec="ConstantPopulation"><parameter name="popSize" spec="{RP}">1.0</parameter></populationModel>')
+    for cid, _ in clades:
+        w(f'  <constraint idref="mono.{cid}"/>')
+    w('</init>')
 
 w('<distribution id="posterior" spec="CompoundDistribution">')
 w('<distribution id="prior" spec="CompoundDistribution">')
@@ -122,6 +148,12 @@ U = "beast.base.inference.distribution.Uniform"
 w(f'  <distribution id="prior.BDBirthRate" spec="Prior" x="@BDBirthRate"><distr spec="{U}" lower="0.0" upper="1000.0"/></distribution>')
 w(f'  <distribution id="prior.BDDeathRate" spec="Prior" x="@BDDeathRate"><distr spec="{U}" lower="0.0" upper="1.0"/></distribution>')
 w('  <distribution id="prior.ucldStdev" spec="Prior" x="@ucldStdev"><distr spec="Gamma" alpha="0.5396" beta="0.3819"/></distribution>')
+if args.root_one:
+    w('  <distribution id="prior.ucldMean" spec="Prior" x="@ucldMean"><distr spec="beast.base.inference.distribution.LogNormalDistributionModel" M="1.0" S="2.0"/></distribution>')
+    w('  <distribution id="rootAge" spec="beast.base.evolution.tree.MRCAPrior" tree="@tree">')
+    w('    <taxonset idref="taxa"/>')
+    w('    <distr spec="beast.base.inference.distribution.Normal" mean="1.0" sigma="0.01"/>')
+    w('  </distribution>')
 for pid, _, _ in parts:
     for r in ["AC", "AG", "AT", "CG", "GT"]:
         beta = "20.0" if r == "AG" else "10.0"
@@ -147,7 +179,10 @@ for i, (pid, _, _) in enumerate(parts):
         w('      <distr id="clockLogNormal" spec="beast.base.inference.distribution.LogNormalDistributionModel" S="@ucldStdev" meanInRealSpace="true">')
         w(f'        <parameter id="clockLogNormal.M" spec="{RP}" estimate="false" name="M">1.0</parameter>')
         w('      </distr>')
-        w(f'      <parameter id="ucldMean" spec="{RP}" estimate="false" name="clock.rate">1.0</parameter>')
+        if args.root_one:
+            w('      <clock.rate idref="ucldMean"/>')
+        else:
+            w(f'      <parameter id="ucldMean" spec="{RP}" estimate="false" name="clock.rate">1.0</parameter>')
         w('    </branchRateModel>')
     else:
         w('    <branchRateModel idref="relaxedClock"/>')
@@ -166,6 +201,9 @@ w('<operator id="op.narrow" spec="Exchange" tree="@tree" weight="15.0"/>')
 w('<operator id="op.wide" spec="Exchange" tree="@tree" isNarrow="false" weight="3.0"/>')
 w('<operator id="op.wilsonBalding" spec="WilsonBalding" tree="@tree" weight="3.0"/>')
 w(f'<operator id="op.ucldStdev" spec="{SC}" parameter="@ucldStdev" scaleFactor="0.5" weight="3.0"/>')
+if args.root_one:
+    w(f'<operator id="op.ucldMean" spec="{SC}" parameter="@ucldMean" scaleFactor="0.5" weight="3.0"/>')
+    w('<operator id="op.upDown" spec="UpDownOperator" scaleFactor="0.75" weight="3.0"><up idref="ucldMean"/><down idref="tree"/></operator>')
 w('<operator id="op.catRandomWalk" spec="IntRandomWalkOperator" parameter="@rateCategories" windowSize="1" weight="10.0"/>')
 w('<operator id="op.catSwap" spec="SwapOperator" intparameter="@rateCategories" weight="10.0"/>')
 w('<operator id="op.catUniform" spec="UniformOperator" parameter="@rateCategories" weight="10.0"/>')
@@ -174,7 +212,25 @@ for pid, _, _ in parts:
         w(f'<operator id="op.rate{r}.{pid}" spec="{SC}" parameter="@rate{r}.{pid}" scaleFactor="0.5" weight="0.2"/>')
     w(f'<operator id="op.gammaShape.{pid}" spec="{SC}" parameter="@gammaShape.{pid}" scaleFactor="0.5" weight="0.2"/>')
     w(f'<operator id="op.freq.{pid}" spec="DeltaExchangeOperator" parameter="@freq.{pid}" delta="0.01" weight="0.2"/>')
-w('<operator id="op.mutationRates" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">')
+if args.avmn:
+    # BEAST 2.7 adaptive multivariate normal proposal (as written by BEAUti 2.7) on substitution-model parameters,
+    # clock spread and tree-prior rates; relative partition rates stay with the weighted delta-exchange operator
+    w('<operator id="op.AVMN" spec="beast.base.evolution.operator.kernel.AdaptableVarianceMultivariateNormalOperator" '
+      'weight="10.0" coefficient="1.0" scaleFactor="1" beta="0.05" initial="800" burnin="400" every="1" allowNonsense="true">')
+    for pid, _, _ in parts:
+        w(f'  <transformations id="AVMNSum.{pid}" spec="beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform" sum="1.0">'
+          f'<f idref="freq.{pid}"/></transformations>')
+    w('  <transformations id="AVMNLog" spec="beast.base.inference.operator.kernel.Transform$LogTransform">')
+    for pid, _, _ in parts:
+        for r in ["AC", "AG", "AT", "CG", "GT"]:
+            w(f'    <f idref="rate{r}.{pid}"/>')
+        w(f'    <f idref="gammaShape.{pid}"/>')
+    for ref in ["ucldStdev", "BDBirthRate", "BDDeathRate"] + (["ucldMean"] if args.root_one else []):
+        w(f'    <f idref="{ref}"/>')
+    w('  </transformations>')
+    w('</operator>')
+w('<operator id="op.mutationRates" spec="beast.base.inference.operator.kernel.BactrianDeltaExchangeOperator" delta="0.1" '
+  'autoOptimize="true" weight="2.0">')
 for pid, _, _ in parts:
     w(f'  <parameter idref="mutationRate.{pid}"/>')
 w('  <weightvector spec="beast.base.inference.parameter.IntegerParameter" dimension="'
@@ -184,6 +240,8 @@ w('</operator>')
 w(f'<logger id="tracelog" spec="Logger" fileName="{name}.$(seed).log" logEvery="{every}" model="@posterior" sanitiseHeaders="true" sort="smart">')
 for ref in ["posterior", "likelihood", "prior", "BirthDeath", "BDBirthRate", "BDDeathRate", "ucldStdev"]:
     w(f'  <log idref="{ref}"/>')
+if args.root_one:
+    w('  <log idref="ucldMean"/>')
 w('  <log id="treeStat" spec="beast.base.evolution.tree.TreeStatLogger" tree="@tree"/>')
 w('  <log id="rateStat" spec="beast.base.evolution.RateStatistic" branchratemodel="@relaxedClock" tree="@tree"/>')
 for pid, _, _ in parts:

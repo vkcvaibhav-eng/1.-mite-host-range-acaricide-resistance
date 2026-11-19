@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- written by scripts/05e_beast_xml.py; 118 taxa, 4114 sites, 4 partitions, 38 monophyly constraints -->
+<!-- written by scripts/05e_beast_xml.py; 118 taxa, 3602 sites, 3 partitions, 38 monophyly constraints -->
 <beast version="2.7" namespace="beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.alignment:beast.base.evolution.tree:beast.base.evolution.tree.coalescent:beast.base.inference.util:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:beast.base.evolution.branchratemodel:beast.base.evolution.speciation:beast.base.inference.distribution:beast.base.inference.parameter">
 <data id="aln" spec="Alignment" dataType="nucleotide">
   <sequence id="seq_Acanthonychus_jiangfengensis" spec="Sequence" taxon="Acanthonychus_jiangfengensis" totalcount="4" value="ATTAAATGAATATTTTCAACTAATCATAAAAATATTGGTACTATGTATTTTATATTCAGTTTATTCTCTGGTCTTATAGGAACTTCTTTTAGAATAATTATCCGAATAGAATTATTTCAACCCGGATCTTTAATTCAAAATGATTTTATTTATAATTCAATAGTAACAATTCATGCTATAATTATAATTTTTTTTATAGTTATACCTGCTATAATTGGAGGATTTGGTAATTGACTCATTCCACTAATAATTAATTCAATAGATTTATGTTTCCCACGAATAAATAATTTAAGTTTTTGGATATTAATTCCTTCATTAATATTAATAATTTCTTCTTCATTTAAAGGAGTAATAAATGGAGTAGGATGAACTATATATCCCCCTTTAACATCTTTAAATTATTTTATATCTTCTTCTATTGAAATAATAATTTTTTCTCTTCATATTGCTGGAATATCTTCTATCATAAGATCAATTAATTTTATTTCTACAATTATAATTATAAAAAATTATAATTATAATATTAATAAATTAACATTATTTAGTGTATCTATTTTAATTACTACTTTTTTACTTTTATTAGCTTTACCAGTATTAGCTGGAGCAATTACAATAGTATTATTAGACCGGAATTTTAATACTTCATTCTTTGATCCGAGAGGAGGAGGAGACCCTATTTTATATCAACATCTTTTTTGATTTTTTGGGCACCCAGAGGTATATATCTTAATTTTACCAGGTTTTGGTATAATTTCACATATTATCAGTTTCAATTTAGGAAAAAAAGAAGTATTTGGCAAAATTGGAATAATATTCGCTATAATTTCAATTGGATTATTAGGATTTATTGTTTGAGCTCATCATATGTTTACAGTTGGTATAGACGTAGATACACGAGCTTATTTTACAGCTGCTACTATAATTATTGCTATTCCAACTGGAATTAAAATTTTTAGTTGATTTTCATCTATTATTAATTCACATATTTTAATAAATACAGCTATTATATGAGCAATAGGATTTTTAATTATATTTTCTATTGGAGGGTTTACAGGAATTATTGCATCAAACTCTTGCTTAGATATTTATCTACATGATACTTATTATATTGTAGCTCATTTCCATTATGTGTTATCTATAGGTGCTGTATTTGCTATCTTTAGAGGTTTAATAATATGAATTCCTATAATATATAATATATACTTTAATACAAATATAACTATAATTCACTTTTGAACTAGAATAATTGGAATTAATTTAACCTTTTTCCCTCAACATTTCTTAGGATTAATAGGAATACCACGACGTTACTCCGATTATTTAGATTCGATATATATATGAAACTTTATATCATCAATAGGATCTATATTAACATTTTTATCTACAATCTTATTCCTTTTTATTTTAATAGAATCATTTATAATAAATAAAATGATTTTAATAAATAAAAGTAATAGAAATAACATAGAATTTATTCATTTTTGCCCATTAGAAGAACACTCTATATTAAATTACAATTTTACATTTAATAAA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
@@ -123,7 +123,6 @@
 </data>
 <data id="COI_pos1" spec="FilteredAlignment" data="@aln" filter="1-1536\3"/>
 <data id="COI_pos2" spec="FilteredAlignment" data="@aln" filter="2-1536\3"/>
-<data id="COI_pos3" spec="FilteredAlignment" data="@aln" filter="3-1536\3"/>
 <data id="r18S_r28S" spec="FilteredAlignment" data="@aln" filter="1537-3319,3320-4114"/>
 <taxonset id="taxa" spec="TaxonSet">
   <taxon id="Acanthonychus_jiangfengensis" spec="Taxon"/>
@@ -268,14 +267,6 @@
   <parameter id="gammaShape.COI_pos2" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.05" upper="50.0">0.5</parameter>
   <parameter id="freq.COI_pos2" spec="beast.base.inference.parameter.RealParameter" name="stateNode" dimension="4" lower="0.0" upper="1.0">0.25</parameter>
   <parameter id="mutationRate.COI_pos2" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="rateAC.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="rateAG.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="rateAT.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="rateCG.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="rateGT.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
-  <parameter id="gammaShape.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.05" upper="50.0">0.5</parameter>
-  <parameter id="freq.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" dimension="4" lower="0.0" upper="1.0">0.25</parameter>
-  <parameter id="mutationRate.COI_pos3" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
   <parameter id="rateAC.r18S_r28S" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
   <parameter id="rateAG.r18S_r28S" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
   <parameter id="rateAT.r18S_r28S" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
@@ -285,47 +276,7 @@
   <parameter id="freq.r18S_r28S" spec="beast.base.inference.parameter.RealParameter" name="stateNode" dimension="4" lower="0.0" upper="1.0">0.25</parameter>
   <parameter id="mutationRate.r18S_r28S" spec="beast.base.inference.parameter.RealParameter" name="stateNode" lower="0.0">1.0</parameter>
 </state>
-<init id="startTree" spec="beast.base.evolution.tree.coalescent.RandomTree" estimate="false" initial="@tree" taxa="@aln" rootHeight="0.5">
-  <populationModel spec="ConstantPopulation"><parameter name="popSize" spec="beast.base.inference.parameter.RealParameter">1.0</parameter></populationModel>
-  <constraint idref="mono.ingroup"/>
-  <constraint idref="mono.Tetranychidae"/>
-  <constraint idref="mono.Tenuipalpidae"/>
-  <constraint idref="mono.backbone01_Petro_2"/>
-  <constraint idref="mono.backbone02_Bryob_2"/>
-  <constraint idref="mono.backbone04_Panon_4"/>
-  <constraint idref="mono.backbone05_Oligo_4"/>
-  <constraint idref="mono.backbone06_Schiz_2"/>
-  <constraint idref="mono.backbone07_Oligo_Schiz_6"/>
-  <constraint idref="mono.backbone08_Oligo_Panon_Schiz_10"/>
-  <constraint idref="mono.backbone09_Eotet_2"/>
-  <constraint idref="mono.backbone10_Eotet_3"/>
-  <constraint idref="mono.backbone11_Eotet_2"/>
-  <constraint idref="mono.backbone12_Eotet_3"/>
-  <constraint idref="mono.backbone13_Eotet_6"/>
-  <constraint idref="mono.backbone14_Eotet_Oligo_Panon_16"/>
-  <constraint idref="mono.backbone15_Apony_Eutet_2"/>
-  <constraint idref="mono.backbone16_Apony_Eotet_Eutet_18"/>
-  <constraint idref="mono.backbone17_Apony_Eotet_Eutet_19"/>
-  <constraint idref="mono.backbone18_Tetra_2"/>
-  <constraint idref="mono.backbone19_Tetra_2"/>
-  <constraint idref="mono.backbone20_Tetra_5"/>
-  <constraint idref="mono.backbone21_Tetra_6"/>
-  <constraint idref="mono.backbone22_Tetra_7"/>
-  <constraint idref="mono.backbone23_Tetra_8"/>
-  <constraint idref="mono.backbone24_Tetra_2"/>
-  <constraint idref="mono.backbone25_Tetra_10"/>
-  <constraint idref="mono.backbone26_Tetra_2"/>
-  <constraint idref="mono.backbone27_Oligo_2"/>
-  <constraint idref="mono.backbone28_Oligo_Tetra_3"/>
-  <constraint idref="mono.backbone29_Oligo_Tetra_5"/>
-  <constraint idref="mono.backbone30_Oligo_Tetra_6"/>
-  <constraint idref="mono.backbone31_Oligo_Tetra_7"/>
-  <constraint idref="mono.backbone32_Oligo_Tetra_17"/>
-  <constraint idref="mono.backbone33_Oligo_Tetra_19"/>
-  <constraint idref="mono.backbone34_Oligo_Tetra_20"/>
-  <constraint idref="mono.backbone35_Amphi_Oligo_Tetra_21"/>
-  <constraint idref="mono.backbone36_Amphi_Apony_Eotet_40"/>
-</init>
+<init id="startTree" spec="beast.base.evolution.tree.TreeParser" initial="@tree" taxa="@aln" IsLabelledNewick="true" adjustTipHeights="false" newick="(((((Brevipalpus_californicus:0.2521654074499997,Brevipalpus_yothersi:0.2521654074499997):0.03977467636999987,((Brevipalpus_chilensis:0.07493856309999991,Brevipalpus_obovatus:0.07493856309999991):0.09758465103333366,Brevipalpus_phoenicis:0.17252321413333357):0.11941686968666601):2.213707305213333,Raoiella_indica:2.505647389033333):1.0488615340640814,(((((Bryobia_kissophila:0.1475926339,Bryobia_praetiosa:0.1475926339):0.36522054643333324,Bryobia_eharai:0.5128131803333332):0.19077168594166682,Bryobia_rubrioculus:0.703584866275):0.3532342466649999,Bryobia_sarothamni:1.05681911294):1.9492562938336366,((Aplonobia_histricina:0.45574990547499994,(Petrobia_harti:0.4062449555,(Petrobia_latens:0.18922844420000007,Petrobia_tunisiae:0.18922844420000007):0.21701651129999994):0.049504949974999934):2.2319701867145243,(Acanthonychus_jiangfengensis:1.9358005300019805,((((Amphitetranychus_viennensis:0.764028325895349,((((((((Oligonychus_afrasiaticus:0.2587866864999998,((Tetranychus_neocaledonicus:0.09586496204999984,Tetranychus_udaipurensis:0.09586496204999984):0.09514584874999996,Tetranychus_puschelii:0.1910108107999998):0.06777587570000002):0.012258588100000023,(Tetranychus_desertorum:0.20228688090000002,Tetranychus_lombardinii:0.20228688090000002):0.06875839369999981):0.19047037202500006,((((((((Oligonychus_grypus:0.002816419800000025,Oligonychus_oryzae:0.002816419800000025):0.15378667140000016,Oligonychus_orthius:0.15660309120000018):0.06230647362500005,Oligonychus_pratensis:0.21890956482500024):0.04981733967499968,((Oligonychus_modestus:0.20988506134999985,Oligonychus_tylus:0.20988506134999985):0.0384379669499999,Oligonychus_plegas:0.24832302829999975):0.02040387620000017):0.005003944112500047,Oligonychus_rubicundus:0.27373084861249997):0.021270816587500074,Tetranychus_lambi:0.29500166520000004):0.16631398142499987,(((Tetranychus_fijiensis:0.27069331949999986,Tetranychus_taiwanicus:0.27069331949999986):0.16367303380000003,Tetranychus_mexicanus:0.4343663532999999):0.026849293325000023,Tetranychus_macfarlanei:0.4612156466249999):9.999999999998899e-05):9.999999999998899e-05,(Tetranychus_mcdanieli:0.10028262720000014,Tetranychus_pacificus:0.10028262720000014):0.36113301942499976):9.999999999998899e-05):9.999999999998899e-05,((Tetranychus_gloveri:0.19613038165000019,Tetranychus_tumidellus:0.19613038165000019):0.11102808064999997,Tetranychus_marianae:0.30715846230000016):0.15445718432499972):9.999999999998899e-05,Tetranychus_merganser:0.46171564662499986):9.999999999998899e-05,(((((((Tetranychus_kanzawai:0.04886209084999993,Tetranychus_parakanzawai:0.04886209084999993):0.04245184799999979,(Tetranychus_pueraricola:0.0737539359499999,((Tetranychus_sawzdargi:0.0020082048500000838,Tetranychus_turkestani:0.0020082048500000838):0.020075817216666476,Tetranychus_urticae:0.02208402206666656):0.05166991388333335):0.017560002899999816):0.036501379650000054,Tetranychus_przhevalskii:0.12781531849999977):0.02028417626250001,Tetranychus_huhhotensis:0.14809949476249978):9.999999999998899e-05,Tetranychus_zeae:0.14819949476249977):9.999999999998899e-05,Tetranychus_truncatus:0.14829949476249976):0.054865945954166745,(Tetranychus_phaselus:0.15864939005000012,Tetranychus_piercei:0.15864939005000012):0.04451605066666639):0.2586502059083333):9.999999999998899e-05,((Oligonychus_indicus:0.1625448639,Tetranychus_ludeni:0.1625448639):0.0410983315999999,Tetranychus_evansi:0.2036431954999999):0.25827245112499997):0.0368123153869051,(Oligonychus_biharensis:0.24914365645000003,Oligonychus_gossypii:0.24914365645000003):0.24958430556190492):0.265300363883444):1.0572431462527998,((((((Aponychus_corpuzae:0.8429150278999997,Eutetranychus_africanus:0.8429150278999997):0.2271614242333333,Eurytetranychoides_japonicus:1.070076452133333):0.27797961836666674,Eutetranychus_orientalis:1.3480560704999998):0.037295718599999805,Paraponychus_corderoi:1.3853517890999996):0.27453801627307794,((((Eotetranychus_boreus:0.09460739143333327,((Eotetranychus_kankitus:0.015855825299999626,Eotetranychus_sexmaculatus:0.015855825299999626):0.07865156613333364,Eotetranychus_palatiensis:0.09450739143333327):0.00010000000000000286):0.1741163026666668,(((((Eotetranychus_carpini:0.10817170234999995,Eotetranychus_coryli:0.10817170234999995):0.010000711150000008,Eotetranychus_pruni:0.11817241349999996):0.04447642572499988,Eotetranychus_willamettei:0.16264883922499984):0.012383793795000153,Eotetranychus_uncatus:0.17503263302):0.06324706974666686,Eotetranychus_tiliarium:0.23827970276666685):0.030443991333333226):0.13761644365714237,((((Eotetranychus_celtis:0.27702582090000005,Schizotetranychus_baltazarae:0.27702582090000005):0.057845669233333286,Eotetranychus_suginamensis:0.33487149013333334):0.04454753084666646,(Eotetranychus_lewisi:0.34604614860000016,Eotetranychus_nomurai:0.34604614860000016):0.03337287237999964):0.026821116777142662,(Eotetranychus_populi:0.184438632,Eotetranychus_smithi:0.184438632):0.22180150575714247):9.999999999998899e-05):0.445803598986191,(((((Eotetranychus_broodryki:0.4440812519499999,(Schizotetranychus_lespedezae:0.44398125194999993,Schizotetranychus_schizopus:0.44398125194999993):9.999999999998899e-05):0.13893063322499977,Mononychellus_caribbeanae:0.5830118851749997):0.10543679000277861,(((((Oligonychus_aceris:0.13307783613333304,(Oligonychus_ilicis:0.12652966154999978,Oligonychus_platani:0.12652966154999978):0.0065481745833332605):0.16558402823333326,((Oligonychus_camelliae:0.29846186436666633,((Oligonychus_castaneae:0.1682892734500001,Oligonychus_yothersi:0.1682892734500001):0.13007259091666623,(Oligonychus_coffeae:0.29826186436666635,(Oligonychus_gotohi:0.19283117859999965,Oligonychus_punicae:0.19283117859999965):0.1054306857666667):9.999999999998899e-05):9.999999999998899e-05):9.999999999998899e-05,(Oligonychus_neocastaneae:0.1152302405000003,Oligonychus_ununguis:0.1152302405000003):0.18333162386666602):9.999999999998899e-05):9.999999999998899e-05,Oligonychus_perditus:0.2987618643666663):0.26637637054871866,Oligonychus_perseae:0.565138234915385):0.04384907227747281,Oligonychus_thelytokus:0.6089873071928578):0.07946136798492054):0.14190923338518502,((Mononychellus_progresivus:0.7465195017375003,((((Panonychus_caglei:0.17532718390000035,Panonychus_mori:0.17532718390000035):9.999999999998899e-05,((Panonychus_caricae:0.019193217999999845,Panonychus_ulmi:0.019193217999999845):0.044790780400000216,Panonychus_hadzhibejliae:0.06398399840000006):0.11144318550000028):0.02864651646666641,Panonychus_elongatus:0.20407370036666675):0.03765894016190474,Panonychus_citri:0.2417326405285715):0.5047868612089288):0.052249304495833426,Neotetranychus_rubi:0.7987688062333337):0.03158910232962964):0.021685828180370126,(Eotetranychus_frosti:0.2903821314666664,(Mononychellus_mcgregori:0.22065431964999993,Mononychellus_tanajoa:0.22065431964999993):0.06972781181666649):0.561661605276667):9.999999999998899e-05):0.8077460686297441):0.16128166677507116,(Schizotetranychus_mansoni:0.7847397848,Stigmaeopsis_celarius:0.7847397848):1.0364316873481487):9.999999999998899e-05):9.999999999998899e-05,(Schizotetranychus_andropogoni:0.35608201009999996,Schizotetranychus_krungthepensis:0.35608201009999996):1.4652894620481487):9.999999999998899e-05,Eutetranychus_banksi:1.8214714721481486):0.11432905785383185):0.7519195621875436):0.3183553145841125):0.5484335163237777):0.5968218157237719,(Cheyletus_malaccensis:2.5576711323,Leptotrombidium_deliense:2.5576711323):1.5936596065211863);"/>
 <distribution id="posterior" spec="CompoundDistribution">
 <distribution id="prior" spec="CompoundDistribution">
   <distribution id="BirthDeath" spec="beast.base.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@BDBirthRate" relativeDeathRate="@BDDeathRate" tree="@tree"/>
@@ -344,12 +295,6 @@
   <distribution id="prior.rateCG.COI_pos2" spec="Prior" x="@rateCG.COI_pos2"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
   <distribution id="prior.rateGT.COI_pos2" spec="Prior" x="@rateGT.COI_pos2"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
   <distribution id="prior.gammaShape.COI_pos2" spec="Prior" x="@gammaShape.COI_pos2"><distr spec="Exponential" mean="1.0"/></distribution>
-  <distribution id="prior.rateAC.COI_pos3" spec="Prior" x="@rateAC.COI_pos3"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
-  <distribution id="prior.rateAG.COI_pos3" spec="Prior" x="@rateAG.COI_pos3"><distr spec="Gamma" alpha="0.05" beta="20.0"/></distribution>
-  <distribution id="prior.rateAT.COI_pos3" spec="Prior" x="@rateAT.COI_pos3"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
-  <distribution id="prior.rateCG.COI_pos3" spec="Prior" x="@rateCG.COI_pos3"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
-  <distribution id="prior.rateGT.COI_pos3" spec="Prior" x="@rateGT.COI_pos3"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
-  <distribution id="prior.gammaShape.COI_pos3" spec="Prior" x="@gammaShape.COI_pos3"><distr spec="Exponential" mean="1.0"/></distribution>
   <distribution id="prior.rateAC.r18S_r28S" spec="Prior" x="@rateAC.r18S_r28S"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
   <distribution id="prior.rateAG.r18S_r28S" spec="Prior" x="@rateAG.r18S_r28S"><distr spec="Gamma" alpha="0.05" beta="20.0"/></distribution>
   <distribution id="prior.rateAT.r18S_r28S" spec="Prior" x="@rateAT.r18S_r28S"><distr spec="Gamma" alpha="0.05" beta="10.0"/></distribution>
@@ -495,15 +440,6 @@
     </siteModel>
     <branchRateModel idref="relaxedClock"/>
   </distribution>
-  <distribution id="treeLikelihood.COI_pos3" spec="TreeLikelihood" data="@COI_pos3" tree="@tree">
-    <siteModel id="siteModel.COI_pos3" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.COI_pos3" mutationRate="@mutationRate.COI_pos3">
-      <substModel id="gtr.COI_pos3" spec="GTR" rateAC="@rateAC.COI_pos3" rateAG="@rateAG.COI_pos3" rateAT="@rateAT.COI_pos3" rateCG="@rateCG.COI_pos3" rateGT="@rateGT.COI_pos3">
-        <parameter id="rateCT.COI_pos3" spec="beast.base.inference.parameter.RealParameter" estimate="false" name="rateCT" lower="0.0">1.0</parameter>
-        <frequencies id="freqs.COI_pos3" spec="Frequencies" frequencies="@freq.COI_pos3"/>
-      </substModel>
-    </siteModel>
-    <branchRateModel idref="relaxedClock"/>
-  </distribution>
   <distribution id="treeLikelihood.r18S_r28S" spec="TreeLikelihood" data="@r18S_r28S" tree="@tree">
     <siteModel id="siteModel.r18S_r28S" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.r18S_r28S" mutationRate="@mutationRate.r18S_r28S">
       <substModel id="gtr.r18S_r28S" spec="GTR" rateAC="@rateAC.r18S_r28S" rateAG="@rateAG.r18S_r28S" rateAT="@rateAT.r18S_r28S" rateCG="@rateCG.r18S_r28S" rateGT="@rateGT.r18S_r28S">
@@ -542,13 +478,6 @@
 <operator id="op.rateGT.COI_pos2" spec="ScaleOperator" parameter="@rateGT.COI_pos2" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.gammaShape.COI_pos2" spec="ScaleOperator" parameter="@gammaShape.COI_pos2" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.freq.COI_pos2" spec="DeltaExchangeOperator" parameter="@freq.COI_pos2" delta="0.01" weight="0.2"/>
-<operator id="op.rateAC.COI_pos3" spec="ScaleOperator" parameter="@rateAC.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.rateAG.COI_pos3" spec="ScaleOperator" parameter="@rateAG.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.rateAT.COI_pos3" spec="ScaleOperator" parameter="@rateAT.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.rateCG.COI_pos3" spec="ScaleOperator" parameter="@rateCG.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.rateGT.COI_pos3" spec="ScaleOperator" parameter="@rateGT.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.gammaShape.COI_pos3" spec="ScaleOperator" parameter="@gammaShape.COI_pos3" scaleFactor="0.5" weight="0.2"/>
-<operator id="op.freq.COI_pos3" spec="DeltaExchangeOperator" parameter="@freq.COI_pos3" delta="0.01" weight="0.2"/>
 <operator id="op.rateAC.r18S_r28S" spec="ScaleOperator" parameter="@rateAC.r18S_r28S" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.rateAG.r18S_r28S" spec="ScaleOperator" parameter="@rateAG.r18S_r28S" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.rateAT.r18S_r28S" spec="ScaleOperator" parameter="@rateAT.r18S_r28S" scaleFactor="0.5" weight="0.2"/>
@@ -556,12 +485,39 @@
 <operator id="op.rateGT.r18S_r28S" spec="ScaleOperator" parameter="@rateGT.r18S_r28S" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.gammaShape.r18S_r28S" spec="ScaleOperator" parameter="@gammaShape.r18S_r28S" scaleFactor="0.5" weight="0.2"/>
 <operator id="op.freq.r18S_r28S" spec="DeltaExchangeOperator" parameter="@freq.r18S_r28S" delta="0.01" weight="0.2"/>
-<operator id="op.mutationRates" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+<operator id="op.AVMN" spec="beast.base.evolution.operator.kernel.AdaptableVarianceMultivariateNormalOperator" weight="10.0" coefficient="1.0" scaleFactor="1" beta="0.05" initial="800" burnin="400" every="1" allowNonsense="true">
+  <transformations id="AVMNSum.COI_pos1" spec="beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform" sum="1.0"><f idref="freq.COI_pos1"/></transformations>
+  <transformations id="AVMNSum.COI_pos2" spec="beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform" sum="1.0"><f idref="freq.COI_pos2"/></transformations>
+  <transformations id="AVMNSum.r18S_r28S" spec="beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform" sum="1.0"><f idref="freq.r18S_r28S"/></transformations>
+  <transformations id="AVMNLog" spec="beast.base.inference.operator.kernel.Transform$LogTransform">
+    <f idref="rateAC.COI_pos1"/>
+    <f idref="rateAG.COI_pos1"/>
+    <f idref="rateAT.COI_pos1"/>
+    <f idref="rateCG.COI_pos1"/>
+    <f idref="rateGT.COI_pos1"/>
+    <f idref="gammaShape.COI_pos1"/>
+    <f idref="rateAC.COI_pos2"/>
+    <f idref="rateAG.COI_pos2"/>
+    <f idref="rateAT.COI_pos2"/>
+    <f idref="rateCG.COI_pos2"/>
+    <f idref="rateGT.COI_pos2"/>
+    <f idref="gammaShape.COI_pos2"/>
+    <f idref="rateAC.r18S_r28S"/>
+    <f idref="rateAG.r18S_r28S"/>
+    <f idref="rateAT.r18S_r28S"/>
+    <f idref="rateCG.r18S_r28S"/>
+    <f idref="rateGT.r18S_r28S"/>
+    <f idref="gammaShape.r18S_r28S"/>
+    <f idref="ucldStdev"/>
+    <f idref="BDBirthRate"/>
+    <f idref="BDDeathRate"/>
+  </transformations>
+</operator>
+<operator id="op.mutationRates" spec="beast.base.inference.operator.kernel.BactrianDeltaExchangeOperator" delta="0.1" autoOptimize="true" weight="2.0">
   <parameter idref="mutationRate.COI_pos1"/>
   <parameter idref="mutationRate.COI_pos2"/>
-  <parameter idref="mutationRate.COI_pos3"/>
   <parameter idref="mutationRate.r18S_r28S"/>
-  <weightvector spec="beast.base.inference.parameter.IntegerParameter" dimension="4" estimate="false" lower="0" upper="0">512 512 512 2578</weightvector>
+  <weightvector spec="beast.base.inference.parameter.IntegerParameter" dimension="3" estimate="false" lower="0" upper="0">512 512 2578</weightvector>
 </operator>
 <logger id="tracelog" spec="Logger" fileName="tetranychoidea.$(seed).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
   <log idref="posterior"/>
@@ -591,15 +547,6 @@
   <log idref="rateCG.COI_pos2"/>
   <log idref="rateGT.COI_pos2"/>
   <log idref="freq.COI_pos2"/>
-  <log idref="treeLikelihood.COI_pos3"/>
-  <log idref="mutationRate.COI_pos3"/>
-  <log idref="gammaShape.COI_pos3"/>
-  <log idref="rateAC.COI_pos3"/>
-  <log idref="rateAG.COI_pos3"/>
-  <log idref="rateAT.COI_pos3"/>
-  <log idref="rateCG.COI_pos3"/>
-  <log idref="rateGT.COI_pos3"/>
-  <log idref="freq.COI_pos3"/>
   <log idref="treeLikelihood.r18S_r28S"/>
   <log idref="mutationRate.r18S_r28S"/>
   <log idref="gammaShape.r18S_r28S"/>

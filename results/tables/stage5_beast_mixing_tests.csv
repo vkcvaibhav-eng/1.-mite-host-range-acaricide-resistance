@@ -1,0 +1,5 @@
+setup,description,chain_seed,states,burnin_percent,quantities,below_200,min_ess,ess_posterior,ess_tree_height,ess_tree_length
+v2mix,"COI positions 1-2 + rRNA, start from ML tree, adaptive operator, clock mean fixed",2026,1500000,10,48,23,6.0,11.8,7.6,8.3
+v2mix,"COI positions 1-2 + rRNA, start from ML tree, adaptive operator, clock mean fixed",2027,1500000,10,48,25,11.4,87.8,15.2,15.2
+v3mix,as v2 but root age 1 and clock mean estimated,2027,1500000,10,49,30,6.7,8.0,1351.0,7.1
+v3mix,as v2 but root age 1 and clock mean estimated,2028,1500000,10,49,24,3.2,3.9,1351.0,3.3

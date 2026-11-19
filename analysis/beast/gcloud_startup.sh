@@ -37,17 +37,18 @@ if [ ! -x "$BEAST/beast" ]; then
   tar -xzf beast.tgz && rm beast.tgz
 fi
 
-mkdir -p runs
+RUNS="runs/${RUN_NAME:-run1}"
+mkdir -p "$RUNS"
 pids=()
 # states completed by a chain; also cuts its logs back to the saved state (see chain_state.py)
-done_states() { python3 "$REPO/analysis/beast/chain_state.py" "runs/chain_$1" "$ANALYSIS" "$1" "$LOG_EVERY"; }
+done_states() { python3 "$REPO/analysis/beast/chain_state.py" "$RUNS/chain_$1" "$ANALYSIS" "$1" "$LOG_EVERY"; }
 for s in $SEEDS; do
-  d="runs/chain_$s"; mkdir -p "$d"
+  d="$RUNS/chain_$s"; mkdir -p "$d"
   have=$(done_states "$s"); have=${have:-0}
   left=$((CHAIN_LENGTH - have))
   if [ "$left" -le 0 ]; then say "chain $s already has $have states"; continue; fi
   # BEAST -resume runs chainLength further states, so the input file is written with what is left
-  python3 "$REPO/scripts/05e_beast_xml.py" "$ANALYSIS" --chain "$left" --log-every "$LOG_EVERY" >/dev/null || { say "ERROR: could not write the input file"; exit 1; }
+  ( cd "$REPO" && python3 scripts/05e_beast_xml.py "$ANALYSIS" --chain "$left" --log-every "$LOG_EVERY" ${XML_OPTIONS:-} >/dev/null ) || { say "ERROR: could not write the input file"; exit 1; }
   cp "$REPO/analysis/beast/$ANALYSIS.xml" "$d/$ANALYSIS.xml"
   if [ "$have" -gt 0 ]; then mode=-resume; else mode=-overwrite; rm -f "$d/$ANALYSIS.xml.state"; fi
   echo "$have" > "$d/run_offset.txt"
@@ -59,7 +60,7 @@ done
 progress() {
   line=""
   for s in $SEEDS; do
-    last=$(tail -n 1 "runs/chain_$s/$ANALYSIS.$s.log" 2>/dev/null | cut -f1)
+    last=$(tail -n 1 "$RUNS/chain_$s/$ANALYSIS.$s.log" 2>/dev/null | cut -f1)
     line="$line  $s: ${last:-0}"
   done
   say "states done of $CHAIN_LENGTH -$line"
@@ -73,22 +74,35 @@ progress
 failed=0
 for s in $SEEDS; do
   have=$(done_states "$s"); have=${have:-0}
-  if [ "$have" -lt "$CHAIN_LENGTH" ]; then failed=1; say "ERROR: chain $s stopped at $have states; see runs/chain_$s/beast_$s.out"; tail -n 5 "runs/chain_$s/beast_$s.out" | tee -a status.log; fi
+  if [ "$have" -lt "$CHAIN_LENGTH" ]; then failed=1; say "ERROR: chain $s stopped at $have states; see $RUNS/chain_$s/beast_$s.out"; tail -n 5 "$RUNS/chain_$s/beast_$s.out" | tee -a status.log; fi
 done
 
 # convergence summary and one file to download
-mkdir -p results
+RES="results_${RUN_NAME:-run1}"
+mkdir -p "$RES"
 for s in $SEEDS; do
-  "$BEAST/loganalyser" -b "$BURNIN_PERCENT" "runs/chain_$s/$ANALYSIS.$s.log" > "results/ess_chain_$s.txt" 2>&1
-  cp "runs/chain_$s/$ANALYSIS.$s.log" results/
-  "$BEAST/logcombiner" -log "runs/chain_$s/$ANALYSIS.$s.trees" -o "results/$ANALYSIS.$s.thinned.trees" -b "$BURNIN_PERCENT" -resample 100000 > "results/logcombiner_$s.out" 2>&1
-  low=$(awk '$1=="item"{h=1;next} h && $9 ~ /^[0-9.]+$/ && $9 < 200 {n++} END {print n+0}' "results/ess_chain_$s.txt")
-  min=$(awk '$1=="item"{h=1;next} h && $9 ~ /^[0-9.]+$/ {if (m=="" || $9+0 < m+0) {m=$9; it=$1}} END {print it " " m}' "results/ess_chain_$s.txt")
-  post=$(awk '$1=="posterior" {print $9}' "results/ess_chain_$s.txt")
+  "$BEAST/loganalyser" -b "$BURNIN_PERCENT" "$RUNS/chain_$s/$ANALYSIS.$s.log" > "$RES/ess_chain_$s.txt" 2>&1
+  cp "$RUNS/chain_$s/$ANALYSIS.$s.log" "$RES"/
+  "$BEAST/logcombiner" -log "$RUNS/chain_$s/$ANALYSIS.$s.trees" -o "$RES/$ANALYSIS.$s.thinned.trees" -b "$BURNIN_PERCENT" -resample $((LOG_EVERY * 10)) > "$RES/logcombiner_$s.out" 2>&1
+  low=$(awk '$1=="item"{h=1;next} h && $9 ~ /^[0-9.]+$/ && $9 < 200 {n++} END {print n+0}' "$RES/ess_chain_$s.txt")
+  min=$(awk '$1=="item"{h=1;next} h && $9 ~ /^[0-9.]+$/ {if (m=="" || $9+0 < m+0) {m=$9; it=$1}} END {print it " " m}' "$RES/ess_chain_$s.txt")
+  post=$(awk '$1=="posterior" {print $9}' "$RES/ess_chain_$s.txt")
   say "chain $s: ESS of posterior $post; lowest ESS $min; $low logged quantities below 200 (burn-in $BURNIN_PERCENT%)"
 done
-cp status.log "runs/chain_${SEEDS%% *}/$ANALYSIS.xml" "$REPO/analysis/beast/run_config.env" results/
-tar -czf results.tar.gz results && say "results packed: $WORK/results.tar.gz ($(du -h results.tar.gz | cut -f1))"
+cp status.log "$RUNS/chain_${SEEDS%% *}/$ANALYSIS.xml" "$REPO/analysis/beast/run_config.env" "$RES"/
+tar -czf "$RES.tar.gz" "$RES" && say "results packed: $WORK/$RES.tar.gz ($(du -h "$RES.tar.gz" | cut -f1))"
+# small package for download: trace logs every 100th sample, ESS tables, 1,000 posterior trees pooled over chains
+SMALL="${RES}_small"; mkdir -p "$SMALL"
+logs=(); n=0
+for s in $SEEDS; do
+  awk -v k=$((LOG_EVERY * 100)) '!/^[0-9]/ || $1 % k == 0' "$RES/$ANALYSIS.$s.log" > "$SMALL/$ANALYSIS.$s.thin100.log"
+  logs+=(-log "$RES/$ANALYSIS.$s.thinned.trees"); n=$((n + 1))
+done
+cp "$RES"/ess_chain_*.txt "$RES"/status.log "$RES/$ANALYSIS.xml" "$RES"/run_config.env "$SMALL"/ 2>/dev/null
+thin=$((LOG_EVERY * 10)); total=$(( (CHAIN_LENGTH - CHAIN_LENGTH * BURNIN_PERCENT / 100) / thin * n ))
+mult=$(( total / 1000 )); [ "$mult" -lt 1 ] && mult=1; step=$(( thin * mult ))
+"$BEAST/logcombiner" "${logs[@]}" -o "$SMALL/$ANALYSIS.posterior_pooled.trees" -resample "$step" > "$SMALL/logcombiner_pooled.out" 2>&1
+tar -czf "$SMALL.tar.gz" "$SMALL" && say "small results: $WORK/$SMALL.tar.gz ($(du -h "$SMALL.tar.gz" | cut -f1))"
 
 # switch off only if chains ran during this boot; after a restart to download results the machine stays on
 if [ "$failed" = 0 ] && [ "$SHUTDOWN_WHEN_DONE" = yes ] && [ ${#pids[@]} -gt 0 ]; then say "all chains finished; switching the machine off"; shutdown -h now
